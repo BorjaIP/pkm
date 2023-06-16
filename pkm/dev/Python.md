@@ -1,0 +1,136 @@
+---
+title:  Python
+created: Sunday 23rd April 2023 16:51
+aliases: py
+tags: lenguages
+---
+
+| Tool/Framework                                                  | Description                                                          |
+| --------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Dynaconf](https://www.dynaconf.com/)                           | Configuration Management for Python                                  |
+| [CrytoLens](https://github.com/Cryptolens/cryptolens-python)    | License and sell your software securely                              |
+| [Locust](https://locust.io/)                                    | An open source load testing tool                                     |
+| [Pipdeptree](https://github.com/naiquevin/pipdeptree)           | Display dependencies tree                                            |
+| [Databases](https://github.com/encode/databases)                | Async database support for Python                                    |
+| [Vulture](https://github.com/jendrikseipp/vulture)              | Find dead Python code                                                |
+| [Hatch](https://github.com/pypa/hatch)                          | Modern, extensible Python project management                         |
+| [Towncrier](https://github.com/twisted/towncrier)               | Manage the release notes for your project                            |
+| [Gitlint](https://github.com/jorisroovers/gitlint)              | Linting for your git commit messages                                 |
+| [License-check](https://github.com/dhatim/python-license-check) | Check python packages from requirement.txt and report issues         |
+| [Pip-licenses](https://github.com/raimon49/pip-licenses)        | Dump the license list of packages installed with pip                 |
+| [Pycln](https://github.com/hadialqattan/pycln)                  | A formatter for finding and removing unused import statements        |
+| [Typeshed](https://github.com/python/typeshed)                  | Collection of library stubs for Python, with static types            |
+| [Safety](https://github.com/pyupio/safety)                      | Checks Python dependencies for known security vulnerabilities        |
+| [Orjson](https://github.com/ijl/orjson)                         | Fast, correct Python JSON library                                    |
+| [Pympler](https://github.com/pympler/pympler)                   | Development tool to measure, monitor and analyze the memory behavior |
+| [Loguru](https://github.com/Delgan/loguru)                      | Python logging made simple                                           |
+| [Debugpy](https://github.com/microsoft/debugpy/)                | An implementation of the Debug Adapter Protocol for Python           |
+|[Hey](https://github.com/rakyll/hey)|HTTP load generator, ApacheBench (ab) replacement|
+
+- [Awesome pyproject.toml](https://github.com/carlosperate/awesome-pyproject/)
+- [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
+- [Say Goodbye to Loops in Python, and Welcome Vectorization!](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
+- [No really, Python's pathlib is great](https://rednafi.github.io/python/pathlib/)
+- [Building Beautiful Command Line Interfaces with Python](https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df)
+- [Using Alpine can make Python Docker builds 50× slower](https://pythonspeed.com/articles/alpine-docker-python/)
+- [Leveraging Docker multi-stage builds in Python development](https://www.merixstudio.com/blog/docker-multi-stage-builds-python-development/)
+- [Create a Multi-Stage Docker Build for Python Flask and Postgres](https://www.rockyourcode.com/create-a-multi-stage-docker-build-for-python-flask-and-postgres/)
+- [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
+- [Faster Docker builds with pipenv, poetry, or pip-tools](https://pythonspeed.com/articles/pipenv-docker/)
+- [Elegantly activating a virtualenv in a Dockerfile](https://pythonspeed.com/articles/activate-virtualenv-dockerfile/)
+- [Multi-stage builds #2: Python specifics](https://pythonspeed.com/articles/multi-stage-docker-python/)
+- [What to Do When Your Data Is Too Big for Your Memory?](https://towardsdatascience.com/what-to-do-when-your-data-is-too-big-for-your-memory-65c84c600585)
+- [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
+
+# Inspired repositories
+
+- [Apache Superset is a Data Visualization and Data Exploration Platform](https://github.com/apache/superset) --> Build, distribute and structure
+- [Data-centric declarative deep learning framework](https://github.com/ludwig-ai/ludwig) --> Structure, classes and decorators
+- [Petastorm](https://github.com/uber/petastorm)--> Parquet, ML and more
+- [DataHub: The Metadata Platform for the Modern Data Stack](https://github.com/acryldata/datahub) ---> Connectors to different DBs
+- [Python DDD Example and Techniques](https://github.com/iktakahiro/dddpy)
+- [Python Wheel to Debian package converter](https://github.com/upciti/wheel2deb)
+
+# Libraries
+
+## Pydantic
+
+- [Pedantic Configuration Management with Pydantic](https://rednafi.github.io/digressions/python/2020/06/03/python-configs.html)
+- [Use Pydantic BaseSettings for config settings](https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/87#top)
+
+## Pytest
+
+- HTML report [pytest-html-reporter](https://github.com/prashanth-sams/pytest-html-reporter).
+- Coverage test [pytest-cov](https://github.com/pytest-dev/pytest-cov).
+- Understanding [fixtures](https://betterprogramming.pub/understand-5-scopes-of-pytest-fixtures-1b607b5c19ed).
+- Scopes [fixtures](https://docs.pytest.org/en/latest/how-to/fixtures.html#fixture-scopes).
+
+```bash
+# list fixtures availables
+pytest --fixtures
+# run single function
+pytest test_mod.py::test_func
+
+# Marker tests
+@pytest.mark.unit
+def test_get()
+pytest -m unit -v
+
+# coverage instructions
+--cov package --cov-branch --cov-report term-missing
+```
+
+## Setuptools
+
+- [Building and Distributing Packages with Setuptools](https://setuptools.pypa.io/en/latest/setuptools.html)
+- [Setup with CMake](https://github.com/lucasjinreal/spconv/blob/master/setup.py)
+- [Classifiers](https://pypi.org/classifiers/) por **pytroject.toml**  and display in Pypi.
+
+## Sphinx
+
+- [ Best Sphinx extensions list](https://sphinx-extensions.readthedocs.io/en/latest/index.html)
+
+- Autobuild sphinx documentation
+
+```bash
+sphinx-autobuild docs/source docs/build/html
+```
+
+## MKdocs
+
+- [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+- [My markdown knowledge base stack with mkdocs and Obsidian](https://www.reddit.com/r/selfhosted/comments/1123vnf/my_markdown_knowledge_base_stack_with_mkdocs_and/)
+
+## Pre-commit
+
+pre-commit run --files client/example.py
+
+# Commands
+
+- List dependencies.
+
+```bash
+pip install pipdeptree 
+```
+
+```bash
+pipdeptree > result.txt
+```
+
+- List licenses.
+
+```bash
+pip install pip-licenses
+```
+
+```bash
+pip-licenses --from=classifier --with-description --order=license --format=html --output-file=/result.html
+```
+
+```bash
+# show pip config
+pip config list -v
+
+# FLASK
+flask routes
+```

@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "bd3c41025c8cc245",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fc439e90ad6d4f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9e0f120f3ad69b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/ECS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccaff98792e35ede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "079918a16e6061a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf21a158b4cf19da",
+    "type": "split",
+    "children": [
+      {
+        "id": "96768245f77de3e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1706a48df4c7d059",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "15278395ef34a042",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Sources",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3aea92477b92e397",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a032080dd7284faa",
+    "type": "split",
+    "children": [
+      {
+        "id": "fee46de2f4da35a2",
+        "type": "tabs",
+        "dimension": 59.80952380952381,
+        "children": [
+          {
+            "id": "a54bf97db0a522e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          },
+          {
+            "id": "2748001dafe581c7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "560dc549adeee548",
+        "type": "tabs",
+        "dimension": 40.19047619047619,
+        "children": [
+          {
+            "id": "571d5dfd467e6a9e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "1c6c2d5525b78f14",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4391d05480327d6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "079918a16e6061a9",
+  "lastOpenFiles": [
+    "dev/Fargate.md",
+    "Untitled",
+    "articles/papers/A Survey of Large Language Models.md",
+    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
+    "articles/papers/CLAIMED, a visual and scalable component library for Trusted AI.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "dev/Architecture.md",
+    "dev/AWS.md",
+    "dev/ECS.md",
+    "dev/Cloud.md",
+    "dev/EKS.md",
+    "dev/EC2.md",
+    "EKS.md",
+    "index.md",
+    "dev/DevOps.md",
+    "dev/Helm.md",
+    "dev/Kustomize.md",
+    "dev/Terraform.md",
+    "dev/ECR.md",
+    "dev/Elasticsearch.md",
+    "dev/Cloud Formation.md",
+    "dev/IaC.md",
+    "assets/aws-services.png",
+    "dev/Linux.md",
+    "assets/images/network.jpg.md",
+    "assets/images",
+    "assets/ecs.png",
+    "assets/ec2-types.jpg",
+    "assets/network.jpg",
+    "dev/Azure.md",
+    "dev/Dvc.md",
+    "assets/containers.png",
+    "assets/containers.png",
+    "assets/architectures.png",
+    "articles/papers",
+    "articles",
+    "pkm",
+    "New folder",
+    "templates",
+    "Untitled.canvas",
+    "dev"
+  ]
+}
