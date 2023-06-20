@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pkm/Templates/Dev with tags.md",
+                "file": "pkm/dev/Dash.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d0ca402e0638fe56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pkm/Templates/Dev with tags.md",
+                "file": "pkm/dev/Dash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pkm/Templates/Dev with tags.md",
+                "file": "pkm/dev/Dash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pkm/Templates/Dev with tags.md"
+                "file": "pkm/dev/Dash.md"
               }
             }
           }
@@ -146,8 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d657312c212c1209",
+  "active": "88ccf33b519fe033",
   "lastOpenFiles": [
+    "pkm/dev/Python.md",
+    "pkm/dev/Dash.md",
+    "pkm/dev/PostgresSQL.md",
+    "Untitled.canvas",
     "pkm/Templates/Default.md",
     "pkm/Templates/Dev.md",
     "pkm/Templates/Dev with tags.md",

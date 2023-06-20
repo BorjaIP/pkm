@@ -134,3 +134,9 @@ pip config list -v
 # FLASK
 flask routes
 ```
+
+## Web-GUIs
+
+- [[Dash]]
+- [Streamlint](https://streamlit.io/)
+- [Gradio](https://github.com/gradio-app/gradio)

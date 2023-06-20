@@ -17,6 +17,4 @@ API stands for **Application Programming Interface**. In the context of APIs, t
 - [OpenAPI Specification](https://swagger.io/specification/)
 - [[FastAPI]]
 
-# gRPC
-
-- 
+- [[gRPC]]
