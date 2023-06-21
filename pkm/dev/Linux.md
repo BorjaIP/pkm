@@ -242,6 +242,12 @@ ss -dst :https
 ss -dst :5432
 ```
 
+### Netcat
+
+```bash
+sudo nc -l -p 5050
+```
+
 ---
 
 ## GPU
