@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da2121d096b3ac00",
+            "id": "fd8874c5289f143b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Apache.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e77ac3422f74b809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/PostgresSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/ColossalAI.md",
+                "file": "dev/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "private",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/PostgresSQL.md"
               }
             }
           },
@@ -146,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/PostgresSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/PostgresSQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,14 +198,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da2121d096b3ac00",
+  "active": "e77ac3422f74b809",
   "lastOpenFiles": [
+    "dev/Docker.md",
+    "dev/Machine Learning.md",
     "dev/ChatGPT.md",
     "dev/PrivateGPT.md",
-    "dev/ColossalAI.md",
-    "dev/Linux.md",
-    "dev/Docker.md",
     "dev/Apache.md",
+    "dev/Linux.md",
+    "dev/ColossalAI.md",
+    "dev/Python.md",
+    "dev/Istio.md",
     "dev/MiniChatGPT.md",
     "dev/Airflow.md",
     "dev/Arch.md",
@@ -205,15 +221,12 @@
     "dev/FastAPI.md",
     "dev/Transformers.md",
     "dev/Dash.md",
-    "dev/Python.md",
     "dev/Kubernetes.md",
     "PrivateGPT.md",
     "dev/Winget.md",
     "dev/Windows.md",
     "dev/VSCode.md",
     "dev/Vault.md",
-    "dev/Ubuntu.md",
-    "dev/Tmux.md",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",

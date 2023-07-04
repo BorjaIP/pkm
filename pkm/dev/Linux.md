@@ -262,6 +262,10 @@ nvidia-smi -l 2
 
 - Steps for `.ssh` folder
 
+	- `.ssh` directory: `700 (drwx------)`
+	- public key (`.pub` file): `644 (-rw-r--r--)`
+	- private key (`id_rsa`): `600 (-rw-------)`
+
 ```bash
 mkdir ~/.ssh && chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys
@@ -293,12 +297,6 @@ last -a
 
 ```bash
 grep -i Failed /var/log/secure
-```
-
-- See access machines by IP users
-
-```bash
-last -a | grep -i still
 ```
 
 ## Time

@@ -138,5 +138,5 @@ flask routes
 ## Web-GUIs
 
 - [[Dash]]
-- [Streamlint](https://streamlit.io/)
+- [Streamlint](https://github.com/streamlit/streamlit)
 - [Gradio](https://github.com/gradio-app/gradio)

@@ -11,6 +11,7 @@ With [PrivateGPT](https://github.com/imartinez/privateGPT) can asks questions to
 - [GPT4AllChat](https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-chat)
 - [LangChain](https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html)
 - [PrivateGPT-local-llm](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
+- [CHAT With Your DOCUMENTS Using AI!](https://www.youtube.com/watch?v=A3F5riM5BNE)
 
 ```bash
 conda create gpt4all

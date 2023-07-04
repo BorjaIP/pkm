@@ -5,19 +5,20 @@ aliases: ml
 tags: ml, dl
 ---
 
-| Tool/Framework                                          | Description                                                                          |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [AIStore](https://github.com/NVIDIA/aistore)            | Scalable storage for AI applications                                                 |
-| [WebDataset](https://github.com/webdataset/webdataset)  | A high-performance Python-based I/O system for large                                 |
-| [Deepforge](https://github.com/deepforge-dev/deepforge) | A modern development environment for deep learning                                   |
-| [Havorod](https://github.com/horovod/horovod)           | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet |
-| [Lime](https://github.com/marcotcr/lime)                | Explaining the predictions of any machine learning classifier                        |
-| [MLRun](https://github.com/mlrun/mlrun)                 | Machine Learning automation and tracking                                             |
-| [Elyra](https://github.com/elyra-ai/elyra)              | Elyra extends JupyterLab with an AI centric approach                               |
+| Tool/Framework                                          | Description                                                                         |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [AIStore](https://github.com/NVIDIA/aistore)            | Scalable storage for AI applications                                                |
+| [WebDataset](https://github.com/webdataset/webdataset)  | A high-performance Python-based I/O system for large                                |
+| [Deepforge](https://github.com/deepforge-dev/deepforge) | A modern development environment for deep learning                                  |
+| [Havorod](https://github.com/horovod/horovod)           | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet     |
+| [Lime](https://github.com/marcotcr/lime)                | Explaining the predictions of any machine learning classifier                       |
+| [MLRun](https://github.com/mlrun/mlrun)                 | Machine Learning automation and tracking                                            |
+| [Elyra](https://github.com/elyra-ai/elyra)              | Elyra extends JupyterLab with an AI centric approach                                |
 | [Autogoal](https://github.com/autogoal/autogoal)        | A Python framework for program synthesis with a focus on Automated Machine Learning |
-| [DeepSpeed](https://github.com/microsoft/DeepSpeed)     | Deep learning optimization library                                                   |
-| [TorchScale](https://github.com/microsoft/torchscale)   | Transformers at any scale                                                            |
-| [Tiktoken](https://github.com/openai/tiktoken)| Fast BPE tokeniser for use with OpenAI's models|
+| [DeepSpeed](https://github.com/microsoft/DeepSpeed)     | Deep learning optimization library                                                  |
+| [TorchScale](https://github.com/microsoft/torchscale)   | Transformers at any scale                                                           |
+| [Tiktoken](https://github.com/openai/tiktoken)          | Fast BPE tokeniser for use with OpenAI's models                                     |
+|[Ray](https://github.com/ray-project/ray)|Ray is a unified framework for scaling AI and Python applications|
 
 - [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
 
