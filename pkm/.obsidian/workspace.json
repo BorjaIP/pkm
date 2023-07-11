@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/PostgresSQL.md"
+                "file": "dev/Linux.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/PostgresSQL.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/PostgresSQL.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,14 +198,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e77ac3422f74b809",
+  "active": "1741b4474842d1e6",
   "lastOpenFiles": [
+    "dev/PostgresSQL.md",
+    "dev/Linux.md",
+    "dev/PrivateGPT.md",
     "dev/Docker.md",
     "dev/Machine Learning.md",
     "dev/ChatGPT.md",
-    "dev/PrivateGPT.md",
     "dev/Apache.md",
-    "dev/Linux.md",
     "dev/ColossalAI.md",
     "dev/Python.md",
     "dev/Istio.md",
@@ -226,7 +227,6 @@
     "dev/Winget.md",
     "dev/Windows.md",
     "dev/VSCode.md",
-    "dev/Vault.md",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",
