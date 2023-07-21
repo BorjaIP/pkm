@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "e77ac3422f74b809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/PostgresSQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20da595de27bb0c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/PrivateGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1741b4474842d1e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/ChatGPT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "langchain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/ChatGPT.md"
               }
             }
           },
@@ -159,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/ChatGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/ChatGPT.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,13 +177,20 @@
   },
   "active": "1741b4474842d1e6",
   "lastOpenFiles": [
-    "dev/PostgresSQL.md",
+    "dev/Tools.md",
+    "dev/Windows.md",
+    "dev/Nvidia.md",
+    "dev/Docker Compose.md",
+    "dev/Winget.md",
     "dev/Linux.md",
+    "dev/PostgresSQL.md",
+    "dev/Apache.md",
+    "dev/Kubernetes.md",
+    "dev/FastAPI.md",
     "dev/PrivateGPT.md",
     "dev/Docker.md",
     "dev/Machine Learning.md",
     "dev/ChatGPT.md",
-    "dev/Apache.md",
     "dev/ColossalAI.md",
     "dev/Python.md",
     "dev/Istio.md",
@@ -219,14 +203,7 @@
     "dev/gRPC.md",
     "dev/Api.md",
     "assets/grpc.svg",
-    "dev/FastAPI.md",
     "dev/Transformers.md",
-    "dev/Dash.md",
-    "dev/Kubernetes.md",
-    "PrivateGPT.md",
-    "dev/Winget.md",
-    "dev/Windows.md",
-    "dev/VSCode.md",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",

@@ -126,11 +126,11 @@ Personalize Windows Terminal.
 	code $PROFILE
 	. $env:USERPROFILE\.config\powershell\profile.ps1
 	```
-1. Create `profile.ps1` file in .config for custom configuration.
-2. Install [Terminal Icons](https://github.com/devblackops/Terminal-Icons).
-3.  Install [PSReadLine](https://github.com/PowerShell/PSReadLine).
-4. Install [z Directory Jumper](https://github.com/jethrokuan/z).
-5. Install [fzf](https://github.com/junegunn/fzf) y [PSfzf](https://github.com/kelleyma49/PSFzf).
+7. Create `profile.ps1` file in .config for custom configuration.
+8. . Install [Terminal Icons](https://github.com/devblackops/Terminal-Icons).
+9.  Install [PSReadLine](https://github.com/PowerShell/PSReadLine).
+10. Install [z Directory Jumper](https://github.com/jethrokuan/z).
+11. Install [fzf](https://github.com/junegunn/fzf) y [PSfzf](https://github.com/kelleyma49/PSFzf).
 
 How to know which version of Powershell
 

@@ -18,13 +18,14 @@ tags: gpt, llm
 | [Drant](https://github.com/qdrant/qdrant)                                       | Vector Database for the next generation of AI applications                  |
 | [Faiss](https://github.com/facebookresearch/faiss)                              | A library for efficient similarity search and clustering of dense vectors   |
 | [Milvus](https://github.com/milvus-io/milvus)                                   | A cloud-native vector database, storage for next generation AI applications |
-| [Argilla](https://github.com/argilla-io/argilla)|The open-source data curation platform for LLMs|
-
+| [Argilla](https://github.com/argilla-io/argilla)                                | The open-source data curation platform for LLMs                             |
+|[OpenLLM](https://github.com/bentoml/OpenLLM)|Operating LLMs in production|
 
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
 - [ChatGPT "DAN" (and other "Jailbreaks")](https://github.com/0xk1h0/ChatGPT_DAN?ref=blog.seclify.com)
 - [Query any website](https://www.youtube.com/watch?v=6K1lyyzpxtk)
+- [Hosted chatbot specifically focused on question answering](https://github.com/hwchase17/chat-langchain)
 - [Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— (**Part 1/3)**](https://medium.com/thirdai-blog/understanding-the-fundamental-limitations-of-vector-based-retrieval-for-building-llm-powered-48bb7b5a57b3)
 - [Neural Databases: A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — (Part 2/3)](https://medium.com/thirdai-blog/neural-database-next-generation-context-retrieval-system-for-building-specialized-ai-agents-with-861ffa0516e7)
 

@@ -7,9 +7,10 @@ tags: framework
 
 [FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard [[Python]] type hints.
 
-| Tool                                                | Description                                              |
-| --------------------------------------------------- | -------------------------------------------------------- |
+| Tool                                                    | Description                                                                     |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [manage-fastapi](https://github.com/ycd/manage-fastapi) | CLI tool for FastAPI. Generating new FastAPI projects & boilerplates made easy. |
+|[FastAPI with Observability](https://github.com/blueswen/fastapi-observability)|Observe the FastAPI application with three pillars of observability on [Grafana](https://github.com/grafana/grafana)|
 
 
 - [FastAPI Microservice Patterns: Domain Driven Design](https://python.plainenglish.io/fastapi-microservice-patterns-domain-driven-design-e99f6f475691)
