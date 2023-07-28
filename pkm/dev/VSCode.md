@@ -11,6 +11,11 @@ tags: tools
 - [All VSCode Shortcuts for MacOS, Linux and Windows](https://vscode-shortcuts.com/)
 - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+## Devcontainers
+
+- [Deployment Containers](https://containers.dev/)
+- [Awesome Dev Containers](https://github.com/manekinekko/awesome-devcontainers)
+
 ## Shortcuts
 
 ctrl+shift+p    Execute         

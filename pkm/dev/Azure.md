@@ -62,3 +62,8 @@ Add Filters:
 - Granilarity: Daily
 - Column
 
+# Azure Services
+
+## Search with OpenAI
+
+- [ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search](https://github.com/Azure-Samples/azure-search-openai-demo)

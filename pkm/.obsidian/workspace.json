@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Apache.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1741b4474842d1e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/ChatGPT.md",
+                "file": "dev/Tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "langchain",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/ChatGPT.md"
+                "file": "dev/Tools.md"
               }
             }
           },
@@ -136,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/ChatGPT.md",
+                "file": "dev/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/ChatGPT.md",
+                "file": "dev/Tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,35 +161,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1741b4474842d1e6",
+  "active": "fd8874c5289f143b",
   "lastOpenFiles": [
-    "dev/Tools.md",
-    "dev/Windows.md",
-    "dev/Nvidia.md",
-    "dev/Docker Compose.md",
-    "dev/Winget.md",
-    "dev/Linux.md",
-    "dev/PostgresSQL.md",
-    "dev/Apache.md",
-    "dev/Kubernetes.md",
-    "dev/FastAPI.md",
-    "dev/PrivateGPT.md",
+    "dev/VSCode.md",
     "dev/Docker.md",
-    "dev/Machine Learning.md",
-    "dev/ChatGPT.md",
-    "dev/ColossalAI.md",
-    "dev/Python.md",
-    "dev/Istio.md",
-    "dev/MiniChatGPT.md",
-    "dev/Airflow.md",
-    "dev/Arch.md",
-    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
+    "dev/Tools.md",
+    "dev/Kubeflow.md",
+    "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+    "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
+    "articles/papers/Untitled.md",
     "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
-    "Java.md",
-    "dev/gRPC.md",
-    "dev/Api.md",
+    "articles/papers/Secure Analytics - Federated Learning and Secure Aggregation.md",
+    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
+    "articles/papers/CLAIMED, a visual and scalable component library for Trusted AI.md",
+    "dev/PET.md",
+    "dev/Vault.md",
+    "dev/Untitled.md",
+    "dev/Prometheus.md",
+    "dev/ChatGPT.md",
+    "dev/Azure.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "dev/Apache.md",
+    "templates/Default.md",
+    "templates/Dev with tags.md",
+    "dev/Winget.md",
+    "dev/Kubernetes.md",
+    "dev/Linux.md",
+    "dev/Jenkins.md",
+    "dev/Arch.md",
     "assets/grpc.svg",
-    "dev/Transformers.md",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",

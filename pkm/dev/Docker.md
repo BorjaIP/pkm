@@ -12,7 +12,8 @@ tags: container
 | [Hadolint](https://github.com/hadolint/hadolint)                          | Dockerfile linter, validate inline bash, written in Haskell   |
 | [Depend on Docker {DoD}](https://github.com/datasailors/depend-on-docker) | Open-source project that helps you containerize your software |
 | [Grype](https://github.com/anchore/grype)                                 | A vulnerability scanner for container images and filesystems  |
-|[Trivy](https://github.com/aquasecurity/trivy)|Find vulnerabilities, misconfigurations, secrets|
+| [Trivy](https://github.com/aquasecurity/trivy)                            | Find vulnerabilities, misconfigurations, secrets              |
+| [Ctop](https://github.com/bcicen/ctop)|Top-like interface for container metrics|
 
 Deploy multiple dockers with [[Docker Compose]]
 

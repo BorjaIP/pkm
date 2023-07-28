@@ -29,3 +29,9 @@ Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lu5zHvpQeSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDINH5WkBhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## KServe
+
+- [Deploy Custom Python Serving Runtime with InferenceService[¶](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/#deploy-custom-python-serving-runtime-with-inferenceservice "Permanent link")](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/)
+- [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
+- [Your next KServe ML service: gRPC vs JSON-REST](https://medium.com/bumble-tech/your-next-kserve-ml-service-grpc-vs-json-rest-2e3a512fba9e)
