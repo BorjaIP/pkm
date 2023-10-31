@@ -9,6 +9,7 @@ tags: cloud
 
 - [[AWS]]
 - [[Azure]]
+- [[IBM]]
 
 ## Hostings and VPS
 

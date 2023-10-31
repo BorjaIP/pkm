@@ -107,3 +107,13 @@ sudo trust extract-compat
 ```bash
 sudo update-ca-trust
 ```
+
+## Errors
+
+- Error with GPG keys
+
+`error: failed to run: gpg --recv-keys 0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D E3FF2839C048B25C084DEBE9B26995E310250568`
+
+```bash
+pacman-key --refresh-keys
+```

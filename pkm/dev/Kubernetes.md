@@ -5,27 +5,28 @@ aliases: k8s
 tags: k8s
 ---
 
-| Tool                                                                  | Description                                                         |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [Kubeshark](https://github.com/kubeshark/kubeshark)                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)            |
-| [Vcluster](https://github.com/loft-sh/vcluster)                       | Create fully functional virtual Kubernetes clusters                 |
-| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                | Lens - The way the world runs Kubernetes                            |
-| [Cert-Manager](https://github.com/cert-manager/cert-manager)          | Automatically provision and manage TLS certificates in Kubernetes   |
-| [Permissions-manager](https://github.com/sighupio/permission-manager) | Brings sanity to Kubernetes RBAC                                    |
-| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)              | CLI for determining the cost of Kubernetes workloads                |
-| [Kubespray](https://github.com/kubernetes-sigs/kubespray)             | Deploy a Production Ready Kubernetes Cluster                        |
-| [MetalK8s](https://github.com/scality/metalk8s)                       | Kubernetes distribution on-prem deployments                         |
-| [K9s](https://k9scli.io/)                                             | Kubernetes CLI To Manage Your Clusters In Style!                    |
-| [Kubectx](https://github.com/ahmetb/kubectx)                          | Faster way to switch between clusters and namespaces in kubectl     |
-| [Opencost](https://github.com/opencost/opencost)                      | Cross-cloud cost allocation models for Kubernetes workloads         |
-| [Kubetap](https://github.com/soluble-ai/kubetap)                      | Kubectl plugin to interactively proxy Kubernetes Services with ease |
-|[Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)|Bootstrap Kubernetes the hard way|
+| Tool                                                                                  | Description                                                         |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)            |
+| [Vcluster](https://github.com/loft-sh/vcluster)                                       | Create fully functional virtual Kubernetes clusters                 |
+| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                                | Lens - The way the world runs Kubernetes                            |
+| [Cert-Manager](https://github.com/cert-manager/cert-manager)                          | Automatically provision and manage TLS certificates in Kubernetes   |
+| [Permissions-manager](https://github.com/sighupio/permission-manager)                 | Brings sanity to Kubernetes RBAC                                    |
+| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)                              | CLI for determining the cost of Kubernetes workloads                |
+| [Kubespray](https://github.com/kubernetes-sigs/kubespray)                             | Deploy a Production Ready Kubernetes Cluster                        |
+| [MetalK8s](https://github.com/scality/metalk8s)                                       | Kubernetes distribution on-prem deployments                         |
+| [K9s](https://k9scli.io/)                                                             | Kubernetes CLI To Manage Your Clusters In Style!                    |
+| [Kubectx](https://github.com/ahmetb/kubectx)                                          | Faster way to switch between clusters and namespaces in kubectl     |
+| [Opencost](https://github.com/opencost/opencost)                                      | Cross-cloud cost allocation models for Kubernetes workloads         |
+| [Kubetap](https://github.com/soluble-ai/kubetap)                                      | Kubectl plugin to interactively proxy Kubernetes Services with ease |
+| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way                                   |
+| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)|Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster|
 
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
 - [Starting containers in order on Kubernetes with InitContainers](https://medium.com/@xcoulon/initializing-containers-in-order-with-kubernetes-18173b9cc222)
 - [Securing kubernetes clusters with Istio and Keycloak](https://charnnarong.github.io/notes/kubernetes-istio-keycloak.html)
 - [Hacking an AWS hosted Kubernetes backed product, and failing](https://blog.appsecco.com/hacking-an-aws-hosted-kubernetes-backed-product-and-failing-904cbe0b7c0d)
-
+- [Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform](https://developers.redhat.com/blog/2020/10/26/adapting-docker-and-kubernetes-containers-to-run-on-red-hat-openshift-container-platform#)
 ## Packages
 
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)

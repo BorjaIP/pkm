@@ -19,3 +19,4 @@ In [gRPC](https://github.com/grpc/grpc), a client application can directly call 
 - [gRPC Support with NGINX](https://www.nginx.com/blog/nginx-1-13-10-grpc/)
 - [Transcoding HTTP/JSON to gRPC](https://cloud.google.com/endpoints/docs/grpc/transcoding)
 - [Gateway transcode](https://apisix.apache.org/docs/apisix/plugins/grpc-transcode/)
+- [Load Balancing grpc with Nginx](https://dev.to/techschoolguru/load-balancing-grpc-service-with-nginx-3fio)

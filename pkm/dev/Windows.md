@@ -94,20 +94,20 @@ User config is in `C:\Users\Borja`, for example `.ssh`
 
 - Hosts
 
-	```bash
-	C:\Windows\System32\drivers\etc
-	```
+```bash
+C:\Windows\System32\drivers\etc
+```
 
 - Tmp
 
-	```bash
-	C:\Users\Borja\AppData\Local\Temp
-	```
+```bash
+C:\Users\Borja\AppData\Local\Temp
+```
 
 - SSH
-	```bash
-	C:\Users\Borja\.ssh
-	```
+```bash
+C:\Users\Borja\.ssh
+```
 
 - [Sort by 'Date Modified' but keep folders at the top?](https://answers.microsoft.com/en-us/windows/forum/all/sort-by-date-modified-but-keep-folders-at-the-top/746b8380-63fd-4d77-a568-fac11d917ad7)
 

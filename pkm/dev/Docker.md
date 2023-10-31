@@ -13,7 +13,8 @@ tags: container
 | [Depend on Docker {DoD}](https://github.com/datasailors/depend-on-docker) | Open-source project that helps you containerize your software |
 | [Grype](https://github.com/anchore/grype)                                 | A vulnerability scanner for container images and filesystems  |
 | [Trivy](https://github.com/aquasecurity/trivy)                            | Find vulnerabilities, misconfigurations, secrets              |
-| [Ctop](https://github.com/bcicen/ctop)|Top-like interface for container metrics|
+| [Ctop](https://github.com/bcicen/ctop)                                    | Top-like interface for container metrics                      |
+| [Edgeshark](https://github.com/siemens/edgeshark)                                                                          |Discover and capture container network|
 
 Deploy multiple dockers with [[Docker Compose]]
 

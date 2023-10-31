@@ -11,11 +11,13 @@ tags: linux, os
 | [Lutris](https://lutris.net/)| # Play all your games on Linux|
 |[Bling](https://github.com/BlingCorp/bling)|Utilities for AwesomeWM|
 
+Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is-open-source) operating system (OS). An [operating system](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) is the software that directly manages a system’s hardware and resources, like CPU, memory, and [storage](https://www.redhat.com/en/topics/data-storage/software-defined-storage). The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
 ## Distro
 
 - [Search the DistroWatch database for distributions using a particular package](https://distrowatch.com/search.php)
 - [[Arch |Arch]]
 - [[Ubuntu |Ubuntu]]
+- [[RedHat |RedHat]]
 
 ## Users
 
@@ -99,6 +101,15 @@ du -h
 du -sh ./*/ | sort -hr
 ```
 
+Resize
+
+```bash
+# list all partitions
+sudo fdisk -l
+# tool for resize
+sudo cfdisk /dev/sda
+```
+
 ### Partitions
 
 ```bash
@@ -176,13 +187,27 @@ lsof -p process-id
 # see DNS redirection
 nslookup URL
 
-# see red in specific port
-tcpdump -i any port 443
-
 # docker network
 ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
 
+```bash
+sudo tcpdump -n dst port 443
+```
+
+```bash
+sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
+```
+
+### Simulate network delay
+
+```bash
+# add delay
+tc qdisc add dev eth0 root netem delay 100ms
+
+# remove delay
+tc qdisc del dev eth0 root netem delay 100ms
+```
 ### Curl
 
 ```bash
@@ -222,7 +247,6 @@ firewall-cmd --reload
 ufw allow 5000
 ```
 
-
 ### Netstat
 
 ```bash
@@ -246,6 +270,15 @@ ss -dst :5432
 
 ```bash
 sudo nc -l -p 5050
+```
+
+### Review connectivity if curl is not installed
+
+```bash
+# open always in bash
+bash
+# change <service> for the name
+time timeout 4 bash -c 'cat < /dev/null > /dev/tcp/<service>/5000' && echo "OK!" || echo "Result: $? (124 -> timeout; 0 -> Ok)"
 ```
 
 ---

@@ -7,6 +7,7 @@ tags: gpt
 
 With [PrivateGPT](https://github.com/imartinez/privateGPT) can asks questions to your documents without an internet connection, using the power of LLMs.
 
+- [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 - [GPT4All](https://github.com/nomic-ai/gpt4all)
 - [GPT4AllChat](https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-chat)
 - [LangChain](https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html)
@@ -55,4 +56,6 @@ cd build
 ```
 
 
+## RAG
 
+- [IncarnaMind](https://github.com/junruxiong/IncarnaMind) - Connect and chat with your multiple documents (pdf and txt) through GPT, Claude and Local Open-Source LLMs

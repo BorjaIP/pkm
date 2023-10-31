@@ -29,7 +29,9 @@ tags: tool, dev
 | [Trino](https://github.com/trinodb/trino)                         | Trino is a fast distributed SQL query engine for big data analytics.                                                  |
 | [Swirl](https://github.com/swirlai/swirl-search)                  | Swirl queries anything with an API then uses spaCy & NLTK to re-rank the unified results without copying any data!    |
 | [OpenLineage](https://github.com/OpenLineage/OpenLineage)         | An Open Standard for lineage metadata collection                                                                      |
-| [DevPod](https://github.com/loft-sh/devpod)|Works with any IDE and lets you use any cloud, kubernetes or just localhost docker|
+| [DevPod](https://github.com/loft-sh/devpod)                       | Works with any IDE and lets you use any cloud, kubernetes or just localhost docker                                    |
+| [DuckDB](https://github.com/duckdb/duckdb)                        | DuckDB is an in-process SQL OLAP Database Management System                                                           |
+| [Spacedrive](https://github.com/spacedriveapp/spacedrive)|Open source cross-platform file explorer|
 
 - [[Git]]
 - [[VSCode]]

@@ -4,6 +4,10 @@ created: Monday 1st May 2023 17:01
 aliases: 
 tags: ssl
 ---
+| Tool                                                                 | Description                                             |
+| -------------------------------------------------------------------- | ------------------------------------------------------- |
+| [EJBCA](https://www.ejbca.org/)      | Open-source public key infrastructure (PKI)       |
+| [KeyStore Explorer](https://keystore-explorer.org/index.html)| Replacement for the Java command-line utilities keytool |
 
 ## Self sign certificate
 
