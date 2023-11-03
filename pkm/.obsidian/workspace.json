@@ -4,23 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "611a5808a8d8cda3",
+        "id": "1fc439e90ad6d4f0",
         "type": "tabs",
         "children": [
           {
-            "id": "f214d84c0c01eb15",
+            "id": "f9e0f120f3ad69b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/PrivateGPT.md",
+                "file": "dev/ECS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3a98c192f9704acf",
+            "id": "ccaff98792e35ede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "079918a16e6061a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Winget.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56f0e8a3a12ea63c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,19 +56,19 @@
             }
           },
           {
-            "id": "f6471284aa5a3ec8",
+            "id": "fbe9f4c694dd3315",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Winget.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "openrgb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +107,15 @@
             }
           },
           {
-            "id": "913f25d7732e07a2",
+            "id": "3aea92477b92e397",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "36c7fd0ce1b31cc6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,16 +153,6 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
-            }
-          },
-          {
-            "id": "0445d48fceaa2f59",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
             }
           }
         ]
@@ -180,8 +202,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,35 +217,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a98c192f9704acf",
+  "active": "56f0e8a3a12ea63c",
   "lastOpenFiles": [
+    "dev/gRPC.md",
+    "dev/Transformers.md",
+    "dev/RedHat.md",
     "dev/PrivateGPT.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "articles/papers/On Efficient Training of Large-Scale Deep Learning Models - A Literature Review.md",
+    "dev/PET.md",
+    "dev/Nvidia.md",
+    "dev/IBM.md",
+    "dev/Cwl.md",
+    "dev/ColossalAI.md",
     "dev/ChatGPT.md",
-    "dev/Python.md",
-    "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
+    "dev/Apache.md",
+    "dev/Airflow.md",
+    "assets/grpc.svg",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "articles/papers/Secure Analytics - Federated Learning and Secure Aggregation.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
+    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
+    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
     "articles/papers/PaLI-3 Vision Language Models - Smaller, Faster, Stronger.md",
     "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
-    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
     "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
-    "Untitled.md",
-    "dev/Tools.md",
-    "dev/ColossalAI.md",
-    "dev/Kubernetes.md",
-    "dev/Windows.md",
-    "dev/Winget.md",
-    "dev/IBM.md",
-    "dev/AWS.md",
-    "dev/Cloud.md",
-    "dev/Linux.md",
-    "dev/Cwl.md",
-    "dev/PostgresSQL.md",
-    "dev/Architecture.md",
-    "dev/Skaffold.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "dev/Docker.md",
-    "assets/grpc.svg",
+    "articles/papers/On Efficient Training of Large-Scale Deep Learning Models - A Literature Review.md",
+    "articles/papers/Multimodal Foundation Models - From Specialists to General-Purpose Assistants.md",
+    "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+    "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
+    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
+    "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",
