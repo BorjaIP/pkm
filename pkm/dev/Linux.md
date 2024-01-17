@@ -138,6 +138,15 @@ sudo systemctl list-units --state failed
 sudo systemctl list-units --state failed --type service
 ```
 
+### GPU
+
+- List GPU devices in 
+
+```bash
+lspci -k | grep -EA3 'VGA|3D|Display'
+```
+
+
 ---
 
 ### Top
@@ -212,6 +221,9 @@ tc qdisc del dev eth0 root netem delay 100ms
 
 ```bash
 curl http://example:5000/ -o /dev/null -s -w '%{http_code}\n'
+
+# resolve
+curl --resolve example.com:443:192.168.211.23 https://example.com -k
 ```
 
 ### Firewall
@@ -280,6 +292,12 @@ bash
 # change <service> for the name
 time timeout 4 bash -c 'cat < /dev/null > /dev/tcp/<service>/5000' && echo "OK!" || echo "Result: $? (124 -> timeout; 0 -> Ok)"
 ```
+
+### Socket
+
+- [socket](https://manpages.ubuntu.com/manpages/mantic/en/man1/socket.1.html)
+- [example python](https://stackoverflow.com/questions/52599848/what-are-sock-files-and-how-to-communicate-with-them)
+- [example docker](https://stackoverflow.com/questions/76964806/problem-with-unix-sockets-when-setting-up-docker-with-ngnix-daphne-django-and)
 
 ---
 

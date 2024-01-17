@@ -5,22 +5,25 @@ aliases: k8s
 tags: k8s
 ---
 
-| Tool                                                                                  | Description                                                         |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)            |
-| [Vcluster](https://github.com/loft-sh/vcluster)                                       | Create fully functional virtual Kubernetes clusters                 |
-| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                                | Lens - The way the world runs Kubernetes                            |
-| [Cert-Manager](https://github.com/cert-manager/cert-manager)                          | Automatically provision and manage TLS certificates in Kubernetes   |
-| [Permissions-manager](https://github.com/sighupio/permission-manager)                 | Brings sanity to Kubernetes RBAC                                    |
-| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)                              | CLI for determining the cost of Kubernetes workloads                |
-| [Kubespray](https://github.com/kubernetes-sigs/kubespray)                             | Deploy a Production Ready Kubernetes Cluster                        |
-| [MetalK8s](https://github.com/scality/metalk8s)                                       | Kubernetes distribution on-prem deployments                         |
-| [K9s](https://k9scli.io/)                                                             | Kubernetes CLI To Manage Your Clusters In Style!                    |
-| [Kubectx](https://github.com/ahmetb/kubectx)                                          | Faster way to switch between clusters and namespaces in kubectl     |
-| [Opencost](https://github.com/opencost/opencost)                                      | Cross-cloud cost allocation models for Kubernetes workloads         |
-| [Kubetap](https://github.com/soluble-ai/kubetap)                                      | Kubectl plugin to interactively proxy Kubernetes Services with ease |
-| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way                                   |
-| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)|Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster|
+| Tool                                                                                  | Description                                                                         |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)                            |
+| [Vcluster](https://github.com/loft-sh/vcluster)                                       | Create fully functional virtual Kubernetes clusters                                 |
+| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                                | Lens - The way the world runs Kubernetes                                            |
+| [Cert-Manager](https://github.com/cert-manager/cert-manager)                          | Automatically provision and manage TLS certificates in Kubernetes                   |
+| [Permissions-manager](https://github.com/sighupio/permission-manager)                 | Brings sanity to Kubernetes RBAC                                                    |
+| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)                              | CLI for determining the cost of Kubernetes workloads                                |
+| [Kubespray](https://github.com/kubernetes-sigs/kubespray)                             | Deploy a Production Ready Kubernetes Cluster                                        |
+| [MetalK8s](https://github.com/scality/metalk8s)                                       | Kubernetes distribution on-prem deployments                                         |
+| [K9s](https://k9scli.io/)                                                             | Kubernetes CLI To Manage Your Clusters In Style!                                    |
+| [Kubectx](https://github.com/ahmetb/kubectx)                                          | Faster way to switch between clusters and namespaces in kubectl                     |
+| [Opencost](https://github.com/opencost/opencost)                                      | Cross-cloud cost allocation models for Kubernetes workloads                         |
+| [Kubetap](https://github.com/soluble-ai/kubetap)                                      | Kubectl plugin to interactively proxy Kubernetes Services with ease                 |
+| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way                                                   |
+| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)                     | Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster |
+| [LongHorn](https://github.com/longhorn/longhorn)                                      | Longhorn is a distributed block storage system for Kubernetes                       |
+| [Keel](https://github.com/keel-hq/keel)                                               | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates   |
+| [Kured](https://github.com/kubereboot/kured)|Kubernetes Reboot Daemon|
 
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
 - [Starting containers in order on Kubernetes with InitContainers](https://medium.com/@xcoulon/initializing-containers-in-order-with-kubernetes-18173b9cc222)
@@ -75,6 +78,10 @@ kubectl config view --minify --flatten --context=minikube > minikube
 # merge config
 cd ~/.kube
 kubectl konfig merge config <filename> > merged-config && mv -f merged-config config
+
+# delete config
+export node=node-name;(kubectl config unset clusters.$node && kubectl config unset users.$node && kubectl config unset contexts.$node)
+kubectx -d dev-cluster-01
 ```
 
 ## Comands
@@ -129,6 +136,12 @@ kubeadm join url:6443 --token  --discovery-token-ca-cert-hash
 systemctl enable kubelet
 # Ignoring Swap memory error
 --ignore-preflight-errors=Swap
+```
+
+- Deploy busybox
+
+```bash
+kubectl run -n minikube busybox --image=busybox --restart=Never -- /bin/sh -c "sleep 3600;echo boo"
 ```
 
 ## AWS
@@ -201,6 +214,14 @@ data:
         - system:nodes
 ```
 
+
+## Secrets
+
+- Show secret in plain text
+
+```bash
+kubectl get secret -n name my-secret -o jsonpath="{.data.username}" | base64 --decode
+```
 ## Ingress
 
 ### Nginx Controller

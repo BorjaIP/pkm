@@ -27,7 +27,8 @@ tags: lenguages
 | [Debugpy](https://github.com/microsoft/debugpy/)                | An implementation of the Debug Adapter Protocol for Python                                                    |
 | [Hey](https://github.com/rakyll/hey)                            | HTTP load generator, ApacheBench (ab) replacement                                                             |
 | [Perfect](https://github.com/PrefectHQ/prefect)                 | Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines |
-| [Rich](https://github.com/Textualize/rich)                                                                |Rich is a Python library for rich text and beautiful formatting in the terminal|
+| [Rich](https://github.com/Textualize/rich)                      | Rich is a Python library for rich text and beautiful formatting in the terminal                               |
+| [Schedule](https://github.com/dbader/schedule)|Python job scheduling for humans|
 
 - [Awesome pyproject.toml](https://github.com/carlosperate/awesome-pyproject/)
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)

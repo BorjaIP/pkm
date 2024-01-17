@@ -5,4 +5,5 @@ aliases:
 tags:
   - llm
 ---
-https://arxiv.org/pdf/2305.14314.pdf
+- https://arxiv.org/pdf/2305.14314.pdf
+- https://www.youtube.com/watch?v=pov3pLFMOPY

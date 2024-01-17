@@ -4,7 +4,7 @@ created: Tuesday 20th June 2023 18:30
 aliases: 
 tags: gpt, llm 
 ---
-
+[]()
 | Tool                                                                                  | Description                                                                                                      |
 | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Awesome-prompts](https://github.com/f/awesome-chatgpt-prompts)                       | ChatGPT prompt curation                                                                                          |
@@ -27,7 +27,8 @@ tags: gpt, llm
 | [LLaVa](https://github.com/haotian-liu/LLaVA)                                         | Visual Instruction Tuning: Large Language-and-Vision Assistant built towards multimodal GPT-4 level capabilities |
 | [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT)                                      | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model                                         |
 | [SkyPilot](https://github.com/skypilot-org/skypilot)                                  | SkyPilot: Run LLMs, AI, and Batch jobs on any cloud                                                              |
-| [Zep](https://github.com/getzep/zep)                                                                                      |Fast, scalable building blocks for production LLM apps|
+| [Zep](https://github.com/getzep/zep)                                                  | Fast, scalable building blocks for production LLM apps                                                           |
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT)|A GPT-empowered penetration testing tool|
 
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
@@ -38,7 +39,6 @@ tags: gpt, llm
 - [Neural Databases: A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — (Part 2/3)](https://medium.com/thirdai-blog/neural-database-next-generation-context-retrieval-system-for-building-specialized-ai-agents-with-861ffa0516e7)
 - [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
 - [Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
-
 - [Accelerating Large Language Models with Mixed-Precision Techniques](https://lightning.ai/pages/community/tutorial/accelerating-large-language-models-with-mixed-precision-techniques/)
 - [PyTorch & OpenXLA: The Path Forward](https://pytorch.org/blog/pytorch-2.0-xla-path-forward/)
 - [7 Ways To Speed Up Inference of Your Hosted LLMs](https://betterprogramming.pub/speed-up-llm-inference-83653aa24c47)
@@ -47,7 +47,6 @@ tags: gpt, llm
 - [[PrivateGPT]]
 - [[ColossalAI]]
 - [SeamlessM4T](https://github.com/facebookresearch/seamless_communication)
-
 ## Models
 
 - [LLama](https://github.com/facebookresearch/llama)
@@ -56,14 +55,26 @@ tags: gpt, llm
 ### Fine-tunning
 
 - [Falcon – A guide to finetune and inference](https://lightning.ai/blog/falcon-a-guide-to-finetune-and-inference/)
+- [Fine-tune LLama2 w/ PEFT, LoRA, 4bit, TRL, SFT](https://www.youtube.com/watch?v=zcMQXID447s)
 - [How To Finetune GPT Like Large Language Models on a Custom Dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
 - [Efficient Fine-Tuning with LoRA: A Guide to Optimal Parameter Selection for Large Language Models](https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms)
+- [Efficient Fine-Tuning for Llama-v2-7b on a Single GPU](https://www.youtube.com/watch?v=g68qlo9Izf0)
 - [Mistral-7B Fine-Tuning: A Step-by-Step Guide](https://gathnex.medium.com/mistral-7b-fine-tuning-a-step-by-step-guide-52122cdbeca8)
 - [Fine-tuning Mistral 7B Model with Your Custom Data](https://python.plainenglish.io/intruct-fine-tuning-mistral-7b-model-with-your-custom-data-7eb22921a483)
 - [Optimizing LLMs: A Step-by-Step Guide to Fine-Tuning with PEFT and QLoRA](https://blog.lancedb.com/optimizing-llms-a-step-by-step-guide-to-fine-tuning-with-peft-and-qlora-22eddd13d25b)
 - [Argilla - Bringing LLM Fine-Tuning and RLHF to Everyone](https://argilla.io/blog/argilla-for-llms/)
-## Lora
 
+### TRL
+
+- [TRL - Transformer Reinforcement Learning](https://github.com/huggingface/trl#trl---transformer-reinforcement-learning)
+
+### Lora
+
+- [QLoRA: Quantization for Fine Tuning](https://www.youtube.com/watch?v=pov3pLFMOPY)
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://github.com/artidoro/qlora)
 - [Bitsandbytes](https://github.com/TimDettmers/bitsandbytes) - The bitsandbytes is a lightweight wrapper around CUDA custom functions
 - [Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
+
+## Chatbot
+
+- [Building a Privacy-Preserving LLM-Based Chatbot](https://medium.com/snowflake/building-a-privacy-preserving-llm-based-chatbot-33b92aa6c3d2)

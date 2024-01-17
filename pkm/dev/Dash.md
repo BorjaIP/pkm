@@ -7,9 +7,10 @@ tags:
 
 [Dash](https://plotly.com/dash/) is a Data Apps & Dashboards for [[Python]]. No JavaScript Required.
 
-| Tool                                                               | Description                                                 |
-| ------------------------------------------------------------------ | ----------------------------------------------------------- |
-| [dash-mantine-components](https://github.com/snehilvj/dash-mantine-components)| Plotly Dash components based on Mantine React Components|
+| Tool                                                                           | Description                                              |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------- |
+| [dash-mantine-components](https://github.com/snehilvj/dash-mantine-components) | Plotly Dash components based on Mantine React Components |
+| [dash-rich](https://romanonatacha.github.io/dash_trich_components/)                                                                               |                                                          |
 
 - [Awesome Dash](https://github.com/ucg8j/awesome-dash)
 - [Dash for devices (dash_devices)](https://github.com/richlegrand/dash_devices)

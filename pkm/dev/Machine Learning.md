@@ -18,7 +18,8 @@ tags: ml, dl
 | [DeepSpeed](https://github.com/microsoft/DeepSpeed)     | Deep learning optimization library                                                  |
 | [TorchScale](https://github.com/microsoft/torchscale)   | Transformers at any scale                                                           |
 | [Tiktoken](https://github.com/openai/tiktoken)          | Fast BPE tokeniser for use with OpenAI's models                                     |
-|[Ray](https://github.com/ray-project/ray)|Ray is a unified framework for scaling AI and Python applications|
+| [Ray](https://github.com/ray-project/ray)               | Ray is a unified framework for scaling AI and Python applications                   |
+| [Aim](https://github.com/aimhubio/aim)|An easy-to-use & supercharged open-source experiment tracker|
 
 - [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
 
