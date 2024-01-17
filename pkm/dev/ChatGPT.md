@@ -4,7 +4,7 @@ created: Tuesday 20th June 2023 18:30
 aliases: 
 tags: gpt, llm 
 ---
-[]()
+
 | Tool                                                                                  | Description                                                                                                      |
 | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Awesome-prompts](https://github.com/f/awesome-chatgpt-prompts)                       | ChatGPT prompt curation                                                                                          |
@@ -52,6 +52,10 @@ tags: gpt, llm
 - [LLama](https://github.com/facebookresearch/llama)
 - [Falcon](https://github.com/Sentdex/Falcon-LLM/)
 
+## Transformers
+
+- [[Transformers]]
+	
 ### Fine-tunning
 
 - [Falcon – A guide to finetune and inference](https://lightning.ai/blog/falcon-a-guide-to-finetune-and-inference/)
