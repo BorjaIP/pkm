@@ -28,7 +28,8 @@ tags: gpt, llm
 | [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT)                                      | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model                                         |
 | [SkyPilot](https://github.com/skypilot-org/skypilot)                                  | SkyPilot: Run LLMs, AI, and Batch jobs on any cloud                                                              |
 | [Zep](https://github.com/getzep/zep)                                                  | Fast, scalable building blocks for production LLM apps                                                           |
-| [PentestGPT](https://github.com/GreyDGL/PentestGPT)|A GPT-empowered penetration testing tool|
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT)                                   | A GPT-empowered penetration testing tool                                                                         |
+| [LLMSherpa](https://github.com/nlmatics/llmsherpa)                                                                                      | Developer APIs to Accelerate LLM Projects                                                                                                                 |
 
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)

@@ -23,7 +23,9 @@ tags: k8s
 | [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)                     | Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster |
 | [LongHorn](https://github.com/longhorn/longhorn)                                      | Longhorn is a distributed block storage system for Kubernetes                       |
 | [Keel](https://github.com/keel-hq/keel)                                               | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates   |
-| [Kured](https://github.com/kubereboot/kured)|Kubernetes Reboot Daemon|
+| [Kured](https://github.com/kubereboot/kured)                                          | Kubernetes Reboot Daemon                                                            |
+| [Kuma](https://github.com/kumahq/kuma)                                                | The multi-zone service mesh for containers, Kubernetes and VMs                      |
+| [Pixie](https://github.com/pixie-io/pixie)                                                                                      | Open-source observability tool for Kubernetes applications                                                                                    |
 
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
 - [Starting containers in order on Kubernetes with InitContainers](https://medium.com/@xcoulon/initializing-containers-in-order-with-kubernetes-18173b9cc222)

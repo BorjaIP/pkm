@@ -26,6 +26,7 @@ tags: ml, dl
 # MLOps
 
 - [MLOps: Task and Workflow Orchestration Tools on Kubernetes](https://achernov.medium.com/mlops-task-and-workflow-orchestration-tools-on-kubernetes-adba3020d2bc)
+- [ClearML Agent](https://github.com/allegroai/clearml-agent) - ClearML Agent - ML-Ops made easy
 
 
 # CD4ML
