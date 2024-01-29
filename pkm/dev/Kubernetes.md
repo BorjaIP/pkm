@@ -1,8 +1,10 @@
 ---
-title:  Kubernetes
+title: Kubernetes
 created: Monday 24th April 2023 19:04
-aliases: k8s
-tags: k8s
+aliases:
+  - k8s
+tags:
+  - k8s
 ---
 
 | Tool                                                                                  | Description                                                                         |
@@ -222,6 +224,28 @@ data:
 ```bash
 kubectl get secret -n name my-secret -o jsonpath="{.data.username}" | base64 --decode
 ```
+
+## Volumes
+
+- Create an empty volume for testing.
+
+```yaml
+apiVersion: v0
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - image: some-image-name
+    name: my-container
+    volumeMounts:
+    - mountPath: /tempfiles
+      name: temp-files-volume
+  volumes:
+  - name: temp-files-volume
+    emptyDir: {}
+```
+
 ## Ingress
 
 ### Nginx Controller
