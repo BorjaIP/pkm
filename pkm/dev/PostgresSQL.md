@@ -104,3 +104,8 @@ VALUES
 SELECT * FROM products
 ```
 
+- List enums
+
+```sql
+select enum_range(null::my_enum);
+```
