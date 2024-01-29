@@ -31,7 +31,13 @@ tags: tool, dev
 | [OpenLineage](https://github.com/OpenLineage/OpenLineage)         | An Open Standard for lineage metadata collection                                                                      |
 | [DevPod](https://github.com/loft-sh/devpod)                       | Works with any IDE and lets you use any cloud, kubernetes or just localhost docker                                    |
 | [DuckDB](https://github.com/duckdb/duckdb)                        | DuckDB is an in-process SQL OLAP Database Management System                                                           |
-| [Spacedrive](https://github.com/spacedriveapp/spacedrive)|Open source cross-platform file explorer|
+| [Spacedrive](https://github.com/spacedriveapp/spacedrive)         | Open source cross-platform file explorer                                                                              |
+| [Fleet](https://github.com/fleetdm/fleet)                         | Open-source platform for IT, security, and infrastructure teams.                                                      |
+| [Codium](https://codeium.com/)                                    | Open source ultrafast Copilot alternative                                                                             |
+| [Postmaster](https://github.com/Safing/portmaster)                | Open-source application firewall that does the heavy lifting for you                                                  |
+| [Marimo](https://github.com/marimo-team/marimo)                   | Reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.                        |
+| [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
+| [Omatsuri](https://omatsuri.app/)                                                                  | Open source browser tools for everyday use                                                                                                                      |
 
 - [[Git]]
 - [[VSCode]]

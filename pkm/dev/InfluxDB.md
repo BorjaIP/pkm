@@ -4,7 +4,6 @@ created: Sunday 30th April 2023 21:18
 aliases: 
 tags: db
 ---
-
 ## Types
 
 - InfluxDB Cloud: Data platform on the Cloud in [AWS](https://www.influxdata.com/partners/aws/) or other Cloud Provider. You need pay a **subscription service** and only in Europe (Frankfurt).

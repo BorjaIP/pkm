@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/OpenSSL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee68e674b34dc0ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/ChatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77a95ba7e740f73d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "replica",
+                "query": "platform",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +125,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/Tools.md"
               }
             }
           },
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,34 +234,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "384fa171282bdbc6",
+  "active": "c1321a0d17b11065",
   "lastOpenFiles": [
-    "dev/Transformers.md",
-    "dev/Tools.md",
     "dev/Kubernetes.md",
-    "dev/Linux.md",
-    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
-    "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
-    "articles/papers/Multimodal Foundation Models - From Specialists to General-Purpose Assistants.md",
-    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
-    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "dev/PostgresSQL.md",
+    "dev/Tools.md",
+    "dev/VSCode.md",
+    "dev/Winget.md",
     "dev/ChatGPT.md",
+    "dev/RedHat.md",
+    "dev/Python.md",
+    "dev/Linux.md",
+    "dev/Kubeflow.md",
+    "dev/InfluxDB.md",
+    "dev/Cwl.md",
+    "dev/Container.md",
+    "dev/Operating System.md",
+    "dev/Cloud.md",
+    "dev/DevOps.md",
+    "dev/Machine Learning.md",
+    "dev/AWS.md",
+    "dev/Windows.md",
     "dev/Docker.md",
     "dev/ECS.md",
     "dev/ECR.md",
     "dev/EC2.md",
-    "dev/Cloud.md",
     "dev/Chocolatey.md",
     "dev/Apache.md",
     "dev/Airflow.md",
-    "dev/OpenSSL.md",
-    "dev/Containerd.md",
-    "dev/Kubeflow.md",
-    "kuber.md",
-    "dev/Windows.md",
-    "dev/Python.md",
+    "dev/Transformers.md",
     "assets/grpc.svg",
     "Untitled",
     "assets/aws-services.png",

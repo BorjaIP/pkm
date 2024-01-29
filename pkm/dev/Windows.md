@@ -56,27 +56,28 @@ Open `Task scheduler` and DISABLE all unnecesary.
     E:\Programs\OpenRGB\OpenRGB.exe --gui --startminimized --server
     ```
 
-| Programs                                                                  | Description                                         |
-| ------------------------------------------------------------------------- | --------------------------------------------------- |
-| [NVcleanstall](https://www.techpowerup.com/nvcleanstall/)                 | Install NVIDIA Drivers                              |
-| [Debloater](https://github.com/Sycnex/Windows10Debloater)                 | Remove all unnecesary windows applications          |
-| [Autohotkey](https://www.autohotkey.com/)                                 | Hotkey software                                     |
-| [HotkeyD](https://github.com/HikariKnight/hotkeyD)                        | Hotkey software                                     |
-| [Trakt-scrobbler](https://github.com/iamkroot/trakt-scrobbler)            | Scrobbler for trakt.tv                              |
-| [VIA](https://caniusevia.com/)                                            | Keyboard mapping                                    |
-| [Vial](https://get.vial.today/)                                           | Keyboard mapping                                    |
-| [QMK Fimeware](https://docs.qmk.fm/#/)                                    | Keyboard fimewares                                  |
-| [PowerToys](https://github.com/microsoft/PowerToys)                       | System utilities                                    |
-| [O&O ShutUp](https://www.oo-software.com/en/shutup10)                     | AntySpy                                             |
-| [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader)            | PDF Viewer                                          |
-| [CoreTemp](https://www.alcpu.com/CoreTemp/)                               | Monitor CPU                                         |
-| [OpenHardware](https://openhardwaremonitor.org/)                          | Monitor tempoerature sensors                        |
-| [PowerUP](https://www.techpowerup.com/gpuz/)                              | Information about GPU                               |
-| [Handbraker](https://handbrake.fr/)                                       | Video transcoder                                    |
-| [ShareX](https://getsharex.com/)                                          | Screen capture                                      |
-| [DevToys](https://devtoys.app/)                                           | An offline app that helps developers in daily tasks |
-| [ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) | Fluent design system for windows                    |
-|[Files](https://files.community/)|Building the best file manager experience for Windows|
+| Programs | Description |
+| ---- | ---- |
+| [NVcleanstall](https://www.techpowerup.com/nvcleanstall/) | Install NVIDIA Drivers |
+| [Debloater](https://github.com/Sycnex/Windows10Debloater) | Remove all unnecesary windows applications |
+| [Autohotkey](https://www.autohotkey.com/) | Hotkey software |
+| [HotkeyD](https://github.com/HikariKnight/hotkeyD) | Hotkey software |
+| [Trakt-scrobbler](https://github.com/iamkroot/trakt-scrobbler) | Scrobbler for trakt.tv |
+| [VIA](https://caniusevia.com/) | Keyboard mapping |
+| [Vial](https://get.vial.today/) | Keyboard mapping |
+| [QMK Fimeware](https://docs.qmk.fm/#/) | Keyboard fimewares |
+| [PowerToys](https://github.com/microsoft/PowerToys) | System utilities |
+| [O&O ShutUp](https://www.oo-software.com/en/shutup10) | AntySpy |
+| [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) | PDF Viewer |
+| [CoreTemp](https://www.alcpu.com/CoreTemp/) | Monitor CPU |
+| [OpenHardware](https://openhardwaremonitor.org/) | Monitor tempoerature sensors |
+| [PowerUP](https://www.techpowerup.com/gpuz/) | Information about GPU |
+| [Handbraker](https://handbrake.fr/) | Video transcoder |
+| [ShareX](https://getsharex.com/) | Screen capture |
+| [DevToys](https://devtoys.app/) | An offline app that helps developers in daily tasks |
+| [ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) | Fluent design system for windows |
+| [Files](https://files.community/) | Building the best file manager experience for Windows |
+| [KeepassXC](https://github.com/keepassxreboot/keepassxc) | Open-source password manager |
 
 
 - [NZXT](https://nzxt.com/software/cam)
