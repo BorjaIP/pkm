@@ -56,7 +56,6 @@ tags: gpt, llm
 ## Transformers
 
 - [[Transformers]]
-	
 ### Fine-tunning
 
 - [Falcon – A guide to finetune and inference](https://lightning.ai/blog/falcon-a-guide-to-finetune-and-inference/)

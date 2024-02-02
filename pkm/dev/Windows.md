@@ -4,7 +4,6 @@ created: Saturday 22nd April 2023 19:26
 aliases: win
 tags: windows, os
 ---
-
 # Shorcuts
 
 | Command | Description | 
