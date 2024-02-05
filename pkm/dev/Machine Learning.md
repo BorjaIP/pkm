@@ -114,6 +114,14 @@ A **support vector machine (SVM)** is a supervised learning algorithm commonly u
 The goal of SVM is to find the best possible decision boundary by maximizing the margin between the two sets of labeled data. It looks for the widest gap or space between the classes. Any new data point that falls on either side of this decision boundary is classified based on the labels in the training dataset.
 
 It's important to note that hyperplanes can take on different shapes when plotted in three-dimensional space, allowing SVM to handle more complex patterns and relationships in the data.
+
+##### Linear support vector classifier
+
+A Linear SVC uses a boundary of one-degree (linear / straight line) to classify data. It has much less complexity than a non-linear classifier and is only appropriate for small datasets. More complex datasets will require a non linear classifier.
+
+##### NuSVC
+
+NuSVC uses Nu parameters which is for regularization. Nu is the upper bound on the expected classification error. If the value of Nu us 10% then 10% of the data will be misclassified.
 ### Clustering
 
 #### K-means

@@ -4,7 +4,6 @@ created: Saturday 22nd April 2023 21:02
 aliases: 
 tags: linux, os
 ---
-
 | Tool                                | Description                |
 | ----------------------------------- | -------------------------- |
 | [Libreboot](https://libreboot.org/)| Freedoms boot fimeware |

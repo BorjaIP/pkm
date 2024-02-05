@@ -4,7 +4,6 @@ created: Tuesday 20th June 2023 18:38
 aliases: 
 tags: gpt
 ---
-
 With [PrivateGPT](https://github.com/imartinez/privateGPT) can asks questions to your documents without an internet connection, using the power of LLMs.
 
 - [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)

@@ -6,7 +6,6 @@ aliases:
 tags:
   - k8s
 ---
-
 | Tool | Description |
 | ---- | ---- |
 | [Kubeshark](https://github.com/kubeshark/kubeshark) | API traffic analyzer for Kubernetes (TCDump + Wireshark) |
