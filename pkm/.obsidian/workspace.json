@@ -4,11 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "611a5808a8d8cda3",
+        "id": "c068067e25356239",
         "type": "tabs",
         "children": [
           {
-            "id": "384fa171282bdbc6",
+            "id": "0a5e7b7cd4cd3d02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c729160d79f5602a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Artificial Intelligence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1795e325d9273a79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69656b89ce96c037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Jupyter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af3221f9dd1ef659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad3329e8c20ca6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,69 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "180f0b651e7b2195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e56f32fbed37621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c5c346fb97028f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1d1000af506a3ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e58120c20c3c5a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/ChatGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
       {
         "id": "fee46de2f4da35a2",
         "type": "tabs",
-        "dimension": 59.80952380952381,
+        "dimension": 62.7906976744186,
         "children": [
           {
             "id": "a54bf97db0a522e6",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md"
+                "file": "dev/Machine Learning.md"
               }
             }
           },
@@ -176,7 +176,7 @@
       {
         "id": "560dc549adeee548",
         "type": "tabs",
-        "dimension": 40.19047619047619,
+        "dimension": 37.2093023255814,
         "children": [
           {
             "id": "571d5dfd467e6a9e",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
+                "file": "dev/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
+                "file": "dev/Machine Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,14 +234,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "180f0b651e7b2195",
+  "active": "1795e325d9273a79",
   "lastOpenFiles": [
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "assets/ml-models.jpg",
+    "dev/Machine Learning.md",
+    "assets/network.jpg",
+    "dev/Airflow.md",
+    "dev/Jupyter.md",
+    "dev/Artificial Intelligence.md",
+    "dev/Python.md",
+    "dev/DevOps.md",
+    "dev/Kubernetes.md",
+    "dev/Dvc.md",
+    "dev/Kubeflow.md",
     "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
     "dev/Docker.md",
     "dev/PostgresSQL.md",
     "dev/Linux.md",
-    "dev/Kubernetes.md",
     "dev/Tools.md",
     "dev/ChatGPT.md",
     "dev/Windows.md",
@@ -253,22 +263,12 @@
     "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
     "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
     "articles/papers/Multimodal Foundation Models - From Specialists to General-Purpose Assistants.md",
-    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
-    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "dev/ECS.md",
-    "dev/ECR.md",
-    "dev/EC2.md",
-    "dev/Cloud.md",
-    "dev/Chocolatey.md",
-    "dev/Apache.md",
     "assets/grpc.svg",
     "Untitled",
     "assets/aws-services.png",
     "assets/images",
     "assets/ecs.png",
     "assets/ec2-types.jpg",
-    "assets/network.jpg",
     "assets/containers.png",
     "assets/containers.png",
     "assets/architectures.png",

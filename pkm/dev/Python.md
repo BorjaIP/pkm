@@ -30,7 +30,6 @@ tags: lenguages
 | [Rich](https://github.com/Textualize/rich) | Rich is a Python library for rich text and beautiful formatting in the terminal |
 | [Schedule](https://github.com/dbader/schedule) | Python job scheduling for humans |
 | [Scalene](https://github.com/plasma-umass/scalene) | High-performance, high-precision CPU, GPU, and memory profile |
-| [Reflex](https://github.com/reflex-dev/reflex?tab=readme-ov-file) | Web apps in pure Python |
 
 - [Awesome pyproject.toml](https://github.com/carlosperate/awesome-pyproject/)
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
@@ -148,3 +147,4 @@ flask routes
 - [Solara](https://github.com/widgetti/solara/)
 - [ReactPy](https://github.com/reactive-python/reactpy)
 - [Voila](https://github.com/voila-dashboards/voila)
+- [Reflex](https://github.com/reflex-dev/reflex?tab=readme-ov-file)
