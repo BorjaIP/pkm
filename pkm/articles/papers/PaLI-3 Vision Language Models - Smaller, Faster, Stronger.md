@@ -5,3 +5,7 @@ aliases:
 tags: 
 ---
 - https://arxiv.org/abs/2310.09199
+
+---
+[[Artificial Intelligence|AI]]
+[[LLM]]

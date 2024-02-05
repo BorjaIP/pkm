@@ -20,7 +20,7 @@
     },
     {
       "folder": "articles",
-      "template": "templates/Default.md"
+      "template": "templates/Paper.md"
     }
   ],
   "syntax_highlighting": false,

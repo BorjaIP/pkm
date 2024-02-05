@@ -6,4 +6,8 @@ tags:
   - gpt
   - llm
 ---
-https://arxiv.org/pdf/2309.10020.pdf
+- https://arxiv.org/pdf/2309.10020.pdf
+
+---
+[[Artificial Intelligence|AI]]
+[[LLM]]

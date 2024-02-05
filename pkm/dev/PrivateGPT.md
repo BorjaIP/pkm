@@ -4,7 +4,7 @@ created: Tuesday 20th June 2023 18:38
 aliases: 
 tags: gpt
 ---
-With [PrivateGPT](https://github.com/imartinez/privateGPT) can asks questions to your documents without an internet connection, using the power of LLMs.
+[PrivateGPT](https://github.com/imartinez/privateGPT) is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models ([[LLM]]), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
 
 - [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 - [GPT4All](https://github.com/nomic-ai/gpt4all)

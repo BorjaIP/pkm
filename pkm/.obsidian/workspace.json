@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c068067e25356239",
+        "id": "d37d7264671d665d",
         "type": "tabs",
         "children": [
           {
-            "id": "c729160d79f5602a",
+            "id": "6fea64b50ddbc86e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/NLP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "678d5121fd231b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Artificial Intelligence.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1795e325d9273a79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/Transformers.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "terraform",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 260.5
   },
   "right": {
     "id": "a032080dd7284faa",
@@ -102,15 +78,15 @@
       {
         "id": "fee46de2f4da35a2",
         "type": "tabs",
-        "dimension": 62.7906976744186,
+        "dimension": 62.79069767441861,
         "children": [
           {
-            "id": "a54bf97db0a522e6",
+            "id": "691525e51bf3c8ce",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/NLP.md"
+                "file": "dev/Transformers.md"
               }
             }
           },
@@ -158,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/NLP.md",
+                "file": "dev/Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/NLP.md",
+                "file": "dev/Transformers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,34 +172,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1706a48df4c7d059",
+  "active": "6fea64b50ddbc86e",
   "lastOpenFiles": [
-    "assets/nlp.png",
-    "dev/Artificial Intelligence.md",
-    "dev/NLP.md",
-    "dev/Operating System.md",
-    "dev/OpenSSL.md",
-    "dev/PET.md",
-    "dev/PostgresSQL.md",
-    "dev/PrivateGPT.md",
-    "dev/Prometheus.md",
-    "dev/RedHat.md",
+    "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
+    "articles/papers/Improving Knowledge Graph Embedding Using Simple Constraints.md",
+    "articles/papers/Natural Language is All a Graph Needs.md",
+    "fsa.md",
+    "dev/Knowledge Graph.md",
+    "dev/LLM.md",
     "dev/Python.md",
-    "dev/Skaffold.md",
-    "dev/Terraform.md",
-    "dev/Tmux.md",
-    "dev/Tools.md",
-    "dev/Transformers.md",
-    "dev/Ubuntu.md",
-    "dev/Vault.md",
-    "dev/VSCode.md",
-    "dev/Windows.md",
-    "dev/Winget.md",
-    "dev/Linux.md",
-    "dev/Kubernetes.md",
-    "dev/Helm.md",
-    "dev/IBM.md",
-    "dev/IaC.md",
+    "dev/GPT.md",
+    "templates/Paper.md",
+    "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
+    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
+    "articles/papers/ART - Automatic multi-step reasoning and tool-use for large language models.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "articles/papers/A Watermark for Large Language Models.md",
+    "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
+    "articles/papers/Secure Analytics - Federated Learning and Secure Aggregation.md",
+    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
+    "articles/papers/REACT - SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
+    "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
+    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
+    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
+    "articles/papers/PaLI-3 Vision Language Models - Smaller, Faster, Stronger.md",
+    "articles/papers/On Efficient Training of Large-Scale Deep Learning Models - A Literature Review.md",
+    "assets/llm-tree.jpg",
+    "assets/nlp.png",
     "de",
     "assets/ml-models.jpg",
     "assets/network.jpg",
@@ -236,7 +213,6 @@
     "assets/ec2-types.jpg",
     "assets/containers.png",
     "assets/containers.png",
-    "assets/architectures.png",
     "articles/papers",
     "articles",
     "pkm",

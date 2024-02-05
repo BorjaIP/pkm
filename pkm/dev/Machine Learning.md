@@ -2,6 +2,7 @@
 title: Machine Learning
 created: Monday 24th April 2023 19:15
 aliases:
+  - ML
   - ml
 tags:
   - ml
@@ -150,8 +151,6 @@ Jupyter notebooks combine software code, computational output, explanatory text,
 
 - [MLOps: Task and Workflow Orchestration Tools on Kubernetes](https://achernov.medium.com/mlops-task-and-workflow-orchestration-tools-on-kubernetes-adba3020d2bc)
 - [ClearML Agent](https://github.com/allegroai/clearml-agent) - ClearML Agent - ML-Ops made easy
-
-
 # CD4ML
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UzVa5azAHkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -179,25 +178,7 @@ Jupyter notebooks combine software code, computational output, explanatory text,
 ## Hyperparameter tuning
 
 - [A Practical Introduction to Grid Search, Random Search, and Bayes Search](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
-
 ## Pytorch
 
 - [Some Techniques To Make Your PyTorch Models Train (Much) Faster](https://sebastianraschka.com/blog/2023/pytorch-faster.html)
 - [Efficient PyTorch I/O library for Large Datasets, Many Files, Many GPUs](https://pytorch.org/blog/efficient-pytorch-io-library-for-large-datasets-many-files-many-gpus/)
-
-## GPT
-
-- [GPT4](https://cdn.openai.com/papers/gpt-4.pd)
-- [Why is GPT-3 15.77x more expensive for certain languages?](https://denyslinkov.medium.com/why-is-gpt-3-15-77x-more-expensive-for-certain-languages-2b19a4adc4bc)
-- [Replicate ChatGPT Training Quickly and Affordable with Open Source Colossal-AI](https://www.hpc-ai.tech/blog/colossal-ai-chatgpt)
-- [gpt4all chatbot ui](https://github.com/nomic-ai/gpt4all-ui)
-- [A web interface for chatting with Alpaca through llama.cpp](https://github.com/nsarrazin/serge)
-- [I tried… Using ChatGPT for FuNn as a DevOps Engineer](https://ghumare64.medium.com/i-tried-using-chatgpt-for-funn-as-a-devops-engineer-8239313269d4)
-
-## LLM
-
-- [List of Open Sourced Fine-Tuned Large Language Models (LLM)](https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76)
-- [Open source LLM for commercial use?](https://news.ycombinator.com/item?id=35512338)
-- [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
-- [Megatron-LM: Ongoing research training transformer models at scale](https://github.com/NVIDIA/Megatron-LM)
-

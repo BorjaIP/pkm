@@ -5,3 +5,7 @@ aliases:
 tags: 
 ---
 - https://arxiv.org/abs/2304.03589
+
+---
+[[Artificial Intelligence|AI]]
+[[DL]]

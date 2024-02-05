@@ -5,4 +5,9 @@ aliases:
 tags:
   - blockchain
 ---
-https://arxiv.org/pdf/2009.09338.pdf
+- https://arxiv.org/pdf/2009.09338.pdf
+
+---
+[[FL]]
+[[PET]]
+[[Blockchain]]

@@ -4,7 +4,6 @@ created: Sunday 23rd April 2023 16:51
 aliases: py
 tags: lenguages
 ---
-
 | Tool/Framework | Description |
 | ---- | ---- |
 | [Dynaconf](https://www.dynaconf.com/) | Configuration Management for Python |

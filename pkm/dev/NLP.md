@@ -5,7 +5,7 @@ aliases:
 tags:
   - ai
 ---
-**Natural language processing** (NLP) is a form of artificial intelligence that allows computers to understand human language, whether it be written, spoken, or even scribbled.
+**Natural language processing** (NLP) is a form of [[Artificial Intelligence]] that allows computers to understand human language, whether it be written, spoken, or even scribbled.
 
 ![[nlp.png]]
 ## Natural language techniques 
