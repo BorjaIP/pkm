@@ -4,7 +4,6 @@ created: Tuesday 20th June 2023 19:48
 aliases: 
 tags: ETL
 ---
-
 [Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/) (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows.
 
 When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.

@@ -4,7 +4,6 @@ created: Sunday 23rd April 2023 17:31
 aliases: 
 tags: 
 ---
-
 An open and reliable [[Container]] runtime.
 
 Containerd create a system where content (images) is stored in the machine for executing containers. Default folder in Linux is `var/lib/containerd/io.containerd.content.v1.content`, this flow is described [here](https://github.com/containerd/containerd/blob/main/docs/content-flow.md).

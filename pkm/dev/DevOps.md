@@ -12,6 +12,7 @@ DevOps is **the combination of cultural philosophies, practices, and tools that
 - [DevOps Community](https://github.com/rohitg00/DevOpsCommunity)
 - [Developer Handbook](https://github.com/apptension/developer-handbook/blob/master/Technical%20Stack/DevOps%20Developer.md)
 - [DevOps Docs](https://roadmap.sh/devops)
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)
 
 # As a Code
 

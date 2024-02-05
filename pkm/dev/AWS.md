@@ -4,7 +4,6 @@ created: Monday 1st May 2023 14:59
 aliases: aws
 tags: cloud, aws
 ---
-
 Amazon Web Services is a large web of offerings from [Amazon](https://notes.nicolevanderhoeven.com/Amazon) that are centered around the creation, deployment, maintenance, and operations of web applications.
 
 ![[aws-services.png]]

@@ -14,7 +14,8 @@ tags: container
 | [Grype](https://github.com/anchore/grype)                                 | A vulnerability scanner for container images and filesystems  |
 | [Trivy](https://github.com/aquasecurity/trivy)                            | Find vulnerabilities, misconfigurations, secrets              |
 | [Ctop](https://github.com/bcicen/ctop)                                    | Top-like interface for container metrics                      |
-| [Edgeshark](https://github.com/siemens/edgeshark)                                                                          |Discover and capture container network|
+| [Edgeshark](https://github.com/siemens/edgeshark)                         | Discover and capture container network                        |
+| [Skopeo](https://github.com/containers/skopeo)                                                                          | Work with remote images registries                                                              |
 
 Deploy multiple dockers with [[Docker Compose]]
 
