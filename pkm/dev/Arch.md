@@ -60,12 +60,47 @@ pacman -Rns name
 pacman -Yc
 ```
 
+### Clean pacman cache
+
+```bash
+sudo pacman -Sc
+```
+
+### Pacman Mirrors
+
+Install reflector for update packages.
+
+```bash
+sudo pacman -S reflector
+```
+
+Create a backup for mirrorlist.
+
+```bash
+cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bkp
+```
+
+Add mirrors
+
+```bash
+sudo reflector --country 'Spain,France' --latest 5 --age 2 --fastest 5 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
+
+Edit `pacman.conf` for uncomment parallel downloads
+
+```bash
+sudo vim /etc/pacman.conf
+```
+
+```conf
+#MaxParallelDownloads = 5
+```
 ## Java
 
 https://rtfm.co.ua/en/arch-linux-set-a-java-version/
 
 ```bash
-yay -S jdk
+paru -S jdk
 ```
 
 ```bash

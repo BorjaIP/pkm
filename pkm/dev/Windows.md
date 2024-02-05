@@ -79,7 +79,6 @@ Open `Task scheduler` and DISABLE all unnecesary.
 | [Files](https://files.community/) | Building the best file manager experience for Windows |
 | [KeepassXC](https://github.com/keepassxreboot/keepassxc) | Open-source password manager |
 
-
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)
 - [Trident Z RGB](https://www.gskill.com/download/1502180912/1551690847/Trident-Z-Family-(RGB,-Royal,-Neo))
