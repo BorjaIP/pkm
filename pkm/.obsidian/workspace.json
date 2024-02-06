@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "612e6d54da34f0d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Transformers.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Transformers.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Transformers.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,8 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fea64b50ddbc86e",
+  "active": "612e6d54da34f0d8",
   "lastOpenFiles": [
+    "dev/Transformers.md",
+    "conflict-files-obsidian-git.md",
     "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
     "articles/papers/Improving Knowledge Graph Embedding Using Simple Constraints.md",
     "articles/papers/Natural Language is All a Graph Needs.md",
@@ -198,8 +213,6 @@
     "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
     "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
     "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
-    "articles/papers/PaLI-3 Vision Language Models - Smaller, Faster, Stronger.md",
-    "articles/papers/On Efficient Training of Large-Scale Deep Learning Models - A Literature Review.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",
