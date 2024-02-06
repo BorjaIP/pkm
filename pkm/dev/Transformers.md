@@ -13,4 +13,4 @@ The architecture described in the paper [Attention Is All You Need](https://arxi
 - [Safetensors](https://github.com/huggingface/safetensors)
 ## OCR
 
-- [Donut](https://huggingface.co/docs/transformers/main/en/model_doc/donut) model was proposed in [OCR-free Document Understanding Transformer](https://arxiv.org/abs/2111.15664)
+- [Donut](https://huggingface.co/docs/transformers/main/en/model_doc/donut) model was proposed in [OCR-free Document Understanding Transformer](https://arxiv.org/abs/2111.15664)\
