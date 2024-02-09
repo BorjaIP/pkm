@@ -23,7 +23,8 @@ tags:
 | [TorchScale](https://github.com/microsoft/torchscale)   | Transformers at any scale                                                           |
 | [Tiktoken](https://github.com/openai/tiktoken)          | Fast BPE tokeniser for use with OpenAI's models                                     |
 | [Ray](https://github.com/ray-project/ray)               | Ray is a unified framework for scaling AI and Python applications                   |
-| [Aim](https://github.com/aimhubio/aim)|An easy-to-use & supercharged open-source experiment tracker|
+| [Aim](https://github.com/aimhubio/aim)                  | An easy-to-use & supercharged open-source experiment tracker                        |
+| [Meltano](https://github.com/meltano/meltano)                                                        | The declarative code-first data integration engine that powers your wildest data and ML-powered product ideas                                                                                    |
 
 Machine learning is a subfield of [[Artificial Intelligence]] that uses algorithms trained on data sets to create models that enable machines to perform tasks that would otherwise only be possible for humans, such as categorizing images, analyzing data, or predicting price fluctuations.
 

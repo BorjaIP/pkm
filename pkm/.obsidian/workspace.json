@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d37d7264671d665d",
+        "id": "b8ce714ad58db396",
         "type": "tabs",
         "children": [
           {
-            "id": "6fea64b50ddbc86e",
+            "id": "5c8f0e7617df50bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/GPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d5e5e442c19f066",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
+                "file": "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md"
               }
             }
           },
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,10 +172,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d5e5e442c19f066",
+  "active": "5c8f0e7617df50bb",
   "lastOpenFiles": [
-    "dev/GPT.md",
+    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
+    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
     "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
+    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
+    "templates/Paper.md",
+    "templates/Default.md",
+    "dev/GPT.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "dev/LLM.md",
+    "dev/Machine Learning.md",
     "articles/papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "dev/Kubernetes.md",
     "dev/Transformers.md",
@@ -198,21 +193,13 @@
     "articles/papers/Natural Language is All a Graph Needs.md",
     "fsa.md",
     "dev/Knowledge Graph.md",
-    "dev/LLM.md",
     "dev/Python.md",
-    "templates/Paper.md",
     "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
     "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
     "articles/papers/ART - Automatic multi-step reasoning and tool-use for large language models.md",
     "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
-    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
-    "articles/papers/Secure Analytics - Federated Learning and Secure Aggregation.md",
-    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
-    "articles/papers/REACT - SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",

@@ -38,7 +38,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 ![[llm-tree.jpg]]
 
-
+- [Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG)
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
 - [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)

@@ -7,6 +7,7 @@ tags:
   - ai
 ---
 - https://arxiv.org/pdf/2306.08302.pdf
+- https://github.com/RManLuo/Awesome-LLM-KG
 
 ---
 [[LLM]]
