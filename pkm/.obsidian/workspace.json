@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Transformers.md",
+                "file": "dev/GPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d5e5e442c19f066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Transformers.md"
+                "file": "dev/LLM.md"
               }
             }
           },
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Transformers.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Transformers.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,10 +185,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fea64b50ddbc86e",
+  "active": "6d5e5e442c19f066",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "dev/GPT.md",
+    "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
+    "articles/papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "dev/Kubernetes.md",
     "dev/Transformers.md",
+    "conflict-files-obsidian-git.md",
     "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
     "articles/papers/Improving Knowledge Graph Embedding Using Simple Constraints.md",
     "articles/papers/Natural Language is All a Graph Needs.md",
@@ -183,7 +200,6 @@
     "dev/Knowledge Graph.md",
     "dev/LLM.md",
     "dev/Python.md",
-    "dev/GPT.md",
     "templates/Paper.md",
     "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
     "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
@@ -197,9 +213,6 @@
     "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
     "articles/papers/REACT - SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS.md",
     "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
-    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
-    "articles/papers/PeaTMOSS - Mining Pre-Trained Models in Open-Source Software.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",
