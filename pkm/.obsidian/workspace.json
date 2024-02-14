@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Nvidia.md",
+                "file": "dev/Apache.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pydantic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Nvidia.md"
+                "file": "dev/LLM.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Nvidia.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Nvidia.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,9 +185,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c8f0e7617df50bb",
+  "active": "5b106137e094e308",
   "lastOpenFiles": [
+    "dev/Python.md",
+    "dev/LLM.md",
     "dev/Machine Learning.md",
+    "dev/Apache.md",
     "dev/Nvidia.md",
     "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
     "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
@@ -197,7 +200,6 @@
     "templates/Default.md",
     "dev/GPT.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "dev/LLM.md",
     "articles/papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
     "dev/Kubernetes.md",
     "dev/Transformers.md",
@@ -207,12 +209,10 @@
     "articles/papers/Natural Language is All a Graph Needs.md",
     "fsa.md",
     "dev/Knowledge Graph.md",
-    "dev/Python.md",
     "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
     "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
     "articles/papers/ART - Automatic multi-step reasoning and tool-use for large language models.md",
     "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
-    "articles/papers/A Watermark for Large Language Models.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",
