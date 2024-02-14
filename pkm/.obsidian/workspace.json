@@ -1,66 +1,39 @@
 {
   "main": {
-    "id": "bd3c41025c8cc245",
+    "id": "98a69accf19bc43e",
     "type": "split",
     "children": [
       {
-        "id": "c068067e25356239",
+        "id": "82073f3883f92e10",
         "type": "tabs",
         "children": [
           {
-            "id": "c1321a0d17b11065",
-            "id": "c729160d79f5602a",
+            "id": "1614686432ab9373",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Windows.md",
-                "file": "dev/NLP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d6798317362a98e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aacc8332ba0ae663",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/FastAPI.md",
+                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bf21a158b4cf19da",
+    "id": "a8c87bb94895f489",
     "type": "split",
     "children": [
       {
-        "id": "96768245f77de3e8",
+        "id": "9a06b9e173961dcd",
         "type": "tabs",
         "children": [
           {
-            "id": "1706a48df4c7d059",
+            "id": "59e0ceac64bb3948",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,13 +43,12 @@
             }
           },
           {
-            "id": "15278395ef34a042",
+            "id": "2a99d92d9b20113e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "chez",
-                "query": "terraform",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +58,7 @@
             }
           },
           {
-            "id": "913f25d7732e07a2",
+            "id": "4c3270b2bc141bfb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,160 +66,108 @@
             }
           }
         ]
-      ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.5
+  },
+  "right": {
+    "id": "d505a48d468b7564",
+    "type": "split",
+    "children": [
+      {
+        "id": "4489ececb4384b0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65c964ed8e52ec36",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "705ebe8ff0093dfd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "076f31f66e41cfee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "26e18b7daeb69e40",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a0221034fc8b9150",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
-  ],
-  "direction": "horizontal",
-  "width": 228.5
-},
-"right": {
-  "id": "a032080dd7284faa",
-  "type": "split",
-  "children": [
-    {
-      "id": "fee46de2f4da35a2",
-      "type": "tabs",
-      "dimension": 62.7906976744186,
-      "children": [
-        {
-          "id": "a54bf97db0a522e6",
-          "type": "leaf",
-          "state": {
-            "type": "outline",
-            "state": {
-              "file": "conflict-files-obsidian-git.md"
-            }
-          }
-        },
-        {
-          "id": "2748001dafe581c7",
-          "type": "leaf",
-          "state": {
-            "type": "advanced-tables-toolbar",
-            "state": {}
-          }
-        },
-        {
-          "id": "0445d48fceaa2f59",
-          "type": "leaf",
-          "state": {
-            "type": "all-properties",
-            "state": {
-              "sortOrder": "frequency",
-              "showSearch": false,
-              "searchQuery": ""
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "560dc549adeee548",
-      "type": "tabs",
-      "dimension": 37.2093023255814,
-      "children": [
-        {
-          "id": "571d5dfd467e6a9e",
-          "type": "leaf",
-          "state": {
-            "type": "tag",
-            "state": {
-              "sortOrder": "frequency",
-              "useHierarchy": false
-            }
-          }
-        },
-        {
-          "id": "1c6c2d5525b78f14",
-          "type": "leaf",
-          "state": {
-            "type": "outgoing-link",
-            "state": {
-              "file": "conflict-files-obsidian-git.md",
-              "linksCollapsed": false,
-              "unlinkedCollapsed": true
-            }
-          }
-        },
-        {
-          "id": "4391d05480327d6d",
-          "type": "leaf",
-          "state": {
-            "type": "backlink",
-            "state": {
-              "file": "conflict-files-obsidian-git.md",
-              "collapseAll": true,
-              "extraContext": false,
-              "sortOrder": "alphabetical",
-              "showSearch": false,
-              "searchQuery": "",
-              "backlinkCollapsed": false,
-              "unlinkedCollapsed": true
-            }
-          }
-        }
-      ],
-      "currentTab": 2
-    }
-  ],
-  "direction": "horizontal",
-  "width": 300
-},
-"left-ribbon": {
-  "hiddenItems": {
-    "graph:Open graph view": false,
-    "switcher:Open quick switcher": false,
-    "daily-notes:Open today's daily note": false,
-    "templates:Insert template": false,
-    "command-palette:Open command palette": false
-  }
-},
-"active": "3d6798317362a98e",
-"lastOpenFiles": [
-  "dev/Windows.md",
-  "conflict-files-obsidian-git.md",
-  "dev/NLP.md",
-  "dev/Jupyter.md",
-  "dev/Artificial Intelligence.md",
-  "assets/nlp.png",
-  "assets/ml-models.jpg",
-  "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
-  "dev/Linux.md",
-  "dev/Arch.md",
-  "dev/FastAPI.md",
-  "dev/Dotfiles.md",
-  "dev/Tools.md",
-  "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
-  "dev/Kubernetes.md",
-  "dev/VSCode.md",
-  "dev/Windows.md",
-  "dev/Winget.md",
-  "dev/ChatGPT.md",
-  "dev/RedHat.md",
-  "dev/Python.md",
-  "dev/Kubeflow.md",
-  "dev/InfluxDB.md",
-  "dev/Cwl.md",
-  "dev/Container.md",
-  "dev/Operating System.md",
-  "dev/Cloud.md",
-  "dev/DevOps.md",
-  "dev/Machine Learning.md",
-  "assets/grpc.svg",
-  "Untitled",
-  "assets/aws-services.png",
-  "assets/images",
-  "assets/ecs.png",
-  "assets/ec2-types.jpg",
-  "assets/containers.png",
-  "assets/containers.png",
-  "assets/architectures.png",
-  "articles/papers",
-  "articles",
-  "pkm",
-  "New folder",
-  "templates",
-  "Untitled.canvas",
-  "dev"
-]
+  },
+  "active": "1614686432ab9373",
+  "lastOpenFiles": [
+    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
+    "articles/papers/CLAIMED, a visual and scalable component library for Trusted AI.md",
+    "articles/papers/A Survey of Large Language Models.md",
+    "articles/papers/A Watermark for Large Language Models.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
+    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
+    "conflict-files-obsidian-git.md",
+    "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md"
+  ]
 }
