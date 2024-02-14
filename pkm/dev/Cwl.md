@@ -14,5 +14,4 @@ Common Workflow Language ([CWL](https://www.commonwl.org/)) is an open standard 
 
 Tools and workflows described using CWL are portable across a variety of platforms that support the CWL standards. Using CWL, it is easy to scale complex data analysis and machine learning workflows from a single developer's laptop up to massively parallel cluster, cloud and high performance computing environments.
 
-- [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines#awesome-workflow-engines)
 - [SciDAP: Airflow and CWL-powered bioinformatics platform](https://airflowsummit.org/sessions/2021/scidap/)

@@ -13,7 +13,6 @@ DevOps is **the combination of cultural philosophies, practices, and tools that
 - [Developer Handbook](https://github.com/apptension/developer-handbook/blob/master/Technical%20Stack/DevOps%20Developer.md)
 - [DevOps Docs](https://roadmap.sh/devops)
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)
-
 # As a Code
 
 The *“as code”* buzzwords started with *infrastructure as code* ([[IaC]]) and the [[DevOps]] movement, when IT operations/sysadmins and developers started working together to automate IT environment modifications with reusable code and then [version control](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/why-use-version-control?ref=hackernoon.com) that code much like developers had been handling their application code changes for many years before.

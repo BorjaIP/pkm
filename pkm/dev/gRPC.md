@@ -9,7 +9,6 @@ In [gRPC](https://github.com/grpc/grpc), a client application can directly call 
 ![[grpc.svg]]
 
 
-- [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
 - [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) - The gRPC-Gateway is a plugin of the Google protocol buffers compiler [protoc](https://github.com/protocolbuffers/protobuf). It reads protobuf service definitions and generates a reverse-proxy server which translates a RESTful HTTP API into gRPC.
 - [Deploying Machine Learning Models with PyTorch, gRPC and asyncio](https://github.com/roboflow/deploy-models-with-grpc-pytorch-asyncio)
 

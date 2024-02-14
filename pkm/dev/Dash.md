@@ -11,8 +11,6 @@ tags:
 | ------------------------------------------------------------------------------ | -------------------------------------------------------- |
 | [dash-mantine-components](https://github.com/snehilvj/dash-mantine-components) | Plotly Dash components based on Mantine React Components |
 | [dash-rich](https://romanonatacha.github.io/dash_trich_components/)                                                                               |                                                          |
-
-- [Awesome Dash](https://github.com/ucg8j/awesome-dash)
 - [Dash for devices (dash_devices)](https://github.com/richlegrand/dash_devices)
 - [Interactive data analytics](https://github.com/Coding-with-Adam/Dash-by-Plotly)
 - [Open-source demos hosted on Dash Gallery](https://github.com/plotly/dash-sample-apps)

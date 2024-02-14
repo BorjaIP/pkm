@@ -14,8 +14,6 @@ tags: tools
 ## Devcontainers
 
 - [Deployment Containers](https://containers.dev/)
-- [Awesome Dev Containers](https://github.com/manekinekko/awesome-devcontainers)
-
 ## Shortcuts
 
 ctrl+shift+p    Execute         

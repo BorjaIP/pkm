@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82073f3883f92e10",
+        "id": "4624877c3b3a4900",
         "type": "tabs",
         "children": [
           {
-            "id": "1614686432ab9373",
+            "id": "420f5eb90350e713",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+                "file": "dev/Awesome.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+                "file": "dev/Awesome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,20 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
+                "file": "dev/Awesome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "076f31f66e41cfee",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -137,7 +126,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md"
+                "file": "dev/Awesome.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "2e5fa8bdef33fe6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "076f31f66e41cfee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -145,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,33 +163,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1614686432ab9373",
+  "active": "420f5eb90350e713",
   "lastOpenFiles": [
-    "templates/Paper.md",
-    "dev/LLM.md",
-    "dev/Knowledge Graph.md",
-    "dev/Generative AI.md",
-    "dev/GPT.md",
-    "assets/llm-tree.jpg",
+    "dev/Tools.md",
+    "dev/Git.md",
+    "dev/DevOps.md",
+    "dev/Awesome.md",
     "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
+    "dev/Linux.md",
+    "dev/VSCode.md",
+    "dev/Python.md",
+    "dev/Airflow.md",
+    "dev/Machine Learning.md",
+    "dev/LLM.md",
+    "dev/gRPC.md",
+    "dev/GPT.md",
+    "dev/Flask.md",
+    "dev/Docker.md",
+    "dev/Dash.md",
+    "dev/Cwl.md",
+    "dev/Arch.md",
+    "assets/awesome.png",
+    "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
     "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
     "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
-    "articles/papers/Natural Language is All a Graph Needs.md",
-    "articles/papers/Improving Knowledge Graph Embedding Using Simple Constraints.md",
-    "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
-    "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
-    "articles/papers/ART - Automatic multi-step reasoning and tool-use for large language models.md",
-    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
-    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
-    "articles/papers/CLAIMED, a visual and scalable component library for Trusted AI.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "articles/papers/A Watermark for Large Language Models.md",
-    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
-    "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
-    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
-    "conflict-files-obsidian-git.md",
+    "articles/papers/Secure Analytics - Federated Learning and Secure Aggregation.md",
+    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
     "articles/papers/Q-Bench - a benchmark for general-purpose foundation models on low-level vision.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md"
+    "assets/llm-tree.jpg"
   ]
 }

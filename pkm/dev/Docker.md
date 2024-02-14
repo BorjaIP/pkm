@@ -19,7 +19,6 @@ tags: container
 
 Deploy multiple dockers with [[Docker Compose]]
 
-- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [Simple C program to allocate memory from the command line. Useful to test programs or systems under high memory usage conditions](https://github.com/julman99/eatmemory)
 - [One Dockerfile for Production and Development](https://zach.codes/one-dockerfile-for-production-and-development/)
 - [Fast Docker Builds With Caching (Not Only) For Python](https://towardsdatascience.com/fast-docker-builds-with-caching-for-python-533ddc3b0057)

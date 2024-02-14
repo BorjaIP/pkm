@@ -32,8 +32,6 @@ Machine learning is a subfield of [[Artificial Intelligence]] that uses algorith
 At its core, the method simply uses algorithms – essentially lists of rules – adjusted and refined using past data sets to make predictions and categorizations when confronted with new data. For example, a [machine learning algorithm](##Models) may be “trained” on a data set consisting of thousands of images of flowers that are labeled with each of their different flower types so that it can then correctly identify a flower in a new photograph based on the differentiating characteristics it learned from other pictures.  
 
 To ensure such algorithms work effectively, however, they must typically be refined many times until they accumulate a comprehensive list of instructions that allow them to function correctly. Algorithms that have been trained sufficiently eventually become [machine learning models](##Models), which are essentially algorithms that have been trained to perform specific tasks like sorting images, predicting housing prices, or making chess moves. In some cases, algorithms are layered on top of each other to create complex networks that allow them to do increasingly complex, nuanced tasks like generating text and powering chatbots via a method known as “[deep learning](https://www.coursera.org/articles/what-is-deep-learning).”
-
-- [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
 ## Types
 
 ### Supervised machine learning 

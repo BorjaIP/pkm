@@ -4,7 +4,6 @@ created: Sunday 23rd April 2023 16:43
 aliases: 
 tags: tool, dev
 ---
-
 | Tool                                                              | Description                                                                                                           |
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Termshot](https://github.com/homeport/termshot)                  | Creates screenshots based on terminal command output                                                                  |
@@ -38,12 +37,9 @@ tags: tool, dev
 | [Marimo](https://github.com/marimo-team/marimo)                   | Reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.                        |
 | [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
 | [Omatsuri](https://omatsuri.app/)                                                                  | Open source browser tools for everyday use                                                                                                                      |
-
+- [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
 - [[Git]]
 - [[VSCode]]
-
-- [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines)
-
 ## Development
 
 - [Devdocs](https://devdocs.io/)
@@ -52,4 +48,3 @@ tags: tool, dev
 ## Documentation
 
 - [Docusaurus](https://docusaurus.io/)
-- [Awesome-Dendron](https://github.com/dendronhq/awesome-dendron/)
