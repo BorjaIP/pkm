@@ -17,7 +17,6 @@ Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is
 - [[Arch |Arch]]
 - [[Ubuntu |Ubuntu]]
 - [[RedHat |RedHat]]
-
 ## Users
 
 ```bash

@@ -7,3 +7,7 @@ tags:
 ---
 - https://arxiv.org/pdf/2305.14314.pdf
 - https://www.youtube.com/watch?v=pov3pLFMOPY
+
+---
+[[Artificial Intelligence|AI]]
+[[LLM]]

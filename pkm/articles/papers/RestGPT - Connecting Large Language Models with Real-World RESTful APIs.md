@@ -5,3 +5,8 @@ aliases:
 tags: 
 ---
 - https://arxiv.org/pdf/2306.06624.pdf
+
+---
+[[LLM]]
+[[GPT]]
+[[API]]
