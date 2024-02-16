@@ -5,7 +5,32 @@ aliases:
 tags: tool
 ---
 
-## Remove large files from history
+## Large files
+
+### List the total size of HEAD
+
+```bash
+git ls-tree -r --long HEAD | awk '{sum+=$1} END {print sum}'
+```
+
+### Check the repo’s size and the number of objects
+
+```bash
+git count-objects -vH
+```
+
+### Search large files from history
+
+Search large files 
+
+```bash
+git rev-list --objects --all \  
+| git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' \  
+| awk '/^blob/ {print substr($0,6)}' \  
+| sort --numeric-sort --key=2 \  
+| cut --complement --characters=13-40 \  
+| numfmt --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
+```
 
 Use [bfg](https://github.com/rtyley/bfg-repo-cleaner) for use with large files.
 

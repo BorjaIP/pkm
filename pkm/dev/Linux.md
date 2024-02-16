@@ -7,7 +7,7 @@ tags: linux, os
 | Tool                                | Description                |
 | ----------------------------------- | -------------------------- |
 | [Libreboot](https://libreboot.org/)| Freedoms boot fimeware |
-| [Lutris](https://lutris.net/)| # Play all your games on Linux|
+| [Lutris](https://lutris.net/)| Play all your games on Linux |
 |[Bling](https://github.com/BlingCorp/bling)|Utilities for AwesomeWM|
 
 Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is-open-source) operating system (OS). An [operating system](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) is the software that directly manages a system’s hardware and resources, like CPU, memory, and [storage](https://www.redhat.com/en/topics/data-storage/software-defined-storage). The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
@@ -92,6 +92,8 @@ sudo du -h --max-depth=1 | sort -hr | more
 du -s * | sort -nk 1 | awk '{print $2}' | xargs du -hs
 
 du -h -d 1 . | sort -hr
+
+du -hsx * | sort -hr | head -10
 
 df -h /home
 du -bsh /home
@@ -291,6 +293,19 @@ bash
 time timeout 4 bash -c 'cat < /dev/null > /dev/tcp/<service>/5000' && echo "OK!" || echo "Result: $? (124 -> timeout; 0 -> Ok)"
 ```
 
+### Understand /proc/net/tcp
+
+- https://www.kernel.org/doc/html/v5.8/networking/proc_net_tcp.html
+
+```bash
+# for all nets
+cat /proc/net/tcp
+# for specific net in port 8080
+cat /proc/net/tcp | grep '00000000:1F90 00000000:0000'
+## convert HEX -> Decimal --> 1F90 -> 8080
+# healtheck
+cat /proc/net/tcp | grep '00000000:1F90 00000000:0000' || exit 1
+```
 ### Socket
 
 - [socket](https://manpages.ubuntu.com/manpages/mantic/en/man1/socket.1.html)
