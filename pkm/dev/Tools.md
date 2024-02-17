@@ -36,7 +36,8 @@ tags: tool, dev
 | [Postmaster](https://github.com/Safing/portmaster)                | Open-source application firewall that does the heavy lifting for you                                                  |
 | [Marimo](https://github.com/marimo-team/marimo)                   | Reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.                        |
 | [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
-| [Omatsuri](https://omatsuri.app/)                                                                  | Open source browser tools for everyday use                                                                                                                      |
+| [Omatsuri](https://omatsuri.app/)                                 | Open source browser tools for everyday use                                                                            |
+| [Kestra](https://github.com/kestra-io/kestra)                                                                  | Event-driven, language-agnostic orchestration and scheduling platform                                                                                                                      |
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
 - [[Git]]
 - [[VSCode]]
