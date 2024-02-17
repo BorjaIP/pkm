@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4624877c3b3a4900",
+        "id": "4e0673012585e9c8",
         "type": "tabs",
         "children": [
           {
-            "id": "420f5eb90350e713",
+            "id": "7ea487b106d44170",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Awesome.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Awesome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Awesome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dev/Awesome.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,12 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "420f5eb90350e713",
+  "active": "7ea487b106d44170",
   "lastOpenFiles": [
+    "dev/Awesome.md",
     "dev/Tools.md",
     "dev/Git.md",
     "dev/DevOps.md",
-    "dev/Awesome.md",
     "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
     "dev/Linux.md",
     "dev/VSCode.md",
