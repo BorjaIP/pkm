@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/S3.md"
+                "file": "dev/AWS.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/S3.md",
+                "file": "dev/AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/S3.md",
+                "file": "dev/AWS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,10 +191,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "858dc2b08f63a8ae",
+  "active": "c438a0210cd4c8b4",
   "lastOpenFiles": [
-    "dev/AWS.md",
     "dev/S3.md",
+    "dev/AWS.md",
     "assets/storage_classes.png",
     "assets/storage_classes.png",
     "dev/Fargate.md",
