@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a99cbc6a20b8fd89",
+        "id": "111647122d26c0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "c438a0210cd4c8b4",
+            "id": "e7bbb6a4cb0ddd66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,13 +18,19 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "111647122d26c0f8",
-        "type": "tabs",
-        "children": [
+          },
+          {
+            "id": "c438a0210cd4c8b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/AIM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
             "id": "858dc2b08f63a8ae",
             "type": "leaf",
@@ -36,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa3281055ceb9ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/EC2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/AWS.md"
+                "file": "dev/EC2.md"
               }
             }
           },
@@ -153,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "dev/EC2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "dev/EC2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,15 +210,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c438a0210cd4c8b4",
+  "active": "1706a48df4c7d059",
   "lastOpenFiles": [
-    "dev/S3.md",
+    "assets/ec2-basic-arch.png",
+    "assets/spot_request.jpg",
+    "assets/spot_instances.jpg",
     "dev/AWS.md",
+    "dev/EC2.md",
+    "dev/AIM.md",
+    "dev/S3.md",
+    "dev/Operating System.md",
     "assets/storage_classes.png",
     "assets/storage_classes.png",
     "dev/Fargate.md",
     "s.md",
-    "dev/EC2.md",
     "dev/Windows.md",
     "dev/LLM.md",
     "dev/Tools.md",
@@ -219,8 +243,6 @@
     "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
     "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
     "templates/Paper.md",
-    "templates/Default.md",
-    "dev/GPT.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",
@@ -228,9 +250,7 @@
     "assets/network.jpg",
     "assets/grpc.svg",
     "Untitled",
-    "assets/aws-services.png",
     "assets/images",
-    "assets/ecs.png",
     "articles/papers",
     "articles",
     "pkm",
