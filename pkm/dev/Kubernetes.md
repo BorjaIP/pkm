@@ -27,7 +27,8 @@ tags:
 | [Kured](https://github.com/kubereboot/kured) | Kubernetes Reboot Daemon |
 | [Kuma](https://github.com/kumahq/kuma) | The multi-zone service mesh for containers, Kubernetes and VMs |
 | [Pixie](https://github.com/pixie-io/pixie) | Open-source observability tool for Kubernetes applications |
-
+| [Kueue](https://github.com/kubernetes-sigs/kueue) | Kubernetes-native Job Queueing |
+| [Flux](https://github.com/fluxcd/flux2) | Open and extensible continuous delivery solution |
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
