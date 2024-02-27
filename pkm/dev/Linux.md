@@ -4,11 +4,11 @@ created: Saturday 22nd April 2023 21:02
 aliases: 
 tags: linux, os
 ---
-| Tool                                | Description                |
-| ----------------------------------- | -------------------------- |
-| [Libreboot](https://libreboot.org/)| Freedoms boot fimeware |
-| [Lutris](https://lutris.net/)| Play all your games on Linux |
-|[Bling](https://github.com/BlingCorp/bling)|Utilities for AwesomeWM|
+| Tool                                        | Description                  |
+| ------------------------------------------- | ---------------------------- |
+| [Libreboot](https://libreboot.org/)         | Freedoms boot fimeware       |
+| [Lutris](https://lutris.net/)               | Play all your games on Linux |
+| [Bling](https://github.com/BlingCorp/bling) | Utilities for AwesomeWM      |
 
 Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is-open-source) operating system (OS). An [operating system](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) is the software that directly manages a system’s hardware and resources, like CPU, memory, and [storage](https://www.redhat.com/en/topics/data-storage/software-defined-storage). The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
 ## Distro

@@ -15,7 +15,39 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - [Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
 - [Dendron-aws-vault](https://github.com/dendronhq/dendron-aws-vault)
+- [AWS Well-Architectured Framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
+- [[AIM]]
+## Compute
+
+- [[Fargate]]
+- [[EC2]]
+- Elastic Beanstalk
+## Storage
+
+- [[S3]]
+- EBS
+- EFS
+- FSx
+- Storage Gateway
+## Databases
+
+- RDS
+- DynamoDB
+- Redshift
+## Networking
+
+- VPCs
+- Direct Connect
+- Route 53
+- API Gateway
+- AWS Global Accelerator
+
+## Availability zones and regions
+
+- A **Region** is a physical location in the world of two or more Availability Zones (AZs)
+- An **AZs** is one or more discrete data centers -each with redundant power, networking, and connectivity - housed in separate facilities
+- **Edge locations** are endpoints for AWS that are used for caching content. Typically, this consists of CloudFront, Amazon's content delivery network (CDN).
 ## Infrastructure as Code
 
 - [[Cloud Formation]]
@@ -26,12 +58,12 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - [[EKS |Elastic Kubernetes Service]]
 - [[ECR |Elastic Container Registry]]
 
-## Compute Services
-
-- [[Fargate |AWS Fargate]]
-- [[EC2]]
-
 ## CLI
+
+First you need to create and Access Key and a Secret Key. Check more information [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html).
+
+- **Secret Access Key**: only see once. If you lose, you cand delete and create a new one. COnfigure again the CLI.
+- **Dont share key pairs**: each developer have their own access key ID.
 
 - Configure aws for specific user
 
@@ -125,12 +157,6 @@ AWS Cloudtrail --> When you have many users and need track them
 ![Network](assets/network.jpg)
 
 - Calculate [Data Tansfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer) for IN/OUT and in different Regions.
-
-# AIM
-
-- [Enabling IAM principal access to your cluster](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html)
-- [Cross-Account Access in the AWS Management Console](https://aws.amazon.com/es/blogs/aws/new-cross-account-access-in-the-aws-management-console/)
-
 # RDS
 
 [Pricing comparing instances](https://instances.vantage.sh/rds/?region=eu-west-1)
