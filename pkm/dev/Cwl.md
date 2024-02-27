@@ -8,7 +8,7 @@ tags:
 | -------------------------------------------------------------------- | ------------------------------------------------------- |
 | [cwl-tool](https://github.com/common-workflow-language/cwltool)      | Common Workflow Language reference implementation       |
 | [Cwl-Airflow](https://github.com/Barski-lab/cwl-airflow/tree/master) | Python package to extend Airflow functionality with CWL |
-| [Prefect](https://github.com/PrefectHQ/prefect)|Workflow orchestration tool empowering developers|
+| [Prefect](https://github.com/PrefectHQ/prefect)                      | Workflow orchestration tool empowering developers       |
 
 Common Workflow Language ([CWL](https://www.commonwl.org/)) is an open standard for describing how to run command line tools and connect them to create workflows.
 
