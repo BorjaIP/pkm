@@ -6,9 +6,9 @@ tags: windows, os
 ---
 # Shorcuts
 
-| Command | Description | 
-| -------- | ----------- |
-| Win+v   | Clipboard history      |
+| Command | Description       |     |
+| ------- | ----------------- | --- |
+| Win+v   | Clipboard history |     |
 
 # Variables
 

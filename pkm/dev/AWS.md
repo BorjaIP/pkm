@@ -1,8 +1,11 @@
 ---
-title:  AWS
+title: AWS
 created: Monday 1st May 2023 14:59
-aliases: aws
-tags: cloud, aws
+aliases:
+  - aws
+tags:
+  - cloud
+  - aws
 ---
 Amazon Web Services is a large web of offerings from [Amazon](https://notes.nicolevanderhoeven.com/Amazon) that are centered around the creation, deployment, maintenance, and operations of web applications.
 
@@ -26,15 +29,56 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 ## Storage
 
 - [[S3]]
-- EBS
-- EFS
-- FSx
-- Storage Gateway
+- [[EBS]]
+- [[EFS]]
+- [[FSx]]
+#### Use cases
+
+- **S3**: used for serverless object storage
+- **Glacier**: used for archiving objects
+- **EFS**: NFS for Linux instances
+- **FSx for Lustre**: file storage for HPC linux file systems
+- **FSx for Win**: file storage for Windows instances
+- **EBS Volumes**: persistent storage for EC2
+- **Instance store**: Ephemeral storage for EC2
+### Volumes & Snapshots
+
+- Volumes exist on EBS, whereas snapshots exist on S3.
+- Snapshots are point-in-time photographs of volume and are incremental in nature.
+- You can share snapshots between AWS accounts as well as regions.
+- **You can resize EBS volumes on the fly and change types**
+
+### Encryption
+
+- **Data in rest** is encrypted inside the volume.
+- All the **data in flight** moving between the instance and the volume is encrypted.
+- All snapshots are **encrypted**.
+- **All volumes** created from a snapshot encrypted are encrypted.
+- **Create a snapshot** of the unencrypted root device volume.
+- **Create a copy** of the snapshot and select the **encrypt** option.
+### Instance Store
+
+- **Instance store volumes** are sometimes **ephemeral storage**.
+- Instance store volumes **cannot be stopped**.
+- EBS-backed instances can be stopped.
+- You can **reboot** both EBS and instance store volumes and **not lose data**.
+- By default root volumes will be **deleted on termination**.
+### Backup
+
+- **Consolidation**: use AWS Backup to back up AWS services, sush as EC2, EBS or EFS.
+- **Organizations**: use AWS organizations in conjunction with AWS Backup to back up your different AWS services across multiple AWS accounts.
+- **Benefits**: Backup gives you centralized control, letting you automate your backups and define lifecycle policies your data.
 ## Databases
 
-- RDS
-- DynamoDB
+- [[RDS]]
+- [[Aurora]]
+- [[DynamoDB]]
 - Redshift
+
+**OLTP**: processes data from transactions in real time (e.g., customer orders, banking's transactions). **Data processing** and large number of small transactions in real time.
+**OLAP**: processes complex queries to analyze historical data (e.g., analyzing net profit figures from the past 3 years and sales forecasting). **Data analysis** using large amount of data.
+
+- **Amazon Document DB** is such as MongoDB
 ## Networking
 
 - VPCs
@@ -162,25 +206,6 @@ AWS Cloudtrail --> When you have many users and need track them
 [Pricing comparing instances](https://instances.vantage.sh/rds/?region=eu-west-1)
 
 - **RDS** Instance Types based on prices [Prices](https://aws.amazon.com/rds/instance-types/).
-
-# EBS
-
-- General Purpose SSD (gp2) Volumes: General Purpose SSD (gp2) volumes are the most common volume type. They were designed to be a **cost-effective storage** option for a wide variety of workloads. Gp2 volumes cover system volumes, dev and test environments, and various low-latency apps. They have a decent IOPS (starting from 100 and going all the way to 16000 IOPS) and a maximum throughput of 250MiB/s. You can combine multiple EBS volume types in a RAID to achieve even higher performance on a single instance.
-
-- Provisioned IOPS SSD (io1) Volumes: Provisioned IOPS SSD (io1) EBS volume types are a special type of volume created to fulfill the needs of **very intensive I/O workloads** that require very high throughput. They are useful for cases which are latency-sensitive, like **large database** workloads (e.g., MySQL, Cassandra, MongoDB, and Oracle) and critical business applications that need the kind of sustained performance gp2 volumes can’t achieve.
-
-- Throughput Optimized HDD (st1) Volumes: Throughput Optimized HDD (st1) volumes are a type of volume that offers **low-cost storage** while fulfilling the need for sequential workloads that require more throughput than IOPS. When working with **data warehouses**, log processing, **ETL** (extract, transform, load) or AWS EMR, this is a volume type to look into. Keep in mind that this volume type **cannot be used as a boot volume**.
-
-### What is an IOPS AWS?
-
-IOPS is an acronym for **input/output operations per second** and is a popular performance metric used to distinguish one storage type from another. Similar to device makers, AWS associates IOPS values to the volume component backing the storage option. Provisioned IOPS are an AWS EBS volume type designed to deliver predictable, high-level performance for I/O intensive workloads such as database applications.
-
-IOPS usage can be simply calculated by knowing the total read and write throughputs (ops) of your disk divided by the time in seconds within that period.
-
-> **_NOTE:_** IOPS Usage = (Total Read + Write Throughputs) / Time (in Seconds)
-
-Example: IOPS = ( 15000 + 100 ) / 300 = 
-
 # ACM
 
 AWS Certificate Manager ([ACM](https://aws.amazon.com/certificate-manager/))

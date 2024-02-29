@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "111647122d26c0f8",
+        "id": "518e0b4326f00e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "e7bbb6a4cb0ddd66",
+            "id": "d8eed34c7c86bffe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,67 +20,30 @@
             }
           },
           {
-            "id": "c438a0210cd4c8b4",
+            "id": "cfe9cf5792695e7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/AIM.md",
+                "file": "dev/DynamoDB.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "858dc2b08f63a8ae",
+            "id": "fa78bf7ef24e8659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/S3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa3281055ceb9ee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40c36169e2ad99eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Cwl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7cdc00d6d387a0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/RDS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "a032080dd7284faa",
@@ -147,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Cwl.md"
+                "file": "dev/AWS.md"
               }
             }
           },
@@ -195,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Cwl.md",
+                "file": "dev/AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Cwl.md",
+                "file": "dev/AWS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,45 +197,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40c36169e2ad99eb",
+  "active": "d8eed34c7c86bffe",
   "lastOpenFiles": [
+    "dev/DynamoDB.md",
+    "dev/AWS.md",
+    "assets/acid.png",
+    "dev/Aurora.md",
+    "dev/RDS.md",
+    "dev/S3.md",
+    "dev/AIM.md",
+    "dev/EC2.md",
+    "dev/EFS.md",
+    "dev/EBS.md",
+    "dev/FSx.md",
+    "EFS.md",
     "dev/Tools.md",
+    "dev/Linux.md",
+    "dev/Windows.md",
+    "dev/Transformers.md",
+    "dev/Cwl.md",
     "dev/Jupyter.md",
     "dev/Kubernetes.md",
-    "dev/Linux.md",
     "dev/LLM.md",
-    "dev/AWS.md",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
-    "dev/EC2.md",
-    "dev/AIM.md",
-    "dev/S3.md",
     "dev/Operating System.md",
     "assets/storage_classes.png",
     "assets/storage_classes.png",
     "dev/Fargate.md",
     "s.md",
-    "dev/Windows.md",
     "dev/Airflow.md",
-    "dev/Cwl.md",
     "dev/API.md",
     "dev/Git.md",
-    "dev/Awesome.md",
     "assets/awesome.png",
-    "dev/Python.md",
-    "dev/Machine Learning.md",
-    "dev/Apache.md",
-    "dev/Nvidia.md",
-    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
-    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
-    "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
-    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
     "assets/llm-tree.jpg",
     "assets/nlp.png",
     "de",
     "assets/ml-models.jpg",
-    "assets/network.jpg",
     "Untitled",
     "assets/images",
     "articles/papers",

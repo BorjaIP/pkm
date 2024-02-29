@@ -208,6 +208,12 @@ sudo tcpdump -n dst port 443
 sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
 ```
 
+### HTTP2
+
+```bash
+curl -ks https://name:443/ -X POST -H 'grpc-accept-encoding: identity' -H 'te: trailers' --data-raw $'{"service":""}' -H 'Content-Type: application/grpc+json' -H 'Accept: application/grpc+json' --output - --resolve <name>:443:<IP> -vvv --http2-prior-knowledge --noproxy "*"
+```
+
 ### Simulate network delay
 
 ```bash
