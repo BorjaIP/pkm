@@ -99,6 +99,14 @@ EC2 Instance [Savings Plans](https://aws.amazon.com/savingsplans/compute-pricing
 
 [Spot Instances](https://www.cloudforecast.io/blog/are-aws-spot-instances-worth-it-in-production/) are another way to purchase computing power at a steep discount. AWS allows **customers to purchase unused capacity**, but if the capacity is purchased by another user, **it will be reclaimed with a two-minute warning**. These discounts change slowly based on market demand; currently they are 67 percent for Fargate compute and up to 90 percent for EC2 Instances.
 
+## Hibernation
+
+- **EC2 hibernation** preserves in-memory RAM on [[EBS]]
+- **Mush faster boot up** because you don't need to reload the OS.
+- **Instance RAM** must be less than 150GB
+- **Instance families include instances** in General Purpose, Compute, Memory and Storage.
+- **Instances can be hibernated** for mor than 60 days.
+- **Available for** On-demand and reserved instances.
 ## ECS
 ### ECS Container Optimization
 

@@ -165,6 +165,15 @@
   },
   "active": "7ea487b106d44170",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "dev/EC2.md",
+    "dev/RDS.md",
+    "dev/FSx.md",
+    "dev/EFS.md",
+    "dev/EBS.md",
+    "dev/DynamoDB.md",
+    "dev/Aurora.md",
+    "assets/acid.png",
     "dev/AWS.md",
     "dev/Python.md",
     "dev/S3.md",
@@ -173,7 +182,6 @@
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
     "assets/ec2-basic-arch.png",
-    "conflict-files-obsidian-git.md",
     "dev/Awesome.md",
     "dev/Tools.md",
     "dev/Git.md",
@@ -188,14 +196,7 @@
     "dev/GPT.md",
     "dev/Flask.md",
     "dev/Docker.md",
-    "dev/Dash.md",
-    "dev/Cwl.md",
-    "dev/Arch.md",
     "assets/awesome.png",
-    "articles/papers/When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm.md",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
-    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
-    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
     "assets/llm-tree.jpg"
   ]
 }
