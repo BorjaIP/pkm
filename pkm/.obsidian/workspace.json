@@ -196,8 +196,9 @@
   },
   "active": "d8eed34c7c86bffe",
   "lastOpenFiles": [
-    "dev/AWS.md",
+    "conflict-files-obsidian-git.md",
     "dev/ELB.md",
+    "dev/AWS.md",
     "dev/Route 53.md",
     "dev/VPC.md",
     "dev/EC2.md",
@@ -206,7 +207,6 @@
     "dev/vpn_hub.png",
     "dev/DynamoDB.md",
     "dev/Aurora.md",
-    "conflict-files-obsidian-git.md",
     "assets/acid.png",
     "dev/S3.md",
     "dev/AIM.md",

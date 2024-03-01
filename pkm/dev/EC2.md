@@ -80,7 +80,7 @@ curl http://169.254.169.254/latest/meta-data/
 A **Spot Fleets is a collection of Spot Instances** and (optionally) On-Demand Instances. The Spot Fleets attempts to launch a number of Spot instances specified in the **Spot Fleet request.** The request is fulfilled if there is available capacity and maximum price you specified in the current Spot price.
 
 Strategies:
--  `capacityOptimized`: the spot instances come from the pool with **optimal capacity** for the number of instances launching.
+- `capacityOptimized`: the spot instances come from the pool with **optimal capacity** for the number of instances launching.
 - `lowestPrice`: the spot instances come from the pool with the lower price. This is the **default strategy**.
 - `diversified`: the spot instances are **distributed** across all pools.
 - `InstancePoolsToUseCount`: the spot instances are **distributed** across the number of spot instance pools you specify. This parameter is valid only when used in **combination** with `lowestPrice`.
