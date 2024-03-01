@@ -47,7 +47,6 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - Snapshots are point-in-time photographs of volume and are incremental in nature.
 - You can share snapshots between AWS accounts as well as regions.
 - **You can resize EBS volumes on the fly and change types**
-
 ### Encryption
 
 - **Data in rest** is encrypted inside the volume.
@@ -65,7 +64,7 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - By default root volumes will be **deleted on termination**.
 ### Backup
 
-- **Consolidation**: use AWS Backup to back up AWS services, sush as EC2, EBS or EFS.
+- **Consolidation**: use AWS Backup to back up AWS services, such as EC2, EBS or EFS.
 - **Organizations**: use AWS organizations in conjunction with AWS Backup to back up your different AWS services across multiple AWS accounts.
 - **Benefits**: Backup gives you centralized control, letting you automate your backups and define lifecycle policies your data.
 ## Databases
@@ -79,14 +78,18 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 **OLAP**: processes complex queries to analyze historical data (e.g., analyzing net profit figures from the past 3 years and sales forecasting). **Data analysis** using large amount of data.
 
 - **Amazon Document DB** is such as MongoDB
+- **Amazon Keyspaces** is such as Cassandra (Serverless)
+- **Amazon Neptune** is for Graph Databases
+- **Amazon Quantum Ledger DB (QLDB)** immutable DB for cryptocurrency.
+- **Amazon Timestream** is for time-series data (Serverless)
 ## Networking
 
-- VPCs
+- [[VPC]]
 - Direct Connect
-- Route 53
+- [[Route 53]]
 - API Gateway
 - AWS Global Accelerator
-
+- ELB
 ## Availability zones and regions
 
 - A **Region** is a physical location in the world of two or more Availability Zones (AZs)
@@ -191,21 +194,6 @@ AWS IAM --> Configure access for specific resources
 
 Amazon CloudWatch --> Log applications, monitoring, alarms
 AWS Cloudtrail --> When you have many users and need track them 
-
-
-## Traffic
-
-- **Inbound** : Data _inbound_ **to Amazon** (that is, packet data that is **destined for the Amazon** cloud servers; for example, uploads and client requests) are free. 
-- **Outbound**: Data _outbound_ **from Amazon** is billed (that is, downloads from the cloud and **responses to client requests**).
-
-![Network](assets/network.jpg)
-
-- Calculate [Data Tansfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer) for IN/OUT and in different Regions.
-# RDS
-
-[Pricing comparing instances](https://instances.vantage.sh/rds/?region=eu-west-1)
-
-- **RDS** Instance Types based on prices [Prices](https://aws.amazon.com/rds/instance-types/).
 # ACM
 
 AWS Certificate Manager ([ACM](https://aws.amazon.com/certificate-manager/))

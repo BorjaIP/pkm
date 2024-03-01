@@ -10,4 +10,5 @@ tags:
 - 2 copies in each AZ with 3 minimum AZs = 6 copies of your data
 - You can share Aurora snapshots with other AWS accounts
 - 3 types of replicas available
-- Aurora has automated backups turned by default
+- Aurora has **automated backups** turned by default
+- Useful for **serverless DB scenarios**.
