@@ -11,6 +11,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing
 - **EC2** Instance Types based on compute resources [Details](https://cloudacademy.com/blog/aws-ec2-instance-types-explained/).
 - **EC2** Instance Types based on prices [Prices](https://aws.amazon.com/ec2/instance-types/?nc1=h_ls).
 - [Pricing comparing instances](https://instances.vantage.sh/?region=eu-west-1)
+- Calculate [Data Tansfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer) for IN/OUT and in different Regions.
 
 ![ec2-types](assets/ec2-types.jpg)
 
