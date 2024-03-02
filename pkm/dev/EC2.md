@@ -14,7 +14,6 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing
 
 ![ec2-types](assets/ec2-types.jpg)
 
-
 - **Roles**: roles are preferred from a **security perspective**. (your can attach a role into a EC2 and use AWS inside with that role)
 - **Avoid hard-coding your credentials**: roles provides access without the use of access and secret key.
 - Policies control role's permissions.
@@ -37,7 +36,6 @@ curl http://169.254.169.254/latest/meta-data/
 - **Reserved**: reserved capacity for 1 or 3 years. Up to 72% discount on the hourly charge. **Great if you have known, fixed requirements.**
 - **Spot**: purchase unused capacity at a discount of up to 90%. Prices fluctuate with supply and demand. **Great for applications with flexible start and end times**.
 - **Dedicated**: a physical EC2 server dedicated for your use. **Great if you have server-bound licenses to reuse or compliance requirements.**
-
 ### Placement groups
 
 - **Cluster Placement Groups**: low latency, high network throughput. Cant span in multiple AZs.
@@ -51,7 +49,6 @@ curl http://169.254.169.254/latest/meta-data/
 - **All inbound traffic is blocked by default.**
 - All outbound traffic is allowed.
 - Bootstrap scripts: a script that runs when the instance first run. (it passes user data to the EC2 like commands)
-
 ## Networking
 
 - **Elastic Network Interface (ENI)**: For **basic networking**. You can separate by environments like pro or dev and use multiple networks.
