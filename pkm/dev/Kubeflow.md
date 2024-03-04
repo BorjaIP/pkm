@@ -4,7 +4,6 @@ created: Sunday 30th April 2023 20:09
 aliases: 
 tags: k8s
 ---
-
 Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kubernetes]] introduced by Google. The different stages in a typical machine learning lifecycle are represented with different software components in Kubeflow, including **model development, model training, model serving, and automated machine learning.**
 
 | Tool                                                               | Description                                                 |

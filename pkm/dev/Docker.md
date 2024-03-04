@@ -4,6 +4,7 @@ created: Sunday 23rd April 2023 17:20
 aliases: 
 tags: container
 ---
+**Docker** is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.
 
 | Tool                                                                      | Description                                                   |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -15,7 +16,7 @@ tags: container
 | [Trivy](https://github.com/aquasecurity/trivy)                            | Find vulnerabilities, misconfigurations, secrets              |
 | [Ctop](https://github.com/bcicen/ctop)                                    | Top-like interface for container metrics                      |
 | [Edgeshark](https://github.com/siemens/edgeshark)                         | Discover and capture container network                        |
-| [Skopeo](https://github.com/containers/skopeo)                                                                          | Work with remote images registries                                                              |
+| [Skopeo](https://github.com/containers/skopeo)                            | Work with remote images registries                            |
 
 Deploy multiple dockers with [[Docker Compose]]
 

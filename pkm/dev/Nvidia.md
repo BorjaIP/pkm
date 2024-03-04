@@ -5,8 +5,8 @@ aliases:
 tags:
   - gpu
 ---
-| Tool/Framework | Description |
-| ---- | ---- |
+| Tool/Framework                                         | Description                                                                  |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Python API to define Large Language Models (LLMs) and build TensorRT engines |
 
 - [DeepFaceLab](https://github.com/iperov/DeepFaceLab)

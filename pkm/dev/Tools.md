@@ -15,7 +15,6 @@ tags: tool, dev
 | [Neumorphism](https://neumorphism.io/#e0e0e0)                     | Generate Soft-UI CSS code                                                                                             |
 | [Excalidraw](https://excalidraw.com/)                             | Virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them        |
 | [Smodin](https://smodin.io/free-english-rewriter-and-spinner)     | Rewrite or paraphrase any text                                                                                        |
-| [Dagster](https://github.com/dagster-io/dagster)                  | An orchestration platform for the development, production, and observation of data assets                             |
 | [Seeweedfs](https://github.com/seaweedfs/seaweedfs)               | Fast distributed storage system for blobs, objects, files, and data lake                                              |
 | [Cyberchef](https://cyberchef.org/)                               | Web app for encryption, encoding, compression and data analysis.                                                      |
 | [100L5](https://10015.io/)                                        | All **Online Tools** in “One Box”                                                                                     |
@@ -25,7 +24,6 @@ tags: tool, dev
 | [Git-tips](https://github.com/git-tips/tips)                      | Most commonly used git tips and tricks                                                                                |
 | [Photopea](https://www.photopea.com/)                             | Free online editor                                                                                                    |
 | [Covalent](https://github.com/AgnostiqHQ/covalent)                | Pythonic tool for running machine-learning/high performance/quantum-computing workflows in heterogenous environments. |
-| [Trino](https://github.com/trinodb/trino)                         | Trino is a fast distributed SQL query engine for big data analytics.                                                  |
 | [Swirl](https://github.com/swirlai/swirl-search)                  | Swirl queries anything with an API then uses spaCy & NLTK to re-rank the unified results without copying any data!    |
 | [OpenLineage](https://github.com/OpenLineage/OpenLineage)         | An Open Standard for lineage metadata collection                                                                      |
 | [DevPod](https://github.com/loft-sh/devpod)                       | Works with any IDE and lets you use any cloud, kubernetes or just localhost docker                                    |

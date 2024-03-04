@@ -4,19 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "518e0b4326f00e2d",
+        "id": "4395e8b46f3262b2",
+        "type": "split",
+        "dimension": 69.45628997867804,
+        "children": [
+          {
+            "id": "518e0b4326f00e2d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fe41d38b054c25b8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Bussiness Inteligence.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2592efaf1285abcb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Data Orchestration.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "79a4d50726a3b88c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Python.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b621ec3f833b57da",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Elasticsearch.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e163b2ad4d5cb179",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Tools.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "e6bad6ea826fc320",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f13f39cf3f5161d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dev/Workflow.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "a575ccdc79c23d3e",
         "type": "tabs",
+        "dimension": 30.543710021321964,
         "children": [
           {
             "id": "d8eed34c7c86bffe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/ELB.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "dev/Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/AWS.md"
+                "file": "dev/Workflow.md"
               }
             }
           }
@@ -155,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/Workflow.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,42 +284,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8eed34c7c86bffe",
+  "active": "f13f39cf3f5161d8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "dev/ELB.md",
-    "dev/AWS.md",
-    "dev/Route 53.md",
-    "dev/VPC.md",
-    "dev/EC2.md",
-    "dev/RDS.md",
-    "dev/vpc.png",
-    "dev/vpn_hub.png",
-    "dev/DynamoDB.md",
-    "dev/Aurora.md",
-    "assets/acid.png",
-    "dev/S3.md",
-    "dev/AIM.md",
-    "dev/EFS.md",
-    "dev/EBS.md",
-    "dev/FSx.md",
-    "EFS.md",
+    "dev/Data Orchestration.md",
+    "dev/Workflow.md",
     "dev/Tools.md",
-    "dev/Linux.md",
-    "dev/Windows.md",
-    "dev/Transformers.md",
+    "dev/Airflow.md",
+    "dev/Python.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/AWS.md",
+    "templates/Default.md",
+    "dev/Data Application.md",
+    "dev/Elasticsearch.md",
+    "dev/Apache.md",
+    "dev/Dash.md",
+    "Data App.md",
+    "dev/Big Data.md",
+    "dev/Machine Learning.md",
     "dev/Cwl.md",
-    "dev/Jupyter.md",
-    "dev/Kubernetes.md",
-    "dev/LLM.md",
+    "dev/Awesome.md",
+    "dev/Docker.md",
+    "dev/Winget.md",
+    "dev/Windows.md",
+    "dev/VSCode.md",
+    "dev/VPC.md",
+    "assets/vpc.png",
+    "dev/Vault.md",
+    "dev/Ubuntu.md",
+    "dev/Transformers.md",
+    "dev/Tmux.md",
+    "assets/vpn_hub.png",
+    "assets/acid.png",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
-    "dev/Operating System.md",
     "assets/storage_classes.png",
     "assets/storage_classes.png",
-    "dev/Fargate.md",
-    "s.md",
     "assets/awesome.png",
     "assets/llm-tree.jpg",
     "de",

@@ -6,12 +6,12 @@ tags:
   - gpt
   - llm
 ---
-| Tool | Description |
-| ---- | ---- |
-| [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) | Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training |
-| [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model |
-| [PentestGPT](https://github.com/GreyDGL/PentestGPT) | A GPT-empowered penetration testing tool |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on |
+| Tool                                                       | Description                                                                                              |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [Lit-GPT](https://github.com/Lightning-AI/lit-gpt)         | Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training |
+| [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT)           | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model                                 |
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT)        | A GPT-empowered penetration testing tool                                                                 |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on                              |
 
 **GPT** is a family of AI models built by OpenAI. It stands for Generative Pre-trained Transformer, which is basically a description of what the AI models do and how they work (I'll dig into that more in a minute).
 
