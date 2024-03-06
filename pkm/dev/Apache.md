@@ -13,6 +13,7 @@ tags:
 - [[Airflow]]
 - [Arrow](https://github.com/apache/arrow) - A cross-language development platform for in-memory analytics
 - [Avro](https://github.com/apache/avro) - Apache Avro™ is the leading serialization format for record data, and first choice for streaming data pipelines.
+- [Beam](https://github.com/apache/beam) - Apache Beam is a unified programming model for Batch and Streaming data processing.
 - [Skywalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Kubernetes) architectures.
 - [Apisix](https://apisix.apache.org/) - Apache APISIX provides rich traffic management features like Load Balancing, Dynamic Upstream, Canary Release, Circuit Breaking, Authentication
 - [Doris](https://github.com/apache/doris) - Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use.

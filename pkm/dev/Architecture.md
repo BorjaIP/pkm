@@ -32,7 +32,7 @@ tags:
 
 ## Relational Databases
 
-- [[PostgresSQL]]
+- [[PostgreSQL]]
 - Oracle
 
 ## NOSQL Databases

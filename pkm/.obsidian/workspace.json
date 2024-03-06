@@ -9,24 +9,12 @@
         "dimension": 71.16204690831557,
         "children": [
           {
-            "id": "e163b2ad4d5cb179",
+            "id": "dbaa5e7f60be8825",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Observability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36b13d1978a7f538",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Prometheus.md",
+                "file": "dev/GCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,62 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Prometheus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "589a8e62e8f94c1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46b517fb04c5eb4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b2bd997b00e387f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Elasticsearch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71ffbb27a828e503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Datastream.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "54fffde3e29a1674",
@@ -137,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opentele",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Prometheus.md",
+                "file": "dev/Datastream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Prometheus.md",
+                "file": "dev/Datastream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Prometheus.md"
+                "file": "dev/Datastream.md"
               }
             }
           }
@@ -245,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Prometheus.md",
+                "file": "dev/Datastream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Prometheus.md",
+                "file": "dev/Datastream.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,9 +226,19 @@
   },
   "active": "6ffd162c9125f6ad",
   "lastOpenFiles": [
+    "dev/GCP.md",
+    "dev/Datastream.md",
+    "dev/Prometheus.md",
+    "dev/AlloyDB.md",
+    "dev/datastream.png",
+    "dev/Linux.md",
+    "dev/Apache.md",
+    "dev/PostgreSQL.md",
+    "dev/AWS.md",
+    "dev/GCS.md",
+    "dev/Windows.md",
     "dev/gRPC.md",
     "dev/Python.md",
-    "dev/Prometheus.md",
     "dev/Observability.md",
     "dev/Kubernetes.md",
     "dev/Tools.md",
@@ -305,22 +255,12 @@
     "dev/Artificial Intelligence.md",
     "dev/Arch.md",
     "dev/API.md",
-    "dev/Apache.md",
-    "dev/Airflow.md",
-    "dev/AIM.md",
-    "dev/Bussiness Inteligence.md",
-    "dev/Cwl.md",
-    "dev/Awesome.md",
-    "dev/AWS.md",
-    "templates/Default.md",
-    "dev/Data Application.md",
     "assets/vpc.png",
     "assets/vpn_hub.png",
     "assets/acid.png",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
-    "assets/storage_classes.png",
     "assets/storage_classes.png",
     "de",
     "Untitled",
