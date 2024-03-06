@@ -4,105 +4,104 @@
     "type": "split",
     "children": [
       {
-        "id": "4395e8b46f3262b2",
-        "type": "split",
-        "dimension": 69.45628997867804,
+        "id": "518e0b4326f00e2d",
+        "type": "tabs",
+        "dimension": 71.16204690831557,
         "children": [
           {
-            "id": "518e0b4326f00e2d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fe41d38b054c25b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Bussiness Inteligence.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2592efaf1285abcb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Data Orchestration.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "79a4d50726a3b88c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Python.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b621ec3f833b57da",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Elasticsearch.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e163b2ad4d5cb179",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Tools.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "e163b2ad4d5cb179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Observability.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "e6bad6ea826fc320",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f13f39cf3f5161d8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "dev/Workflow.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "36b13d1978a7f538",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Prometheus.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "6ffd162c9125f6ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Prometheus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "589a8e62e8f94c1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46b517fb04c5eb4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b2bd997b00e387f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Elasticsearch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71ffbb27a828e503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       },
       {
-        "id": "a575ccdc79c23d3e",
+        "id": "54fffde3e29a1674",
         "type": "tabs",
-        "dimension": 30.543710021321964,
+        "dimension": 28.837953091684433,
         "children": [
           {
-            "id": "d8eed34c7c86bffe",
+            "id": "b621ec3f833b57da",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -138,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "opentele",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +154,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Workflow.md",
+                "file": "dev/Prometheus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Workflow.md",
+                "file": "dev/Prometheus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Workflow.md"
+                "file": "dev/Prometheus.md"
               }
             }
           }
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Workflow.md",
+                "file": "dev/Prometheus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Workflow.md",
+                "file": "dev/Prometheus.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,35 +284,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f13f39cf3f5161d8",
+  "active": "6ffd162c9125f6ad",
   "lastOpenFiles": [
-    "dev/Data Orchestration.md",
-    "dev/Workflow.md",
-    "dev/Tools.md",
-    "dev/Airflow.md",
+    "dev/gRPC.md",
     "dev/Python.md",
+    "dev/Prometheus.md",
+    "dev/Observability.md",
+    "dev/Kubernetes.md",
+    "dev/Tools.md",
+    "dev/Elasticsearch.md",
+    "dev/Docker.md",
+    "dev/Pasted image 20240305105809.png",
+    "dev/Security.md",
+    "dev/Architecture.md",
+    "dev/Data Platform.md",
+    "dev/OpenSSL.md",
+    "assets/ssl.png",
+    "dev/Workflow Orchestration.md",
+    "dev/Data Orchestration.md",
+    "dev/Artificial Intelligence.md",
+    "dev/Arch.md",
+    "dev/API.md",
+    "dev/Apache.md",
+    "dev/Airflow.md",
+    "dev/AIM.md",
     "dev/Bussiness Inteligence.md",
+    "dev/Cwl.md",
+    "dev/Awesome.md",
     "dev/AWS.md",
     "templates/Default.md",
     "dev/Data Application.md",
-    "dev/Elasticsearch.md",
-    "dev/Apache.md",
-    "dev/Dash.md",
-    "Data App.md",
-    "dev/Big Data.md",
-    "dev/Machine Learning.md",
-    "dev/Cwl.md",
-    "dev/Awesome.md",
-    "dev/Docker.md",
-    "dev/Winget.md",
-    "dev/Windows.md",
-    "dev/VSCode.md",
-    "dev/VPC.md",
     "assets/vpc.png",
-    "dev/Vault.md",
-    "dev/Ubuntu.md",
-    "dev/Transformers.md",
-    "dev/Tmux.md",
     "assets/vpn_hub.png",
     "assets/acid.png",
     "assets/ec2-basic-arch.png",
@@ -320,8 +322,6 @@
     "assets/spot_instances.jpg",
     "assets/storage_classes.png",
     "assets/storage_classes.png",
-    "assets/awesome.png",
-    "assets/llm-tree.jpg",
     "de",
     "Untitled",
     "assets/images",

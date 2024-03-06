@@ -1,14 +1,19 @@
 ---
-title:  OpenSSL
+title: OpenSSL
 created: Monday 1st May 2023 17:01
-aliases: 
-tags: ssl
+aliases:
+  - ssl
+tags:
+  - ssl
 ---
+**OpenSSL** is a software library for applications that provide secure communications over computer networks against eavesdropping, and identify the party at the other end. OpenSSL is a versatile command line tool that can be used for a large variety of tasks related to Public Key Infrastructure (PKI) and HTTPS (HTTP over TLS).
+
 | Tool                                                          | Description                                             |
 | ------------------------------------------------------------- | ------------------------------------------------------- |
 | [EJBCA](https://www.ejbca.org/)                               | Open-source public key infrastructure (PKI)             |
 | [KeyStore Explorer](https://keystore-explorer.org/index.html) | Replacement for the Java command-line utilities keytool |
 
+![[ssl.png]]
 ## Self sign certificate
 
 - Create new self-signed certificate.

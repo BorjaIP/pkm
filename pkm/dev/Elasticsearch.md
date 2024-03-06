@@ -8,10 +8,6 @@ tags: db
 - [Create a dashboard to visualize application logs in Kibana](https://dev.to/moesmp/create-a-dashboard-to-visualize-application-logs-in-kibana-2h5h)
 - [elastic-scripts](https://github.com/BktechBrazil/elastic-scripts/tree/master/es)
 
-## Alternatives
-
-Elasticsearch modify her License here is an alternative, [OpenSearch](https://github.com/opensearch-project/OpenSearch).
-
 ## Options
 
 Edit `/usr/share/elasticsearch/config/elasticsearch.yml`.

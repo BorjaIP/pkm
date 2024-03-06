@@ -8,4 +8,12 @@ tags: k8s
 
 [[Kubernetes]], [Prometheus](https://prometheus.io/), and [Grafana](https://grafana.com/oss/grafana?pg=blog&plcmt=body-txt) are a trio of technologies that have transformed cloud native development. However, despite how powerful these three technologies are, developers still face gaps in the process of implementing a mature Kubernetes environment.
 
+| Tool                                                         | Description                                                           |
+| ------------------------------------------------------------ | --------------------------------------------------------------------- |
+| [Thanos](https://github.com/thanos-io/thanos)                | Highly available Prometheus setup with long term storage capabilities |
+| [Node exporter](https://github.com/prometheus/node_exporter) | Exporter for machine metrics (Prometheus)                             |
+| [DCGM exporter](https://github.com/NVIDIA/dcgm-exporter)     | NVIDIA GPU metrics exporter for Prometheus leveraging DCGM            |
+
+# Articles/Talks
+
 - [Open source, highly available Prometheus setup with long term storage capabilities](https://thanos.io/)

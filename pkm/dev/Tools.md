@@ -4,12 +4,12 @@ created: Sunday 23rd April 2023 16:43
 aliases: 
 tags: tool, dev
 ---
+
 | Tool                                                              | Description                                                                                                           |
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Termshot](https://github.com/homeport/termshot)                  | Creates screenshots based on terminal command output                                                                  |
 | [Bazel](https://bazel.build/)                                     | A fast, scalable, multi-language and extensible build system                                                          |
 | [Spinnaker](https://spinnaker.io/)                                | Multi-cloud continuous delivery platform for releasing software                                                       |
-| [Opentelemetry](https://opentelemetry.io/)                        | Use it to instrument, generate, collect, and export telemetry data                                                    |
 | [FreeIPA](https://www.freeipa.org/page/Main_Page)                 | Integrated security information management solution                                                                   |
 | [Pencil](https://github.com/evolus/pencil)                        | Making diagrams and GUI prototyping that everyone can use                                                             |
 | [Neumorphism](https://neumorphism.io/#e0e0e0)                     | Generate Soft-UI CSS code                                                                                             |
@@ -35,7 +35,7 @@ tags: tool, dev
 | [Marimo](https://github.com/marimo-team/marimo)                   | Reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.                        |
 | [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
 | [Omatsuri](https://omatsuri.app/)                                 | Open source browser tools for everyday use                                                                            |
-| [Kestra](https://github.com/kestra-io/kestra)                     | Event-driven, language-agnostic orchestration and scheduling platform                                                 |
+
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
 - [[Git]]
 - [[VSCode]]

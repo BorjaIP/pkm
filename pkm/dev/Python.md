@@ -31,6 +31,9 @@ tags: lenguages
 | [Scalene](https://github.com/plasma-umass/scalene)              | High-performance, high-precision CPU, GPU, and memory profile                                                 |
 | [Memray](https://github.com/bloomberg/memray)                   | Memory profiler                                                                                               |
 | [Jellyfish](https://pypi.org/project/jellyfish/)                | Library for approximate and phonetic matching of strings                                                      |
+| [Dask](https://github.com/dask/dask)                            | Parallel computing with task scheduling                                                                       |
+# Articles/Talks
+
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization!](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 - [No really, Python's pathlib is great](https://rednafi.github.io/python/pathlib/)
@@ -49,7 +52,6 @@ tags: lenguages
 
 - [Data-centric declarative deep learning framework](https://github.com/ludwig-ai/ludwig) --> Structure, classes and decorators
 - [Petastorm](https://github.com/uber/petastorm)--> Parquet, ML and more
-- [DataHub: The Metadata Platform for the Modern Data Stack](https://github.com/acryldata/datahub) ---> Connectors to different DBs
 - [Python DDD Example and Techniques](https://github.com/iktakahiro/dddpy)
 - [Python Wheel to Debian package converter](https://github.com/upciti/wheel2deb)
 
