@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "518e0b4326f00e2d",
+        "id": "185a0603b0145de7",
         "type": "tabs",
         "children": [
           {
-            "id": "dbaa5e7f60be8825",
+            "id": "d6ea1db3df3766a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ffd162c9125f6ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Workflow Orchestration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c566a47c03964b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1bb867f5ebf841f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+                "file": "dev/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md"
+                "file": "dev/Docker.md"
               }
             }
           }
@@ -191,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+                "file": "dev/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,10 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbaa5e7f60be8825",
+  "active": "d6ea1db3df3766a8",
   "lastOpenFiles": [
-    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
+    "dev/Linux.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
     "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
     "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
     "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
     "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
@@ -248,7 +214,6 @@
     "dev/Prometheus.md",
     "dev/AlloyDB.md",
     "dev/datastream.png",
-    "dev/Linux.md",
     "dev/Apache.md",
     "dev/PostgreSQL.md",
     "dev/AWS.md",
@@ -257,7 +222,6 @@
     "dev/gRPC.md",
     "dev/Observability.md",
     "dev/Tools.md",
-    "dev/Elasticsearch.md",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
     "assets/vpc.png",
