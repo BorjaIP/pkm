@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/GCP.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -191,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,18 +232,24 @@
   },
   "active": "b37e6865f8cd1df4",
   "lastOpenFiles": [
+    "dev/Tools.md",
+    "dev/Python.md",
+    "dev/Data Orchestration.md",
+    "dev/Workflow Orchestration.md",
+    "dev/Container.md",
+    "dev/Docker.md",
+    "dev/Dotfiles.md",
+    "dev/Kubernetes.md",
+    "dev/GCP.md",
     "dev/Datastream.md",
     "dev/BigQuery.md",
     "assets/datastream.png",
     "dev/AWS.md",
     "conflict-files-obsidian-git.md",
-    "dev/Workflow Orchestration.md",
     "dev/Security.md",
     "dev/PostgreSQL.md",
     "dev/Observability.md",
-    "dev/GCP.md",
     "dev/Data Platform.md",
-    "dev/Data Orchestration.md",
     "dev/Data Application.md",
     "dev/Bussiness Inteligence.md",
     "dev/Big Data.md",
@@ -257,13 +264,7 @@
     "dev/vpc.png",
     "dev/VPC.md",
     "dev/Route 53.md",
-    "dev/ELB.md",
-    "dev/DynamoDB.md",
     "assets/acid.png",
-    "dev/Aurora.md",
-    "dev/RDS.md",
-    "dev/S3.md",
-    "dev/AIM.md",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",

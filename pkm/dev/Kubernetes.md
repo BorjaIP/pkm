@@ -32,10 +32,12 @@ tags:
 | [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution                                    |
 | [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)                          | Operator for running synthetic checks as pods                                       |
 | [Kubearmor](https://github.com/kubearmor/KubeArmor)                                   | Cloud-native runtime security enforcement system that restricts the behavior        |
+| [Popeye](https://github.com/derailed/popeye)                                                                                      | Kubernetes cluster resource sanitizer                                                                                    |
 ## Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
+- [Kubernetes patterns ebook](https://blog.kubeify.com/ebooks/kubernetes-patterns-ebook.pdf)
 - [Starting containers in order on Kubernetes with InitContainers](https://medium.com/@xcoulon/initializing-containers-in-order-with-kubernetes-18173b9cc222)
 - [Securing kubernetes clusters with Istio and Keycloak](https://charnnarong.github.io/notes/kubernetes-istio-keycloak.html)
 - [Hacking an AWS hosted Kubernetes backed product, and failing](https://blog.appsecco.com/hacking-an-aws-hosted-kubernetes-backed-product-and-failing-904cbe0b7c0d)
