@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfe9cf5792695e7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/DynamoDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa78bf7ef24e8659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/RDS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -86,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/ELB.md",
+                "file": "dev/AWS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,20 +218,20 @@
   },
   "active": "d8eed34c7c86bffe",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "dev/ELB.md",
-    "dev/AWS.md",
-    "dev/Route 53.md",
-    "dev/VPC.md",
-    "dev/EC2.md",
-    "dev/RDS.md",
-    "dev/vpc.png",
     "dev/vpn_hub.png",
+    "dev/vpc.png",
+    "dev/VPC.md",
+    "dev/Route 53.md",
+    "dev/ELB.md",
+    "conflict-files-obsidian-git.md",
+    "dev/AWS.md",
     "dev/DynamoDB.md",
-    "dev/Aurora.md",
     "assets/acid.png",
+    "dev/Aurora.md",
+    "dev/RDS.md",
     "dev/S3.md",
     "dev/AIM.md",
+    "dev/EC2.md",
     "dev/EFS.md",
     "dev/EBS.md",
     "dev/FSx.md",
@@ -229,9 +251,9 @@
     "assets/storage_classes.png",
     "assets/storage_classes.png",
     "dev/Fargate.md",
-    "s.md",
     "assets/awesome.png",
     "assets/llm-tree.jpg",
+    "assets/nlp.png",
     "de",
     "Untitled",
     "assets/images",
