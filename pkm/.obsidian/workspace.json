@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8bd4f6d0b95ae1a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cfe9cf5792695e7b",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/AWS.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -178,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,44 +229,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8eed34c7c86bffe",
+  "active": "8bd4f6d0b95ae1a6",
   "lastOpenFiles": [
+    "dev/AWS.md",
+    "conflict-files-obsidian-git.md",
+    "dev/datastream.png",
+    "dev/Workflow Orchestration.md",
+    "dev/Security.md",
+    "dev/PostgreSQL.md",
+    "dev/Observability.md",
+    "dev/GCP.md",
+    "dev/Datastream.md",
+    "dev/Data Platform.md",
+    "dev/Data Orchestration.md",
+    "dev/Data Application.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/Big Data.md",
+    "dev/AlloyDB.md",
+    "assets/vpn_hub.png",
+    "assets/vpc.png",
+    "assets/ssl.png",
+    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
+    "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
     "dev/vpn_hub.png",
     "dev/vpc.png",
     "dev/VPC.md",
     "dev/Route 53.md",
     "dev/ELB.md",
-    "conflict-files-obsidian-git.md",
-    "dev/AWS.md",
     "dev/DynamoDB.md",
     "assets/acid.png",
     "dev/Aurora.md",
     "dev/RDS.md",
     "dev/S3.md",
     "dev/AIM.md",
-    "dev/EC2.md",
-    "dev/EFS.md",
-    "dev/EBS.md",
-    "dev/FSx.md",
-    "EFS.md",
-    "dev/Tools.md",
-    "dev/Linux.md",
-    "dev/Windows.md",
-    "dev/Transformers.md",
-    "dev/Cwl.md",
-    "dev/Jupyter.md",
-    "dev/Kubernetes.md",
-    "dev/LLM.md",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
-    "dev/Operating System.md",
-    "assets/storage_classes.png",
-    "assets/storage_classes.png",
-    "dev/Fargate.md",
-    "assets/awesome.png",
-    "assets/llm-tree.jpg",
-    "assets/nlp.png",
     "de",
     "Untitled",
     "assets/images",

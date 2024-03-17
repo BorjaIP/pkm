@@ -89,7 +89,7 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - [[Route 53]]
 - API Gateway
 - AWS Global Accelerator
-- ELB
+- [[ELB]]
 ## Availability zones and regions
 
 - A **Region** is a physical location in the world of two or more Availability Zones (AZs)
@@ -203,3 +203,10 @@ AWS Certificate Manager ([ACM](https://aws.amazon.com/certificate-manager/))
 # EKS
 
 aws eks --region eu-west-1 update-kubeconfig --profile name
+
+---
+
+## Certifications
+
+- [AWS Solutions Associate Associate](https://github.com/truongnmt/aws-solution-architect-associate-note?tab=readme-ov-file)
+- [AWS Certified Solutions Architect Associate Practice Questions](https://github.com/ahhda/aws-questions)

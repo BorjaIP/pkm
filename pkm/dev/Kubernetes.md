@@ -6,6 +6,7 @@ aliases:
 tags:
   - k8s
 ---
+
 | Tool                                                                                  | Description                                                                         |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)                            |
@@ -29,6 +30,9 @@ tags:
 | [Pixie](https://github.com/pixie-io/pixie)                                            | Open-source observability tool for Kubernetes applications                          |
 | [Kueue](https://github.com/kubernetes-sigs/kueue)                                     | Kubernetes-native Job Queueing                                                      |
 | [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution                                    |
+| [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)                          | Operator for running synthetic checks as pods                                       |
+| [Kubearmor](https://github.com/kubearmor/KubeArmor)                                   | Cloud-native runtime security enforcement system that restricts the behavior        |
+## Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
 - [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)

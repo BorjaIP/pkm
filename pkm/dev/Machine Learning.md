@@ -9,29 +9,29 @@ tags:
   - dl
   - ai
 ---
-| Tool/Framework | Description |
-| ---- | ---- |
-| [AIStore](https://github.com/NVIDIA/aistore) | Scalable storage for AI applications |
-| [WebDataset](https://github.com/webdataset/webdataset) | A high-performance Python-based I/O system for large |
-| [Deepforge](https://github.com/deepforge-dev/deepforge) | A modern development environment for deep learning |
-| [Havorod](https://github.com/horovod/horovod) | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet |
-| [Lime](https://github.com/marcotcr/lime) | Explaining the predictions of any machine learning classifier |
-| [MLRun](https://github.com/mlrun/mlrun) | Machine Learning automation and tracking |
-| [Elyra](https://github.com/elyra-ai/elyra) | Elyra extends JupyterLab with an AI centric approach |
-| [Autogoal](https://github.com/autogoal/autogoal) | A Python framework for program synthesis with a focus on Automated Machine Learning |
-| [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Deep learning optimization library |
-| [TorchScale](https://github.com/microsoft/torchscale) | Transformers at any scale |
-| [Tiktoken](https://github.com/openai/tiktoken) | Fast BPE tokeniser for use with OpenAI's models |
-| [Ray](https://github.com/ray-project/ray) | Ray is a unified framework for scaling AI and Python applications |
-| [Aim](https://github.com/aimhubio/aim) | An easy-to-use & supercharged open-source experiment tracker |
-| [Meltano](https://github.com/meltano/meltano) | The declarative code-first data integration engine that powers your wildest data and ML-powered product ideas |
-| [Hydra](https://github.com/facebookresearch/hydra) | Framework for elegantly configuring complex applications |
-
-Machine learning is a subfield of [[Artificial Intelligence]] that uses algorithms trained on data sets to create models that enable machines to perform tasks that would otherwise only be possible for humans, such as categorizing images, analyzing data, or predicting price fluctuations.
+**Machine learning** is a subfield of [[Artificial Intelligence]] that uses algorithms trained on data sets to create models that enable machines to perform tasks that would otherwise only be possible for humans, such as categorizing images, analyzing data, or predicting price fluctuations.
 
 At its core, the method simply uses algorithms – essentially lists of rules – adjusted and refined using past data sets to make predictions and categorizations when confronted with new data. For example, a [machine learning algorithm](##Models) may be “trained” on a data set consisting of thousands of images of flowers that are labeled with each of their different flower types so that it can then correctly identify a flower in a new photograph based on the differentiating characteristics it learned from other pictures.  
 
 To ensure such algorithms work effectively, however, they must typically be refined many times until they accumulate a comprehensive list of instructions that allow them to function correctly. Algorithms that have been trained sufficiently eventually become [machine learning models](##Models), which are essentially algorithms that have been trained to perform specific tasks like sorting images, predicting housing prices, or making chess moves. In some cases, algorithms are layered on top of each other to create complex networks that allow them to do increasingly complex, nuanced tasks like generating text and powering chatbots via a method known as “[deep learning](https://www.coursera.org/articles/what-is-deep-learning).”
+
+| Tool/Framework                                          | Description                                                                                                   |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [AIStore](https://github.com/NVIDIA/aistore)            | Scalable storage for AI applications                                                                          |
+| [WebDataset](https://github.com/webdataset/webdataset)  | A high-performance Python-based I/O system for large                                                          |
+| [Deepforge](https://github.com/deepforge-dev/deepforge) | A modern development environment for deep learning                                                            |
+| [Havorod](https://github.com/horovod/horovod)           | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet                               |
+| [Lime](https://github.com/marcotcr/lime)                | Explaining the predictions of any machine learning classifier                                                 |
+| [MLRun](https://github.com/mlrun/mlrun)                 | Machine Learning automation and tracking                                                                      |
+| [Elyra](https://github.com/elyra-ai/elyra)              | Elyra extends JupyterLab with an AI centric approach                                                          |
+| [Autogoal](https://github.com/autogoal/autogoal)        | A Python framework for program synthesis with a focus on Automated Machine Learning                           |
+| [DeepSpeed](https://github.com/microsoft/DeepSpeed)     | Deep learning optimization library                                                                            |
+| [TorchScale](https://github.com/microsoft/torchscale)   | Transformers at any scale                                                                                     |
+| [Tiktoken](https://github.com/openai/tiktoken)          | Fast BPE tokeniser for use with OpenAI's models                                                               |
+| [Ray](https://github.com/ray-project/ray)               | Ray is a unified framework for scaling AI and Python applications                                             |
+| [Aim](https://github.com/aimhubio/aim)                  | An easy-to-use & supercharged open-source experiment tracker                                                  |
+| [Meltano](https://github.com/meltano/meltano)           | The declarative code-first data integration engine that powers your wildest data and ML-powered product ideas |
+| [Hydra](https://github.com/facebookresearch/hydra)      | Framework for elegantly configuring complex applications                                                      |
 ## Types
 
 ### Supervised machine learning 

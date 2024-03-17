@@ -1,8 +1,10 @@
 ---
-title:  Architecture
+title: Architecture
 created: Saturday 22nd April 2023 21:55
-aliases: 
-tags: arq
+aliases:
+  - arq
+tags:
+  - arq
 ---
 
 - [The C4 model for visualising software architecture](https://c4model.com/)
@@ -18,6 +20,9 @@ tags: arq
 - [Cloud Architecture Patterns](https://distributedleo.medium.com/cloud-architecture-patterns-3a932a95691b)
 - [De Lambda a Kappa: evolución de las arquitecturas Big Data](https://www.paradigmadigital.com/techbiz/de-lambda-a-kappa-evolucion-de-las-arquitecturas-big-data/)
 
+# Security
+
+- [[Security]]
 # Databases
 
 - [What Is Database Architecture?](https://medium.com/oceanize-geeks/concepts-of-database-architecture-dfdc558a93e4)
@@ -27,7 +32,7 @@ tags: arq
 
 ## Relational Databases
 
-- [[PostgresSQL]]
+- [[PostgreSQL]]
 - Oracle
 
 ## NOSQL Databases

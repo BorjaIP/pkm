@@ -4,8 +4,7 @@ created: Monday 1st May 2023 14:43
 aliases: 
 tags: 
 ---
-
-[Dash](https://plotly.com/dash/) is a Data Apps & Dashboards for [[Python]]. No JavaScript Required.
+[Dash](https://plotly.com/dash/) is a [[Data Application|Data App]] & Dashboards for [[Python]]. No JavaScript Required.
 
 | Tool                                                                           | Description                                              |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------- |

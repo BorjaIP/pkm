@@ -7,6 +7,8 @@ tags:
   - ml
   - ai
 ---
+A **large language model** is a type of [[Artificial Intelligence]] algorithm that applies neural network techniques with lots of parameters to process and understand human languages or text using self-supervised learning techniques. Tasks like text generation, machine translation, summary writing, image generation from texts, machine coding, chat-bots, or Conversational AI are applications of the Large Language Model. Examples of such LLM models are Chat GPT by open AI, BERT (Bidirectional Encoder Representations from Transformers) by Google, etc.
+
 | Tool                                                                                  | Description                                                                          |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [Langchain](https://github.com/hwchase17/langchain)                                   | Building applications with LLMs through composability                                |
@@ -37,10 +39,7 @@ tags:
 | [Jina](https://github.com/jina-ai/jina)                                               | Build multimodal AI applications with cloud-native stack                             |
 | [Pezzo](https://github.com/pezzolabs/pezzo)                                           | Open-source, developer-first LLMOps platform designed                                |
 | [VDP](https://github.com/instill-ai/vdp)                                              | Integrate AI to process unstructured data in the modern data stack                   |
-| [Leon](https://github.com/leon-ai/leon)                                                                                      | Open-source personal assistant                                                                                     |
-
-A **large language model** is a type of [[Artificial Intelligence]] algorithm that applies neural network techniques with lots of parameters to process and understand human languages or text using self-supervised learning techniques. Tasks like text generation, machine translation, summary writing, image generation from texts, machine coding, chat-bots, or Conversational AI are applications of the Large Language Model. Examples of such LLM models are Chat GPT by open AI, BERT (Bidirectional Encoder Representations from Transformers) by Google, etc.
-
+| [Leon](https://github.com/leon-ai/leon)                                               | Open-source personal assistant                                                       |
 
 ![[llm-tree.jpg]]
 
