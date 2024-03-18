@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/GCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e78994faf01b0a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61859b0afb9e929c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Docker.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -155,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,9 +218,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6ea1db3df3766a8",
+  "active": "61859b0afb9e929c",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
+    "dev/GCP.md",
     "dev/Linux.md",
+    "dev/Windows.md",
+    "dev/Docker.md",
     "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
     "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
     "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
@@ -204,8 +233,6 @@
     "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "dev/GCP.md",
-    "dev/Kubernetes.md",
     "dev/Python.md",
     "dev/Workflow Orchestration.md",
     "dev/Data Orchestration.md",
@@ -218,10 +245,8 @@
     "dev/PostgreSQL.md",
     "dev/AWS.md",
     "dev/GCS.md",
-    "dev/Windows.md",
     "dev/gRPC.md",
     "dev/Observability.md",
-    "dev/Tools.md",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
     "assets/vpc.png",
