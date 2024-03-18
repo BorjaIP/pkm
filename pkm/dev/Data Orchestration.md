@@ -19,3 +19,4 @@ The challenge of [[Big Data]] is that it is, well, BIG. It’s so big that it’
 | [Dagster](https://github.com/dagster-io/dagster)      | An orchestration platform for the development, production, and observation of data assets                                                  |
 | [DBT](https://github.com/dbt-labs/dbt-core)           | DBT enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications |
 | [Instill](https://github.com/instill-ai/instill-core) | Open-source orchestrator for data, AI and pipelines                                                                                        |
+| [dlt](https://github.com/dlt-hub/dlt)                                                      | Open source Python library that makes data loading easy                                                                                                                                           |

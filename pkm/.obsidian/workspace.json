@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "185a0603b0145de7",
+        "id": "518e0b4326f00e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ea1db3df3766a8",
+            "id": "d8eed34c7c86bffe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Datastream.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1e78994faf01b0a0",
+            "id": "b37e6865f8cd1df4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,19 +32,31 @@
             }
           },
           {
-            "id": "61859b0afb9e929c",
+            "id": "cfe9cf5792695e7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/DynamoDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa78bf7ef24e8659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/RDS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,12 +102,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -180,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,44 +230,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61859b0afb9e929c",
+  "active": "b37e6865f8cd1df4",
   "lastOpenFiles": [
+    "dev/Tools.md",
+    "dev/Python.md",
+    "dev/Data Orchestration.md",
+    "dev/Workflow Orchestration.md",
+    "dev/Container.md",
+    "dev/Docker.md",
+    "dev/Dotfiles.md",
     "dev/Kubernetes.md",
     "dev/GCP.md",
-    "dev/Linux.md",
-    "dev/Windows.md",
-    "dev/Docker.md",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "dev/Datastream.md",
+    "dev/BigQuery.md",
+    "assets/datastream.png",
+    "dev/AWS.md",
+    "conflict-files-obsidian-git.md",
+    "dev/Security.md",
+    "dev/PostgreSQL.md",
+    "dev/Observability.md",
+    "dev/Data Platform.md",
+    "dev/Data Application.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/Big Data.md",
+    "dev/AlloyDB.md",
+    "assets/vpn_hub.png",
+    "assets/vpc.png",
+    "assets/ssl.png",
     "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
     "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
     "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
-    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
-    "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
-    "articles/papers/A Watermark for Large Language Models.md",
-    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "dev/Python.md",
-    "dev/Workflow Orchestration.md",
-    "dev/Data Orchestration.md",
-    "dev/Datastream.md",
-    "dev/Awesome.md",
-    "dev/Prometheus.md",
-    "dev/AlloyDB.md",
-    "dev/datastream.png",
-    "dev/Apache.md",
-    "dev/PostgreSQL.md",
-    "dev/AWS.md",
-    "dev/GCS.md",
-    "dev/gRPC.md",
-    "dev/Observability.md",
-    "dev/Pasted image 20240305105809.png",
-    "assets/ssl.png",
-    "assets/vpc.png",
-    "assets/vpn_hub.png",
+    "dev/vpn_hub.png",
+    "dev/vpc.png",
+    "dev/VPC.md",
+    "dev/Route 53.md",
     "assets/acid.png",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
     "assets/spot_instances.jpg",
-    "assets/storage_classes.png",
     "de",
     "Untitled",
     "assets/images",
