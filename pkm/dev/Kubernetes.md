@@ -32,7 +32,8 @@ tags:
 | [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution                                    |
 | [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)                          | Operator for running synthetic checks as pods                                       |
 | [Kubearmor](https://github.com/kubearmor/KubeArmor)                                   | Cloud-native runtime security enforcement system that restricts the behavior        |
-| [Popeye](https://github.com/derailed/popeye)                                                                                      | Kubernetes cluster resource sanitizer                                                                                    |
+| [Popeye](https://github.com/derailed/popeye)                                          | Kubernetes cluster resource sanitizer                                               |
+| [Kpt](https://github.com/kptdev/kpt/tree/main)                                        | Automate Kubernetes Configuration Editing                                           |
 ## Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
@@ -154,6 +155,13 @@ systemctl enable kubelet
 
 ```bash
 kubectl run -n minikube busybox --image=busybox --restart=Never -- /bin/sh -c "sleep 3600;echo boo"
+```
+
+- Delete all
+
+```bash
+ kubectl delete all --all -n <namespace>
+ kubectl delete namespace <namespace>
 ```
 
 ## AWS
