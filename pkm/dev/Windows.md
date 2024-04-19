@@ -1,8 +1,11 @@
 ---
-title:  Windows
+title: Windows
 created: Saturday 22nd April 2023 19:26
-aliases: win
-tags: windows, os
+aliases:
+  - win
+tags:
+  - windows
+  - os
 ---
 # Shorcuts
 
@@ -137,6 +140,23 @@ How to know which version of Powershell
 $PSVersionTable
 ```
 
+List which process is listening in a port
+
+```bash
+Get-Process -Id (Get-NetTCPConnection -LocalPort 6443).OwningProcess
+```
+
+List ports
+
+```bash
+netstat -abn
+```
+
+Kill process
+
+```bash
+Stop-Process -Id 30240 -Force
+```
 ## Install Modules
 
 ```bash

@@ -8,3 +8,13 @@ tags: k8s
 
 - [How to easily setup Istio service mesh in AWS EKS](https://www.linkedin.com/pulse/how-easily-setup-istio-service-mesh-aws-eks-ihar-vauchok)
 - [Deploying an Istio Gateway with TLS in EKS using the AWS Load Balancer Controller](https://itnext.io/deploying-an-istio-gateway-with-tls-in-eks-using-the-aws-load-balancer-controller-448812e081e5)
+
+## CLI
+
+- [Cheatsheet](https://istio-cheatsheet.tetratelabs.io/istioctl)
+
+- Display logs from proxy-config (kubeflow example)
+
+```bash
+istioctl pc log --level "rbac:debug" profiles-kfam-*.kubeflow
+```

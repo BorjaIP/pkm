@@ -175,7 +175,30 @@ aws sts get-caller-identity
 curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.2/2021-07-05/bin/linux/amd64/aws-iam-authenticator
 ```
 
-## Users
+## RBAC
+### Role
+
+ A Role always sets permissions within a particular namespace; when you create a Role, you have to specify the namespace it belongs in.
+
+### Cluster Role
+
+ClusterRole, by contrast, is a non-namespaced resource. The resources have different names (Role and ClusterRole) because a Kubernetes object always has to be either namespaced or not namespaced; it can’t be both.
+
+- List all Cluster Role and Role
+
+```bash
+kubectl get rolebindings,clusterrolebindings \
+--all-namespaces  \
+-o custom-columns='KIND:kind,NAMESPACE:metadata.namespace,NAME:metadata.name,SERVICE_ACCOUNTS:subjects[?(@.kind=="ServiceAccount")].name'
+```
+
+- Use `can-i` for test pod creation
+
+```bash
+kubectl auth can-i create pods --context=user1-context
+yes
+```
+### Users
 
 ```bash
 kubectl get clusterrolebindings -o json | jq -r '.items[] | select(.subjects[0].kind=="Group") | select(.subjects[0].name=="system:masters")'
