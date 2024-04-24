@@ -29,8 +29,75 @@ Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDINH5WkBhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## KServe
+## Components 
+
+![[kubeflow-arch.png]]
+
+### Authentication
+
+- [Using Keycloak for Kubeflow (instead of dex)](https://medium.com/@iamestelleyu/dex-is-the-defalut-authentication-application-of-kubeflow-and-there-is-a-option-using-both-dex-and-2cea08ca76f6)
+- [Using Keycloak as external OIDC provider on kubeflow](https://velog.io/@hklog/keycloak-kubeflow-dex)
+
+Kubeflow use [ambasador-oidc](https://github.com/arrikto/oidc-authservice) call **oidc-authservice** as an authentication service with an HTTP Server in combination with [Dex](https://journal.arrikto.com/kubeflow-authentication-with-istio-dex-5eafdfac4782) as OIDC provider.
+### Centraldashboard
+
+The _Kubeflow Central Dashboard_ provides an authenticated web interface for Kubeflow and ecosystem components. It acts as a hub for your machine learning platform and tools by exposing the UIs of components running in the cluster. Access through the [Istio Gateway](https://istio.io/docs/concepts/traffic-management/#gateways) that provides access to the Kubeflow.
+### Notebook
+
+Kubeflow Notebooks provides a way to run web-based development environments inside your Kubernetes cluster by running them inside Pods. Support [[Jupyter]] and VSCode.
+
+Kubeflow use these services for deploy and control notebooks:
+
+- jupyter-web-app-deployment
+- volumes-web-app-deployment
+- notebook-controller-deployment
+
+Deactivate secure cookies if TLS is not configured.
+
+```bash
+# change in kubernetes templates
+APP_SECURE_COOKIES = false
+```
+
+### Metadata
+
+Kubeflow Pipelines backend stores runtime information of a pipeline run in Metadata store. Runtime information includes the status of a task, availability of artifacts, custom properties associated with Execution or Artifact, etc. Learn more at [ML Metadata](https://github.com/google/ml-metadata/blob/master/g3doc/get_started.md)for using [google/ml-metadata](https://github.com/google/ml-metadata).
+
+Kubeflow use these services:
+
+- MySQL - store metadata
+- metadata-envoy-deployment - proxy 
+- metadata-grpc-deployment - allows other components to interact with the metadata service
+- metadata-writer - comprehensive record of the entire machine learning lifecycle
+
+### Pipelines
+
+
+### Cache
+
+The cache server is a key-value storage system that store frequently accessed ML artifacts, such as trained models and intermediate results.
+
+- cache-server
+### Admission webhook
+
+We need a way to inject common data (env vars, volumes) to pods (e.g. notebooks). PodPreset implementation, customize it for Kubeflow and rename it to PodDefault to avoid confusion. Use [[Kubernetes#Admission webhook|admision webhook]] and CRD to implement the functionality.
+
+- admission-webhook-deployment
+
+### PVCViewer
+
+Use [filebrowser](https://github.com/filebrowser/filebrowser) for provide a file managing interface within a specified directory.
+
+### Metacontroller
+
+
+### Istio
+
+
+
+### KServe
 
 - [Deploy Custom Python Serving Runtime with InferenceService[¶](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/#deploy-custom-python-serving-runtime-with-inferenceservice "Permanent link")](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/)
 - [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
 - [Your next KServe ML service: gRPC vs JSON-REST](https://medium.com/bumble-tech/your-next-kserve-ml-service-grpc-vs-json-rest-2e3a512fba9e)
+

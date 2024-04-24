@@ -32,6 +32,7 @@ To ensure such algorithms work effectively, however, they must typically be refi
 | [Aim](https://github.com/aimhubio/aim)                  | An easy-to-use & supercharged open-source experiment tracker                                                  |
 | [Meltano](https://github.com/meltano/meltano)           | The declarative code-first data integration engine that powers your wildest data and ML-powered product ideas |
 | [Hydra](https://github.com/facebookresearch/hydra)      | Framework for elegantly configuring complex applications                                                      |
+| [Evidently](https://github.com/evidentlyai/evidently)   | Evaluate and monitor ML models from validation to production                                                  |
 ## Types
 
 ### Supervised machine learning 

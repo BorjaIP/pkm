@@ -40,6 +40,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Pezzo](https://github.com/pezzolabs/pezzo)                                           | Open-source, developer-first LLMOps platform designed                                |
 | [VDP](https://github.com/instill-ai/vdp)                                              | Integrate AI to process unstructured data in the modern data stack                   |
 | [Leon](https://github.com/leon-ai/leon)                                               | Open-source personal assistant                                                       |
+| [Dify](https://github.com/langgenius/dify)                                            | LLM app development platform                                                         |
+| [PromptFlow](https://github.com/microsoft/promptflow)                                 | Build high-quality LLM apps                                                          |
 
 ![[llm-tree.jpg]]
 

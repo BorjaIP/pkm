@@ -4,71 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "185a0603b0145de7",
+        "id": "50d707baf1b250d5",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ea1db3df3766a8",
+            "id": "3e39007da104ab4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kustomize.md",
+                "file": "dev/Kubeflow.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "544a151c57f1eebd",
+            "id": "cadbf2422ecfdf18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a6cbb7e7035d974",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e78994faf01b0a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61859b0afb9e929c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ace938454a70ca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Istio.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -135,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Istio.md"
+                "file": "dev/Machine Learning.md"
               }
             }
           }
@@ -204,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/Machine Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,13 +217,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ace938454a70ca3",
+  "active": "cadbf2422ecfdf18",
   "lastOpenFiles": [
+    "dev/Kubeflow.md",
     "dev/Kubernetes.md",
+    "k8s.md",
+    "dev/Jupyter.md",
+    "assets/kubeflow-arch.png",
+    "dev/ColossalAI.md",
+    "dev/LLM.md",
+    "dev/Tools.md",
+    "dev/Kustomize.md",
+    "dev/Linux.md",
+    "dev/Istio.md",
     "dev/Docker.md",
     "dev/Windows.md",
-    "dev/Linux.md",
-    "dev/Kustomize.md",
     "dev/Git.md",
     "dev/GCP.md",
     "dev/BigQuery.md",
@@ -264,14 +247,7 @@
     "dev/Python.md",
     "dev/Workflow Orchestration.md",
     "dev/Data Orchestration.md",
-    "dev/Datastream.md",
-    "dev/Awesome.md",
-    "dev/Prometheus.md",
-    "dev/AlloyDB.md",
     "dev/datastream.png",
-    "dev/Apache.md",
-    "dev/PostgreSQL.md",
-    "dev/AWS.md",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
     "assets/vpc.png",
@@ -279,7 +255,6 @@
     "assets/acid.png",
     "assets/ec2-basic-arch.png",
     "assets/spot_request.jpg",
-    "assets/spot_instances.jpg",
     "de",
     "Untitled",
     "assets/images",

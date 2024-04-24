@@ -48,6 +48,15 @@ tags:
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)
 - [Operators for Kubernetes](https://operatorhub.io/)
 
+## Webhooks
+### Admission webhook
+
+An **admission controller** is a piece of code that intercepts requests to the Kubernetes API server prior to the persistence of the object, but after the request is authenticated and authorized
+
+> Admission webhooks are HTTP callbacks that receive admission requests and do something with them. You can define two types of admission webhooks, validating admission webhook and mutating admission webhook. Mutating admission webhooks are invoked first, and can modify objects sent to the API server to enforce custom defaults
+
+- `Mutating Admission Webhooks`: mutate the objects for resources, like Pods
+- `Validating Admission Webhooks`: advanced validation for your resources
 ## Version
 
 ```bash

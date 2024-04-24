@@ -35,8 +35,10 @@ tags: tool, dev
 | [Marimo](https://github.com/marimo-team/marimo)                   | Reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.                        |
 | [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
 | [Omatsuri](https://omatsuri.app/)                                 | Open source browser tools for everyday use                                                                            |
-| [NVTop](https://github.com/Syllo/nvtop)                                                                  | GPU & Accelerator process monitoring                                                                                                                      |
+| [NVTop](https://github.com/Syllo/nvtop)                           | GPU & Accelerator process monitoring                                                                                  |
+|                                                                   |                                                                                                                       |
 
+- [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
 - [Refactoring.Guru](https://refactoring.guru/)
 - [The art of command line](https://github.com/jlevy/the-art-of-command-line)
