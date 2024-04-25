@@ -18,22 +18,6 @@ tags: k8s
 
 **ServiceEntry** enables adding additional entries into Istio’s internal service registry so that auto-discovered services in the mesh can access/route to these manually specified services. Istio ServiceEntry is the way to define an endpoint that doesn’t belong to the Istio Service Registry.
 
-```yaml
-apiVersion: networking.istio.io/v1beta1
-kind: ServiceEntry
-metadata:
-  name: proxy
-spec:
-  hosts:
-  - my-company-proxy.com # ignored
-  addresses:
-  - 64.103.36.135
-  ports:
-  - number: 80
-    name: tcp
-    protocol: TCP
-  location: MESH_EXTERNAL
-```
 ### Virtual Service
 
 ### Gateway
