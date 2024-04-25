@@ -29,7 +29,7 @@ Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDINH5WkBhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Components 
+## Main components 
 
 ![[kubeflow-arch.png]]
 
@@ -66,7 +66,7 @@ Kubeflow Pipelines backend stores runtime information of a pipeline run in Metad
 Kubeflow use these services:
 
 - MySQL - store metadata
-- metadata-envoy-deployment - proxy 
+- metadata-envoy-deployment - [envoy](https://www.envoyproxy.io/) proxy 
 - metadata-grpc-deployment - allows other components to interact with the metadata service
 - metadata-writer - comprehensive record of the entire machine learning lifecycle
 
@@ -90,7 +90,7 @@ Use [filebrowser](https://github.com/filebrowser/filebrowser) for provide a file
 
 ### Metacontroller
 
-
+Use metacontroller as an add-on for Kubernetes that makes it easy to write and deploy  [[Kubernetes#Custom resources|custom resources]]
 ### Istio
 
 
@@ -101,3 +101,11 @@ Use [filebrowser](https://github.com/filebrowser/filebrowser) for provide a file
 - [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
 - [Your next KServe ML service: gRPC vs JSON-REST](https://medium.com/bumble-tech/your-next-kserve-ml-service-grpc-vs-json-rest-2e3a512fba9e)
 
+## Other components
+
+
+## CLI
+
+Use [kfp](https://kubeflow-pipelines.readthedocs.io/en/stable/index.html)for interact with Kubeflow as and API for Python, the CLI version only works with [[GCP]] (Google Cloud Platform).
+
+- You can perform all operations with the API 

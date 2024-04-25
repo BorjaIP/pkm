@@ -48,6 +48,13 @@ tags:
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)
 - [Operators for Kubernetes](https://operatorhub.io/)
 
+## Components
+
+- Pod: wrap one or more containers
+- Deploy: scalability and application releases
+- Daemon Set (ds): one pod per node (always have to be one running in each node)
+- Stateful Set (sts): stateful app components
+
 ## Webhooks
 ### Admission webhook
 
@@ -57,6 +64,17 @@ An **admission controller** is a piece of code that intercepts requests to the K
 
 - `Mutating Admission Webhooks`: mutate the objects for resources, like Pods
 - `Validating Admission Webhooks`: advanced validation for your resources
+
+## Kubernetes API
+
+All resources of API are managed under Special Interest Groups (SIGs) [here](https://github.com/kubernetes/community/blob/master/sig-list.md).
+### Custom resources
+
+Custom Resources (CRs) in Kubernetes allow you to extend the Kubernetes API and define your own API objects with custom schemas and behaviors. They provide a way to manage applications and resources that are not part of the core Kubernetes API.
+
+The Kubernetes [declarative API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) enforces a separation of responsibilities. You declare the desired state of your resource. The Kubernetes controller keeps the current state of Kubernetes objects in sync with your declared desired state. This is in contrast to an imperative API, where you _instruct_ a server what to do.
+
+- Use [Metacontroller](https://github.com/metacontroller/metacontroller) is an add-on for Kubernetes that makes it easy to write and deploy CRs.
 ## Version
 
 ```bash

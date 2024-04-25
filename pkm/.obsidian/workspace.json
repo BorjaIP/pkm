@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e39007da104ab4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubeflow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cadbf2422ecfdf18",
             "type": "leaf",
             "state": {
@@ -32,12 +20,48 @@
             }
           },
           {
-            "id": "0a6cbb7e7035d974",
+            "id": "74d5bc54cb3120d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Istio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac0696386d96e9eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5733184b93bcf365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75768e46a04f985b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/GCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/Istio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/Istio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Machine Learning.md"
+                "file": "dev/Istio.md"
               }
             }
           }
@@ -179,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/Istio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Machine Learning.md",
+                "file": "dev/Istio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,10 +241,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cadbf2422ecfdf18",
+  "active": "74d5bc54cb3120d8",
   "lastOpenFiles": [
-    "dev/Kubeflow.md",
+    "dev/Linux.md",
     "dev/Kubernetes.md",
+    "dev/Istio.md",
+    "assets/istio-architecture.png",
+    "dev/GCP.md",
+    "dev/Kubeflow.md",
+    "dev/Machine Learning.md",
+    "templates/Paper.md",
     "k8s.md",
     "dev/Jupyter.md",
     "assets/kubeflow-arch.png",
@@ -228,12 +258,9 @@
     "dev/LLM.md",
     "dev/Tools.md",
     "dev/Kustomize.md",
-    "dev/Linux.md",
-    "dev/Istio.md",
     "dev/Docker.md",
     "dev/Windows.md",
     "dev/Git.md",
-    "dev/GCP.md",
     "dev/BigQuery.md",
     "assets/datastream.png",
     "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
@@ -244,9 +271,6 @@
     "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "dev/Python.md",
-    "dev/Workflow Orchestration.md",
-    "dev/Data Orchestration.md",
     "dev/datastream.png",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
@@ -254,7 +278,6 @@
     "assets/vpn_hub.png",
     "assets/acid.png",
     "assets/ec2-basic-arch.png",
-    "assets/spot_request.jpg",
     "de",
     "Untitled",
     "assets/images",
