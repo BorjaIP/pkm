@@ -42,6 +42,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Leon](https://github.com/leon-ai/leon)                                               | Open-source personal assistant                                                       |
 | [Dify](https://github.com/langgenius/dify)                                            | LLM app development platform                                                         |
 | [PromptFlow](https://github.com/microsoft/promptflow)                                 | Build high-quality LLM apps                                                          |
+| [LangFlow](https://github.com/langflow-ai/langflow)                                                                                      | Langflow is a dynamic graph where each node is an executable unit                                                                                     |
 
 ![[llm-tree.jpg]]
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "environment",
+                "query": "flowi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Python.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,8 +206,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6411abe80559320",
+  "active": "2a99d92d9b20113e",
   "lastOpenFiles": [
+    "dev/Workflow Orchestration.md",
+    "dev/LLM.md",
+    "dev/Python.md",
     "dev/IaC.md",
     "dev/Kubernetes.md",
     "dev/Data Platform.md",
@@ -234,9 +237,6 @@
     "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "dev/Python.md",
-    "dev/Workflow Orchestration.md",
-    "dev/Data Orchestration.md",
     "dev/datastream.png",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
