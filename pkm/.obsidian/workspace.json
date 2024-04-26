@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "4de300bd5cb2ddc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/OpenSSL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5733184b93bcf365",
             "type": "leaf",
             "state": {
@@ -54,21 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "75768e46a04f985b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/GCP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/OpenSSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/OpenSSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Istio.md"
+                "file": "dev/OpenSSL.md"
               }
             }
           }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/OpenSSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Istio.md",
+                "file": "dev/OpenSSL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74d5bc54cb3120d8",
+  "active": "4de300bd5cb2ddc1",
   "lastOpenFiles": [
     "dev/Linux.md",
     "dev/Kubernetes.md",
