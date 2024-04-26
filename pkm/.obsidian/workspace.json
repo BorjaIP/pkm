@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50d707baf1b250d5",
+        "id": "185a0603b0145de7",
         "type": "tabs",
         "children": [
           {
-            "id": "cadbf2422ecfdf18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74d5bc54cb3120d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Istio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac0696386d96e9eb",
+            "id": "d6ea1db3df3766a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,31 +20,19 @@
             }
           },
           {
-            "id": "4de300bd5cb2ddc1",
+            "id": "a6411abe80559320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/OpenSSL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5733184b93bcf365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "environment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/OpenSSL.md",
+                "file": "dev/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/OpenSSL.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/OpenSSL.md"
+                "file": "dev/Python.md"
               }
             }
           }
@@ -203,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/OpenSSL.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/OpenSSL.md",
+                "file": "dev/Python.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,26 +206,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4de300bd5cb2ddc1",
+  "active": "a6411abe80559320",
   "lastOpenFiles": [
-    "dev/Linux.md",
+    "dev/IaC.md",
     "dev/Kubernetes.md",
-    "dev/Istio.md",
-    "assets/istio-architecture.png",
-    "dev/GCP.md",
-    "dev/Kubeflow.md",
-    "dev/Machine Learning.md",
-    "templates/Paper.md",
-    "k8s.md",
+    "dev/Data Platform.md",
+    "dev/Terraform.md",
     "dev/Jupyter.md",
-    "assets/kubeflow-arch.png",
-    "dev/ColossalAI.md",
-    "dev/LLM.md",
     "dev/Tools.md",
+    "dev/FastAPI.md",
     "dev/Kustomize.md",
+    "dev/Linux.md",
+    "dev/Istio.md",
+    "assets/kubeflow-arch.png",
+    "assets/istio-architecture.png",
     "dev/Docker.md",
     "dev/Windows.md",
     "dev/Git.md",
+    "dev/GCP.md",
     "dev/BigQuery.md",
     "assets/datastream.png",
     "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
@@ -271,6 +234,9 @@
     "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "dev/Python.md",
+    "dev/Workflow Orchestration.md",
+    "dev/Data Orchestration.md",
     "dev/datastream.png",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",

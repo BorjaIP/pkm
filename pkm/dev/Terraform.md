@@ -5,10 +5,12 @@ aliases:
 tags: 
 ---
 
-| Tool                                                | Description                                              |
-| --------------------------------------------------- | -------------------------------------------------------- |
-|[Terragrunt](https://github.com/gruntwork-io/terragrunt)|Terragrunt is a thin wrapper for Terraform that provides extra tools|
-|[Terracost](https://github.com/cycloidio/terracost)|Cloud cost estimation for Terraform in your CLI|
+| Tool                                                     | Description                                                          |
+| -------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Terragrunt](https://github.com/gruntwork-io/terragrunt) | Terragrunt is a thin wrapper for Terraform that provides extra tools |
+| [Terracost](https://github.com/cycloidio/terracost)      | Cloud cost estimation for Terraform in your CLI                      |
+| [Infracost](https://github.com/infracost/infracost)      | Cloud cost estimates for Terraform in pull requests                  |
+| [TFLint](https://github.com/terraform-linters/tflint)                                                         | Terraform Linter                                                                     |
 
 - [Linux Academy - Using Terraform to Manage Applications and Infrastructure](https://github.com/linuxacademy/content-terraform-2021)
 - [How To Structure a Terraform Project](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project)
