@@ -38,6 +38,7 @@ tags: lenguages
 
 # Articles/Talks
 
+- [Python Packaging for Scientists](https://www.pyopensci.org/python-package-guide/index.html)
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization!](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 - [No really, Python's pathlib is great](https://rednafi.github.io/python/pathlib/)

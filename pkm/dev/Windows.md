@@ -186,3 +186,8 @@ Uninstall all GPU drivers
 
 [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 
+## Network error
+
+Internet slow in terminal and in WSL2
+
+- Sources https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
