@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Docker.md"
+                "file": "dev/Tools.md"
               }
             }
           }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Tools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,6 +219,8 @@
   },
   "active": "389b413ee52ab593",
   "lastOpenFiles": [
+    "dev/Python.md",
+    "dev/Docker.md",
     "dev/LLM.md",
     "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
     "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
@@ -228,7 +230,6 @@
     "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
     "articles/papers/A Watermark for Large Language Models.md",
     "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
-    "dev/Python.md",
     "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
     "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
     "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
@@ -244,7 +245,6 @@
     "articles/papers/Multimodal Foundation Models - From Specialists to General-Purpose Assistants.md",
     "articles/papers/REACT - SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS.md",
     "articles/papers/PaLI-3 Vision Language Models - Smaller, Faster, Stronger.md",
-    "articles/papers/Improving Knowledge Graph Embedding Using Simple Constraints.md",
     "assets/kubeflow-arch.png",
     "assets/istio-architecture.png",
     "assets/datastream.png",
