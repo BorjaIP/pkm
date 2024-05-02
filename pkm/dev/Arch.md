@@ -4,7 +4,6 @@ created: Saturday 22nd April 2023 21:11
 aliases: 
 tags: linux
 ---
-
 | Tool                                        | Description                |
 | ------------------------------------------- | -------------------------- |
 | [Archcraft](https://archcraft.io/)          | Yet another minimal distro |

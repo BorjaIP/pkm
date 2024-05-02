@@ -58,7 +58,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Open source LLM for commercial use?](https://news.ycombinator.com/item?id=35512338)
 - [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
 - [Megatron-LM: Ongoing research training transformer models at scale](https://github.com/NVIDIA/Megatron-LM)
-
+- [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 ## RAG
 
 ## Text embeddings

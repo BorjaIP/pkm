@@ -43,11 +43,16 @@ tags:
 - [Securing kubernetes clusters with Istio and Keycloak](https://charnnarong.github.io/notes/kubernetes-istio-keycloak.html)
 - [Hacking an AWS hosted Kubernetes backed product, and failing](https://blog.appsecco.com/hacking-an-aws-hosted-kubernetes-backed-product-and-failing-904cbe0b7c0d)
 - [Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform](https://developers.redhat.com/blog/2020/10/26/adapting-docker-and-kubernetes-containers-to-run-on-red-hat-openshift-container-platform#)
+- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
+- [Practice Enough With These 150 Questions for the CKAD Exam](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
+- [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises)
+- [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes
+- [KillerCoda - Killer Shell CKAD](https://killercoda.com/killer-shell-ckad)
+- [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
 ## Packages
 
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)
 - [Operators for Kubernetes](https://operatorhub.io/)
-
 ## Components
 
 - Pod: wrap one or more containers
