@@ -1,8 +1,10 @@
 ---
-title:  Python
+title: Python
 created: Sunday 23rd April 2023 16:51
-aliases: py
-tags: lenguages
+aliases:
+  - py
+tags:
+  - lenguages
 ---
 | Tool/Framework | Description |
 | ---- | ---- |
@@ -37,6 +39,7 @@ tags: lenguages
 
 # Articles/Talks
 
+- [Python Packaging for Scientists](https://www.pyopensci.org/python-package-guide/index.html)
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization!](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 - [No really, Python's pathlib is great](https://rednafi.github.io/python/pathlib/)
@@ -58,6 +61,30 @@ tags: lenguages
 - [Python DDD Example and Techniques](https://github.com/iktakahiro/dddpy)
 - [Python Wheel to Debian package converter](https://github.com/upciti/wheel2deb)
 
+# Use
+
+- Install [pipx](https://github.com/pypa/pipx) for isolated environments and Apps to use in general context, for example [Hatch](https://github.com/pypa/hatch) or [PDM](https://github.com/pdm-project/pdm).
+- Create a project using Hatch.
+```bash
+hatch new project-name
+```
+- Create environment using [UV](https://github.com/astral-sh/uv).
+```
+hatch env create
+```
+- Activate venv
+```
+ hatch shell
+```
+- Build project
+```bash
+hatch build
+```
+- Compile requirements
+```"bash
+uv pip compile requirements/requirements.in -o requirements/requirements.txt
+uv pip install -r requirements/requirements.txt
+```
 # Libraries
 
 ## Pydantic
@@ -151,3 +178,4 @@ flask routes
 - [ReactPy](https://github.com/reactive-python/reactpy)
 - [Voila](https://github.com/voila-dashboards/voila)
 - [Reflex](https://github.com/reflex-dev/reflex?tab=readme-ov-file)
+- [Backstage](https://github.com/backstage/backstage)

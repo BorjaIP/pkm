@@ -7,33 +7,33 @@ tags:
   - k8s
 ---
 
-| Tool                                                                                  | Description                                                                         |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)                            |
-| [Vcluster](https://github.com/loft-sh/vcluster)                                       | Create fully functional virtual Kubernetes clusters                                 |
-| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                                | Lens - The way the world runs Kubernetes                                            |
-| [Cert-Manager](https://github.com/cert-manager/cert-manager)                          | Automatically provision and manage TLS certificates in Kubernetes                   |
-| [Permissions-manager](https://github.com/sighupio/permission-manager)                 | Brings sanity to Kubernetes RBAC                                                    |
-| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)                              | CLI for determining the cost of Kubernetes workloads                                |
-| [Kubespray](https://github.com/kubernetes-sigs/kubespray)                             | Deploy a Production Ready Kubernetes Cluster                                        |
-| [MetalK8s](https://github.com/scality/metalk8s)                                       | Kubernetes distribution on-prem deployments                                         |
-| [K9s](https://k9scli.io/)                                                             | Kubernetes CLI To Manage Your Clusters In Style!                                    |
-| [Kubectx](https://github.com/ahmetb/kubectx)                                          | Faster way to switch between clusters and namespaces in kubectl                     |
-| [Opencost](https://github.com/opencost/opencost)                                      | Cross-cloud cost allocation models for Kubernetes workloads                         |
-| [Kubetap](https://github.com/soluble-ai/kubetap)                                      | Kubectl plugin to interactively proxy Kubernetes Services with ease                 |
-| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way                                                   |
-| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)                     | Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster |
-| [LongHorn](https://github.com/longhorn/longhorn)                                      | Longhorn is a distributed block storage system for Kubernetes                       |
-| [Keel](https://github.com/keel-hq/keel)                                               | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates   |
-| [Kured](https://github.com/kubereboot/kured)                                          | Kubernetes Reboot Daemon                                                            |
-| [Kuma](https://github.com/kumahq/kuma)                                                | The multi-zone service mesh for containers, Kubernetes and VMs                      |
-| [Pixie](https://github.com/pixie-io/pixie)                                            | Open-source observability tool for Kubernetes applications                          |
-| [Kueue](https://github.com/kubernetes-sigs/kueue)                                     | Kubernetes-native Job Queueing                                                      |
-| [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution                                    |
-| [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)                          | Operator for running synthetic checks as pods                                       |
-| [Kubearmor](https://github.com/kubearmor/KubeArmor)                                   | Cloud-native runtime security enforcement system that restricts the behavior        |
-| [Popeye](https://github.com/derailed/popeye)                                          | Kubernetes cluster resource sanitizer                                               |
-| [Kpt](https://github.com/kptdev/kpt/tree/main)                                        | Automate Kubernetes Configuration Editing                                           |
+| Tool | Description |
+| ---- | ---- |
+| [Kubeshark](https://github.com/kubeshark/kubeshark) | API traffic analyzer for Kubernetes (TCDump + Wireshark) |
+| [Vcluster](https://github.com/loft-sh/vcluster) | Create fully functional virtual Kubernetes clusters |
+| [Openlens](https://github.com/MuhammedKalkan/OpenLens) | Lens - The way the world runs Kubernetes |
+| [Cert-Manager](https://github.com/cert-manager/cert-manager) | Automatically provision and manage TLS certificates in Kubernetes |
+| [Permissions-manager](https://github.com/sighupio/permission-manager) | Brings sanity to Kubernetes RBAC |
+| [Kubectl-cost](https://github.com/kubecost/kubectl-cost) | CLI for determining the cost of Kubernetes workloads |
+| [Kubespray](https://github.com/kubernetes-sigs/kubespray) | Deploy a Production Ready Kubernetes Cluster |
+| [MetalK8s](https://github.com/scality/metalk8s) | Kubernetes distribution on-prem deployments |
+| [K9s](https://k9scli.io/) | Kubernetes CLI To Manage Your Clusters In Style! |
+| [Kubectx](https://github.com/ahmetb/kubectx) | Faster way to switch between clusters and namespaces in kubectl |
+| [Opencost](https://github.com/opencost/opencost) | Cross-cloud cost allocation models for Kubernetes workloads |
+| [Kubetap](https://github.com/soluble-ai/kubetap) | Kubectl plugin to interactively proxy Kubernetes Services with ease |
+| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way |
+| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg) | Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster |
+| [LongHorn](https://github.com/longhorn/longhorn) | Longhorn is a distributed block storage system for Kubernetes |
+| [Keel](https://github.com/keel-hq/keel) | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates |
+| [Kured](https://github.com/kubereboot/kured) | Kubernetes Reboot Daemon |
+| [Kuma](https://github.com/kumahq/kuma) | The multi-zone service mesh for containers, Kubernetes and VMs |
+| [Pixie](https://github.com/pixie-io/pixie) | Open-source observability tool for Kubernetes applications |
+| [Kueue](https://github.com/kubernetes-sigs/kueue) | Kubernetes-native Job Queueing |
+| [Flux](https://github.com/fluxcd/flux2) | Open and extensible continuous delivery solution |
+| [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) | Operator for running synthetic checks as pods |
+| [Kubearmor](https://github.com/kubearmor/KubeArmor) | Cloud-native runtime security enforcement system that restricts the behavior |
+| [Popeye](https://github.com/derailed/popeye) | Kubernetes cluster resource sanitizer |
+| [Kpt](https://github.com/kptdev/kpt/tree/main) | Automate Kubernetes Configuration Editing |
 ## Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
@@ -43,11 +43,16 @@ tags:
 - [Securing kubernetes clusters with Istio and Keycloak](https://charnnarong.github.io/notes/kubernetes-istio-keycloak.html)
 - [Hacking an AWS hosted Kubernetes backed product, and failing](https://blog.appsecco.com/hacking-an-aws-hosted-kubernetes-backed-product-and-failing-904cbe0b7c0d)
 - [Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform](https://developers.redhat.com/blog/2020/10/26/adapting-docker-and-kubernetes-containers-to-run-on-red-hat-openshift-container-platform#)
+- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
+- [Practice Enough With These 150 Questions for the CKAD Exam](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
+- [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises)
+- [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes
+- [KillerCoda - Killer Shell CKAD](https://killercoda.com/killer-shell-ckad)
+- [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
 ## Packages
 
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)
 - [Operators for Kubernetes](https://operatorhub.io/)
-
 ## Components
 
 - Pod: wrap one or more containers

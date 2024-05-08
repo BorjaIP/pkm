@@ -36,7 +36,9 @@ tags: tool, dev
 | [Cilium](https://github.com/cilium/cilium)                        | eBPF-based Networking, Security, and Observability                                                                    |
 | [Omatsuri](https://omatsuri.app/)                                 | Open source browser tools for everyday use                                                                            |
 | [NVTop](https://github.com/Syllo/nvtop)                           | GPU & Accelerator process monitoring                                                                                  |
-|                                                                   |                                                                                                                       |
+| [Pueue](https://github.com/Nukesor/pueue)                         | Manage your shell commands                                                                                            |
+| [Viddy](https://github.com/sachaos/viddy)                         | A modern watch command                                                                                                |
+| [commitizen](https://github.com/commitizen-tools/commitizen)                                                                  | Create committing rules for projects                                                                                                                      |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

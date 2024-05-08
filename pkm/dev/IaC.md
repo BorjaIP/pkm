@@ -10,6 +10,10 @@ With IaC, configuration files are created that contain your infrastructure speci
 
 Version control is an important part of IaC, and your configuration files should be under source control just like any other software source code file. Deploying your infrastructure as code also means that you can divide your [infrastructure](https://www.ansible.com/use-cases/infrastructure) into modular components that can then be combined in different ways through automation.
 
+| Tool | Description |
+| ---- | ---- |
+| [Checkov](https://github.com/bridgecrewio/checkov) | Prevent cloud misconfigurations and find vulnerabilities during build-time in IaC |
+| [Pyinfra](https://github.com/pyinfra-dev/pyinfra) | Automates infrastructure using Python. |
 ## Tools
 
 - [[Chef]]
