@@ -312,6 +312,13 @@ cat /proc/net/tcp | grep '00000000:1F90 00000000:0000'
 # healtheck
 cat /proc/net/tcp | grep '00000000:1F90 00000000:0000' || exit 1
 ```
+
+### Proxy
+
+```bash
+# extract IP
+curl -s https://httpbin.org/ip
+```
 ### Socket
 
 - [socket](https://manpages.ubuntu.com/manpages/mantic/en/man1/socket.1.html)

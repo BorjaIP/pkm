@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "185a0603b0145de7",
+        "id": "50d707baf1b250d5",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ea1db3df3766a8",
+            "id": "cadbf2422ecfdf18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74d5bc54cb3120d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Istio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac0696386d96e9eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +44,43 @@
             }
           },
           {
-            "id": "68ab291cb1d12339",
+            "id": "4de300bd5cb2ddc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Arch.md",
+                "file": "dev/OpenSSL.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "95d189dd5d087356",
+            "id": "7cf5439500825953",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b59a2c959d8cd20c",
+            "id": "21fdbcf9394653cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b7b00a294d803bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5733184b93bcf365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -85,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flowi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,11 +211,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/LLM.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "2e5fa8bdef33fe6a",
@@ -190,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,37 +277,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95d189dd5d087356",
+  "active": "7b7b00a294d803bb",
   "lastOpenFiles": [
-    "dev/Tools.md",
-    "dev/Python.md",
+    "dev/Linux.md",
+    "dev/Kubeflow.md",
+    "conflict-files-obsidian-git.md",
     "dev/LLM.md",
-    "dev/Arch.md",
-    "dev/IaC.md",
-    "dev/Docker.md",
-    "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
-    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
-    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
-    "articles/papers/A Watermark for Large Language Models.md",
-    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
-    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
-    "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
-    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
-    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
-    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
-    "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
-    "articles/papers/Natural Language is All a Graph Needs.md",
-    "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
-    "assets/kubeflow-arch.png",
+    "dev/OpenSSL.md",
+    "dev/Kubernetes.md",
+    "dev/Istio.md",
     "assets/istio-architecture.png",
+    "dev/GCP.md",
+    "dev/Machine Learning.md",
+    "templates/Paper.md",
+    "k8s.md",
+    "dev/Jupyter.md",
+    "assets/kubeflow-arch.png",
+    "dev/ColossalAI.md",
+    "dev/Tools.md",
+    "dev/Kustomize.md",
+    "dev/Docker.md",
+    "dev/Windows.md",
+    "dev/Git.md",
+    "dev/BigQuery.md",
     "assets/datastream.png",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
+    "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
+    "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
+    "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
+    "articles/papers/A Watermark for Large Language Models.md",
     "dev/datastream.png",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
