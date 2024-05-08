@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50d707baf1b250d5",
+        "id": "185a0603b0145de7",
         "type": "tabs",
         "children": [
           {
-            "id": "cadbf2422ecfdf18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74d5bc54cb3120d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Istio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac0696386d96e9eb",
+            "id": "d6ea1db3df3766a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,55 +20,43 @@
             }
           },
           {
-            "id": "4de300bd5cb2ddc1",
+            "id": "68ab291cb1d12339",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/OpenSSL.md",
+                "file": "dev/Arch.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7cf5439500825953",
+            "id": "95d189dd5d087356",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "21fdbcf9394653cf",
+            "id": "b59a2c959d8cd20c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubeflow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5733184b93bcf365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "flowi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubeflow.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -226,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,37 +228,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21fdbcf9394653cf",
+  "active": "95d189dd5d087356",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "dev/Kubeflow.md",
-    "dev/LLM.md",
-    "dev/Linux.md",
-    "dev/OpenSSL.md",
-    "dev/Kubernetes.md",
-    "dev/Istio.md",
-    "assets/istio-architecture.png",
-    "dev/GCP.md",
-    "dev/Machine Learning.md",
-    "templates/Paper.md",
-    "k8s.md",
-    "dev/Jupyter.md",
-    "assets/kubeflow-arch.png",
-    "dev/ColossalAI.md",
     "dev/Tools.md",
-    "dev/Kustomize.md",
+    "dev/Python.md",
+    "dev/LLM.md",
+    "dev/Arch.md",
+    "dev/IaC.md",
     "dev/Docker.md",
-    "dev/Windows.md",
-    "dev/Git.md",
-    "dev/BigQuery.md",
-    "assets/datastream.png",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
-    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
     "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "articles/papers/A Survey of Large Language Models.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "articles/papers/LightSecAgg - A Lighweight and versatile design for secure aggregation in federated learning.md",
     "articles/papers/Foundational Models Defining a New Era in Vision - A Survey and Outlook.md",
-    "articles/papers/Large Language Models Are Zero-Shot Time Series Forecasters.md",
     "articles/papers/A Watermark for Large Language Models.md",
+    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
+    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
+    "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
+    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
+    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
+    "articles/papers/RestGPT - Connecting Large Language Models with Real-World RESTful APIs.md",
+    "articles/papers/PUMA - secure inference of LLaMa 7B in five minutes.md",
+    "articles/papers/Natural Language is All a Graph Needs.md",
+    "articles/papers/Graph agent - explicit reasoning agent for graphs.md",
+    "assets/kubeflow-arch.png",
+    "assets/istio-architecture.png",
+    "assets/datastream.png",
     "dev/datastream.png",
     "dev/Pasted image 20240305105809.png",
     "assets/ssl.png",
