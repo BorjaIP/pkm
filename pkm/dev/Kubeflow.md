@@ -97,9 +97,8 @@ Use metacontroller as an add-on for Kubernetes that makes it easy to write and d
 
 ### KServe
 
-- [Deploy Custom Python Serving Runtime with InferenceService[¶](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/#deploy-custom-python-serving-runtime-with-inferenceservice "Permanent link")](https://kserve.github.io/website/0.10/modelserving/v1beta1/custom/custom_model/)
+- [KServe CNCF](https://www.slideshare.net/theofpa/kubecon-2023-eu-kserve-the-state-and-future-of-cloudnative-model-serving)
 - [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
-- [Your next KServe ML service: gRPC vs JSON-REST](https://medium.com/bumble-tech/your-next-kserve-ml-service-grpc-vs-json-rest-2e3a512fba9e)
 
 ## Other components
 

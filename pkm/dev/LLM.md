@@ -48,20 +48,24 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 ![[llm-tree.jpg]]
 
+## Articles/Talks
+
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
-- [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
-- [Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
 - [Accelerating Large Language Models with Mixed-Precision Techniques](https://lightning.ai/pages/community/tutorial/accelerating-large-language-models-with-mixed-precision-techniques/)
 - [Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— (**Part 1/3)**](https://medium.com/thirdai-blog/understanding-the-fundamental-limitations-of-vector-based-retrieval-for-building-llm-powered-48bb7b5a57b3)
-- [7 Ways To Speed Up Inference of Your Hosted LLMs](https://betterprogramming.pub/speed-up-llm-inference-83653aa24c47)
-- [List of Open Sourced Fine-Tuned Large Language Models (LLM)](https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76)
-- [Open source LLM for commercial use?](https://news.ycombinator.com/item?id=35512338)
 - [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
-- [Megatron-LM: Ongoing research training transformer models at scale](https://github.com/NVIDIA/Megatron-LM)
 - [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+- [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
+
+## Training
+
+ - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
 ## RAG
 
+- [What is a RAG?](https://python.langchain.com/v0.1/docs/use_cases/question_answering/?ref=blog.langchain.dev)
+- [Evaluating RAG pipelines with Ragas + LangSmith](https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/)
+- [RAGAS](https://github.com/explodinggradients/ragas): Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines
 ## Text embeddings
 
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
@@ -72,12 +76,17 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Hosted chatbot specifically focused on question answering](https://github.com/hwchase17/chat-langchain)
 ## Models
 
+- [List of Open Sourced Fine-Tuned Large Language Models (LLM)](https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76)
 - [Falcon](https://github.com/Sentdex/Falcon-LLM/)
 
 ### LLama
 
 - [LLama](https://github.com/facebookresearch/llama)
 - [LlamaHub - Get your RAG application rolling in no time](https://llamahub.ai/)
-## Transformers
+### Transformers
 
 - [[Transformers]]
+
+## Vector Database
+
+- [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
