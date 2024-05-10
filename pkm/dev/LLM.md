@@ -58,14 +58,11 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
 
+
+- [[RAG]]
 ## Training
 
  - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
-## RAG
-
-- [What is a RAG?](https://python.langchain.com/v0.1/docs/use_cases/question_answering/?ref=blog.langchain.dev)
-- [Evaluating RAG pipelines with Ragas + LangSmith](https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/)
-- [RAGAS](https://github.com/explodinggradients/ragas): Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines
 ## Text embeddings
 
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
