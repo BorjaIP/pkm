@@ -66,6 +66,10 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 - [[RAG]]
 
+## Tokenization
+
+![[tokenization.png]]
+
 ## Prompt Engineering
 
 - [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)

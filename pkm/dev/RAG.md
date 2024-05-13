@@ -21,6 +21,7 @@ tags:
 - [Evaluating RAG pipelines with Ragas + LangSmith](https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/)
 - [Hybrid Search a method to Optimize RAG implementation](https://medium.com/@csakash03/hybrid-search-is-a-method-to-optimize-rag-implementation-98d9d0911341)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aQ4yQXeB1Ss?si=eEbachbYQIgSClU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Reciprocal Rank Fusion (RRF)
 
 Reciprocal Rank Fusion (RRF) is a technique for combining the ranks of multiple search result lists to produce a single, unified ranking. [Developed in collaboration](https://archive.ph/o/l4PZV/https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf) with the University of Waterloo (CAN) and Google, RRF, in the words of its authors, “yields better results than any individual system, and better results than standard” reranking methods.
@@ -28,3 +29,8 @@ Reciprocal Rank Fusion (RRF) is a technique for combining the ranks of multiple 
 By combining ranks from different queries, we increase the chances that the most relevant documents will appear at the top of the final list. RRF is particularly effective because it doesn’t rely on the absolute scores assigned by the search engine but rather on the relative ranks, making it well-suited for combining results from queries that might have different scales or distributions of scores.
 
 - [Forget RAG, the Future is RAG-Fusion](https://towardsdatascience.com/forget-rag-the-future-is-rag-fusion-1147298d8ad1)
+## Advance  RAG
+
+![[advance_rag.webp]]
+
+- [LLM RAG Paradigms: Naive RAG, Advanced RAG & Modular RAG](https://medium.com/@drjulija/what-are-naive-rag-advanced-rag-modular-rag-paradigms-edff410c202e)

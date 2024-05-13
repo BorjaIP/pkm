@@ -5,13 +5,15 @@ aliases:
 tags: gpt
 ---
 [PrivateGPT](https://github.com/imartinez/privateGPT) is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models ([[LLM]]), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
-
+## Articles/Talks
 - [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 - [GPT4All](https://github.com/nomic-ai/gpt4all)
 - [GPT4AllChat](https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-chat)
 - [LangChain](https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html)
 - [PrivateGPT-local-llm](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
-- [CHAT With Your DOCUMENTS Using AI!](https://www.youtube.com/watch?v=A3F5riM5BNE)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A3F5riM5BNE?si=xt1wFhYsJ9Gg5Qkt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ```bash
 conda create gpt4all
@@ -53,7 +55,6 @@ CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ cmake -DCMAKE_CXX_COMPILER='g++' -D
 cd build
 ./chat -m "privateGPT/models/ggml-gpt4all-j-v1.3-groovy.bin" -t 4
 ```
-
 
 ## RAG
 
