@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/RAG.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/RAG.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/RAG.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -204,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/RAG.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/RAG.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,8 +240,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a99d92d9b20113e",
+  "active": "aa8c0242f159fab8",
   "lastOpenFiles": [
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
+    "dev/Windows.md",
     "dev/LLM.md",
     "dev/GPT.md",
     "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
@@ -275,7 +275,6 @@
     "dev/OpenSSL.md",
     "dev/Istio.md",
     "assets/istio-architecture.png",
-    "templates/Paper.md",
     "assets/kubeflow-arch.png",
     "assets/datastream.png",
     "dev/datastream.png",
