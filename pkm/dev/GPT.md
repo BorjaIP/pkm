@@ -6,6 +6,9 @@ tags:
   - gpt
   - llm
 ---
+**GPT** is a family of AI models built by OpenAI. It stands for Generative Pre-trained Transformer, which is basically a description of what the AI models do and how they work (I'll dig into that more in a minute).
+
+The GPT models are designed to generate human-like text in response to a [prompt](https://zapier.com/blog/gpt-prompt/). Initially, these prompts had to be text-based, but the latest versions of GPT can also work with images.
 
 | Tool                                                       | Description                                                                                              |
 | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -13,10 +16,6 @@ tags:
 | [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT)           | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model                                 |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT)        | A GPT-empowered penetration testing tool                                                                 |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on                              |
-
-**GPT** is a family of AI models built by OpenAI. It stands for Generative Pre-trained Transformer, which is basically a description of what the AI models do and how they work (I'll dig into that more in a minute).
-
-The GPT models are designed to generate human-like text in response to a [prompt](https://zapier.com/blog/gpt-prompt/). Initially, these prompts had to be text-based, but the latest versions of GPT can also work with images.
 
 ## Articles/Talks
 

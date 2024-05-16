@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa8c0242f159fab8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "02ea00066d91bf71",
             "type": "leaf",
             "state": {
@@ -44,30 +32,31 @@
             }
           },
           {
-            "id": "b15eb8097c197166",
+            "id": "c69adf9940fb0492",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
+                "file": "dev/Windows.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f5de8ef04272b6e2",
+            "id": "5fea10a4632c01b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -133,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -202,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,15 +229,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa8c0242f159fab8",
+  "active": "5fea10a4632c01b8",
   "lastOpenFiles": [
-    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
     "dev/Windows.md",
-    "dev/LLM.md",
     "dev/GPT.md",
     "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
     "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
     "dev/RAG.md",
+    "dev/Docker.md",
+    "dev/LLM.md",
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
@@ -273,7 +263,6 @@
     "dev/Linux.md",
     "conflict-files-obsidian-git.md",
     "dev/OpenSSL.md",
-    "dev/Istio.md",
     "assets/istio-architecture.png",
     "assets/kubeflow-arch.png",
     "assets/datastream.png",
