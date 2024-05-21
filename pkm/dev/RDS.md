@@ -4,7 +4,7 @@ created: Thursday 29th February 2024 16:44
 aliases: 
 tags: 
 ---
-**Relational Database Service** (RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+**Relational Database Service** (RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the [[AWS]] Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
 
 - [Pricing comparing instances](https://instances.vantage.sh/rds/?region=eu-west-1)
 - **RDS** Instance Types based on prices [Prices](https://aws.amazon.com/rds/instance-types/).

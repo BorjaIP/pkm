@@ -13,6 +13,7 @@ tags:
 | [RAGAS](https://github.com/explodinggradients/ragas)                | Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines |
 | [RAGEIo](https://github.com/zetaalphavector/RAGElo)                 | Tools that helps you selecting the best RAG-based                            |
 | [RAGFlow](https://github.com/infiniflow/ragflow?tab=readme-ov-file) | RAG engine based on deep document understanding                              |
+| [Verba](https://github.com/weaviate/Verba)                          | Retrieval Augmented Generation (RAG) chatbot powered by Weaviate             |
 ## Articles/Talks
 
 - [What is a RAG?](https://python.langchain.com/v0.1/docs/use_cases/question_answering/?ref=blog.langchain.dev)

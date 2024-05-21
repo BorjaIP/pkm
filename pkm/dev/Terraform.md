@@ -1,9 +1,11 @@
 ---
-title:  Terraform
+title: Terraform
 created: Sunday 23rd April 2023 16:58
-aliases: 
-tags: 
+aliases:
+  - opentf
+tags:
 ---
+
 
 | Tool                                                     | Description                                                          |
 | -------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -46,3 +48,6 @@ terraform destroy -target=aws_ecs_service.backend -target=aws_ecs_task_definitio
 ```
 
 
+# OpenTF
+
+[OpenTofu](https://github.com/opentofu/opentofu?tab=readme-ov-file) is an OSS tool for building, changing, and versioning infrastructure safely and efficiently. OpenTofu can manage existing and popular service providers as well as custom in-house solutions.
