@@ -100,6 +100,41 @@ Use metacontroller as an add-on for Kubernetes that makes it easy to write and d
 - [KServe CNCF](https://www.slideshare.net/theofpa/kubecon-2023-eu-kserve-the-state-and-future-of-cloudnative-model-serving)
 - [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
 
+#### Add SSL
+
+- Create certificate
+
+```bash
+kubectl create -n knative-serving secret tls custom-certs --key registry.key --cert registry.crt
+```
+
+- Edit deployment knative-serving
+
+```yaml
+apiVersion: apps/v1  
+kind: Deployment  
+metadata:  
+  name: controller  
+  namespace: knative-serving  
+spec:  
+  template:  
+    spec:  
+      containers:  
+        - name: controller  
+          volumeMounts:  
+            - name: custom-certs  
+              mountPath: /path-to-docker-registry-cert  # replace here.  
+          env:  
+            - name: SSL_CERT_FILE  
+              value: /path-to-docker-registry-cert # replace here.  
+            - name: GODEBUG  
+              value: x509ignoreCN=0  
+      volumes:  
+        - name: custom-certs  
+          secret:  
+            secretName: custom-certs
+```
+
 ## Other components
 
 

@@ -32,13 +32,15 @@ tags:
 | [Schedule](https://github.com/dbader/schedule)                  | Python job scheduling for humans                                                                              |
 | [Scalene](https://github.com/plasma-umass/scalene)              | High-performance, high-precision CPU, GPU, and memory profile                                                 |
 | [Memray](https://github.com/bloomberg/memray)                   | Memory profiler                                                                                               |
-| [Jellyfish](https://pypi.org/project/jellyfish/)                | Library for approximate and phonetic matching of strings                                                      |
+| [Jellyfish](https://github.com/jamesturk/jellyfish/)            | Library for approximate and phonetic matching of strings                                                      |
 | [Dask](https://github.com/dask/dask)                            | Parallel computing with task scheduling                                                                       |
 | [Msgspec](https://github.com/jcrist/msgspec)                    | A fast serialization and validation library                                                                   |
 | [Attrs](https://github.com/python-attrs/attrs/tree/main)        | Python Classes Without Boilerplate                                                                            |
+| [Kivy](https://github.com/kivy/kivy)                            | Open source UI framework                                                                                      |
 
 # Articles/Talks
 
+- [Libraries - Best of Python](https://github.com/ml-tooling/best-of-python)
 - [Python Packaging for Scientists](https://www.pyopensci.org/python-package-guide/index.html)
 - [Top Python libraries of 2022](https://tryolabs.com/blog/2022/12/26/top-python-libraries-2022)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization!](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
