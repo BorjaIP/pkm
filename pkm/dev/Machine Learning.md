@@ -147,20 +147,6 @@ Gradient boosting is effective in handling complex problems and large datasets. 
 Computation notebooks have been used as electronic lab notebooks to document procedures, data, calculations, and findings. [[Jupyter]] notebooks provide an interactive computational environment for developing data science applications.
 
 Jupyter notebooks combine software code, computational output, explanatory text, and rich content in a single document. Notebooks allow in-browser editing and execution of code and display computation results. A notebook is saved with an `.ipynb` extension. The Jupyter Notebook project supports dozens of programming languages, its name reflecting support for Julia (Ju), Python (Py), and R.
-
-# MLOps
-
-- [MLOps: Task and Workflow Orchestration Tools on Kubernetes](https://achernov.medium.com/mlops-task-and-workflow-orchestration-tools-on-kubernetes-adba3020d2bc)
-- [ClearML Agent](https://github.com/allegroai/clearml-agent) - ClearML Agent - ML-Ops made easy
-# CD4ML
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UzVa5azAHkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-- [Continuous Delivery for Machine Learning](https://martinfowler.com/articles/cd4ml.html)
-- [A CD4ML Example Setup on AWS S3, GitLab with DVC](https://github.com/sbalnojan/cd4ml-example)
-- [Continuous Intelligence and CD4ML Workshop](https://github.com/ThoughtWorksInc/cd4ml-workshop)
-- [How to Version Control your Machine Learning task — I](https://towardsdatascience.com/how-to-version-control-your-machine-learning-task-cad74dce44c4)
-
 # Deploy
 
 - [Serving ML Models in Production with FastAPI and Celery](https://towardsdatascience.com/deploying-ml-models-in-production-with-fastapi-and-celery-7063e539a5db)
@@ -175,7 +161,6 @@ Jupyter notebooks combine software code, computational output, explanatory text,
 # Models
 
 - [DiT (Document Image Transformer) is a self-supervised pre-trained Document Image Transformer model](https://github.com/microsoft/unilm/tree/master/dit)
-
 ## Hyperparameter tuning
 
 - [A Practical Introduction to Grid Search, Random Search, and Bayes Search](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)

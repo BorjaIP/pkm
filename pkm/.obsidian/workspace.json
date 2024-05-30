@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "d8c7dd42e603a808",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8f1ced62d5c50b30",
             "type": "leaf",
             "state": {
@@ -68,6 +56,78 @@
             }
           },
           {
+            "id": "30ebffc40bb1d0bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/MPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19147a3bea40b8a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/RAG.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed2b5b11dad93445",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7e4daa9c6a64da0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "486479cbd9a48b7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/PET.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "687a3ddee5b1eea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4133da163b9f98d0",
             "type": "leaf",
             "state": {
@@ -80,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubeflow.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -215,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubeflow.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,16 +313,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98b4cf5343da0cd6",
+  "active": "89b55be358b4ad33",
   "lastOpenFiles": [
-    "dev/Python.md",
-    "dev/Windows.md",
+    "dev/Kubeflow.md",
+    "dev/LLM.md",
+    "dev/Git.md",
+    "dev/RAG.md",
+    "dev/MPC.md",
+    "dev/PET.md",
+    "dev/MLOps.md",
+    "dev/DevOps.md",
     "dev/Kubernetes.md",
+    "dev/Windows.md",
+    "dev/Python.md",
+    "dev/Machine Learning.md",
+    "mlops.md",
     "dev/GPT.md",
     "assets/cert-manager.svg",
-    "dev/LLM.md",
-    "dev/Kubeflow.md",
-    "dev/RAG.md",
     "dev/Data Orchestration.md",
     "dev/DBMS.md",
     "dev/VDB.md",
@@ -275,13 +342,6 @@
     "dev/AlloyDB.md",
     "dev/Linux.md",
     "dev/Tools.md",
-    "dev/Bussiness Inteligence.md",
-    "dev/Terraform.md",
-    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
-    "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
-    "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
-    "dev/Docker.md",
-    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
