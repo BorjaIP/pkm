@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23cae21d9b4f53ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/GPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "89b55be358b4ad33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8f1ced62d5c50b30",
+            "id": "8102f2b76735524e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/MPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c97d6bc4c1fba7db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/PET.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,93 +54,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "30ebffc40bb1d0bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/MPC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19147a3bea40b8a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/RAG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed2b5b11dad93445",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7e4daa9c6a64da0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "486479cbd9a48b7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/PET.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "687a3ddee5b1eea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/DevOps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4133da163b9f98d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubeflow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "instill",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 228.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -206,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -275,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,15 +230,16 @@
   },
   "active": "89b55be358b4ad33",
   "lastOpenFiles": [
-    "dev/Kubeflow.md",
+    "dev/PET.md",
     "dev/LLM.md",
+    "dev/Kubeflow.md",
+    "dev/DevOps.md",
+    "dev/MPC.md",
+    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
+    "dev/Kubernetes.md",
     "dev/Git.md",
     "dev/RAG.md",
-    "dev/MPC.md",
-    "dev/PET.md",
     "dev/MLOps.md",
-    "dev/DevOps.md",
-    "dev/Kubernetes.md",
     "dev/Windows.md",
     "dev/Python.md",
     "dev/Machine Learning.md",
@@ -341,7 +257,6 @@
     "dev/GCP.md",
     "dev/AlloyDB.md",
     "dev/Linux.md",
-    "dev/Tools.md",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",

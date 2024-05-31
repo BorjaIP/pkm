@@ -58,6 +58,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
 - [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
+- [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
 
 - [[RAG]]
 
@@ -71,7 +72,6 @@ https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-
 ## Prompt Engineering
 
 - [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
-## Training
 
  - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
 ## Text embeddings

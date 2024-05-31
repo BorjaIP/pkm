@@ -16,7 +16,7 @@ Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kube
 | [KServe](https://github.com/kserve/kserve)                         | Standardized Serverless ML Inference Platform on Kubernetes |
 | [Kale](https://github.com/kubeflow-kale/kale)                      | Kubeflow’s superfood for Data Scientists                    |
 | [BentoML](https://github.com/bentoml/BentoML)                      | Unified Model Serving Framework                             |
-|[Yatai](https://github.com/bentoml/yatai)|Model Deployment at Scale on Kubernetes|
+| [Yatai](https://github.com/bentoml/yatai)                          | Model Deployment at Scale on Kubernetes                     |
 # Articles/Talks
 
 - [Building a Complete AI Based Search Engine with Elasticsearch, Kubeflow and Katib](https://towardsdatascience.com/building-a-complete-ai-based-search-engine-with-elasticsearch-kubeflow-and-katib-590c7b27eb8f)
