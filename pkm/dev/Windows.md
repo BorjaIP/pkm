@@ -82,7 +82,6 @@ Open `Task scheduler` and DISABLE all unnecesary.
 | [KeepassXC](https://github.com/keepassxreboot/keepassxc) | Open-source password manager |
 | [FanControl](https://github.com/Rem0o/FanControl.Releases) | Highly customizable fan controlling software for Windows\| |
 
-
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)
 - [Trident Z RGB](https://www.gskill.com/download/1502180912/1551690847/Trident-Z-Family-(RGB,-Royal,-Neo))

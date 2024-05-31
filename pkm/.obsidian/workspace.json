@@ -42,18 +42,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b59a2c959d8cd20c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 2
