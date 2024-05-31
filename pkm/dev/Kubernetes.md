@@ -429,12 +429,9 @@ rm /var/lib/weave/weave-netdata.db
 reboot
 ```
 
-# PaC/IaC/CaC
-
-
 ## Declarative Configuration
 
-Kubernetes declarative configuration refers to the practice of declaring the desired state of applications and their resources in Kubernetes manifest files.
+Kubernetes declarative configuration refers to the practice of declaring the desired state of applications and their resources in Kubernetes manifest files. This include [[IaC]], PaC or IaC.
 ### Structured Key-Value Pair
 
 Structured key-value pair meets the minimum data declaration requirements (int, string, list, dict, etc.)

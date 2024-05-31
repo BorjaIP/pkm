@@ -11,60 +11,8 @@
             "id": "583622bc09386616",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/KCL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18e119325bfdc40c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/IaC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99e7658740d4447a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26860e89748b9ea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/DevOps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c26ee369c28d953b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/DevOps.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -79,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dev/MPC.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -249,19 +194,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "583622bc09386616",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
     "dev/IaC.md",
+    "dev/Observability.md",
+    "dev/Machine Learning.md",
+    "dev/KCL.md",
+    "dev/MPC.md",
     "dev/CaC.md",
     "dev/DevOps.md",
-    "dev/Kubernetes.md",
     "dev/Kustomize.md",
     "dev/Terraform.md",
     "dev/Cloud Formation.md",
     "dev/AWS.md",
     "dev/Container.md",
     "dev/PostgreSQL.md",
-    "dev/KCL.md",
     "ia.md",
     "I.md",
     "dev/Bussiness Inteligence.md",
@@ -274,9 +222,6 @@
     "dev/Helm.md",
     "dev/Windows.md",
     "dev/Winget.md",
-    "dev/Operating System.md",
-    "dev/PET.md",
-    "dev/MPC.md",
     "assets/cert-manager.svg",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
