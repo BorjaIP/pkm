@@ -45,6 +45,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                            | Accessible AI for everyone, to use and to build on.                                                                              |
 | [AutoGen](https://github.com/microsoft/autogen)                                       | A programming framework for agentic AI                                                                                           |
 | [OpenWeb-UI](https://github.com/open-webui/open-webui)                                | User-friendly WebUI for LLMs                                                                                                     |
+| [Guidance](https://github.com/guidance-ai/guidance)                                   | A guidance language for controlling LLM                                                                                          |
 
 
 ![[llm-tree.jpg]]
