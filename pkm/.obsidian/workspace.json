@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f0c7cc90e5b9344",
+            "id": "583622bc09386616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/KCL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18e119325bfdc40c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +32,48 @@
             }
           },
           {
-            "id": "583622bc09386616",
+            "id": "99e7658740d4447a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26860e89748b9ea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c26ee369c28d953b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83bd081ae2b65a87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flowi",
+                "query": "as code",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/MPC.md"
               }
             }
           }
@@ -167,7 +213,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +224,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,22 +249,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "583622bc09386616",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
+    "dev/IaC.md",
+    "dev/CaC.md",
+    "dev/DevOps.md",
+    "dev/Kubernetes.md",
+    "dev/Kustomize.md",
+    "dev/Terraform.md",
+    "dev/Cloud Formation.md",
+    "dev/AWS.md",
+    "dev/Container.md",
+    "dev/PostgreSQL.md",
+    "dev/KCL.md",
+    "ia.md",
+    "I.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/Aurora.md",
+    "dev/Architecture.md",
+    "dev/Airflow.md",
+    "dev/Kubeflow.md",
+    "dev/LLM.md",
     "dev/Cert Manager.md",
     "dev/Helm.md",
-    "dev/Kubernetes.md",
-    "dev/AWS.md",
-    "dev/IaC.md",
     "dev/Windows.md",
     "dev/Winget.md",
-    "dev/LLM.md",
     "dev/Operating System.md",
     "dev/PET.md",
     "dev/MPC.md",
-    "dev/Machine Learning.md",
-    "dev/GCP.md",
-    "dev/MLOps.md",
     "assets/cert-manager.svg",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
@@ -228,20 +284,8 @@
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",
-    "dev/VDB.md",
-    "dev/Data Platform.md",
-    "dev/Observability.md",
-    "dev/RDBMS.md",
-    "dev/RAG.md",
-    "dev/GDB.md",
-    "dev/DBMS.md",
     "assets/tokenization.png",
     "assets/advance_rag.webp",
-    "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
-    "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
-    "articles/papers/Knowledge Graph Prompting for Multi-Document Question Answering.md",
-    "articles/papers/An LLM Compiler for Parallel Function Calling.md",
-    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
     "assets/kubeflow-arch.png",
     "de",
     "Untitled",

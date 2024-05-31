@@ -8,33 +8,33 @@ tags:
 ---
 **Kubernetes** is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
-| Tool | Description |
-| ---- | ---- |
-| [Kubeshark](https://github.com/kubeshark/kubeshark) | API traffic analyzer for Kubernetes (TCDump + Wireshark) |
-| [Vcluster](https://github.com/loft-sh/vcluster) | Create fully functional virtual Kubernetes clusters |
-| [Openlens](https://github.com/MuhammedKalkan/OpenLens) | Lens - The way the world runs Kubernetes |
-| [Cert-Manager](https://github.com/cert-manager/cert-manager) | Automatically provision and manage TLS certificates in Kubernetes |
-| [Permissions-manager](https://github.com/sighupio/permission-manager) | Brings sanity to Kubernetes RBAC |
-| [Kubectl-cost](https://github.com/kubecost/kubectl-cost) | CLI for determining the cost of Kubernetes workloads |
-| [Kubespray](https://github.com/kubernetes-sigs/kubespray) | Deploy a Production Ready Kubernetes Cluster |
-| [MetalK8s](https://github.com/scality/metalk8s) | Kubernetes distribution on-prem deployments |
-| [K9s](https://k9scli.io/) | Kubernetes CLI To Manage Your Clusters In Style! |
-| [Kubectx](https://github.com/ahmetb/kubectx) | Faster way to switch between clusters and namespaces in kubectl |
-| [Opencost](https://github.com/opencost/opencost) | Cross-cloud cost allocation models for Kubernetes workloads |
-| [Kubetap](https://github.com/soluble-ai/kubetap) | Kubectl plugin to interactively proxy Kubernetes Services with ease |
-| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way |
-| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg) | Kubernetes operator that covers the full lifecycle of a PostgreSQL database cluster |
-| [LongHorn](https://github.com/longhorn/longhorn) | Longhorn is a distributed block storage system for Kubernetes |
-| [Keel](https://github.com/keel-hq/keel) | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates |
-| [Kured](https://github.com/kubereboot/kured) | Kubernetes Reboot Daemon |
-| [Kuma](https://github.com/kumahq/kuma) | The multi-zone service mesh for containers, Kubernetes and VMs |
-| [Pixie](https://github.com/pixie-io/pixie) | Open-source observability tool for Kubernetes applications |
-| [Kueue](https://github.com/kubernetes-sigs/kueue) | Kubernetes-native Job Queueing |
-| [Flux](https://github.com/fluxcd/flux2) | Open and extensible continuous delivery solution |
-| [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) | Operator for running synthetic checks as pods |
-| [Kubearmor](https://github.com/kubearmor/KubeArmor) | Cloud-native runtime security enforcement system that restricts the behavior |
-| [Popeye](https://github.com/derailed/popeye) | Kubernetes cluster resource sanitizer |
-| [Kpt](https://github.com/kptdev/kpt/tree/main) | Automate Kubernetes Configuration Editing |
+| Tool                                                                                  | Description                                                                             |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Kubeshark](https://github.com/kubeshark/kubeshark)                                   | API traffic analyzer for Kubernetes (TCDump + Wireshark)                                |
+| [Vcluster](https://github.com/loft-sh/vcluster)                                       | Create fully functional virtual Kubernetes clusters                                     |
+| [Openlens](https://github.com/MuhammedKalkan/OpenLens)                                | Lens - The way the world runs Kubernetes                                                |
+| [Cert-Manager](https://github.com/cert-manager/cert-manager)                          | Automatically provision and manage TLS certificates in Kubernetes                       |
+| [Permissions-manager](https://github.com/sighupio/permission-manager)                 | Brings sanity to Kubernetes RBAC                                                        |
+| [Kubectl-cost](https://github.com/kubecost/kubectl-cost)                              | CLI for determining the cost of Kubernetes workloads                                    |
+| [Kubespray](https://github.com/kubernetes-sigs/kubespray)                             | Deploy a Production Ready Kubernetes Cluster                                            |
+| [MetalK8s](https://github.com/scality/metalk8s)                                       | Kubernetes distribution on-prem deployments                                             |
+| [K9s](https://k9scli.io/)                                                             | Kubernetes CLI To Manage Your Clusters In Style!                                        |
+| [Kubectx](https://github.com/ahmetb/kubectx)                                          | Faster way to switch between clusters and namespaces in kubectl                         |
+| [Opencost](https://github.com/opencost/opencost)                                      | Cross-cloud cost allocation models for Kubernetes workloads                             |
+| [Kubetap](https://github.com/soluble-ai/kubetap)                                      | Kubectl plugin to interactively proxy Kubernetes Services with ease                     |
+| [Kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Bootstrap Kubernetes the hard way                                                       |
+| [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)                     | Kubernetes operator that covers the full lifecycle of a [[PostgreSQL]] database cluster |
+| [LongHorn](https://github.com/longhorn/longhorn)                                      | Longhorn is a distributed block storage system for Kubernetes                           |
+| [Keel](https://github.com/keel-hq/keel)                                               | Kubernetes Operator to automate Helm, DaemonSet, StatefulSet & Deployment updates       |
+| [Kured](https://github.com/kubereboot/kured)                                          | Kubernetes Reboot Daemon                                                                |
+| [Kuma](https://github.com/kumahq/kuma)                                                | The multi-zone service mesh for containers, Kubernetes and VMs                          |
+| [Pixie](https://github.com/pixie-io/pixie)                                            | Open-source observability tool for Kubernetes applications                              |
+| [Kueue](https://github.com/kubernetes-sigs/kueue)                                     | Kubernetes-native Job Queueing                                                          |
+| [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution                                        |
+| [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy)                          | Operator for running synthetic checks as pods                                           |
+| [Kubearmor](https://github.com/kubearmor/KubeArmor)                                   | Cloud-native runtime security enforcement system that restricts the behavior            |
+| [Popeye](https://github.com/derailed/popeye)                                          | Kubernetes cluster resource sanitizer                                                   |
+| [Kube-linter](https://github.com/stackrox/kube-linter)                                | KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts  |
 # Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
@@ -429,6 +429,50 @@ rm /var/lib/weave/weave-netdata.db
 reboot
 ```
 
+# PaC/IaC/CaC
+
+
+## Declarative Configuration
+
+Kubernetes declarative configuration refers to the practice of declaring the desired state of applications and their resources in Kubernetes manifest files.
+### Structured Key-Value Pair
+
+Structured key-value pair meets the minimum data declaration requirements (int, string, list, dict, etc.)
+
+- JSON/YAML: It is very convenient for reading and automation, and has different languages API support.
+- [[Kustomize]]
+### Templated Key-Value Pair
+
+The Templated KV has the capability of static configuration data and dynamic parameters, and can output different static configuration data with one template+dynamic parameters.
+
+- [[Helm]]
+### Programmable Key-Value Pair
+
+`Configuration as Code (CaC)` uses code to generate configuration, just like engineers only need to write advanced GPL code, rather than manually writing error-prone and difficult-to-understand server binary code.
+
+- [OPA](https://github.com/open-policy-agent/opa) --> Open Policy Agent (OPA) is an open source, general-purpose policy engine.
+- [CEL](https://kubernetes.io/docs/reference/using-api/cel/) --> The [Common Expression Language (CEL)](https://github.com/google/cel-go) is used in the Kubernetes API to declare validation rules, policy rules, and other constraints or conditions.
+### Typed Key-Value Pair
+
+Based on programmable K-V, typed K-V has more capabilities of type constraints.
+
+- [CUE](https://github.com/cue-lang/cue)--> Validate and define text-based and dynamic configuration
+### Modeled Key-Value Pair
+
+High-level language modeling capability as the core description
+
+- [[KCL]]
+### General-Purpose Languages and CDKs
+
+Kubernetes resources using DSLs, we can also employ general-purpose languages for definition.
+
+- [Pulumi](https://github.com/pulumi/pulumi)
+### Hybrid Structured and Programmable KV
+
+Some tools primarily employ structured KV for configuration management but also provide additional extensions to handle complex scenarios, eliminating the need for extensive YAML templating
+
+- [Crossplane](https://github.com/crossplane/crossplane)
+- [KPT](https://github.com/kptdev/kpt/tree/main) --> Automate Kubernetes Configuration Editing
 # Bugs/Errors
 
 - Broken connection between services with Names or IPs.
@@ -446,4 +490,8 @@ HorizontalPodAutoscaler
 PodDisruptionBudget
 
 - For HA you neeed to define Disruptions if a Node of the Cluster is down or upgraded. Stablish the minimum and maximum Pods are needed mandatory for your App.
+
+# References
+
+[1]: [Declarative Configuration Management](https://dev.to/peefy/10-ways-for-kubernetes-declarative-configuration-management-5pb)
 
