@@ -80,6 +80,8 @@ Open `Task scheduler` and DISABLE all unnecesary.
 | [ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) | Fluent design system for windows |
 | [Files](https://files.community/) | Building the best file manager experience for Windows |
 | [KeepassXC](https://github.com/keepassxreboot/keepassxc) | Open-source password manager |
+| [FanControl](https://github.com/Rem0o/FanControl.Releases) | Highly customizable fan controlling software for Windows\| |
+
 
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)

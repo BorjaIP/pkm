@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/PET.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f89b2ebf7d257a23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6ec527d6b871f8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Winget.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Winget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Winget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/Winget.md"
               }
             }
           }
@@ -166,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Winget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Winget.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,44 +229,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6ea1db3df3766a8",
+  "active": "c6ec527d6b871f8e",
   "lastOpenFiles": [
-    "dev/Kubeflow.md",
-    "dev/LLM.md",
-    "dev/GPT.md",
-    "dev/Data Orchestration.md",
-    "dev/DBMS.md",
-    "dev/VDB.md",
-    "dev/PostgreSQL.md",
-    "dev/RDBMS.md",
-    "dev/GDB.md",
-    "dev/RDS.md",
-    "dev/AWS.md",
-    "dev/GCP.md",
-    "dev/AlloyDB.md",
-    "dev/RAG.md",
     "dev/Windows.md",
-    "dev/Linux.md",
-    "dev/Tools.md",
-    "dev/Bussiness Inteligence.md",
-    "dev/Terraform.md",
-    "articles/papers/Mixture-of-Experts Meets Instruction Tuning - A Winning Combination for Large Language Models.md",
+    "dev/Winget.md",
+    "dev/PET.md",
+    "dev/MPC.md",
+    "dev/LLM.md",
+    "dev/Machine Learning.md",
+    "dev/GCP.md",
     "dev/Kubernetes.md",
-    "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
-    "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
-    "dev/Docker.md",
-    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
-    "assets/tokenization.png",
+    "dev/MLOps.md",
+    "assets/cert-manager.svg",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
     "dev/Pasted image 20240509101555.png",
-    "articles/papers/An LLM Compiler for Parallel Function Calling.md",
-    "assets/ml-models.jpg",
+    "assets/bigquery_vector.png",
+    "assets/biglake.png",
+    "assets/customer_data_platform.png",
+    "dev/VDB.md",
+    "dev/Data Platform.md",
+    "dev/Observability.md",
+    "dev/RDBMS.md",
+    "dev/RAG.md",
+    "dev/GDB.md",
+    "dev/DBMS.md",
+    "assets/tokenization.png",
     "assets/advance_rag.webp",
-    "assets/istio-architecture.png",
+    "articles/papers/RAG-Fusion - a New Take on Retrieval-Augmented Generation.md",
+    "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
+    "articles/papers/Knowledge Graph Prompting for Multi-Document Question Answering.md",
+    "articles/papers/An LLM Compiler for Parallel Function Calling.md",
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
+    "dev/Tools.md",
+    "dev/Python.md",
+    "dev/Arch.md",
+    "dev/IaC.md",
+    "dev/Docker.md",
     "assets/kubeflow-arch.png",
-    "assets/datastream.png",
-    "dev/datastream.png",
     "de",
     "Untitled",
     "assets/images",
