@@ -4,52 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "185a0603b0145de7",
+        "id": "36f5aa317f70fe38",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ea1db3df3766a8",
+            "id": "2f0c7cc90e5b9344",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/PET.md",
+                "file": "dev/IaC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f89b2ebf7d257a23",
+            "id": "583622bc09386616",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6ec527d6b871f8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Winget.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "305780ef004231da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Windows.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -191,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,17 +205,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f89b2ebf7d257a23",
+  "active": "583622bc09386616",
   "lastOpenFiles": [
+    "dev/Cert Manager.md",
+    "dev/Helm.md",
+    "dev/Kubernetes.md",
+    "dev/AWS.md",
+    "dev/IaC.md",
+    "dev/Windows.md",
     "dev/Winget.md",
     "dev/LLM.md",
-    "dev/Windows.md",
     "dev/Operating System.md",
     "dev/PET.md",
     "dev/MPC.md",
     "dev/Machine Learning.md",
     "dev/GCP.md",
-    "dev/Kubernetes.md",
     "dev/MLOps.md",
     "assets/cert-manager.svg",
     "dev/Pasted image 20240509104031.png",
@@ -262,10 +242,6 @@
     "articles/papers/Knowledge Graph Prompting for Multi-Document Question Answering.md",
     "articles/papers/An LLM Compiler for Parallel Function Calling.md",
     "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
-    "dev/Tools.md",
-    "dev/Python.md",
-    "dev/Arch.md",
-    "dev/IaC.md",
     "assets/kubeflow-arch.png",
     "de",
     "Untitled",
