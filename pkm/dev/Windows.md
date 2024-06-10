@@ -191,3 +191,18 @@ Uninstall all GPU drivers
 Internet slow in terminal and in WSL2
 
 - Sources https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
+
+# WSL
+
+- [WSL-vpnkit](https://github.com/sakai135/wsl-vpnkit)
+- [HyperV-fix-for-dev](https://github.com/jgregmac/hyperv-fix-for-devs)
+
+### Static IP
+
+Modify in regedit:
+
+```bash
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatNetwork Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatGatewayIpAddress
+```
+
+- https://stackoverflow.com/questions/69691928/can-i-set-a-static-ip-address-for-wsl-2

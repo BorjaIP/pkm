@@ -13,7 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a114c798a514209d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0eba778d59be5d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "898dad91051b701d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9269ee83f5fd3876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +103,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Git.md"
               }
             }
           }
@@ -190,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,23 +277,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89b55be358b4ad33",
+  "active": "898dad91051b701d",
   "lastOpenFiles": [
-    "dev/PET.md",
+    "dev/Windows.md",
+    "dev/Kubernetes.md",
     "dev/LLM.md",
+    "dev/RAG.md",
+    "dev/Linux.md",
+    "dev/GPT.md",
+    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
+    "dev/MPC.md",
+    "dev/PET.md",
     "dev/Kubeflow.md",
     "dev/DevOps.md",
-    "dev/MPC.md",
     "articles/papers/High Performance IO For Large Scale Deep Learning.md",
-    "dev/Kubernetes.md",
     "dev/Git.md",
-    "dev/RAG.md",
     "dev/MLOps.md",
-    "dev/Windows.md",
     "dev/Python.md",
     "dev/Machine Learning.md",
     "mlops.md",
-    "dev/GPT.md",
     "assets/cert-manager.svg",
     "dev/Data Orchestration.md",
     "dev/DBMS.md",
@@ -255,8 +306,6 @@
     "dev/RDS.md",
     "dev/AWS.md",
     "dev/GCP.md",
-    "dev/AlloyDB.md",
-    "dev/Linux.md",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",

@@ -94,7 +94,13 @@ https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-
 ### Transformers
 
 - [[Transformers]]
-
 ## Vector Database
 
 - [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
+
+## Parameters
+
+- **Frequency_penalty**: This parameter is used to discourage the model from repeating the same words or phrases too frequently within the generated text. It is a value that is added to the log-probability of a token each time it occurs in the generated text. A higher frequency_penalty value will result in the model being more conservative in its use of repeated tokens.
+- **Presence_penalty**: This parameter is used to encourage the model to include a diverse range of tokens in the generated text. It is a value that is subtracted from the log-probability of a token each time it is generated. A higher presence_penalty value will result in the model being more likely to generate tokens that have not yet been included in the generated text.
+
+Both of these parameters can be adjusted to influence the overall quality and diversity of the generated text.
