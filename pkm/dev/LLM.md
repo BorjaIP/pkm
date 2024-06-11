@@ -45,8 +45,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                            | Accessible AI for everyone, to use and to build on.                                                                              |
 | [AutoGen](https://github.com/microsoft/autogen)                                       | A programming framework for agentic AI                                                                                           |
 | [OpenWeb-UI](https://github.com/open-webui/open-webui)                                | User-friendly WebUI for LLMs                                                                                                     |
-
-
+| [OpenUI](https://github.com/wandb/openui)                                             | Building UI components with AI                                                                                                   |
+[]()
 ![[llm-tree.jpg]]
 
 ## Articles/Talks
@@ -71,8 +71,10 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/
 ## Prompt Engineering
 
-- [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
 
+- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
+- [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
+- [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
  - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
 ## Text embeddings
 
