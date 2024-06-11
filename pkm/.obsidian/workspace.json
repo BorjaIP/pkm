@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "87265e50e7588978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,24 +229,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba7b367baac126cf",
+  "active": "87265e50e7588978",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",
     "dev/Cert Manager.md",
     "dev/KCL.md",
+=======
+    "dev/MPC.md",
+    "dev/LLM.md",
+    "conflict-files-obsidian-git.md",
+    "dev/KCL.md",
+    "dev/Cert Manager.md",
+    "assets/customer_data_platform.png",
+    "assets/bigquery_vector.png",
+    "assets/biglake.png",
+>>>>>>> Stashed changes
     "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
     "dev/Linux.md",
     "dev/Windows.md",
     "dev/PET.md",
     "dev/Git.md",
     "dev/Kubernetes.md",
-    "dev/LLM.md",
     "dev/RAG.md",
     "dev/GPT.md",
     "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
-    "dev/MPC.md",
     "dev/Kubeflow.md",
     "dev/DevOps.md",
     "articles/papers/High Performance IO For Large Scale Deep Learning.md",
