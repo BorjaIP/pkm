@@ -184,8 +184,11 @@ Uninstall all GPU drivers
 ## Network
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 Internet slow in terminal and in WSL2
 
@@ -208,4 +211,7 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatNe
 =======
 - Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
 >>>>>>> origin/main
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

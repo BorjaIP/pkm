@@ -48,10 +48,13 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [AutoGen](https://github.com/microsoft/autogen)                                       | A programming framework for agentic AI                                                                                           |
 | [OpenWeb-UI](https://github.com/open-webui/open-webui)                                | User-friendly WebUI for LLMs                                                                                                     |
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 | [Guidance](https://github.com/guidance-ai/guidance)                                   | A guidance language for controlling LLM                                                                                          |
 
 
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 | [OpenUI](https://github.com/wandb/openui)                                             | Building UI components with AI                                                                                                   |
 []()
@@ -60,6 +63,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 
 >>>>>>> origin/main
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ![[llm-tree.jpg]]
 
