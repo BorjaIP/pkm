@@ -31,5 +31,22 @@
       ],
       "key": "J"
     }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "'"
+    }
   ]
 }

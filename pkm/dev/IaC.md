@@ -4,7 +4,7 @@ created: Saturday 29th April 2023 16:10
 aliases: 
 tags: 
 ---
-*Infrastructure as Code* (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
+**Infrastructure as Code** (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
 
 With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time. By codifying and documenting your configuration specifications, IaC aids [configuration management](https://www.redhat.com/en/topics/automation/what-is-configuration-management) and helps you to avoid undocumented, ad-hoc configuration changes.
 

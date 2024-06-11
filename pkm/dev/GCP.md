@@ -12,11 +12,11 @@ tags:
 
 ## Customer Data Platform
 
-![[Pasted image 20240509101555.png]]
+![[customer_data_platform.png]]
 
-![[Pasted image 20240509101943.png]]
+![[biglake.png]]
 
-![[Pasted image 20240509104031.png]]
+![[bigquery_vector.png]]
 # Databases
 
 - [[AlloyDB]]
