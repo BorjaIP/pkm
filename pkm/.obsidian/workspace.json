@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1cf9d55f86c9188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Windows.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,8 +205,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "898dad91051b701d",
+  "active": "b1cf9d55f86c9188",
   "lastOpenFiles": [
+    "dev/PET.md",
+    "dev/DevOps.md",
+    "dev/Windows.md",
     "assets/bigquery_vector.png",
     "dev/Linux.md",
     "assets/biglake.png",
@@ -202,8 +218,6 @@
     "dev/Cert Manager.md",
     "dev/KCL.md",
     "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
-    "dev/Windows.md",
-    "dev/PET.md",
     "dev/Git.md",
     "dev/Kubernetes.md",
     "dev/RAG.md",
@@ -211,7 +225,6 @@
     "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
     "dev/MPC.md",
     "dev/Kubeflow.md",
-    "dev/DevOps.md",
     "articles/papers/High Performance IO For Large Scale Deep Learning.md",
     "dev/MLOps.md",
     "dev/Python.md",
