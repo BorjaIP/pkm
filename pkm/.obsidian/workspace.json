@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/DevOps.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CaC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/DevOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/DevOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/DevOps.md"
               }
             }
           }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/DevOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/DevOps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,8 +205,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6889d16fdfb1f1a8",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
     "dev/LLM.md",
     "dev/Artificial Intelligence.md",
     "dev/Python.md",
@@ -221,7 +221,6 @@
     "dev/Linux.md",
     "dev/Kubeflow.md",
     "proxy.md",
-    "dev/Kubernetes.md",
     "dev/PET.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
