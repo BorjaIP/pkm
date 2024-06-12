@@ -183,17 +183,7 @@ Uninstall all GPU drivers
 
 ## Network
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 - Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
-=======
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-Internet slow in terminal and in WSL2
-
-- Sources https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
-
 # WSL
 
 - [WSL-vpnkit](https://github.com/sakai135/wsl-vpnkit)
@@ -208,10 +198,3 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatNe
 ```
 
 - https://stackoverflow.com/questions/69691928/can-i-set-a-static-ip-address-for-wsl-2
-=======
-- Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
->>>>>>> origin/main
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
