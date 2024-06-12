@@ -17,7 +17,7 @@ The GPT models are designed to generate human-like text in response to a [prompt
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT)        | A GPT-empowered penetration testing tool                                                                 |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on                              |
 
-## Articles/Talks
+# Articles/Talks
 
 - [ChatGPT "DAN" (and other "Jailbreaks")](https://github.com/0xk1h0/ChatGPT_DAN?ref=blog.seclify.com)
 - [Neural Databases: A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — (Part 2/3)](https://medium.com/thirdai-blog/neural-database-next-generation-context-retrieval-system-for-building-specialized-ai-agents-with-861ffa0516e7)
@@ -32,12 +32,12 @@ The GPT models are designed to generate human-like text in response to a [prompt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zcMQXID447s?si=WHu5ZlfBrqXOOOaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pov3pLFMOPY?si=Hz6GzaVBR2n_X4rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-## Frameworks
+# Frameworks
 
 - [[PrivateGPT]]
 - [[ColossalAI]]
 - [SeamlessM4T](https://github.com/facebookresearch/seamless_communication)
-### Fine-tunning
+# Fine-tunning
 
 - [Falcon – A guide to finetune and inference](https://lightning.ai/blog/falcon-a-guide-to-finetune-and-inference/)
 - [How To Finetune GPT Like Large Language Models on a Custom Dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
@@ -47,16 +47,20 @@ The GPT models are designed to generate human-like text in response to a [prompt
 - [Optimizing LLMs: A Step-by-Step Guide to Fine-Tuning with PEFT and QLoRA](https://blog.lancedb.com/optimizing-llms-a-step-by-step-guide-to-fine-tuning-with-peft-and-qlora-22eddd13d25b)
 - [Argilla - Bringing LLM Fine-Tuning and RLHF to Everyone](https://argilla.io/blog/argilla-for-llms/)
 
-### TRL
+## TRL
 
 - [TRL - Transformer Reinforcement Learning](https://github.com/huggingface/trl#trl---transformer-reinforcement-learning)
 
-### Lora
+## Lora
 
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://github.com/artidoro/qlora)
 - [Bitsandbytes](https://github.com/TimDettmers/bitsandbytes) - The bitsandbytes is a lightweight wrapper around CUDA custom functions
 - [Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
 
-## Chatbot
+# Chatbot
 
 - [Building a Privacy-Preserving LLM-Based Chatbot](https://medium.com/snowflake/building-a-privacy-preserving-llm-based-chatbot-33b92aa6c3d2)
+
+# ChatGPT + Azure OpenAI
+
+- [ChatGPT + Enterprise data with Azure OpenAI and AI Search](https://github.com/Azure-Samples/azure-search-openai-demo)

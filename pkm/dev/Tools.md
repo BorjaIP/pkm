@@ -38,7 +38,8 @@ tags: tool, dev
 | [NVTop](https://github.com/Syllo/nvtop)                           | GPU & Accelerator process monitoring                                                                                  |
 | [Pueue](https://github.com/Nukesor/pueue)                         | Manage your shell commands                                                                                            |
 | [Viddy](https://github.com/sachaos/viddy)                         | A modern watch command                                                                                                |
-| [commitizen](https://github.com/commitizen-tools/commitizen)                                                                  | Create committing rules for projects                                                                                                                      |
+| [commitizen](https://github.com/commitizen-tools/commitizen)      | Create committing rules for projects                                                                                  |
+| [Clip](https://github.com/jina-ai/clip-as-service)                | Scalable embedding, reasoning, ranking for images and sentences                                                       |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

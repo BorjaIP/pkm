@@ -49,6 +49,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [OpenWeb-UI](https://github.com/open-webui/open-webui)                                | User-friendly WebUI for LLMs                                                                                                     |
 | [Guidance](https://github.com/guidance-ai/guidance)                                   | A guidance language for controlling LLM                                                                                          |
 | [OpenUI](https://github.com/wandb/openui)                                             | Building UI components with AI                                                                                                   |
+| [dsPy](https://github.com/stanfordnlp/dspy)                                           | The framework for programming—not prompting—foundation models                                                                    |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel)                       | Integrate cutting-edge LLM technology quickly and easily into your apps                                                          |
+| [LLMStack](https://github.com/trypromptly/llmstack)                                   | No-code multi-agent framework to build LLM Agents                                                                                |
 
 ![[llm-tree.jpg]]
 
