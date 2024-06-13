@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/DevOps.md",
+                "file": "dev/Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/DevOps.md",
+                "file": "dev/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/DevOps.md",
+                "file": "dev/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/DevOps.md"
+                "file": "dev/Windows.md"
               }
             }
           }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/DevOps.md",
+                "file": "dev/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/DevOps.md",
+                "file": "dev/Windows.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,12 +205,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "6889d16fdfb1f1a8",
   "lastOpenFiles": [
+    "dev/Python.md",
     "dev/Kubernetes.md",
     "dev/LLM.md",
     "dev/Artificial Intelligence.md",
-    "dev/Python.md",
     "dev/GPT.md",
     "dev/ColossalAI.md",
     "dev/PrivateGPT.md",

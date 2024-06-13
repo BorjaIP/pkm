@@ -179,17 +179,21 @@ For show windows key open `regedit` and see the key:
 Uninstall all GPU drivers
 
 - [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
-# Errors
-
-## Network
-
-- Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
 # WSL
 
 - [WSL-vpnkit](https://github.com/sakai135/wsl-vpnkit)
 - [HyperV-fix-for-dev](https://github.com/jgregmac/hyperv-fix-for-devs)
 
-### Static IP
+## Network
+
+- Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
+
+- Traceroute 
+
+```bash
+tracert 8.8.8.8
+```
+## Static IP
 
 Modify in regedit:
 
