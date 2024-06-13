@@ -87,6 +87,12 @@ https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
 
 - [Text Embeddings Visually Explained](https://cohere.com/blog/text-embeddings)
+
+### Embeddings on Multimodal Data
+
+- Embed text, image and video in the **same semantic space with the same dimensionality**.
+- Create the capability for join text with image/video for classification for example.
+
 ## Question Answering
 
 - [Hosted chatbot specifically focused on question answering](https://github.com/hwchase17/chat-langchain)

@@ -9,14 +9,6 @@ tags:
 # Data warehouse
 
 - [[BigQuery]]
-
-## Customer Data Platform
-
-![[customer_data_platform.png]]
-
-![[biglake.png]]
-
-![[bigquery_vector.png]]
 # Databases
 
 - [[AlloyDB]]
