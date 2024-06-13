@@ -276,6 +276,11 @@ netstat -pluton
 netstat putona
 ```
 
+## NC
+
+```bash
+nc -v 168.91.10.X
+```
 ### SS
 
 ```bash

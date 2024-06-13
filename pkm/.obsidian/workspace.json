@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9ca311edcc85e4b",
+        "id": "f28aaf746e635ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "91c0279fbfd3e6da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6889d16fdfb1f1a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "654dc5edbeb97fd8",
+            "id": "e78f8c8e177cdd5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +20,19 @@
             }
           },
           {
-            "id": "4c1f689092b79656",
+            "id": "4ce54de18eb6765b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/GCP.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -191,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/GCP.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,10 +205,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1f689092b79656",
+  "active": "4ce54de18eb6765b",
   "lastOpenFiles": [
     "dev/LLM.md",
     "dev/Windows.md",
+    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
+    "dev/GCP.md",
     "dev/Python.md",
     "dev/Kubernetes.md",
     "dev/Artificial Intelligence.md",
@@ -258,8 +236,6 @@
     "dev/MPC.md",
     "articles/papers/High Performance IO For Large Scale Deep Learning.md",
     "dev/MLOps.md",
-    "dev/Machine Learning.md",
-    "mlops.md",
     "assets/cert-manager.svg",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",

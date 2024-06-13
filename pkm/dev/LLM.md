@@ -93,6 +93,12 @@ https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-
 - Embed text, image and video in the **same semantic space with the same dimensionality**.
 - Create the capability for join text with image/video for classification for example.
 
+## Nearest Neighbor
+
+**Nearest neighbor search** (**NNS**), as a form of **proximity search**, is the [optimization problem](https://en.wikipedia.org/wiki/Optimization_problem "Optimization problem") of finding the point in a given set that is closest (or most similar) to a given point. Closeness is typically expressed in terms of a dissimilarity function: the less [similar](https://en.wikipedia.org/wiki/Similarity_measure "Similarity measure") the objects, the larger the function values.
+### ScaNN
+
+- More efficient for a concrete corpus
 ## Question Answering
 
 - [Hosted chatbot specifically focused on question answering](https://github.com/hwchase17/chat-langchain)
