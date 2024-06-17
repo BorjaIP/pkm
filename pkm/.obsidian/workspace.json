@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,15 +216,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b3b27d547eb23a8",
+  "active": "e78f8c8e177cdd5c",
   "lastOpenFiles": [
+    "dev/Linux.md",
+    "dev/Kubernetes.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
     "dev/LLM.md",
     "dev/Python.md",
-    "dev/Linux.md",
     "dev/Windows.md",
     "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
     "dev/GCP.md",
-    "dev/Kubernetes.md",
     "dev/Artificial Intelligence.md",
     "dev/GPT.md",
     "dev/ColossalAI.md",
@@ -247,7 +247,6 @@
     "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
     "dev/MPC.md",
     "articles/papers/High Performance IO For Large Scale Deep Learning.md",
-    "dev/MLOps.md",
     "assets/cert-manager.svg",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
