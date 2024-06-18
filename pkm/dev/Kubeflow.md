@@ -33,7 +33,7 @@ Kubeflow is an open-source platform for [[machine learning]] and MLOps on [[Kube
 
 ## Main components 
 
-![[kubeflow-arch.png]]
+![[kubeflow_arch.png]]
 
 ### Authentication
 

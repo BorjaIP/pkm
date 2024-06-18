@@ -6,14 +6,14 @@ tags: cloud, aws
 ---
 Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 reduces hardware costs so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage. You can add capacity (scale up) to handle compute-heavy tasks, such as monthly or yearly processes, or spikes in website traffic. When usage decreases, you can reduce capacity (scale down) again.
 
-![[ec2-basic-arch.png]]
+![[ec2_basic_arch.png]]
 
 - **EC2** Instance Types based on compute resources [Details](https://cloudacademy.com/blog/aws-ec2-instance-types-explained/).
 - **EC2** Instance Types based on prices [Prices](https://aws.amazon.com/ec2/instance-types/?nc1=h_ls).
 - [Pricing comparing instances](https://instances.vantage.sh/?region=eu-west-1)
 - Calculate [Data Tansfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer) for IN/OUT and in different Regions.
 
-![ec2-types](assets/ec2-types.jpg)
+![ec2-types](ec2_types.jpg)
 
 - **Roles**: roles are preferred from a **security perspective**. (your can attach a role into a EC2 and use AWS inside with that role)
 - **Avoid hard-coding your credentials**: roles provides access without the use of access and secret key.

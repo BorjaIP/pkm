@@ -11,7 +11,7 @@ tags:
 - [Deploying an Istio Gateway with TLS in EKS using the AWS Load Balancer Controller](https://itnext.io/deploying-an-istio-gateway-with-tls-in-eks-using-the-aws-load-balancer-controller-448812e081e5)
 
 
-![[istio-architecture.png]]
+![[istio_architecture.png]]
 
 ## Components
 

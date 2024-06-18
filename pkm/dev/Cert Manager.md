@@ -7,7 +7,7 @@ tags:
 ---
 **Cert-manager** adds certificates and certificates issuer as resource types in Kubernetes clusters and simplifies the process of obtaining, renewing, and using those certificates. It is running by jet stack under an open-source project.
 
-![[cert-manager.svg]]
+![[cert_manager.svg]]
 # Installation
 
 Let’s use [[Helm]] to install cert-manager. Start by adding the appropriate repo:

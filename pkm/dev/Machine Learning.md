@@ -58,7 +58,7 @@ Reinforcement learning uses _trial and error_ to train algorithms and create mod
 
 ## Models
 
-![[ml-models.jpg]]
+![[ml_models.jpg]]
 
 ### Regression
 #### Linear regression

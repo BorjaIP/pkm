@@ -52,8 +52,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [dsPy](https://github.com/stanfordnlp/dspy)                                           | The framework for programming—not prompting—foundation models                                                                    |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel)                       | Integrate cutting-edge LLM technology quickly and easily into your apps                                                          |
 | [LLMStack](https://github.com/trypromptly/llmstack)                                   | No-code multi-agent framework to build LLM Agents                                                                                |
+| [Vanna](https://github.com/vanna-ai/vanna)                                            | Chat with your SQL database                                                                                                      |
 
-![[llm-tree.jpg]]
+![[llm_tree.jpg]]
 
 ## Articles/Talks
 

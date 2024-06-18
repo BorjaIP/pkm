@@ -183,22 +183,44 @@ Uninstall all GPU drivers
 
 - [WSL-vpnkit](https://github.com/sakai135/wsl-vpnkit)
 - [HyperV-fix-for-dev](https://github.com/jgregmac/hyperv-fix-for-devs)
-
 ## Network
 
 - Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
-
 - Traceroute 
 
 ```bash
 tracert 8.8.8.8
 ```
-## Static IP
+
+- Restart `resolv.conf`
+
+```bash
+sudo rm /etc/resolv.conf
+sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+sudo chattr +i /etc/resolv.conf
+```
+
+- Test connectivity between windows and WSL
+
+```bash
+# start server in WSL
+python -m http.server --bind 0.0.0.0
+# attack in windows
+curl localhost:8000
+```
+
+- Add Static IP to WSL in Networking Mode = NAT. --> https://stackoverflow.com/questions/69691928/can-i-set-a-static-ip-address-for-wsl-2
 
 Modify in regedit:
 
 ```bash
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatNetwork Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss\NatGatewayIpAddress
+# Current IP
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss
 ```
 
-- https://stackoverflow.com/questions/69691928/can-i-set-a-static-ip-address-for-wsl-2
+- Problem IPv6 with WSL --> https://github.com/microsoft/WSL/issues/11002
+
+![[wsl_ipv6.png]]

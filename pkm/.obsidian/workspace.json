@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e78f8c8e177cdd5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9b3b27d547eb23a8",
             "type": "leaf",
             "state": {
@@ -32,18 +20,19 @@
             }
           },
           {
-            "id": "4ce54de18eb6765b",
+            "id": "404e9012a6bd5856",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Windows.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CaC",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Windows.md"
               }
             }
           }
@@ -178,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Windows.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,44 +205,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e78f8c8e177cdd5c",
+  "active": "404e9012a6bd5856",
   "lastOpenFiles": [
-    "dev/Linux.md",
-    "dev/Kubernetes.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "dev/LLM.md",
-    "dev/Python.md",
+    "assets/acid.png",
+    "assets/wsl_ipv6.png",
     "dev/Windows.md",
-    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
+    "dev/Python.md",
+    "dev/LLM.md",
+    "dev/Linux.md",
+    "dev/VDB.md",
+    "dev/Tools.md",
+    "dev/RDBMS.md",
+    "dev/PostgreSQL.md",
+    "dev/Kubernetes.md",
     "dev/GCP.md",
+    "dev/FastAPI.md",
+    "dev/DynamoDB.md",
+    "dev/Docker Compose.md",
+    "dev/Datastream.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/BigQuery.md",
+    "dev/Aurora.md",
+    "dev/Apache.md",
+    "dev/AlloyDB.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
+    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
     "dev/Artificial Intelligence.md",
     "dev/GPT.md",
     "dev/ColossalAI.md",
-    "dev/PrivateGPT.md",
-    "dev/Tools.md",
-    "dev/DevOps.md",
-    "articles/papers/Technological Enablers for Privacy Preserving Data Sharing and Analysis.md",
-    "dev/Kubeflow.md",
-    "proxy.md",
-    "dev/PET.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",
-    "dev/Cert Manager.md",
-    "dev/KCL.md",
-    "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
-    "dev/Git.md",
-    "dev/RAG.md",
-    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
-    "dev/MPC.md",
-    "articles/papers/High Performance IO For Large Scale Deep Learning.md",
-    "assets/cert-manager.svg",
+    "assets/cert_manager.svg",
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
     "dev/Pasted image 20240509101555.png",
-    "assets/ml-models.jpg",
-    "assets/advance_rag.webp",
+    "assets/ml_models.jpg",
     "de",
     "Untitled",
     "assets/images",

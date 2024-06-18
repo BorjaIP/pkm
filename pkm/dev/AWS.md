@@ -9,7 +9,7 @@ tags:
 ---
 Amazon Web Services is a large web of offerings from [Amazon](https://notes.nicolevanderhoeven.com/Amazon) that are centered around the creation, deployment, maintenance, and operations of web applications.
 
-![[aws-services.png]]
+![[aws_services.png]]
 
 | Tool                                                                  | Description                                                       |
 | --------------------------------------------------------------------- | ----------------------------------------------------------------- |
