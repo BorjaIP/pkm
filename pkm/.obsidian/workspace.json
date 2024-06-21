@@ -30,9 +30,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d11f723cd6bc43d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbd471e52e559049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/VDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Windows.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -167,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,15 +228,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404e9012a6bd5856",
+  "active": "9b3b27d547eb23a8",
   "lastOpenFiles": [
+    "dev/Windows.md",
+    "dev/Linux.md",
+    "dev/LLM.md",
+    "dev/VDB.md",
+    "dev/Transformers.md",
+    "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
     "assets/acid.png",
     "assets/wsl_ipv6.png",
-    "dev/Windows.md",
     "dev/Python.md",
-    "dev/LLM.md",
-    "dev/Linux.md",
-    "dev/VDB.md",
     "dev/Tools.md",
     "dev/RDBMS.md",
     "dev/PostgreSQL.md",
@@ -241,8 +266,6 @@
     "assets/tokenization.png",
     "dev/Pasted image 20240509104031.png",
     "dev/Pasted image 20240509101943.png",
-    "dev/Pasted image 20240509101555.png",
-    "assets/ml_models.jpg",
     "de",
     "Untitled",
     "assets/images",

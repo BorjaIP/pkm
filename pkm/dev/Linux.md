@@ -423,6 +423,8 @@ port 3389
 export PATH=$PATH:/usr/local/bin
 # instead of cp for show progress
 rsync -avz
+# background process
+nohup python your_file.py > example.log 2>&1 &
 ```
 
 ## Java

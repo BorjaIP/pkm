@@ -56,7 +56,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 ![[llm_tree.jpg]]
 
-## Articles/Talks
+# Articles/Talks
 
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
 - [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
@@ -66,60 +66,68 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
-
+- [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
+![[1_s8TObF5zOFx3c_nSjITJqg.png]]
 - [[RAG]]
 
-## Tokenization
+# Tokenization
 
 ![[tokenization.png]]
 
-## Best LLM
+# Best LLM
 
 https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/
-## Prompt Engineering
+# Prompt Engineering
 
 
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
 - [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
  - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
-## Text embeddings
+# Text embeddings
 
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
 
 - [Text Embeddings Visually Explained](https://cohere.com/blog/text-embeddings)
 
-### Embeddings on Multimodal Data
+## Embeddings on Multimodal Data
 
 - Embed text, image and video in the **same semantic space with the same dimensionality**.
 - Create the capability for join text with image/video for classification for example.
 
-## Nearest Neighbor
+# Nearest Neighbor
 
 **Nearest neighbor search** (**NNS**), as a form of **proximity search**, is the [optimization problem](https://en.wikipedia.org/wiki/Optimization_problem "Optimization problem") of finding the point in a given set that is closest (or most similar) to a given point. Closeness is typically expressed in terms of a dissimilarity function: the less [similar](https://en.wikipedia.org/wiki/Similarity_measure "Similarity measure") the objects, the larger the function values.
-### ScaNN
+## ScaNN
 
 - More efficient for a concrete corpus
-## Question Answering
+# Question Answering
 
 - [Hosted chatbot specifically focused on question answering](https://github.com/hwchase17/chat-langchain)
-## Models
+# Models
 
 - [List of Open Sourced Fine-Tuned Large Language Models (LLM)](https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76)
 - [Falcon](https://github.com/Sentdex/Falcon-LLM/)
-
-### LLama
+## LLama
 
 - [LLama](https://github.com/facebookresearch/llama)
 - [LlamaHub - Get your RAG application rolling in no time](https://llamahub.ai/)
-### Transformers
+## Transformers
 
 - [[Transformers]]
-## Vector Database
+# Tunning
+
+## RLHF 
+
+Distillation
+	- Train a small model to mimic the behavior of a large model
+Adapter Tunning
+Full Fine Tunning
+# Vector Database
 
 - [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
 
-## Parameters
+# Parameters
 
 - **Frequency_penalty**: This parameter is used to discourage the model from repeating the same words or phrases too frequently within the generated text. It is a value that is added to the log-probability of a token each time it occurs in the generated text. A higher frequency_penalty value will result in the model being more conservative in its use of repeated tokens.
 - **Presence_penalty**: This parameter is used to encourage the model to include a diverse range of tokens in the generated text. It is a value that is subtracted from the log-probability of a token each time it is generated. A higher presence_penalty value will result in the model being more likely to generate tokens that have not yet been included in the generated text.
