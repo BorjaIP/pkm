@@ -11,23 +11,30 @@ Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is
 | [Libreboot](https://libreboot.org/)         | Freedoms boot fimeware       |
 | [Lutris](https://lutris.net/)               | Play all your games on Linux |
 | [Bling](https://github.com/BlingCorp/bling) | Utilities for AwesomeWM      |
-## Distro
+# Distribution
+
+A Linux distribution is an operating system made from a software collection that includes the Linux kernel and often a package management system
 
 - [Search the DistroWatch database for distributions using a particular package](https://distrowatch.com/search.php)
 - [[Arch |Arch]]
 - [[Ubuntu |Ubuntu]]
 - [[RedHat |RedHat]]
+
+# Commands
 ## Users
 
 ```bash
-# Change to su user
+# change to su user
 su -
 
+# create user
 sudo useradd -m user_name
 sudo passwd user_name
 
+# add user to a group (example with docker)
 usermod -aG docker user_name
 
+# create user with custom UID and /home folder
 useradd -u 1000 -g 1 -m -d /home/idmuser -c "Usuario IDMuser" -s /usr/bin/sh idmuser
 
 # last users access to machine
@@ -37,6 +44,7 @@ last | head -n 10
 ## System info
 
 ```bash
+# display system information
 cat /etc/*release
 
 uname -m && cat /etc/*release
@@ -53,6 +61,7 @@ lsb_release -a
 ### Process
 
 ```bash
+# display currect active processes
 ps -fea
 ps fax
 ps aux
@@ -86,13 +95,12 @@ vmstat -saS M
 ### Disk
 
 ```bash
-# Todo en carpetas
+# display disk use by fodler
 sudo du -h --max-depth=1 | sort -hr | more
-# Carpetas de otra forma
-du -s * | sort -nk 1 | awk '{print $2}' | xargs du -hs
-
 du -h -d 1 . | sort -hr
 
+# other ways
+du -s * | sort -nk 1 | awk '{print $2}' | xargs du -hs
 du -hsx * | sort -hr | head -10
 
 df -h /home
@@ -100,16 +108,6 @@ du -bsh /home
 du -h
 du -sh ./*/ | sort -hr
 ```
-
-Resize
-
-```bash
-# list all partitions
-sudo fdisk -l
-# tool for resize
-sudo cfdisk /dev/sda
-```
-
 ### Partitions
 
 ```bash
@@ -119,6 +117,14 @@ sfdisk -ls /dev/sda
 sudo parted -l
 ```
 
+- Resize partitions
+
+```bash
+# list all partitions
+sudo fdisk -l
+# tool for resize
+sudo cfdisk /dev/sda
+```
 ### Services
 
 ```bash
@@ -137,7 +143,6 @@ sudo systemctl list-units --type service
 sudo systemctl list-units --state failed
 sudo systemctl list-units --state failed --type service
 ```
-
 ### GPU
 
 - List GPU devices in 
@@ -145,9 +150,6 @@ sudo systemctl list-units --state failed --type service
 ```bash
 lspci -k | grep -EA3 'VGA|3D|Display'
 ```
-
-
----
 
 ### Top
 
@@ -167,8 +169,6 @@ Introducir aqui el DNS (IP del dispositivo)
 ```bash
  /etc/resolv.conf
 ```
-
----
 
 ## Network
 
