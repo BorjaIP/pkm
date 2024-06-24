@@ -150,7 +150,6 @@ sudo systemctl list-units --state failed --type service
 ```bash
 lspci -k | grep -EA3 'VGA|3D|Display'
 ```
-
 ### Top
 
 + 1 - muestra los cores
@@ -161,14 +160,6 @@ lspci -k | grep -EA3 'VGA|3D|Display'
 + h - help
 + H - threads/tasks
 + I - show the overall percentage of available CPUs in use (if not top show the accumulate over all the CPUs)
-
-### DNS
-
-Introducir aqui el DNS (IP del dispositivo)
-
-```bash
- /etc/resolv.conf
-```
 
 ## Network
 
@@ -193,19 +184,25 @@ lsof -i -P -n
 sudo lsof -iTCP -sTCP:LISTEN -P
 lsof -p process-id
 
-# see DNS redirection
-nslookup URL
-
 # docker network
 ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
 
 ```bash
 sudo tcpdump -n dst port 443
+# only for 443
+sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
+sudo tcpdump -ni any host IP and port 443
 ```
 
+### DNS
+
 ```bash
-sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
+# IP of the nameserver
+ /etc/resolv.conf
+
+# see DNS redirection
+nslookup URL
 ```
 
 ### HTTP2
@@ -264,7 +261,6 @@ firewall-cmd --reload
 # Debian
 ufw allow 5000
 ```
-
 ### Netstat
 
 ```bash
@@ -275,11 +271,11 @@ netstat -pnltu
 netstat -pluton
 netstat putona
 ```
-
-## NC
+### Netcat
 
 ```bash
 nc -v 168.91.10.X
+sudo nc -l -p 5050
 ```
 ### SS
 
@@ -288,13 +284,6 @@ ss -tapn
 ss -dst :https
 ss -dst :5432
 ```
-
-### Netcat
-
-```bash
-sudo nc -l -p 5050
-```
-
 ### Review connectivity if curl is not installed
 
 ```bash

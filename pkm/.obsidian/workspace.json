@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9f7cee8d1dab447",
+        "id": "f28aaf746e635ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd07e4e067110465",
+            "id": "36d5a942ff11b9bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,9 +18,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96c33a54df28489b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be017e3dc21b1b98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Winget.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dev",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 228.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -86,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -155,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,44 +216,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd07e4e067110465",
+  "active": "36d5a942ff11b9bd",
   "lastOpenFiles": [
-    "dev/Jupyter.md",
-    "dev/Tools.md",
+    "dev/Pasted image 20240624155705.png",
     "dev/Linux.md",
-    "assets/rag_vs_finetuning.png",
-    "dev/Cloud.md",
-    "dev/Azure.md",
-    "dev/AWS.md",
-    "dev/LLM.md",
-    "2024-06-22.md",
-    "dev/Flask.md",
-    "articles/papers/On the Reliability of Watermarks for Large Language Models.md",
-    "dev/RAG.md",
-    "assets/wsl_ipv6.png",
-    "assets/ml_models.jpg",
-    "assets/llm_tree.jpg",
-    "assets/kubeflow_arch.png",
-    "assets/istio_architecture.png",
-    "assets/ec2_types.jpg",
-    "assets/ec2_basic_arch.png",
-    "assets/cert_manager.svg",
-    "assets/aws_services.png",
-    "articles/papers/Technological Enablers for Privacy Preserving Data Sharing and Analysis.md",
-    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
-    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
-    "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
+    "dev/Windows.md",
+    "dev/Winget.md",
     "dev/Kubernetes.md",
-    "dev/IaC.md",
-    "dev/Observability.md",
-    "dev/Machine Learning.md",
-    "dev/KCL.md",
-    "dev/MPC.md",
-    "dev/CaC.md",
-    "dev/DevOps.md",
-    "dev/Kustomize.md",
-    "dev/Terraform.md",
-    "dev/Cloud Formation.md",
+    "assets/rag_vs_finetuning.png",
+    "dev/PostgreSQL.md",
+    "dev/LLM.md",
+    "dev/VDB.md",
+    "dev/Transformers.md",
+    "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
+    "assets/acid.png",
+    "assets/wsl_ipv6.png",
+    "dev/Python.md",
+    "dev/Tools.md",
+    "dev/RDBMS.md",
+    "dev/GCP.md",
+    "dev/FastAPI.md",
+    "dev/DynamoDB.md",
+    "dev/Docker Compose.md",
+    "dev/Datastream.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/BigQuery.md",
+    "dev/Aurora.md",
+    "dev/Apache.md",
+    "dev/AlloyDB.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
+    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
+    "dev/Artificial Intelligence.md",
+    "assets/bigquery_vector.png",
+    "assets/biglake.png",
+    "assets/customer_data_platform.png",
+    "assets/cert_manager.svg",
+    "assets/tokenization.png",
     "de",
     "Untitled",
     "assets/images",
