@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5d2d7aed25f29eb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "404e9012a6bd5856",
             "type": "leaf",
             "state": {
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -190,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,10 +241,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b3b27d547eb23a8",
+  "active": "5d2d7aed25f29eb6",
   "lastOpenFiles": [
-    "dev/Windows.md",
+    "dev/PostgreSQL.md",
     "dev/Linux.md",
+    "dev/Windows.md",
     "dev/LLM.md",
     "dev/VDB.md",
     "dev/Transformers.md",
@@ -241,7 +255,6 @@
     "dev/Python.md",
     "dev/Tools.md",
     "dev/RDBMS.md",
-    "dev/PostgreSQL.md",
     "dev/Kubernetes.md",
     "dev/GCP.md",
     "dev/FastAPI.md",

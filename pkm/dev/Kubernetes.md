@@ -36,7 +36,7 @@ tags:
 | [Popeye](https://github.com/derailed/popeye)                                          | Kubernetes cluster resource sanitizer                                                         |
 | [Kube-linter](https://github.com/stackrox/kube-linter)                                | KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts        |
 | [Karpenter](https://github.com/aws/karpenter-provider-aws)                            | Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity. |
-|                                                                                       |                                                                                               |
+
 # Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
