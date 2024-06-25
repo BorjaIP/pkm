@@ -49,13 +49,31 @@ export COMPOSE_DOCKER_CLI_BUILD=1
 # Show docker configuration for Registries
 cat $HOME/.docker/config.json
 # SYSTEMD
-systemctl daemon-reload
-systemctl restart docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 # display docker enviroments variables
-systemctl show docker --property Environment
+sudo systemctl show docker --property Environment
 ```
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
+## Network
+
+- Change default docker subnet.
+
+```bash
+vim /etc/docker/daemon.json
+
+# .json
+{
+  "default-address-pools":
+  [
+    {"base":"10.10.0.0/16","size":24}
+  ]
+}
+# restart docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
 
 ## Commands
 

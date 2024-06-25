@@ -188,11 +188,26 @@ lsof -p process-id
 ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
 
+## TCPdump
+
 ```bash
 sudo tcpdump -n dst port 443
 # only for 443
 sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
 sudo tcpdump -ni any host IP and port 443
+```
+
+## IP
+
+```bash
+# add rule for single IP to route for 19.16.0.1
+ip route add 17.17.20.160/32 via 19.16.0.1
+# delete rule
+ip route del 17.17.20.160/32 via 19.16.0.1
+# print routes
+ip route
+# show ip path
+ip route get 17.17.20.160
 ```
 
 ### DNS
