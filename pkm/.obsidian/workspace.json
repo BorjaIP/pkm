@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36d5a942ff11b9bd",
+            "id": "dfc39809eadc22d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96c33a54df28489b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Windows.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be017e3dc21b1b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Winget.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -178,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,17 +192,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36d5a942ff11b9bd",
+  "active": "dfc39809eadc22d1",
   "lastOpenFiles": [
-    "dev/Docker.md",
+    "dev/Kubeflow.md",
     "dev/Linux.md",
-    "dev/Pasted image 20240624155705.png",
+    "dev/LLM.md",
+    "dev/GPT.md",
+    "dev/RAG.md",
     "dev/Windows.md",
+    "assets/llm_rlhf.webp",
     "dev/Winget.md",
+    "dev/Docker.md",
+    "dev/Pasted image 20240624155705.png",
     "dev/Kubernetes.md",
     "assets/rag_vs_finetuning.png",
     "dev/PostgreSQL.md",
-    "dev/LLM.md",
     "dev/VDB.md",
     "dev/Transformers.md",
     "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
@@ -246,14 +226,10 @@
     "dev/Apache.md",
     "dev/AlloyDB.md",
     "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "articles/papers/QLORA - Efficient Finetuning of Quantized LLMs.md",
-    "articles/papers/SOAR - Improved Indexing for Approximate Nearest Neighbor Search.md",
-    "dev/Artificial Intelligence.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",
     "assets/cert_manager.svg",
-    "assets/tokenization.png",
     "de",
     "Untitled",
     "assets/images",

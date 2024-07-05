@@ -53,6 +53,14 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel)                       | Integrate cutting-edge LLM technology quickly and easily into your apps                                                          |
 | [LLMStack](https://github.com/trypromptly/llmstack)                                   | No-code multi-agent framework to build LLM Agents                                                                                |
 | [Vanna](https://github.com/vanna-ai/vanna)                                            | Chat with your SQL database                                                                                                      |
+| [Deepseek](https://github.com/deepseek-ai/DeepSeek-Coder-V2)                          | Closed-Source Models in Code Intelligence                                                                                        |
+| [LocalAI](https://github.com/mudler/LocalAI)                                          | Open Source OpenAI alternative, Self-hosted                                                                                      |
+| [LLama-Factory](https://github.com/hiyouga/LLaMA-Factory)                             | Unify Efficient Fine-Tuning                                                                                                      |
+| [Lago](https://github.com/getlago/lago)                                               | Metering and Usage Based Billing API, Consumption tracking                                                                       |
+| [Lunary](https://github.com/lunary-ai/lunary)                                         | The production toolkit for LLMs                                                                                                  |
+| [OpenLLMetry](https://github.com/traceloop/openllmetry)                               | Open-source observability for your LLM application                                                                               |
+| [Evidently](https://github.com/evidentlyai/evidently)                                 | Evaluate and monitor ML models from validation to production                                                                     |
+| [Promptify](https://github.com/promptslab/Promptify)                                  | Prompt Engineering and Prompt Versioning                                                                                         |
 
 ![[llm_tree.jpg]]
 
@@ -115,9 +123,11 @@ https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-
 ## Transformers
 
 - [[Transformers]]
-# Tunning
+# Fine-Tuning
 
 ## RLHF 
+
+![[llm_rlhf.webp]]
 
 Distillation
 	- Train a small model to mimic the behavior of a large model
