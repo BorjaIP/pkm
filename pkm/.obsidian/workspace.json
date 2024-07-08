@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "dev/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecc7600a9c8c3d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "dev/LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6cc7c9a56919d4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "062a013902aa6b55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/RAG.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Docker.md"
               }
             }
           }
@@ -154,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,15 +230,15 @@
   },
   "active": "dfc39809eadc22d1",
   "lastOpenFiles": [
-    "dev/Kubeflow.md",
+    "dev/RAG.md",
     "dev/Linux.md",
     "dev/LLM.md",
+    "dev/Docker.md",
+    "dev/Kubeflow.md",
     "dev/GPT.md",
-    "dev/RAG.md",
     "dev/Windows.md",
     "assets/llm_rlhf.webp",
     "dev/Winget.md",
-    "dev/Docker.md",
     "dev/Pasted image 20240624155705.png",
     "dev/Kubernetes.md",
     "assets/rag_vs_finetuning.png",

@@ -42,7 +42,20 @@ sudo sh get-docker.sh
 vim /etc/docker/daemon.json
 
 {
-    "features": {"buildkit": true}
+	# activate buildkit by default
+	"features": {"buildkit": true},
+    "bip": "10.0.20.10/16",
+    "dns": ["172.18.18.101", "172.18.18.102"] ,
+    "dns-search": ["nameserver.com"] ,
+    "live-restore": true,
+    "log-opts": {"max-size": "25m", "max-file": "4"},
+    "insecure-registries" : ["registry.es:5000"] ,
+    "registry-mirrors": ["https://registry.es:5000"],
+    # subnet
+    "default-address-pools":
+      [
+         {"base":"10.1.0.0/16","size":24}
+      ]
 }
 # for docker-compose add
 export COMPOSE_DOCKER_CLI_BUILD=1
@@ -56,24 +69,6 @@ sudo systemctl show docker --property Environment
 ```
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
-## Network
-
-- Change default docker subnet.
-
-```bash
-vim /etc/docker/daemon.json
-
-# .json
-{
-  "default-address-pools":
-  [
-    {"base":"10.10.0.0/16","size":24}
-  ]
-}
-# restart docker
-sudo systemctl daemon-reload
-sudo systemctl restart docker
-```
 
 ## Commands
 
