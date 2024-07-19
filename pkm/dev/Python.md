@@ -38,6 +38,7 @@ tags:
 | [Attrs](https://github.com/python-attrs/attrs/tree/main)        | Python Classes Without Boilerplate                                                                            |
 | [Kivy](https://github.com/kivy/kivy)                            | Open source UI framework                                                                                      |
 | [Griptape](https://github.com/griptape-ai/griptape)             | Modular Python framework for AI agents and workflows with chain-of-thought reasoning                          |
+| [GSQuant](https://github.com/goldmansachs/gs-quant)             | Python toolkit for quantitative finance                                                                       |
 # Articles/Talks
 
 - [Libraries - Best of Python](https://github.com/ml-tooling/best-of-python)

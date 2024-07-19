@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfc39809eadc22d1",
+            "id": "520d0175eddedfa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ecc7600a9c8c3d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Docker.md"
+                "file": "dev/Git.md"
               }
             }
           }
@@ -190,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,19 +216,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfc39809eadc22d1",
+  "active": "520d0175eddedfa2",
   "lastOpenFiles": [
+    "dev/LLM.md",
+    "dev/FastAPI.md",
+    "dev/Awesome.md",
+    "dev/Python.md",
+    "dev/Kubernetes.md",
+    "dev/Git.md",
+    "dev/Docker.md",
+    "articles/papers/RAFT - Adapting Language Model to Domain Specific RAG.md",
+    "articles/papers/A Survey of Large Language Models.md",
+    "dev/Tools.md",
+    "dociker.md",
     "dev/RAG.md",
     "dev/Linux.md",
-    "dev/LLM.md",
-    "dev/Docker.md",
     "dev/Kubeflow.md",
     "dev/GPT.md",
     "dev/Windows.md",
     "assets/llm_rlhf.webp",
     "dev/Winget.md",
     "dev/Pasted image 20240624155705.png",
-    "dev/Kubernetes.md",
     "assets/rag_vs_finetuning.png",
     "dev/PostgreSQL.md",
     "dev/VDB.md",
@@ -248,20 +244,12 @@
     "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
     "assets/acid.png",
     "assets/wsl_ipv6.png",
-    "dev/Python.md",
-    "dev/Tools.md",
     "dev/RDBMS.md",
     "dev/GCP.md",
-    "dev/FastAPI.md",
     "dev/DynamoDB.md",
     "dev/Docker Compose.md",
     "dev/Datastream.md",
     "dev/Bussiness Inteligence.md",
-    "dev/BigQuery.md",
-    "dev/Aurora.md",
-    "dev/Apache.md",
-    "dev/AlloyDB.md",
-    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",

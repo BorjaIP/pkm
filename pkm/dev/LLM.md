@@ -61,6 +61,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [OpenLLMetry](https://github.com/traceloop/openllmetry)                               | Open-source observability for your LLM application                                                                               |
 | [Evidently](https://github.com/evidentlyai/evidently)                                 | Evaluate and monitor ML models from validation to production                                                                     |
 | [Promptify](https://github.com/promptslab/Promptify)                                  | Prompt Engineering and Prompt Versioning                                                                                         |
+| [Mem0](https://github.com/mem0ai/mem0)                                                | The memory layer for Personalized AI                                                                                             |
+| [Maestro](https://github.com/Doriandarko/maestro)                                     | A framework for Claude Opus to intelligently orchestrate subagents.                                                              |
+| [Inspect](https://inspect.ai-safety-institute.org.uk/)                                | An open-source framework for large language model evaluations                                                                    |
 
 ![[llm_tree.jpg]]
 

@@ -4,22 +4,23 @@ created: Sunday 23rd April 2023 16:46
 aliases: 
 tags: tool
 ---
-1[]()
-## Large files
+- [Oh Shit, Git??](https://ohshitgit.com/)
+- [GitButler](https://gitbutler.com/)
+# Large files
 
-### List the total size of HEAD
+## List the total size of HEAD
 
 ```bash
 git ls-tree -r --long HEAD | awk '{sum+=$1} END {print sum}'
 ```
 
-### Check the repo’s size and the number of objects
+## Check the repo’s size and the number of objects
 
 ```bash
 git count-objects -vH
 ```
 
-### Search large files from history
+## Search large files from history
 
 Search large files 
 

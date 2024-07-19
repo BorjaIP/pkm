@@ -40,6 +40,8 @@ tags: tool, dev
 | [Viddy](https://github.com/sachaos/viddy)                         | A modern watch command                                                                                                |
 | [commitizen](https://github.com/commitizen-tools/commitizen)      | Create committing rules for projects                                                                                  |
 | [Clip](https://github.com/jina-ai/clip-as-service)                | Scalable embedding, reasoning, ranking for images and sentences                                                       |
+| [Motuz](https://github.com/FredHutch/motuz)                       | A web based infrastructure for large scale data movements between on-premise and cloud                                |
+| [RClone](https://github.com/rclone/rclone)                        | RSync for cloud storage                                                                                               |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
