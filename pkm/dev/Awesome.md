@@ -25,6 +25,7 @@ All awesome repos.
 - [LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG)
 - [Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
 - [LLM-Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- [Langchain](https://github.com/kyrolabs/awesome-langchain)
 
 ## Python libraries
 ---

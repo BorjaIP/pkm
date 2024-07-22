@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Git.md",
+                "file": "dev/LLM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d93cf0ac5c296861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Awesome.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Git.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Git.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Git.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Git.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Git.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,12 +230,14 @@
   },
   "active": "520d0175eddedfa2",
   "lastOpenFiles": [
+    "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
+    "dev/Machine Learning.md",
     "dev/LLM.md",
-    "dev/FastAPI.md",
     "dev/Awesome.md",
+    "dev/Git.md",
+    "dev/FastAPI.md",
     "dev/Python.md",
     "dev/Kubernetes.md",
-    "dev/Git.md",
     "dev/Docker.md",
     "articles/papers/RAFT - Adapting Language Model to Domain Specific RAG.md",
     "articles/papers/A Survey of Large Language Models.md",
@@ -248,8 +262,6 @@
     "dev/GCP.md",
     "dev/DynamoDB.md",
     "dev/Docker Compose.md",
-    "dev/Datastream.md",
-    "dev/Bussiness Inteligence.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",

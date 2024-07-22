@@ -64,6 +64,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Mem0](https://github.com/mem0ai/mem0)                                                | The memory layer for Personalized AI                                                                                             |
 | [Maestro](https://github.com/Doriandarko/maestro)                                     | A framework for Claude Opus to intelligently orchestrate subagents.                                                              |
 | [Inspect](https://inspect.ai-safety-institute.org.uk/)                                | An open-source framework for large language model evaluations                                                                    |
+| [Anything-llm](https://github.com/Mintplex-Labs/anything-llm)                         | The all-in-one Desktop & Docker AI application with full RAG                                                                     |
+| [Gorilla](https://github.com/ShishirPatil/gorilla)                                    | An API store for LLMs                                                                                                            |
+| [CrewAI](https://github.com/crewAIInc/crewAI)                                         | Framework for orchestrating role-playing, autonomous AI agents.                                                                  |
 
 ![[llm_tree.jpg]]
 
