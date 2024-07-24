@@ -192,6 +192,7 @@ ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 
 ```bash
 sudo tcpdump -n dst port 443
+sudo tcpdump -nni any port 443
 # only for 443
 sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
 sudo tcpdump -ni any host IP and port 443

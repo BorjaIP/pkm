@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -190,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,11 +229,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "520d0175eddedfa2",
+  "active": "c6cc7c9a56919d4e",
   "lastOpenFiles": [
+    "dev/LLM.md",
+    "dev/Linux.md",
     "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
     "dev/Machine Learning.md",
-    "dev/LLM.md",
     "dev/Awesome.md",
     "dev/Git.md",
     "dev/FastAPI.md",
@@ -244,7 +246,6 @@
     "dev/Tools.md",
     "dociker.md",
     "dev/RAG.md",
-    "dev/Linux.md",
     "dev/Kubeflow.md",
     "dev/GPT.md",
     "dev/Windows.md",
