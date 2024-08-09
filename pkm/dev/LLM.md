@@ -90,14 +90,17 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 # Best LLM
 
-https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/
+- https://blog.abacus.ai/blog/2023/08/10/create-your-custom-chatgpt-pick-the-best-llm-that-works-for-you/
+- https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard
+- https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+- https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
+- https://huggingface.co/collections/open-llm-leaderboard/the-big-benchmarks-collection-64faca6335a7fc7d4ffe974a
 # Prompt Engineering
-
 
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
 - [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
- - [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
+- [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
 # Text embeddings
 
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
@@ -142,7 +145,6 @@ Full Fine Tunning
 # Vector Database
 
 - [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
-
 # Parameters
 
 - **Frequency_penalty**: This parameter is used to discourage the model from repeating the same words or phrases too frequently within the generated text. It is a value that is added to the log-probability of a token each time it occurs in the generated text. A higher frequency_penalty value will result in the model being more conservative in its use of repeated tokens.

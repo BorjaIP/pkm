@@ -8,7 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "520d0175eddedfa2",
+            "id": "a31c88e3c0b63a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eabf225f3d8db9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c53a5e641c57857d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "739adb12d69fc611",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d93cf0ac5c296861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Awesome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6cc7c9a56919d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "062a013902aa6b55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/RAG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "n8n",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,23 +229,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6cc7c9a56919d4e",
+  "active": "739adb12d69fc611",
   "lastOpenFiles": [
-    "dev/LLM.md",
+    "dev/Python.md",
+    "dev/Docker.md",
     "dev/Linux.md",
-    "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
+    "dev/Workflow Orchestration.md",
+    "dev/LLM.md",
+    "dev/Tools.md",
+    "dev/OpenSSL.md",
     "dev/Machine Learning.md",
+    "dev/RAG.md",
+    "dev/Generative AI.md",
+    "dev/Data Application.md",
+    "dev/ColossalAI.md",
+    "dev/Apache.md",
+    "dev/Azure.md",
     "dev/Awesome.md",
+    "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
     "dev/Git.md",
     "dev/FastAPI.md",
-    "dev/Python.md",
     "dev/Kubernetes.md",
-    "dev/Docker.md",
     "articles/papers/RAFT - Adapting Language Model to Domain Specific RAG.md",
     "articles/papers/A Survey of Large Language Models.md",
-    "dev/Tools.md",
     "dociker.md",
-    "dev/RAG.md",
     "dev/Kubeflow.md",
     "dev/GPT.md",
     "dev/Windows.md",
@@ -253,16 +260,9 @@
     "dev/Winget.md",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
-    "dev/PostgreSQL.md",
-    "dev/VDB.md",
-    "dev/Transformers.md",
     "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
     "assets/acid.png",
     "assets/wsl_ipv6.png",
-    "dev/RDBMS.md",
-    "dev/GCP.md",
-    "dev/DynamoDB.md",
-    "dev/Docker Compose.md",
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",

@@ -1,8 +1,10 @@
 ---
-title:  Linux
+title: Linux
 created: Saturday 22nd April 2023 21:02
 aliases: 
-tags: linux, os
+tags:
+  - linux
+  - os
 ---
 Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is-open-source) operating system (OS). An [operating system](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) is the software that directly manages a system’s hardware and resources, like CPU, memory, and [storage](https://www.redhat.com/en/topics/data-storage/software-defined-storage). The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
 
@@ -343,6 +345,9 @@ curl -s https://httpbin.org/ip
 watch -n0.1 nvidia-smi
 
 nvidia-smi -l 2
+
+# no devices cuda o multiple devices
+export CUDA_VISIBLE_DEVICES=""
 ```
 
 ## SSH

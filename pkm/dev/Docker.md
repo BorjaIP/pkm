@@ -26,7 +26,7 @@ Deploy multiple dockers with [[Docker Compose]]
 - [Fast Docker Builds With Caching (Not Only) For Python](https://towardsdatascience.com/fast-docker-builds-with-caching-for-python-533ddc3b0057)
 - [Alpine-machine-learning-base](https://github.com/petronetto/alpine-machine-learning-base)
 
-## Installation
+# Installation
 
 [get.docker](https://get.docker.com/)
 
@@ -35,7 +35,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
-## Configuration
+# Configuration
 
 ```bash
 # modify for builtkit
@@ -70,14 +70,20 @@ sudo systemctl show docker --property Environment
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
 
-## Commands
+# Commands
 
-### Run
+## Run
 
 ```bash
 docker run -it --entrypoint /bin/bash image:latest
 ```
 
+### Example Ubuntu
+
+```bash
+docker run -it --rm ubuntu
+apt update && apt install -y curl python3 python3-pip python3-venv
+```
 ### Stop all containers
 
 ```bash

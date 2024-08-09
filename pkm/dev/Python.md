@@ -64,6 +64,18 @@ tags:
 - [Python DDD Example and Techniques](https://github.com/iktakahiro/dddpy)
 - [Python Wheel to Debian package converter](https://github.com/upciti/wheel2deb)
 
+# Installation previous versions
+
+- Example in Debian/Ubuntu
+
+```bash
+# install repository
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+# python 3.X substitute for the version needed
+sudo apt install python3.9 python3.9-venv python3.9-dev -y
+```
+
 # Use
 
 - Install [pipx](https://github.com/pypa/pipx) for isolated environments and Apps to use in general context, for example [Hatch](https://github.com/pypa/hatch) or [PDM](https://github.com/pdm-project/pdm).
@@ -172,6 +184,12 @@ pip config list -v
 flask routes
 ```
 
+
+VENV
+
+00-python-path.py
+
+echo ''import sys; sys.path.append('your-packages-route') ' > /home/ipython.profile_default/startup/00-python-path.py
 ## Web-GUIs
 
 - [[Dash]]
