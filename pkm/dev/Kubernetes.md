@@ -377,6 +377,16 @@ sudo netstat -tulpn | grep kubelet
 curl 127.0.0.1:10248/healthz
 ```
 
+- Healthz
+
+```bash
+curl -k https://localhost:6443/livez?verbose
+kubectl get --raw='/readyz?verbose'
+curl -k 'https://localhost:6443/readyz?verbose&exclude=etcd'
+curl -k https://localhost:6443/livez/etcd
+```
+
+
 - Add nodes
 
 ```bash

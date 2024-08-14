@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a31c88e3c0b63a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eabf225f3d8db9a0",
+            "id": "c424fa0fdb319853",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,31 +20,19 @@
             }
           },
           {
-            "id": "c53a5e641c57857d",
+            "id": "98f1aa9cde600f6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "739adb12d69fc611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/LLM.md"
+                "file": "dev/Kubernetes.md"
               }
             }
           }
@@ -191,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "dev/Kubernetes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,14 +205,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "739adb12d69fc611",
+  "active": "98f1aa9cde600f6e",
   "lastOpenFiles": [
-    "dev/Python.md",
     "dev/Docker.md",
+    "dev/Kubernetes.md",
+    "dev/Git.md",
+    "dev/MLOps.md",
+    "dev/Windows.md",
+    "dev/Tools.md",
+    "dev/Winget.md",
+    "dev/Python.md",
+    "dev/LLM.md",
     "dev/Linux.md",
     "dev/Workflow Orchestration.md",
-    "dev/LLM.md",
-    "dev/Tools.md",
     "dev/OpenSSL.md",
     "dev/Machine Learning.md",
     "dev/RAG.md",
@@ -247,17 +228,12 @@
     "dev/Azure.md",
     "dev/Awesome.md",
     "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
-    "dev/Git.md",
     "dev/FastAPI.md",
-    "dev/Kubernetes.md",
     "articles/papers/RAFT - Adapting Language Model to Domain Specific RAG.md",
     "articles/papers/A Survey of Large Language Models.md",
     "dociker.md",
     "dev/Kubeflow.md",
-    "dev/GPT.md",
-    "dev/Windows.md",
     "assets/llm_rlhf.webp",
-    "dev/Winget.md",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
     "dev/1_s8TObF5zOFx3c_nSjITJqg.png",
