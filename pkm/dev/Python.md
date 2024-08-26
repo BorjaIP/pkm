@@ -187,9 +187,11 @@ flask routes
 
 VENV
 
+```bash
 00-python-path.py
 
 echo ''import sys; sys.path.append('your-packages-route') ' > /home/ipython.profile_default/startup/00-python-path.py
+```
 ## Web-GUIs
 
 - [[Dash]]

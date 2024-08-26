@@ -3,5 +3,6 @@
   "templater-obsidian",
   "dataview",
   "url-into-selection",
-  "obsidian-git"
+  "obsidian-git",
+  "quickadd"
 ]

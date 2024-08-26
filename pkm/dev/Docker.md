@@ -124,15 +124,15 @@ docker stats
 ```
 
 
-### Delete
+## Delete
 
-#### Delete all
+### Delete all
 
 ```bash
 docker system prune -a
 ```
 
-#### Delete unused or dangling
+### Delete unused or dangling
 
 > Images, Containers, Volumes, and Networks
 
@@ -141,19 +141,19 @@ docker system prune
 docker volume prune
 ```
 
-#### Delete unused containers
+### Delete unused containers
 
 ```bash
 docker rm $(docker ps -aq)
 ```
 
-#### Delete build cache
+### Delete build cache
 
 ```bash
 docker builder prune
 ```
 
-#### Delete images dangling
+### Delete images dangling
 
 ```bash
 docker rmi $(docker images -qf "dangling=true")
@@ -163,21 +163,20 @@ docker rmi $(docker images | grep "<none>" | awk '{print $3}')
 docker rm $(docker images -q | tail -n 5)
 ```
 
-### Docker networking
+## Docker networking
 
 ```bash
 # Attach a running container to a network
 docker network connect [network] [container]
 ```
 
-
-### Docker logging
+## Docker logging
 
 ```bash
 docker logs ID_CONTAINER -f
 ```
 
-### Docker Inspect
+## Docker Inspect
 
 ```bash
 # show IP Docker
@@ -189,7 +188,7 @@ docker inspect -f '{{range $key, $value := .NetworkSettings.Networks}}{{$key}} {
 docker inspect -f '{{json .Mounts}}' ID | jq .
 ```
 
-### Docker Registry
+## Docker Registry
 
 Add docker **Registry** [insecure](https://docs.docker.com/registry/insecure/)
 

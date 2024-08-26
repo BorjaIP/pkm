@@ -21,7 +21,6 @@ A Linux distribution is an operating system made from a software collection that
 - [[Arch |Arch]]
 - [[Ubuntu |Ubuntu]]
 - [[RedHat |RedHat]]
-
 # Commands
 ## Users
 
@@ -68,7 +67,7 @@ ps -fea
 ps fax
 ps aux
 
-ps -e -o pid,args | grep dvc | grep -v grep | awk '{print $1}'
+ps -e -o pid,args | grep dvc | grep -v grep | awk '{print $1}' 
 
 # proc file
 pid=1825
@@ -348,8 +347,9 @@ nvidia-smi -l 2
 
 # no devices cuda o multiple devices
 export CUDA_VISIBLE_DEVICES=""
-```
 
+lspci | grep NVIDIA
+```
 ## SSH
 
 - Steps for `.ssh` folder

@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c424fa0fdb319853",
+            "id": "b2654c645518f6b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98f1aa9cde600f6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Kubernetes.md"
+                "file": "dev/Python.md"
               }
             }
           }
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Kubernetes.md",
+                "file": "dev/Python.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,34 +192,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98f1aa9cde600f6e",
+  "active": "b2654c645518f6b5",
   "lastOpenFiles": [
-    "dev/Docker.md",
+    "dev/Linux.md",
+    "dev/Kubeflow.md",
     "dev/Kubernetes.md",
+    "dev/VDB.md",
+    "articles/papers/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
+    "articles/papers/ColBERTv2 - Effective and Efficient Retrieval via Lightweight Late Interaction.md",
+    "templates/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
+    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
+    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
+    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
+    "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
+    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
+    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
+    "articles/papers/Technological Enablers for Privacy Preserving Data Sharing and Analysis.md",
+    "Untitled.md",
+    "PLAID - An Efficient Engine for Late Interaction Retrieval.md",
+    "dev/Tools.md",
+    "dev/Python.md",
+    "dev/Windows.md",
+    "dev/Docker.md",
     "dev/Git.md",
     "dev/MLOps.md",
-    "dev/Windows.md",
-    "dev/Tools.md",
     "dev/Winget.md",
-    "dev/Python.md",
     "dev/LLM.md",
-    "dev/Linux.md",
     "dev/Workflow Orchestration.md",
     "dev/OpenSSL.md",
-    "dev/Machine Learning.md",
-    "dev/RAG.md",
-    "dev/Generative AI.md",
-    "dev/Data Application.md",
-    "dev/ColossalAI.md",
-    "dev/Apache.md",
-    "dev/Azure.md",
-    "dev/Awesome.md",
-    "articles/papers/SpreadsheetLLM - Encoding Spreadsheets for Large Language Models.md",
-    "dev/FastAPI.md",
-    "articles/papers/RAFT - Adapting Language Model to Domain Specific RAG.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "dociker.md",
-    "dev/Kubeflow.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
