@@ -8,7 +8,7 @@ Containers are a form of [[Operating System]] virtualization. A single container
 
 ![[containers.png]]
 
-## Benefits of containers
+# Benefits of containers
 
 Containers are a streamlined way to build, test, deploy, and redeploy applications on multiple environments from a developer’s local laptop to an on-premises data center and even the [[Cloud]]. Benefits of containers include:
 
@@ -23,7 +23,7 @@ Containers are a streamlined way to build, test, deploy, and redeploy applicatio
 - Better application development
 - Containers support agile and [[DevOps]] efforts to accelerate development, test, and production cycles.
 
-## Containers vs. virtual machines (VMs)
+# Containers vs. virtual machines (VMs)
 
 People sometimes confuse container technology with virtual machines (VMs) or server virtualization technology. Although there are some basic similarities, containers are very different from VMs.
 
@@ -31,7 +31,12 @@ People sometimes confuse container technology with virtual machines (VMs) or ser
 
 In contrast, **each container shares the same host OS or system kernel** and is much lighter in size, often only megabytes. This often means a container might take just seconds to start (versus the gigabytes and minutes required for a typical VM).
 
-## Container runtimes
+# Security
+
+Ensuring the authenticity and integrity of your container images is crucial to prevent security breaches and signing with Open Container Initiative (OCI).
+
+Sigstore tool designed for signing and verifying container images. In a follow-up post, we will take the next step and guide you through the process of validating the signature of OCI images using [cosign](https://github.com/sigstore/cosign) and tracking the signatures using `rekor` transparency log.
+# Container runtimes
 
 - [[Docker]]
 - [[Containerd]]

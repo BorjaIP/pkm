@@ -69,6 +69,9 @@ ps aux
 
 ps -e -o pid,args | grep dvc | grep -v grep | awk '{print $1}' 
 
+# without ps
+for prc in /proc/*/cmdline; { (printf "$prc "; cat -A "$prc") | sed 's/\^@/ /g;s|/proc/||;s|/cmdline||'; echo; }
+
 # proc file
 pid=1825
 ls -1 /proc/$pid/fd/*

@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "dev/Container.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a9e080f58b515c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fde4202b105362ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "dev/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "600cd7735d684f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Python.md"
+                "file": "dev/Linux.md"
               }
             }
           }
@@ -154,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Linux.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,8 +229,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2654c645518f6b5",
+  "active": "2a9e080f58b515c4",
   "lastOpenFiles": [
+    "dev/Container.md",
+    "linu.md",
+    "dev/Docker.md",
+    "dev/Python.md",
+    "dev/LLM.md",
     "dev/Linux.md",
     "dev/Kubeflow.md",
     "dev/Kubernetes.md",
@@ -211,15 +253,10 @@
     "Untitled.md",
     "PLAID - An Efficient Engine for Late Interaction Retrieval.md",
     "dev/Tools.md",
-    "dev/Python.md",
     "dev/Windows.md",
-    "dev/Docker.md",
     "dev/Git.md",
     "dev/MLOps.md",
     "dev/Winget.md",
-    "dev/LLM.md",
-    "dev/Workflow Orchestration.md",
-    "dev/OpenSSL.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
