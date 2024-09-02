@@ -20,7 +20,31 @@
             }
           },
           {
-            "id": "2a9e080f58b515c4",
+            "id": "b90a4b7f9b0c2367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Knowledge Graph.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a08463993acfacaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cddf5157342180f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +56,12 @@
             }
           },
           {
-            "id": "fde4202b105362ba",
+            "id": "30e8b5508740dfb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Knowledge Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Knowledge Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md"
+                "file": "dev/Knowledge Graph.md"
               }
             }
           }
@@ -191,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Knowledge Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/Knowledge Graph.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,16 +253,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a9e080f58b515c4",
+  "active": "b90a4b7f9b0c2367",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
+    "dev/Knowledge Graph.md",
     "dev/Container.md",
-    "linu.md",
+    "dev/Linux.md",
     "dev/Docker.md",
+    "dev/PostgreSQL.md",
+    "k8s.md",
+    "linu.md",
     "dev/Python.md",
     "dev/LLM.md",
-    "dev/Linux.md",
     "dev/Kubeflow.md",
-    "dev/Kubernetes.md",
     "dev/VDB.md",
     "articles/papers/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
     "articles/papers/ColBERTv2 - Effective and Efficient Retrieval via Lightweight Late Interaction.md",
@@ -254,9 +281,6 @@
     "PLAID - An Efficient Engine for Late Interaction Retrieval.md",
     "dev/Tools.md",
     "dev/Windows.md",
-    "dev/Git.md",
-    "dev/MLOps.md",
-    "dev/Winget.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",

@@ -296,6 +296,19 @@ data:
         - system:nodes
 ```
 
+## Auth
+
+```bash
+kubectl auth whoami  
+ATTRIBUTE   VALUE  
+Username    k8suser  
+Groups      [k8s system:authenticated]
+  
+kubectl auth can-i get pods  
+yes  
+  
+kubectl auth can-i get deployments.apps
+```
 # Plugins
 
 [Krew](https://krew.sigs.k8s.io/)
