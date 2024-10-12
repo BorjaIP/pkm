@@ -16,7 +16,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Langchain](https://github.com/hwchase17/langchain)                                   | Building applications with LLMs through composability                                                                            |
 | [Rebuff](https://github.com/woop/rebuff)                                              | LLM Prompt Injection Detector                                                                                                    |
 | [GPTCache](https://github.com/zilliztech/GPTCache)                                    | Semantic cache for LLMs                                                                                                          |
-| [LLMSherpa](https://github.com/nlmatics/llmsherpa)                                    | Developer APIs to Accelerate LLM Projects                                                                                        |
+| [LLMSherpa](https://github.com/nlmatics/llmsherpa)                                    | Developer [[API]]s to Accelerate LLM Projects                                                                                    |
 | [OpenLLM](https://github.com/bentoml/OpenLLM)                                         | Operating LLMs in production                                                                                                     |
 | [vLLM](https://github.com/vllm-project/vllm)                                          | Easy, fast, and cheap LLM serving for everyone                                                                                   |
 | [LLaVa](https://github.com/haotian-liu/LLaVA)                                         | LLaVA: Large Language and Vision Assistant                                                                                       |
@@ -52,7 +52,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [dsPy](https://github.com/stanfordnlp/dspy)                                           | The framework for programming—not prompting—foundation models                                                                    |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel)                       | Integrate cutting-edge LLM technology quickly and easily into your apps                                                          |
 | [LLMStack](https://github.com/trypromptly/llmstack)                                   | No-code multi-agent framework to build LLM Agents                                                                                |
-| [Vanna](https://github.com/vanna-ai/vanna)                                            | Chat with your SQL database                                                                                                      |
+| [Vanna](https://github.com/vanna-ai/vanna)                                            | Chat with your [[SQL]] database                                                                                                  |
 | [Deepseek](https://github.com/deepseek-ai/DeepSeek-Coder-V2)                          | Closed-Source Models in Code Intelligence                                                                                        |
 | [LocalAI](https://github.com/mudler/LocalAI)                                          | Open Source OpenAI alternative, Self-hosted                                                                                      |
 | [LLama-Factory](https://github.com/hiyouga/LLaMA-Factory)                             | Unify Efficient Fine-Tuning                                                                                                      |
@@ -67,6 +67,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Anything-llm](https://github.com/Mintplex-Labs/anything-llm)                         | The all-in-one Desktop & Docker AI application with full RAG                                                                     |
 | [Gorilla](https://github.com/ShishirPatil/gorilla)                                    | An API store for LLMs                                                                                                            |
 | [CrewAI](https://github.com/crewAIInc/crewAI)                                         | Framework for orchestrating role-playing, autonomous AI agents.                                                                  |
+| [MLE-agent](https://github.com/MLSysOps/MLE-agent)                                    | Your intelligent companion for seamless AI engineering and research                                                              |
 
 ![[llm_tree.jpg]]
 
@@ -129,6 +130,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 - [LLama](https://github.com/facebookresearch/llama)
 - [LlamaHub - Get your RAG application rolling in no time](https://llamahub.ai/)
+- [Lit-Llama](https://github.com/Lightning-AI/lit-llama)
 ## Transformers
 
 - [[Transformers]]

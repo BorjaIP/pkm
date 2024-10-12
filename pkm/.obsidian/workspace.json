@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f28aaf746e635ac9",
+        "id": "bd701cdd37976d53",
         "type": "tabs",
         "children": [
           {
-            "id": "b2654c645518f6b5",
+            "id": "9675f0b5050b7279",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b90a4b7f9b0c2367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Knowledge Graph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a08463993acfacaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cddf5157342180f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30e8b5508740dfb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/PostgreSQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "600cd7735d684f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "n8n",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Knowledge Graph.md",
+                "file": "dev/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Knowledge Graph.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Knowledge Graph.md"
+                "file": "dev/Python.md"
               }
             }
           }
@@ -215,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Knowledge Graph.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Knowledge Graph.md",
+                "file": "dev/Python.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,34 +192,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b90a4b7f9b0c2367",
+  "active": "9675f0b5050b7279",
   "lastOpenFiles": [
-    "dev/Kubernetes.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/LLM.md",
+    "dev/Apache.md",
+    "dev/Kafka.md",
+    "dev/Api.md",
+    "dev/Python.md",
+    "dev/Data Application.md",
+    "dev/SQL.md",
+    "dev/Datastream.md",
+    "dev/PostgreSQL.md",
+    "dev/Machine Learning.md",
+    "dev/Kubeflow.md",
+    "dev/RAG.md",
     "dev/Knowledge Graph.md",
+    "NoSQL.md",
+    "dev/Pasted image 20241012180444.png",
+    "dev/LLMs Will Always Hallucinate, and We Need to Live With This.md",
+    "dev/Kubernetes.md",
     "dev/Container.md",
     "dev/Linux.md",
     "dev/Docker.md",
-    "dev/PostgreSQL.md",
     "k8s.md",
     "linu.md",
-    "dev/Python.md",
-    "dev/LLM.md",
-    "dev/Kubeflow.md",
     "dev/VDB.md",
     "articles/papers/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
     "articles/papers/ColBERTv2 - Effective and Efficient Retrieval via Lightweight Late Interaction.md",
     "templates/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
-    "articles/papers/StructGPT - A General Framework for Large Language Model to Reason over Structured Data.md",
-    "articles/papers/VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks.md",
-    "articles/papers/UniKGQA - Unified retrieval and reasoning for solving multi-hop question answering over knowledge graph.md",
-    "articles/papers/Unifying Large Language Models and Knowledge Graphs - A Roadmap.md",
-    "articles/papers/Toolformer - Language Models Can Teach Themselves to Use Tools.md",
-    "articles/papers/The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits.md",
-    "articles/papers/Technological Enablers for Privacy Preserving Data Sharing and Analysis.md",
-    "Untitled.md",
-    "PLAID - An Efficient Engine for Late Interaction Retrieval.md",
-    "dev/Tools.md",
-    "dev/Windows.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
@@ -290,7 +230,6 @@
     "assets/bigquery_vector.png",
     "assets/biglake.png",
     "assets/customer_data_platform.png",
-    "assets/cert_manager.svg",
     "de",
     "Untitled",
     "assets/images",

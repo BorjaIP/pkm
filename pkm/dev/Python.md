@@ -6,6 +6,7 @@ aliases:
 tags:
   - lenguages
 ---
+Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability with its clean, easy-to-understand syntax, making it ideal for both beginners and experienced developers. Python supports multiple programming paradigms, including object-oriented, procedural, and functional programming, and has a vast ecosystem of libraries and frameworks that extend its functionality.
 
 | Tool/Framework                                                  | Description                                                                                                   |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -40,6 +41,9 @@ tags:
 | [Kivy](https://github.com/kivy/kivy)                            | Open source UI framework                                                                                      |
 | [Griptape](https://github.com/griptape-ai/griptape)             | Modular Python framework for AI agents and workflows with chain-of-thought reasoning                          |
 | [GSQuant](https://github.com/goldmansachs/gs-quant)             | Python toolkit for quantitative finance                                                                       |
+| [Quix](https://github.com/quixio/quix-streams)                  | Python stream processing for [[Kafka]]                                                                        |
+| [cuDF](https://github.com/rapidsai/cudf)                        | cuDF - GPU DataFrame Library                                                                                  |
+| [pygwalker](https://github.com/Kanaries/pygwalker)              | Turn your pandas dataframe into an interactive UI                                                             |
 # Articles/Talks
 
 - [Libraries - Best of Python](https://github.com/ml-tooling/best-of-python)

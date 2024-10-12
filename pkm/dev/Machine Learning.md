@@ -55,7 +55,6 @@ Semi-supervised machine learning is often employed to train algorithms for class
 ### Reinforcement learning 
 
 Reinforcement learning uses _trial and error_ to train algorithms and create models. During the training process, algorithms operate in specific environments and then are provided with feedback following each outcome. Much like how a child learns, the algorithm slowly begins to acquire an understanding of its environment and begins to optimize actions to achieve particular outcomes. For instance, an algorithm may be optimized by playing successive games of chess, which allow it to learn from its past success and failures playing each game.
-
 ## Models
 
 ![[ml_models.jpg]]
