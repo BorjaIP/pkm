@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "bd701cdd37976d53",
+        "id": "5a4f0293fe87cda0",
         "type": "tabs",
         "children": [
           {
-            "id": "9675f0b5050b7279",
+            "id": "146738d70552cffb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Homelab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3abce5054b67691f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Homelab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Homelab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Python.md"
+                "file": "dev/Homelab.md"
               }
             }
           }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Homelab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Homelab.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,25 +204,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9675f0b5050b7279",
+  "active": "146738d70552cffb",
   "lastOpenFiles": [
-    "dev/Bussiness Inteligence.md",
+    "dev/Tools.md",
+    "dev/Homelab.md",
+    "articles/papers/LLMs Will Always Hallucinate, and We Need to Live With This.md",
+    "dev/Kubeflow.md",
     "dev/LLM.md",
+    "dev/Git.md",
+    "dev/Python.md",
+    "dev/Bussiness Inteligence.md",
     "dev/Apache.md",
     "dev/Kafka.md",
     "dev/Api.md",
-    "dev/Python.md",
     "dev/Data Application.md",
     "dev/SQL.md",
     "dev/Datastream.md",
     "dev/PostgreSQL.md",
     "dev/Machine Learning.md",
-    "dev/Kubeflow.md",
     "dev/RAG.md",
     "dev/Knowledge Graph.md",
     "NoSQL.md",
     "dev/Pasted image 20241012180444.png",
-    "dev/LLMs Will Always Hallucinate, and We Need to Live With This.md",
     "dev/Kubernetes.md",
     "dev/Container.md",
     "dev/Linux.md",
@@ -218,9 +233,6 @@
     "k8s.md",
     "linu.md",
     "dev/VDB.md",
-    "articles/papers/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
-    "articles/papers/ColBERTv2 - Effective and Efficient Retrieval via Lightweight Late Interaction.md",
-    "templates/PLAID - An Efficient Engine for Late Interaction Retrieval.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",

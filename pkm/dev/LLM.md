@@ -68,6 +68,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Gorilla](https://github.com/ShishirPatil/gorilla)                                    | An API store for LLMs                                                                                                            |
 | [CrewAI](https://github.com/crewAIInc/crewAI)                                         | Framework for orchestrating role-playing, autonomous AI agents.                                                                  |
 | [MLE-agent](https://github.com/MLSysOps/MLE-agent)                                    | Your intelligent companion for seamless AI engineering and research                                                              |
+| [Promptfoo](https://github.com/promptfoo/promptfoo)                                   | Test your prompts, agents, and RAGs                                                                                              |
+
 
 ![[llm_tree.jpg]]
 
