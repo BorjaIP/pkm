@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/RAG.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Tools.md",
+                "file": "dev/LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "crew",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Homelab.md"
+                "file": "dev/LLM.md"
               }
             }
           }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/LLM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,9 +206,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "146738d70552cffb",
+  "active": "3abce5054b67691f",
   "lastOpenFiles": [
     "dev/Tools.md",
+    "dev/RAG.md",
+    "dev/Artificial Intelligence.md",
     "dev/Homelab.md",
     "articles/papers/LLMs Will Always Hallucinate, and We Need to Live With This.md",
     "dev/Kubeflow.md",
@@ -222,7 +226,6 @@
     "dev/Datastream.md",
     "dev/PostgreSQL.md",
     "dev/Machine Learning.md",
-    "dev/RAG.md",
     "dev/Knowledge Graph.md",
     "NoSQL.md",
     "dev/Pasted image 20241012180444.png",
@@ -232,7 +235,6 @@
     "dev/Docker.md",
     "k8s.md",
     "linu.md",
-    "dev/VDB.md",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
     "assets/rag_vs_finetuning.png",
