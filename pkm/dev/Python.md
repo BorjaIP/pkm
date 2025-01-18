@@ -44,6 +44,8 @@ Python is a high-level, interpreted programming language known for its simplicit
 | [Quix](https://github.com/quixio/quix-streams)                  | Python stream processing for [[Kafka]]                                                                        |
 | [cuDF](https://github.com/rapidsai/cudf)                        | cuDF - GPU DataFrame Library                                                                                  |
 | [pygwalker](https://github.com/Kanaries/pygwalker)              | Turn your pandas dataframe into an interactive UI                                                             |
+| [FastCRUD](https://github.com/igorbenav/fastcrud)               | FastCRUD offer a robust async CRUD operations and flexible endpoint creation utilities.                       |
+
 # Articles/Talks
 
 - [Libraries - Best of Python](https://github.com/ml-tooling/best-of-python)
@@ -138,12 +140,11 @@ pytest -m unit -v
 
 - [Building and Distributing Packages with Setuptools](https://setuptools.pypa.io/en/latest/setuptools.html)
 - [Setup with CMake](https://github.com/lucasjinreal/spconv/blob/master/setup.py)
-- [Classifiers](https://pypi.org/classifiers/) por **pytroject.toml**  and display in Pypi.
+- [Classifiers](https://pypi.org/classifiers/) por **pytroject.toml**  and display in Pypi
 
 ## Sphinx
 
-- [ Best Sphinx extensions list](https://sphinx-extensions.readthedocs.io/en/latest/index.html)
-
+- [Best Sphinx extensions list](https://sphinx-extensions.readthedocs.io/en/latest/index.html)
 - Autobuild sphinx documentation
 
 ```bash
