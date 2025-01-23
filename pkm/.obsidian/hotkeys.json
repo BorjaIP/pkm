@@ -49,12 +49,13 @@
       "key": "'"
     }
   ],
+  "templater-obsidian:create-new-note-from-template": [],
   "quickadd:runQuickAdd": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "["
+      "key": "N"
     }
   ]
 }

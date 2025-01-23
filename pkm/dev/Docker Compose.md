@@ -4,11 +4,21 @@ created: Sunday 23rd April 2023 17:29
 aliases: 
 tags: 
 ---
+**Docker Compose** is a tool for defining and running multi-container [[Docker]] applications. Key features:
+
+- Uses YAML files to configure application services
+- Allows defining multiple containers in a single file
+- Simplifies complex application deployment
+- Manages container networking and volume mounting
+- Enables easy scaling and environment-specific configurations
+
+Example use case: A web application with separate containers for frontend, backend, and database, all defined and orchestrated through a single `docker-compose.yml` file.
+
+Typical workflow involves creating a configuration file and running `docker-compose up` to start the entire application stack.
 
 - [Docker-compose deployment - RapidMainer Documentation](https://docs.rapidminer.com/latest/deployment/docker-compose/#public_url)
 - [Using YAML Anchors and X Properties in Docker Compose](https://nickjanetakis.com/blog/docker-tip-82-using-yaml-anchors-and-x-properties-in-docker-compose)
-
-
+- [Compose Bridge](<- https://docs.docker.com/compose/bridge/usage/>) - Compose Bridge supplies an out-of-the box transformation for your Compose configuration file in [[Kubernetes]] files.
 ## Tips
 
 - Example for create a good `docker-compose.yaml`.
@@ -27,8 +37,8 @@ services:
       - pgdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=utileadmin
-      - POSTGRES_MULTIPLE_DATABASES=keycloak,node
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_MULTIPLE_DATABASES=keycloak
     networks:
       - example
     healthcheck:

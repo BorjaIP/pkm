@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "2fe6b5d876319f29",
+            "id": "a9f48e48c456024d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Workflow Orchestration.md",
+                "file": "dev/Docker Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "n8n",
+                "query": "tag:#cloud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Workflow Orchestration.md",
+                "file": "dev/Docker Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Workflow Orchestration.md",
+                "file": "dev/Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Workflow Orchestration.md"
+                "file": "dev/Docker Compose.md"
               }
             }
           }
@@ -200,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Workflow Orchestration.md",
+                "file": "dev/Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Workflow Orchestration.md",
+                "file": "dev/Docker Compose.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,9 +237,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fe6b5d876319f29",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
+    "dev/Docker.md",
+    "dev/Docker Compose.md",
+    "dev/Serverless.md",
     "dev/Kubernetes.md",
+    "index.md",
+    "Untitled.md",
+    "example.md",
+    "templates/Dev with tags.md",
+    "templates/Default.md",
+    "templates/Paper.md",
+    "dev/Apache.md",
+    "dev/Workflow Orchestration.md",
     "dev/IaC.md",
     "dev/PostgreSQL.md",
     "dev/CRM.md",
@@ -255,17 +265,6 @@
     "dev/VDB.md",
     "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
     "dev/Security.md",
-    "dev/Observability.md",
-    "dev/Cloud.md",
-    "dev/LLM.md",
-    "dev/Data Extraction.md",
-    "dev/Data Platform.md",
-    "dev/Apache.md",
-    "dev/Data Application.md",
-    "dev/Datastream.md",
-    "dev/Data Orchestration.md",
-    "index.md",
-    "ecamle.md",
     "dev/Pasted image 20241012180444.png",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",

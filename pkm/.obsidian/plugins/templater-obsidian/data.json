@@ -25,7 +25,8 @@
   ],
   "syntax_highlighting": false,
   "enabled_templates_hotkeys": [
-    "templates/Default.md"
+    "templates/Default.md",
+    "templates/Dev with tags.md"
   ],
   "startup_templates": [
     ""

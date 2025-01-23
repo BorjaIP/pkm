@@ -1,8 +1,38 @@
 {
   "choices": [
     {
+      "id": "157a77ae-abae-48a5-8f35-8ed36d242a01",
+      "name": "Default",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/Default.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "dev"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
       "id": "35a50231-fe2e-4b3b-b817-eb9aa0a24d3d",
-      "name": "New Paper",
+      "name": "Paper",
       "type": "Template",
       "command": false,
       "templatePath": "templates/Paper.md",
@@ -32,7 +62,7 @@
     },
     {
       "id": "aba64cc5-5bb6-42b6-b6ad-5ae4f6a0e3d6",
-      "name": "New Dev",
+      "name": "Dev with tags",
       "type": "Template",
       "command": false,
       "templatePath": "templates/Dev with tags.md",
