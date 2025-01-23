@@ -21,3 +21,5 @@ tags:
 - [Iceberg](https://github.com/apache/iceberg) - Iceberg is a high-performance format for huge analytic tables. Iceberg brings the reliability and simplicity of [[SQL]] tables to big data, while making it possible for engines like Spark, Trino.
 - [TVM](https://github.com/apache/tvm/) - Open deep learning compiler stack for cpu, gpu and specialized accelerators
 - [DataFusion](https://github.com/apache/datafusion) - Apache DataFusion [[SQL]] Query Engine
+- [Nutch](https://nutch.apache.org/) - Extensible and scalable web crawler - [[Data Extraction]]
+- [Tika](https://tika.apache.org/) - Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types - [[Data Extraction]]
