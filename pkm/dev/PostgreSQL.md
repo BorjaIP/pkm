@@ -6,8 +6,15 @@ tags:
 ---
 PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
 
-- [Certificate Authentication Recipe for PostgreSQL Docker Containers](https://www.crunchydata.com/blog/ssl-certificate-authentication-postgresql-docker-containers)
+| Tool                                                    | Description                                                                                      |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [Timescaledb](https://github.com/timescale/timescaledb) | A time-series database for high-performance real-time analytics packaged as a Postgres extension |
+| [PGVector](https://github.com/pgvector/pgvector)        | Open-source vector similarity search ([[VDB]]) for PostgreSQL.                                   |
+| [Repmgr](https://github.com/EnterpriseDB/repmgr)        | A lightweight replication manager for PostgreSQL                                                 |
 
+- [Certificate Authentication Recipe for PostgreSQL Docker Containers](https://www.crunchydata.com/blog/ssl-certificate-authentication-postgresql-docker-containers)
+- [PostgreSQL High Availability and automatic failover using repmgr](https://medium.com/@joao_o/postgresql-high-availability-and-automatic-failover-using-repmgr-5f505dc6913a)
+- [Pgpool]([https://github.com/bitnami/containers/blob/main/bitnami/pgpool/README.md](https://www.pgpool.net/docs/pgpool-II-4.2.7/en/html/example-kubernetes.html))
 - Access DB
 
 ```bash

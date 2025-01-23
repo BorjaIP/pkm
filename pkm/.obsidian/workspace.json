@@ -8,31 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "146738d70552cffb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/RAG.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "372acebe9c8f6f1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/CRM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "29da50113c8b239d",
+            "id": "164bbe35cd046e7c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "2fd723a3f294810a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +40,31 @@
             }
           },
           {
-            "id": "9066987ff8488cf1",
+            "id": "e599119498456552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Observability.md",
+                "file": "dev/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fe6b5d876319f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Workflow Orchestration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "n8n",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Observability.md",
+                "file": "dev/Workflow Orchestration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Observability.md",
+                "file": "dev/Workflow Orchestration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Observability.md"
+                "file": "dev/Workflow Orchestration.md"
               }
             }
           }
@@ -191,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Observability.md",
+                "file": "dev/Workflow Orchestration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Observability.md",
+                "file": "dev/Workflow Orchestration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,8 +238,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "2fe6b5d876319f29",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
+    "dev/IaC.md",
+    "dev/PostgreSQL.md",
+    "dev/CRM.md",
+    "dev/Bussiness Inteligence.md",
+    "dev/BigQuery.md",
+    "dev/Big Data.md",
+    "dev/Azure.md",
+    "dev/Dotfiles.md",
+    "dev/Awesome.md",
+    "dev/RAG.md",
+    "dev/Python.md",
+    "dev/VDB.md",
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
+    "dev/Security.md",
+    "dev/Observability.md",
     "dev/Cloud.md",
     "dev/LLM.md",
     "dev/Data Extraction.md",
@@ -239,25 +264,9 @@
     "dev/Data Application.md",
     "dev/Datastream.md",
     "dev/Data Orchestration.md",
-    "dev/Big Data.md",
     "index.md",
     "ecamle.md",
-    "dev/Api.md",
     "dev/Pasted image 20241012180444.png",
-    "dev/DBMS.md",
-    "templates/Default.md",
-    "dev/Omop.md",
-    "dev/PostgreSQL.md",
-    "dev/RDBMS.md",
-    "dev/VDB.md",
-    "dev/GDB.md",
-    "dev/Python.md",
-    "dev/Nvidia.md",
-    "dev/Workflow Orchestration.md",
-    "dev/Dotfiles.md",
-    "dev/Tools.md",
-    "dev/Operating System.md",
-    "dev/IaC.md",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",
     "assets/rest_tips.png",

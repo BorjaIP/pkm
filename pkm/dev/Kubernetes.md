@@ -37,6 +37,7 @@ tags:
 | [Kube-linter](https://github.com/stackrox/kube-linter)                                | KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts        |
 | [Karpenter](https://github.com/aws/karpenter-provider-aws)                            | Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity. |
 | [GlassKube](https://github.com/glasskube/glasskube)                                   | Package Manager for Kubernetes                                                                |
+| [Devpod](https://github.com/loft-sh/devpod)                                           | Codespaces but open-source, client-only and unopinionated                                     |
 # Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)

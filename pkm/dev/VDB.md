@@ -12,4 +12,4 @@ A **vector database**, **vector store** or **vector search engine** is a [databa
 | [Drant](https://github.com/qdrant/qdrant)          | Vector Database for the next generation of AI applications                  |
 | [Milvus](https://github.com/milvus-io/milvus)      | A cloud-native vector database, storage for next generation AI applications |
 | [Faiss](https://github.com/facebookresearch/faiss) | A library for efficient similarity search and clustering of dense vectors   |
-| [PGVector](https://github.com/pgvector/pgvector)   | Open-source vector similarity search for [[PostgreSQL]]                     |
+

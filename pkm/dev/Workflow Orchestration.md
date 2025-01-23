@@ -21,3 +21,4 @@ The terms “workflow orchestration” and “[[data orchestration]]” are ofte
 | [Kestra](https://github.com/kestra-io/kestra)         | Event-driven, language-agnostic orchestration and scheduling platform |
 | [Prefect](https://github.com/PrefectHQ/prefect)       | Workflow orchestration tool empowering developers                     |
 | [DStack](https://github.com/dstackai/dstack)          | Orchestrate GPU workloads effortlessly on any cloud                   |
+- [n8n-hosting](https://github.com/n8n-io/n8n-hosting/blob/main/README.md)
