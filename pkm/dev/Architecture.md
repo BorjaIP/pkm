@@ -7,6 +7,10 @@ tags:
   - arq
 ---
 
+| Tool                                    | Description                                                                  |
+| --------------------------------------- | ---------------------------------------------------------------------------- |
+| [Archi](https://www.archimatetool.com/) | The Open Source modelling toolkit for creating ArchiMate models and sketches |
+
 - [The C4 model for visualising software architecture](https://c4model.com/)
 - [The Software Architecture Handbook](https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/)
 - [What Is Event-Driven Microservices Architecture?](https://medium.com/fintechexplained/what-is-event-driven-microservices-architecture-278d9e5adf8a)

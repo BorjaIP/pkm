@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "ee5c08b33d53013a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae40cfe00c94e097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Homelab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ffe305da35f2477f",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,10 +229,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9f48e48c456024d",
+  "active": "ae40cfe00c94e097",
   "lastOpenFiles": [
-    "dev/Linux.md",
     "dev/Tools.md",
+    "dev/Architecture.md",
+    "dev/Homelab.md",
+    "dev/Linux.md",
     "dev/Dotfiles.md",
     "dev/Kubernetes.md",
     "dev/AWS.md",
@@ -230,8 +257,6 @@
     "dev/Big Data.md",
     "dev/Azure.md",
     "dev/Awesome.md",
-    "dev/RAG.md",
-    "dev/Python.md",
     "dev/Pasted image 20241012180444.png",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",

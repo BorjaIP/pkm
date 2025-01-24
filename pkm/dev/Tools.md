@@ -45,6 +45,7 @@ tags: tool, dev
 | [Shredos.x86_64](https://github.com/PartialVolume/shredos.x86_64) | Shredos Disk Eraser 64                                                                                                |
 | [Sidekick](https://github.com/MightyMoud/sidekick)                | Bare metal to production ready in mins; your own fly server on your VPS                                               |
 | [Spotube](https://github.com/KRTirtho/spotube)                    | Open source Spotify client that doesn't require Premium nor uses Electron                                             |
+| [OpenBB](https://github.com/OpenBB-finance/OpenBB)                | Investment Research for Everyone, Everywhere                                                                          |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)
