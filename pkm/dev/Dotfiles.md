@@ -12,8 +12,6 @@ tags:
 | [Yadm](https://yadm.io/)                       | Yet Another Dotfiles Manager                                    |
 | [GNU Stow](https://www.gnu.org/software/stow/) | Symlink farm manager                                            |
 | [Pure](https://github.com/sindresorhus/pure)   | Pretty, minimal and fast ZSH prompt                             |
-
-- [How To Manage Dotfiles With Chezmoi](https://jerrynsh.com/how-to-manage-dotfiles-with-chezmoi/)
 # Shell
 
 ## ZSH
@@ -33,3 +31,16 @@ The **friendly interactive shell** is a Unix shell that attempts to be more inte
 | [Hyper](https://github.com/vercel/hyper)               | A terminal built on web technologies                               |
 | [Kitty](https://github.com/kovidgoyal/kitty)           | Cross-platform, fast, feature-rich, GPU based terminal             |
 | [Wezterm](https://github.com/wez/wezterm)              | A GPU-accelerated cross-platform terminal emulator and multiplexer |
+# Chezmoi
+
+- [How To Manage Dotfiles With Chezmoi](https://jerrynsh.com/how-to-manage-dotfiles-with-chezmoi/)
+
+```bash
+# see diferences betwen tracker and local
+chezmoi diff
+
+# update new files
+chezmoi git -- add .
+chezmoi git -- commit -m "Update readme"
+chezmoi git -- push
+```

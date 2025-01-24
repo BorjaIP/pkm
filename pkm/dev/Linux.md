@@ -41,7 +41,6 @@ useradd -u 1000 -g 1 -m -d /home/idmuser -c "Usuario IDMuser" -s /usr/bin/sh idm
 # last users access to machine
 last | head -n 10
 ```
-
 ## System info
 
 ```bash
@@ -52,13 +51,17 @@ uname -m && cat /etc/*release
 
 cat /etc/os-release
 ```
-
 ### Kernel
 
 ```bash
 lsb_release -a
 ```
+### Path
 
+```bash
+# add /usr/local/bin
+export PATH=$PATH:/usr/local/bin
+```
 ### Process
 
 ```bash
@@ -78,7 +81,6 @@ ls -1 /proc/$pid/fd/*
 awk '!/\[/&&$6{_[$6]++}END{for(i in _)print i}' /proc/$pid/maps
 ls -l /proc/*/fd
 ```
-
 ### CPU
 
 (Threads x Cores) x Physical CPU = Number vCPU
@@ -87,7 +89,6 @@ ls -l /proc/*/fd
 less /proc/cpuinfo
 lscpu
 ```
-
 ### Memory
 
 ```bash
@@ -95,7 +96,6 @@ cat /proc/meminfo
 free -mht
 vmstat -saS M
 ```
-
 ### Disk
 
 ```bash
@@ -149,10 +149,17 @@ sudo systemctl list-units --state failed --type service
 ```
 ### GPU
 
-- List GPU devices in 
-
 ```bash
+# list GPU devices
 lspci -k | grep -EA3 'VGA|3D|Display'
+lspci | grep NVIDIA
+
+# use watrch for see nvidia-smi per x seconds
+watch -n0.1 nvidia-smi
+nvidia-smi -l 2
+
+# no devices cuda o multiple devices
+export CUDA_VISIBLE_DEVICES=""
 ```
 ### Top
 
@@ -164,47 +171,79 @@ lspci -k | grep -EA3 'VGA|3D|Display'
 + h - help
 + H - threads/tasks
 + I - show the overall percentage of available CPUs in use (if not top show the accumulate over all the CPUs)
-
 ## Network
 
+### Curl
+
 ```bash
-# Test conectivity
-curl -v telnet://$IP:$PORT
+# simple curl
+curl http://example:5000/ -o /dev/null -s -w '%{http_code}\n'
 
-# See traffic route
-traceroute 10.210.7.9
+# resolve
+curl --resolve example.com:443:192.168.211.23 https://example.com -k
+```
+### Tcpdump
 
-# Test internet connection
-curl -I https://www.google.com
+```bash
+sudo tcpdump -n dst port 443
+sudo tcpdump -nni any port 443
 
+# only for 443
+sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
+sudo tcpdump -ni any host IP and port 443
+
+# output to pcap file for see in Wireshark
+sudo tcpdump -ni any host IP and port 443 -s0 -w test.pcap
+```
+### Nmap
+
+```bash
+# scan open ports
+namp 17.17.20.160
+# send request to htat machines
+namp -sn 17.17.20.160
+namp -sn 17.17.20.160-180
+# useful information about certs
+namp --script ssl-cert -p 443 17.17.20.160
+```
+### Netstat
+
+```bash
+# default
+netstat -plnt
+netstat -nr
+netstat -ai
+netstat -ant
+netstat -pnltu
+netstat -pluton
+netstat putona
+```
+
+### Iperf
+
+```bash
+# stablish a server in port
+iperf3 -s -p 8080
+# send request with a client for test speed
+iperf3 -c 17.17.20.160 -p 8080
+```
+### Lsof
+
+```bash
+# show ports in use
+lsof -i -P -n
+sudo lsof -iTCP -sTCP:LISTEN -P
+lsof -p process-id
+```
+### IP
+
+```bash
 # show ips
 ip r
 # show IP and mask
 ip addr
 ip -4 -o address
 
-# show ports in use
-lsof -i -P -n
-sudo lsof -iTCP -sTCP:LISTEN -P
-lsof -p process-id
-
-# docker network
-ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
-```
-
-## TCPdump
-
-```bash
-sudo tcpdump -n dst port 443
-sudo tcpdump -nni any port 443
-# only for 443
-sudo tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'
-sudo tcpdump -ni any host IP and port 443
-```
-
-## IP
-
-```bash
 # add rule for single IP to route for 19.16.0.1
 ip route add 17.17.20.160/32 via 19.16.0.1
 # delete rule
@@ -214,41 +253,22 @@ ip route
 # show ip path
 ip route get 17.17.20.160
 ```
+### SS
 
+```bash
+ss -tapn
+ss -dst :https
+ss -dst :5432
+```
 ### DNS
 
 ```bash
 # IP of the nameserver
- /etc/resolv.conf
+/etc/resolv.conf
 
 # see DNS redirection
 nslookup URL
 ```
-
-### HTTP2
-
-```bash
-curl -ks https://name:443/ -X POST -H 'grpc-accept-encoding: identity' -H 'te: trailers' --data-raw $'{"service":""}' -H 'Content-Type: application/grpc+json' -H 'Accept: application/grpc+json' --output - --resolve <name>:443:<IP> -vvv --http2-prior-knowledge --noproxy "*"
-```
-
-### Simulate network delay
-
-```bash
-# add delay
-tc qdisc add dev eth0 root netem delay 100ms
-
-# remove delay
-tc qdisc del dev eth0 root netem delay 100ms
-```
-### Curl
-
-```bash
-curl http://example:5000/ -o /dev/null -s -w '%{http_code}\n'
-
-# resolve
-curl --resolve example.com:443:192.168.211.23 https://example.com -k
-```
-
 ### Firewall
 
 ```bash
@@ -281,30 +301,56 @@ firewall-cmd --reload
 # Debian
 ufw allow 5000
 ```
-### Netstat
-
-```bash
-netstat -nr
-netstat -ai
-netstat -ant
-netstat -pnltu
-netstat -pluton
-netstat putona
-```
 ### Netcat
 
 ```bash
 nc -v 168.91.10.X
 sudo nc -l -p 5050
 ```
-### SS
+### Socket
+
+- [socket](https://manpages.ubuntu.com/manpages/mantic/en/man1/socket.1.html)
+- [example python](https://stackoverflow.com/questions/52599848/what-are-sock-files-and-how-to-communicate-with-them)
+- [example docker](https://stackoverflow.com/questions/76964806/problem-with-unix-sockets-when-setting-up-docker-with-ngnix-daphne-django-and)
+### Others
 
 ```bash
-ss -tapn
-ss -dst :https
-ss -dst :5432
+# Test conectivity
+curl -v telnet://$IP:$PORT
+
+# See traffic route
+traceroute 10.210.7.9
+
+# Test internet connection
+curl -I https://www.google.com
+
+# RDP
+port 3389
+
+# docker network
+ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
-### Review connectivity if curl is not installed
+#### Extract IP
+
+```bash
+# extract IP
+curl -s https://httpbin.org/ip
+```
+#### Curl for HTTP2
+
+```bash
+curl -ks https://name:443/ -X POST -H 'grpc-accept-encoding: identity' -H 'te: trailers' --data-raw $'{"service":""}' -H 'Content-Type: application/grpc+json' -H 'Accept: application/grpc+json' --output - --resolve <name>:443:<IP> -vvv --http2-prior-knowledge --noproxy "*"
+```
+#### Simulate network delay
+
+```bash
+# add delay
+tc qdisc add dev eth0 root netem delay 100ms
+
+# remove delay
+tc qdisc del dev eth0 root netem delay 100ms
+```
+#### Review connectivity if curl is not installed
 
 ```bash
 # open always in bash
@@ -312,8 +358,7 @@ bash
 # change <service> for the name
 time timeout 4 bash -c 'cat < /dev/null > /dev/tcp/<service>/5000' && echo "OK!" || echo "Result: $? (124 -> timeout; 0 -> Ok)"
 ```
-
-### Understand /proc/net/tcp
+#### Understand /proc/net/tcp
 
 - https://www.kernel.org/doc/html/v5.8/networking/proc_net_tcp.html
 
@@ -327,32 +372,6 @@ cat /proc/net/tcp | grep '00000000:1F90 00000000:0000'
 cat /proc/net/tcp | grep '00000000:1F90 00000000:0000' || exit 1
 ```
 
-### Proxy
-
-```bash
-# extract IP
-curl -s https://httpbin.org/ip
-```
-### Socket
-
-- [socket](https://manpages.ubuntu.com/manpages/mantic/en/man1/socket.1.html)
-- [example python](https://stackoverflow.com/questions/52599848/what-are-sock-files-and-how-to-communicate-with-them)
-- [example docker](https://stackoverflow.com/questions/76964806/problem-with-unix-sockets-when-setting-up-docker-with-ngnix-daphne-django-and)
-
----
-
-## GPU
-
-```bash
-watch -n0.1 nvidia-smi
-
-nvidia-smi -l 2
-
-# no devices cuda o multiple devices
-export CUDA_VISIBLE_DEVICES=""
-
-lspci | grep NVIDIA
-```
 ## SSH
 
 - Steps for `.ssh` folder
@@ -394,6 +413,12 @@ last -a
 grep -i Failed /var/log/secure
 ```
 
+## Rsync
+
+```bash
+# instead of cp for show progress
+rsync -avz
+```
 ## Time
 
 ```bash
@@ -402,7 +427,6 @@ timedatectl
 # set time
 sudo timedatectl set-time 15:00:00
 ```
-
 ## Find
 
 - Find a word in a multiple files  
@@ -423,23 +447,12 @@ find -name *.sh
 ```bash
 find . -name \*.html -type f -delete
 ```
-
----
-
-## Commands
+## Nohup
 
 ```bash
-
-# RDP
-port 3389
-# add /usr/local/bin
-export PATH=$PATH:/usr/local/bin
-# instead of cp for show progress
-rsync -avz
 # background process
 nohup python your_file.py > example.log 2>&1 &
 ```
-
 ## Java
 ```bash
 # show memory usage
