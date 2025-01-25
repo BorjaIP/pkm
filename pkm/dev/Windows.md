@@ -181,9 +181,30 @@ Uninstall all GPU drivers
 - [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html)
 # WSL
 
+``` bash
+# Link .ssh folder
+sudo ln -s /mnt/c/Users/<user>/.ssh ~/.ssh
+# Link .kube folder
+sudo ln -s /mnt/c/Users/<user>/.kube ~/.kube
+```
+
 - [WSL-vpnkit](https://github.com/sakai135/wsl-vpnkit)
 - [HyperV-fix-for-dev](https://github.com/jgregmac/hyperv-fix-for-devs)
 ## Network
+
+
+```powershell
+# Add Port Forwarding
+netsh interface portproxy add v4tov4 listenport=$port connectport=$port connectaddress=$remoteaddr
+# Add Firewall Rule
+netsh advfirewall firewall add rule name=$port dir=in action=allow protocol=TCP localport=$port
+# Delete PortForwarding
+netsh interface portproxy delete v4tov4 listenport=$port
+# Delete Firewall Rule
+netsh advfirewall firewall delete rule name=$port
+# Show PortForwardings
+netsh interface portproxy show v4tov4
+```
 
 - Internet slow in terminal and in WSL2 --> https://github.com/microsoft/WSL/issues/4901#issuecomment-1933155508
 - Traceroute 

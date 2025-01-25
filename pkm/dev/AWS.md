@@ -11,9 +11,9 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 
 ![[aws_services.png]]
 
-| Tool                                                                  | Description                                                       |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Localstack](https://github.com/localstack/localstack)| A fully functional local AWS cloud stack |
+| Tool                                                   | Description                              |
+| ------------------------------------------------------ | ---------------------------------------- |
+| [Localstack](https://github.com/localstack/localstack) | A fully functional local AWS cloud stack |
 
 - [Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 - [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)

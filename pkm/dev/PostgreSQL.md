@@ -15,8 +15,27 @@ PostgreSQL is a powerful, open source object-relational database system that use
 - [Certificate Authentication Recipe for PostgreSQL Docker Containers](https://www.crunchydata.com/blog/ssl-certificate-authentication-postgresql-docker-containers)
 - [PostgreSQL High Availability and automatic failover using repmgr](https://medium.com/@joao_o/postgresql-high-availability-and-automatic-failover-using-repmgr-5f505dc6913a)
 - [Pgpool]([https://github.com/bitnami/containers/blob/main/bitnami/pgpool/README.md](https://www.pgpool.net/docs/pgpool-II-4.2.7/en/html/example-kubernetes.html))
-- Access DB
+# PSQL
 
+|Command|Description|
+|---|---|
+|`\c <database>`|Connect to a specific database|
+|`\password <user>`|Change password for a specific user|
+|`\l`|List all databases|
+|`\d+`|Show detailed information about various database objects|
+|`\dt`|List all tables in the current database|
+|`\du`|List all users|
+|`\df`|List all functions|
+|`\dv`|List all views|
+|`\dn`|List all schemas|
+|`\dp`|List all permissions|
+|`\di`|List all indexes|
+|`\ds`|List all sequences|
+|`\d+`|Show detailed information about various database objects|
+|`\q`|Quit psql|
+|`\x`|Toggle expanded output|
+
+- Access DB
 ```bash
 psql -h localhost -U admin -W 
 psql -d postgres -U webadmin -W
@@ -43,6 +62,14 @@ psql -U user -h hostname.rds.amazonaws.com -p 5432 database
 ```sql
 \q
 ```
+
+## Backup and Restore
+
+| Command                           | Description                    |
+| --------------------------------- | ------------------------------ |
+| `pg_dump <database> > backup.sql` | Backup a database to a file    |
+| `psql <database> < backup.sql`    | Restore a database from a file |
+# SQL
 
 - Delete table in DB
 
@@ -117,3 +144,4 @@ SELECT * FROM products
 ```sql
 select enum_range(null::my_enum);
 ```
+

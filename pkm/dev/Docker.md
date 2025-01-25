@@ -34,7 +34,6 @@ Deploy multiple dockers with [[Docker Compose]]
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
-
 # Configuration
 
 ```bash
@@ -69,7 +68,6 @@ sudo systemctl show docker --property Environment
 ```
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
-
 # Commands
 
 ## Run
@@ -77,19 +75,82 @@ Configure variables for proxy in docker [daemon](https://docs.docker.com/config/
 ```bash
 docker run -it --entrypoint /bin/bash image:latest
 ```
-
-### Example Ubuntu
+### Run Ubuntu
 
 ```bash
 docker run -it --rm ubuntu
 apt update && apt install -y curl python3 python3-pip python3-venv
 ```
+### Run IT-tools
+- https://github.com/CorentinTh/it-tools
+
+```bash
+docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
+```
+## Networking
+
+```bash
+# Attach a running container to a network
+docker network connect [network] [container]
+```
+## Logging
+
+```bash
+docker logs ID_CONTAINER -f
+```
+
+## Inspect
+
+```bash
+# show IP Docker
+docker inspect -f '{{.NetworkSettings.IPAddress}}' ID or Name
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ID or Name
+# list all containers belonging to a network by name
+docker inspect -f '{{range $key, $value := .NetworkSettings.Networks}}{{$key}} {{end}}' ID or Name
+#show volumes
+docker inspect -f '{{json .Mounts}}' ID | jq .
+```
+
+## System 
+
+```bash
+# Show information about space used for Docker
+docker system df
+```
+## Stats
+
+```bash
+docker stats
+```
+## Registry
+
+- Add docker **Registry** [insecure](https://docs.docker.com/registry/insecure/)
+
+```bash
+"insecure-registries" : ["registry.es:5000"]
+```
+
+- Create registry
+
+```bash
+docker run -d -p 5000:5000 --name registry registry:2
+docker image tag ubuntu localhost:5000/myfirstimage
+docker push localhost:5000/myfirstimage
+```
+
+- Push image to Docker Registry
+
+```bash
+docker login -u <user> -p <pass> https://url
+docker tag image:latest url/image:latest
+docker push url/image:latest
+```
+## Operations
 ### Stop all containers
 
 ```bash
 docker stop $(docker ps -q)
 ```
-
 ### Show process machine
 
 ```bash
@@ -97,34 +158,12 @@ docker run --net=host --ipc=host --uts=host --pid=host -it --security-opt=seccom
 
 docker exec -it CONTAINER_ID bash top
 ```
-
 ### Show volume information
 
 ```bash
 docker run -it --rm -v /path/on/host:/vol busybox ls -l /vol
 ```
-
-### Logging
-
-```bash
-docker logs ID
-```
-
-### System 
-
-```bash
-# Show information about space used for Docker
-docker system df
-```
-
-### Stats
-
-```bash
-docker stats
-```
-
-
-## Delete
+## Docker delete
 
 ### Delete all
 
@@ -163,47 +202,3 @@ docker rmi $(docker images | grep "<none>" | awk '{print $3}')
 docker rm $(docker images -q | tail -n 5)
 ```
 
-## Docker networking
-
-```bash
-# Attach a running container to a network
-docker network connect [network] [container]
-```
-
-## Docker logging
-
-```bash
-docker logs ID_CONTAINER -f
-```
-
-## Docker Inspect
-
-```bash
-# show IP Docker
-docker inspect -f '{{.NetworkSettings.IPAddress}}' ID or Name
-docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ID or Name
-# list all containers belonging to a network by name
-docker inspect -f '{{range $key, $value := .NetworkSettings.Networks}}{{$key}} {{end}}' ID or Name
-#show volumes
-docker inspect -f '{{json .Mounts}}' ID | jq .
-```
-
-## Docker Registry
-
-Add docker **Registry** [insecure](https://docs.docker.com/registry/insecure/)
-
-Create registry
-
-```bash
-docker run -d -p 5000:5000 --name registry registry:2
-docker image tag ubuntu localhost:5000/myfirstimage
-docker push localhost:5000/myfirstimage
-```
-
-Push image to Docker Registry
-
-```bash
-docker login -u <user> -p <pass> https://url
-docker tag image:latest url/image:latest
-docker push url/image:latest
-```

@@ -13,31 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Windows.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ee5c08b33d53013a",
+            "id": "a64980347ea6ae9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae40cfe00c94e097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cloud",
+                "query": "busybox",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Homelab.md"
+                "file": "dev/Docker.md"
               }
             }
           }
@@ -191,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Homelab.md",
+                "file": "dev/Docker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,19 +218,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae40cfe00c94e097",
+  "active": "a64980347ea6ae9f",
   "lastOpenFiles": [
+    "dev/Kubernetes.md",
+    "dev/Docker.md",
+    "dev/Remote Access.md",
+    "dev/AWS.md",
+    "dev/Windows.md",
+    "dev/Security.md",
+    "assets/wsl_ipv6.png",
+    "dev/DNS.md",
+    "dev/Route 53.md",
+    "dev/Linux.md",
+    "dev/PostgreSQL.md",
+    "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
+    "dev/SQL.md",
+    "dev/Homelab.md",
     "dev/Tools.md",
     "dev/Architecture.md",
-    "dev/Homelab.md",
-    "dev/Linux.md",
     "dev/Dotfiles.md",
-    "dev/Kubernetes.md",
-    "dev/AWS.md",
-    "dev/PostgreSQL.md",
     "dev/Docker Compose.md",
     "dev/CRM.md",
-    "dev/Docker.md",
     "dev/Serverless.md",
     "index.md",
     "Untitled.md",
@@ -250,13 +247,6 @@
     "templates/Default.md",
     "templates/Paper.md",
     "dev/Apache.md",
-    "dev/Workflow Orchestration.md",
-    "dev/IaC.md",
-    "dev/Bussiness Inteligence.md",
-    "dev/BigQuery.md",
-    "dev/Big Data.md",
-    "dev/Azure.md",
-    "dev/Awesome.md",
     "dev/Pasted image 20241012180444.png",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",
@@ -266,7 +256,6 @@
     "assets/rest_auth.png",
     "assets/llm_rlhf.webp",
     "dev/Pasted image 20240624155705.png",
-    "assets/rag_vs_finetuning.png",
     "de",
     "Untitled",
     "assets/images",
