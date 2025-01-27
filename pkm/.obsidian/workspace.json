@@ -8,43 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a9f48e48c456024d",
+            "id": "074de181714207cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a64980347ea6ae9f",
+            "id": "6a847b5254db147a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/API.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffe305da35f2477f",
+            "id": "e59a99fa5610cc67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/AWS.md",
+                "file": "dev/PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "busybox",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Docker.md"
+                "file": "dev/PostgreSQL.md"
               }
             }
           }
@@ -180,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Docker.md",
+                "file": "dev/PostgreSQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,36 +217,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a64980347ea6ae9f",
+  "active": "e59a99fa5610cc67",
   "lastOpenFiles": [
-    "dev/Kubernetes.md",
-    "dev/Docker.md",
-    "dev/Remote Access.md",
-    "dev/AWS.md",
-    "dev/Windows.md",
-    "dev/Security.md",
-    "assets/wsl_ipv6.png",
-    "dev/DNS.md",
-    "dev/Route 53.md",
-    "dev/Linux.md",
-    "dev/PostgreSQL.md",
-    "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
-    "dev/SQL.md",
+    "dev/API.md",
+    "dev/Python.md",
     "dev/Homelab.md",
-    "dev/Tools.md",
-    "dev/Architecture.md",
-    "dev/Dotfiles.md",
-    "dev/Docker Compose.md",
-    "dev/CRM.md",
-    "dev/Serverless.md",
-    "index.md",
+    "dev/RDS.md",
     "Untitled.md",
-    "example.md",
-    "templates/Dev with tags.md",
-    "templates/Default.md",
-    "templates/Paper.md",
+    "dev/RDBMS.md",
+    "dev/System Design.md",
+    "dev/Architecture.md",
+    "dev/Operating System.md",
+    "dev/Arch.md",
+    "dev/AIM.md",
+    "dev/Airflow.md",
+    "dev/AlloyDB.md",
     "dev/Apache.md",
+    "dev/Artificial Intelligence.md",
+    "dev/Aurora.md",
+    "dev/Awesome.md",
+    "dev/AWS.md",
+    "dev/Azure.md",
+    "dev/Big Data.md",
+    "dev/BigQuery.md",
+    "dev/Cert Manager.md",
+    "dev/Chocolatey.md",
+    "dev/Cloud.md",
+    "dev/Cloud Formation.md",
+    "dev/ColossalAI.md",
     "dev/Pasted image 20241012180444.png",
+    "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",
     "assets/rest_tips.png",

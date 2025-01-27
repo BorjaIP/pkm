@@ -15,3 +15,6 @@ tags: Homelab
 | [Wallabag](https://github.com/wallabag/wallabag)       | Wallabag is a self hostable application for saving web pages                                                    |
 | [Commafeed](https://github.com/Athou/commafeed)        | Google Reader inspired self-hosted personal RSS reader                                                          |
 | [Linkwarden](https://github.com/linkwarden/linkwarden) | Self-hosted collaborative bookmark manager to collect, organize, and preserve webpages, articles, and documents |
+| [Memos](https://github.com/usememos/memos)             | An open-source, lightweight note-taking solution                                                                |
+| [Maybe](https://github.com/maybe-finance/maybe)        | The OS for your personal finances                                                                               |
+| [Actual](https://github.com/actualbudget/actual)       | A local-first personal finance app                                                                              |

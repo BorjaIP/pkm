@@ -9,10 +9,10 @@ API stands for **Application Programming Interface**. In the context of APIs, t
 | Tool                                                   | Description                           |
 | ------------------------------------------------------ | ------------------------------------- |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open source API development ecosystem |
-
 ## API REST
 
 - [OpenAPI Specification](https://swagger.io/specification/)
+- [Free Public API](https://www.freepublicapis.com/)
 - [[FastAPI]]
 - [[gRPC]]
 

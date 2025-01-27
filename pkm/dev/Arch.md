@@ -10,7 +10,7 @@ tags: linux
 | [ArcoLinux](https://arcolinux.com/)         | Another distro             |
 | [Bling](https://github.com/BlingCorp/bling) | Utilities for AwesomeWM    |
 | [AwesomeWM](https://awesomewm.org/)         | Window Manager             |
-|[Qtile](http://www.qtile.org/)|Tiling window manager|
+| [Qtile](http://www.qtile.org/)              | Tiling window manager      |
 
 - [install tar.gz???](https://bbs.archlinux.org/viewtopic.php?id=66845)
 - [Offline installation of packages](https://wiki.archlinux.org/title/Offline_installation#Offline_installation_of_packages)

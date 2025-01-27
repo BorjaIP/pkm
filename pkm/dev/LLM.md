@@ -71,6 +71,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Promptfoo](https://github.com/promptfoo/promptfoo)                                   | Test your prompts, agents, and RAGs                                                                                              |
 | [Langwatch](https://github.com/langwatch/langwatch)                                   | The ultimate LLM Ops platform - Monitoring, Analytics, Evaluations, Datasets and Prompt Optimization                             |
 | [Langfuse](https://github.com/langfuse/langfuse)                                      | Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets                 |
+| [llm-course](https://github.com/mlabonne/llm-course)                                  | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks                                                |
 
 
 ![[llm_tree.jpg]]

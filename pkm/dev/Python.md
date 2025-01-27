@@ -66,6 +66,7 @@ Python is a high-level, interpreted programming language known for its simplicit
 
 # Inspired repositories
 
+- [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python) --> Algorithms
 - [Data-centric declarative deep learning framework](https://github.com/ludwig-ai/ludwig) --> Structure, classes and decorators
 - [Petastorm](https://github.com/uber/petastorm)--> Parquet, ML and more
 - [Python DDD Example and Techniques](https://github.com/iktakahiro/dddpy)
@@ -85,10 +86,18 @@ sudo apt install python3.9 python3.9-venv python3.9-dev -y
 
 # Use
 
+## Pipx
+
 - Install [pipx](https://github.com/pypa/pipx) for isolated environments and Apps to use in general context, for example [Hatch](https://github.com/pypa/hatch) or [PDM](https://github.com/pdm-project/pdm).
+- Select which python use.
+```bash
+pipx install hatch uv pip-tools --python python3.11
+```
+## Hacth
+
 - Create a project using Hatch.
 ```bash
-hatch new project-name
+hatch new --init
 ```
 - Create environment using [UV](https://github.com/astral-sh/uv).
 ```

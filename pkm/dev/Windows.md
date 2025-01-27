@@ -7,7 +7,7 @@ tags:
   - windows
   - os
 ---
-Windows is a desktop [[operating system]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for [personal computers](https://techterms.com/definition/pc).
+[]()Windows is a desktop [[operating system]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for [personal computers](https://techterms.com/definition/pc).
 # Programs
 
 | Programs                                                                  | Description                                                                   |
