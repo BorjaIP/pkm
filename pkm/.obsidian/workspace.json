@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/PostgreSQL.md",
+                "file": "dev/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/PostgreSQL.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/PostgreSQL.md"
+                "file": "dev/Python.md"
               }
             }
           }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/PostgreSQL.md",
+                "file": "dev/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/PostgreSQL.md",
+                "file": "dev/Python.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,14 +216,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e59a99fa5610cc67",
+  "active": "074de181714207cb",
   "lastOpenFiles": [
     "dev/API.md",
+    "dev/PostgreSQL.md",
+    "dev/RDBMS.md",
+    "dev/RDS.md",
     "dev/Python.md",
     "dev/Homelab.md",
-    "dev/RDS.md",
     "Untitled.md",
-    "dev/RDBMS.md",
     "dev/System Design.md",
     "dev/Architecture.md",
     "dev/Operating System.md",
@@ -244,7 +244,6 @@
     "dev/Chocolatey.md",
     "dev/Cloud.md",
     "dev/Cloud Formation.md",
-    "dev/ColossalAI.md",
     "dev/Pasted image 20241012180444.png",
     "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",
