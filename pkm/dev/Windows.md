@@ -35,6 +35,7 @@ tags:
 | [KeepassXC](https://github.com/keepassxreboot/keepassxc)                  | Open-source password manager                                                  |
 | [FanControl](https://github.com/Rem0o/FanControl.Releases)                | Highly customizable fan controlling software for Windows\|                    |
 | [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)                       | Open source, tabbed, multi-protocol, remote connections manager               |
+| [glazewm](https://github.com/glzr-io/glazewm)                             | GlazeWM is a tiling window manager for Windows inspired by i3wm               |
 
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)

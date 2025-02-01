@@ -38,6 +38,7 @@ tags:
 | [Karpenter](https://github.com/aws/karpenter-provider-aws)                            | Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity. |
 | [GlassKube](https://github.com/glasskube/glasskube)                                   | Package Manager for Kubernetes                                                                |
 | [Devpod](https://github.com/loft-sh/devpod)                                           | Codespaces but open-source, client-only and unopinionated                                     |
+| [Kubewall](https://github.com/kubewall/kubewall)                                      | A single binary kubernetes dashboard to manage your multiple clusters                         |
 # Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)

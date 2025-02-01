@@ -6,12 +6,14 @@ tags:
 ---
 PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
 
-| Tool                                                    | Description                                                                                      |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [Timescaledb](https://github.com/timescale/timescaledb) | A time-series database for high-performance real-time analytics packaged as a Postgres extension |
-| [PGVector](https://github.com/pgvector/pgvector)        | Open-source vector similarity search ([[VDB]]) for PostgreSQL.                                   |
-| [Repmgr](https://github.com/EnterpriseDB/repmgr)        | A lightweight replication manager for PostgreSQL                                                 |
-| [Neon](https://github.com/neondatabase/neon)            | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling                 |
+| Tool                                                    | Description                                                                                             |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [Timescaledb](https://github.com/timescale/timescaledb) | A time-series database for high-performance real-time analytics packaged as a Postgres extension        |
+| [PGVector](https://github.com/pgvector/pgvector)        | Open-source vector similarity search ([[VDB]]) for PostgreSQL.                                          |
+| [Repmgr](https://github.com/EnterpriseDB/repmgr)        | A lightweight replication manager for PostgreSQL                                                        |
+| [Neon](https://github.com/neondatabase/neon)            | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling                        |
+| [Paradedb](https://github.com/paradedb/paradedb)        | Postgres for Search and Analytics                                                                       |
+| [Pgai](https://github.com/timescale/pgai)               | A suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL |
 
 - [Certificate Authentication Recipe for PostgreSQL Docker Containers](https://www.crunchydata.com/blog/ssl-certificate-authentication-postgresql-docker-containers)
 - [PostgreSQL High Availability and automatic failover using repmgr](https://medium.com/@joao_o/postgresql-high-availability-and-automatic-failover-using-repmgr-5f505dc6913a)
