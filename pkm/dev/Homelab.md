@@ -1,8 +1,9 @@
 ---
-title:  Homelab
+title: Homelab
 created: Friday 29th November 2024 23:43
 aliases: 
-tags: Homelab
+tags:
+  - Homelab
 ---
 
 | Tool                                                   | Description                                                                                                     |

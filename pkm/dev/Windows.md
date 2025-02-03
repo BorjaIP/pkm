@@ -7,7 +7,7 @@ tags:
   - windows
   - os
 ---
-[]()Windows is a desktop [[operating system]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for [personal computers](https://techterms.com/definition/pc).
+Windows is a desktop [[operating system]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for personal computers.
 # Programs
 
 | Programs                                                                  | Description                                                                   |
@@ -36,6 +36,10 @@ tags:
 | [FanControl](https://github.com/Rem0o/FanControl.Releases)                | Highly customizable fan controlling software for Windows\|                    |
 | [mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)                       | Open source, tabbed, multi-protocol, remote connections manager               |
 | [glazewm](https://github.com/glzr-io/glazewm)                             | GlazeWM is a tiling window manager for Windows inspired by i3wm               |
+| [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)           | A lightweight utility that makes the Windows taskbar translucent/transparent  |
+| [Zebar](https://github.com/glzr-io/zebar)                                 | Zebar is a tool for creating customizable and cross-platform taskbars         |
+| [Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)           | Quick file search & app launcher for Windows with community-made plugins      |
+| [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)             | This project aims to enhance the working environment on Windows               |
 
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)
