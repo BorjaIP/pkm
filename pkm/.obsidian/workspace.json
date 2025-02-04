@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "aa81101ae19ef12e",
+        "id": "00b70fd49792951c",
         "type": "tabs",
         "children": [
           {
-            "id": "64b91c2c4eb31374",
+            "id": "18d489207774dfb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Terraform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows"
+              "title": "Terraform"
+            }
+          },
+          {
+            "id": "16420b7085cfc74f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev/Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
             }
           }
         ]
@@ -141,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "dev/Terraform.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows"
+              "title": "Outline of Terraform"
             }
           }
         ],
@@ -220,10 +234,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64b91c2c4eb31374",
+  "active": "18d489207774dfb2",
   "lastOpenFiles": [
-    "dev/Operating System.md",
+    "dev/Nvidia.md",
+    "dev/Python.md",
     "dev/Windows.md",
+    "dev/Operating System.md",
     "dev/Dotfiles.md",
     "dev/Homelab.md",
     "dev/PostgreSQL.md",
@@ -246,8 +262,6 @@
     "dev/Cloud.md",
     "dev/Bussiness Inteligence.md",
     "dev/Apache.md",
-    "dev/Airflow.md",
-    "dev/Python.md",
     "dev/Pasted image 20241012180444.png",
     "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",
