@@ -39,6 +39,8 @@ tags:
 | [GlassKube](https://github.com/glasskube/glasskube)                                   | Package Manager for Kubernetes                                                                |
 | [Devpod](https://github.com/loft-sh/devpod)                                           | Codespaces but open-source, client-only and unopinionated                                     |
 | [Kubewall](https://github.com/kubewall/kubewall)                                      | A single binary kubernetes dashboard to manage your multiple clusters                         |
+| [Kubevela](https://github.com/kubevela/kubevela)                                      | The Modern Application Platform                                                               |
+| [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit    |
 # Articles/Talks
 
 - [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)

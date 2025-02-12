@@ -214,12 +214,15 @@ echo ''import sys; sys.path.append('your-packages-route') ' > /home/ipython.prof
 ```
 ## Web-GUIs
 
-- [[Dash]]
-- [Streamlint](https://github.com/streamlit/streamlit)
-- [Gradio](https://github.com/gradio-app/gradio)
-- [Solara](https://github.com/widgetti/solara/)
-- [ReactPy](https://github.com/reactive-python/reactpy)
-- [Voila](https://github.com/voila-dashboards/voila)
-- [Reflex](https://github.com/reflex-dev/reflex?tab=readme-ov-file)
-- [Backstage](https://github.com/backstage/backstage)
-- [Mesop](https://github.com/google/mesop)
+| Tool/Framework                                                    | Description                                                                |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [[Dash]]                                                          | Data Apps & Dashboards for Python. No JavaScript Required.                 |
+| [Streamlint](https://github.com/streamlit/streamlit)              | A faster way to build and share data apps.                                 |
+| [Gradio](https://github.com/gradio-app/gradio)                    | Build and share delightful machine learning apps                           |
+| [Solara](https://github.com/widgetti/solara/)                     | A Pure Python, React-style Framework for Scaling Your Jupyter and Web Apps |
+| [ReactPy](https://github.com/reactive-python/reactpy)             | It's React, but in Python                                                  |
+| [Voila](https://github.com/voila-dashboards/voila)                | Voilà turns Jupyter notebooks into standalone web applications             |
+| [Reflex](https://github.com/reflex-dev/reflex?tab=readme-ov-file) | Web apps in pure Python                                                    |
+| [Backstage](https://github.com/backstage/backstage)               | Backstage is an open framework for building developer portals              |
+| [Mesop](https://github.com/google/mesop)                          | Rapidly build AI apps in Python                                            |
+| [Nicegui](https://github.com/zauberzeug/nicegui)                  | Create web-based user interfaces with Python                               |

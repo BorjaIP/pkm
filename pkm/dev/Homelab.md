@@ -19,3 +19,4 @@ tags:
 | [Memos](https://github.com/usememos/memos)             | An open-source, lightweight note-taking solution                                                                |
 | [Maybe](https://github.com/maybe-finance/maybe)        | The OS for your personal finances                                                                               |
 | [Actual](https://github.com/actualbudget/actual)       | A local-first personal finance app                                                                              |
+| [WG-easy](https://github.com/wg-easy/wg-easy)          | The easiest way to run WireGuard VPN + Web-based Admin UI                                                       |

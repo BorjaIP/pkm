@@ -8,34 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18d489207774dfb2",
+            "id": "3454a7693577f82b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Terraform.md",
+                "file": "dev/Homelab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terraform"
+              "title": "Homelab"
             }
           },
           {
-            "id": "16420b7085cfc74f",
+            "id": "8f3587a6ee9e5234",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Python.md",
+                "file": "dev/Kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Kubernetes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Terraform.md",
+                "file": "dev/Kubernetes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Terraform"
+              "title": "Outline of Kubernetes"
             }
           }
         ],
@@ -234,14 +235,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18d489207774dfb2",
+  "active": "8f3587a6ee9e5234",
   "lastOpenFiles": [
-    "dev/Nvidia.md",
-    "dev/Python.md",
-    "dev/Windows.md",
-    "dev/Operating System.md",
+    "dev/Kubeflow.md",
     "dev/Dotfiles.md",
     "dev/Homelab.md",
+    "dev/Windows.md",
+    "dev/Python.md",
+    "dev/Terraform.md",
+    "dev/Dash.md",
+    "dev/Nvidia.md",
+    "dev/Operating System.md",
     "dev/PostgreSQL.md",
     "dev/PaaS.md",
     "dev/XaaS.md",
@@ -259,9 +263,6 @@
     "dev/Data Extraction.md",
     "dev/Cwl.md",
     "dev/Container.md",
-    "dev/Cloud.md",
-    "dev/Bussiness Inteligence.md",
-    "dev/Apache.md",
     "dev/Pasted image 20241012180444.png",
     "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",

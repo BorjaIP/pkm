@@ -40,6 +40,7 @@ Windows is a desktop [[operating system]] developed by Microsoft. For the past
 | [Zebar](https://github.com/glzr-io/zebar)                                 | Zebar is a tool for creating customizable and cross-platform taskbars         |
 | [Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)           | Quick file search & app launcher for Windows with community-made plugins      |
 | [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)             | This project aims to enhance the working environment on Windows               |
+| [Komorebi](https://github.com/LGUG2Z/komorebi)                            | A tiling window manager for Windows                                           |
 
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)
