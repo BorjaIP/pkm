@@ -16,6 +16,9 @@ tags: framework
 - [TODO aplication made with Python's FastAPI framework and Hexagonal Architecture](https://github.com/GArmane/python-fastapi-hex-todo)
 - [FastAPI with SQLAlchemy, PostgreSQL, Alembic and Docker](https://ahmed-nafies.medium.com/tutorial-fastapi-sqlalchemy-postgresql-alembic-and-docker-part-2-asynchronous-version-8a339ce97e6d)
 - [FastAPI Rocket Boilerplate](https://github.com/asacristani/fastapi-rocket-boilerplate?tab=readme-ov-file)
+- [Fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
+- [Fstapi-alembic-sqlmodel-async](https://github.com/jonra1993/fastapi-alembic-sqlmodel-async)
+- [Full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)
 
 # Inspired repositories
 
