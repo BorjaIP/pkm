@@ -14,9 +14,11 @@ Key Technical Components:
 - Encrypted data transmission
 - Device and user verification protocols
 
-| Tool                                           | Description                                        |
-| ---------------------------------------------- | -------------------------------------------------- |
-| [KasmVNC](https://github.com/kasmtech/KasmVNC) | Modern VNC Server and client, web based and secure |
+| Tool                                               | Description                                                                                           |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [KasmVNC](https://github.com/kasmtech/KasmVNC)     | Modern VNC Server and client, web based and secure                                                    |
+| [Rustdesk](https://github.com/rustdesk/rustdesk)   | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. |
+| [Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight                                                            |
 # Transmission protocols
 
 ## TCP (Transmission Control Protocol)

@@ -73,7 +73,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Langfuse](https://github.com/langfuse/langfuse)                                      | Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets                 |
 | [LM-course](https://github.com/mlabonne/llm-course)                                   | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks                                                |
 | [Chonkie](https://github.com/chonkie-ai/chonkie)                                      | The no-nonsense RAG chunking library                                                                                             |
-| [Crawl4ai](https://github.com/unclecode/crawl4ai)                                     | Crawl4AI: Open-source LLM Friendly Web Crawler & *Scraper*                                                                         |
+| [Crawl4ai](https://github.com/unclecode/crawl4ai)                                     | Crawl4AI: Open-source LLM Friendly Web Crawler & *Scraper*                                                                       |
+| [Exo](https://github.com/exo-explore/exo)                                             | Run your own AI cluster at home with everyday devices                                                                            |
 
 
 ![[llm_tree.jpg]]
