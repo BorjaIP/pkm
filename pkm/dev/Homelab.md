@@ -20,3 +20,5 @@ tags:
 | [Maybe](https://github.com/maybe-finance/maybe)        | The OS for your personal finances                                                                               |
 | [Actual](https://github.com/actualbudget/actual)       | A local-first personal finance app                                                                              |
 | [WG-easy](https://github.com/wg-easy/wg-easy)          | The easiest way to run WireGuard VPN + Web-based Admin UI                                                       |
+| [Solidtime](https://github.com/solidtime-io/solidtime) | Modern open-source time-tracking app                                                                            |
+| [Siyuan](https://github.com/siyuan-note/siyuan)        | A privacy-first, self-hosted, fully open source personal knowledge management software (PKM)                    |

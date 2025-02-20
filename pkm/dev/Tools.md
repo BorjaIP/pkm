@@ -51,6 +51,7 @@ tags: tool, dev
 | [Fabric](https://github.com/danielmiessler/fabric)                | Open-source framework for augmenting humans using AI                                                                    |
 | [Documenso](https://github.com/documenso/documenso)               | The Open Source DocuSign Alternative                                                                                    |
 | [OpenSign](https://github.com/OpenSignLabs/OpenSign)              | The free & Open Source DocuSign alternative                                                                             |
+| [Mkcert](https://github.com/FiloSottile/mkcert)                   | A simple zero-config tool to make locally trusted development certificates with any names you'd like                    |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

@@ -4,6 +4,10 @@ created: Sunday 23rd April 2023 16:46
 aliases: 
 tags: tool
 ---
+
+| Tool                                                   | Description                                         |
+| ------------------------------------------------------ | --------------------------------------------------- |
+| [Gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Git |
 - [Oh Shit, Git??](https://ohshitgit.com/)
 - [GitButler](https://gitbutler.com/)
 # Large files

@@ -75,6 +75,13 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Chonkie](https://github.com/chonkie-ai/chonkie)                                      | The no-nonsense RAG chunking library                                                                                             |
 | [Crawl4ai](https://github.com/unclecode/crawl4ai)                                     | Crawl4AI: Open-source LLM Friendly Web Crawler & *Scraper*                                                                       |
 | [Exo](https://github.com/exo-explore/exo)                                             | Run your own AI cluster at home with everyday devices                                                                            |
+| [Docling](https://github.com/DS4SD/docling)                                           | Get your documents ready for gen AI                                                                                              |
+| [SuperPrompt](https://github.com/NeoVertex1/SuperPrompt)                              | SuperPrompt is an attempt to engineer prompts that might help us understand AI agents                                            |
+| [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)                     | Python scraper based on AI                                                                                                       |
+| [Anything-llm](https://github.com/Mintplex-Labs/anything-llm)                         | The all-in-one Desktop & Docker AI application with built-in [[RAG]], AI agents, No-code agent builder, and more.                |
+| [Data-formulator](https://github.com/microsoft/data-formulator)                       | Create rich visualizations with AI                                                                                               |
+| [FlashLearn](https://github.com/Pravko-Solutions/FlashLearn)                          | Integrate LLM in any pipeline - fit/predict pattern, JSON driven flows, and built in concurency support.                         |
+| [Pathway AI Pipelines](https://github.com/pathwaycom/llm-app)                         | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data.                                        |
 
 
 ![[llm_tree.jpg]]

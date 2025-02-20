@@ -33,6 +33,7 @@ The **friendly interactive shell** is a Unix shell that attempts to be more inte
 | [Kitty](https://github.com/kovidgoyal/kitty)           | Cross-platform, fast, feature-rich, GPU based terminal             |
 | [Wezterm](https://github.com/wez/wezterm)              | A GPU-accelerated cross-platform terminal emulator and multiplexer |
 | [Tabby](https://github.com/Eugeny/tabby)               | A terminal for a more modern age                                   |
+| [Superfile](https://github.com/yorukot/superfile)      | Pretty fancy and modern terminal file manager                      |
 # Chezmoi
 
 - [How To Manage Dotfiles With Chezmoi](https://jerrynsh.com/how-to-manage-dotfiles-with-chezmoi/)
