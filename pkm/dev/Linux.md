@@ -96,6 +96,37 @@ cat /proc/meminfo
 free -mht
 vmstat -saS M
 ```
+
+### Swap
+
+```bash
+# see swapfile status
+service dphys-swapfile status
+
+# deactivate swap
+sudo swapoff -a
+
+# activate swap
+sudo swapon -a
+
+# service
+systemctl disable dphys-swapfile
+systemctl stop dphys-swapfile
+systemctl start dphys-swapfile
+```
+
+- Change swap size
+
+```bash
+# edit file
+sudo vim /etc/dphys-swapfile
+
+# change this value
+CONF_SWAPSIZE=100
+
+# Restart sevice
+/etc/init.d/dphys-swapfile restart
+```
 ### Disk
 
 ```bash
