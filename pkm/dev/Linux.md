@@ -21,6 +21,12 @@ A Linux distribution is an operating system made from a software collection that
 - [[Arch |Arch]]
 - [[Ubuntu |Ubuntu]]
 - [[RedHat |RedHat]]
+
+# File System Tree
+
+That is the root directory covered, but many of the subdirectories lead to their own set of files and subdirectories. [Wikipedia has a break down with a summary of what each directory is used for](https://en.wikipedia.org/wiki/Unix_filesystem#Conventional_directory_layout).
+
+![[file_system.png]]
 # Commands
 ## Users
 
