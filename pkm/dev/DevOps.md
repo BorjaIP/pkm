@@ -6,6 +6,8 @@ tags:
 ---
 DevOps is **the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity**: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
 
+![[devops.png]]
+
 - [DevOps Roadmap](https://roadmap.sh/devops)
 - [DevOps Newsletters](https://devopsnewsletters.com/)
 - [DevOps Community](https://github.com/rohitg00/DevOpsCommunity)

@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/DevOps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "DevOps"
             }
           }
         ],
@@ -107,13 +107,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Linux.md",
+                "file": "dev/DevOps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux"
+              "title": "Outline of DevOps"
             }
           },
           {
@@ -211,11 +211,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "a8aa87686ac95377",
   "lastOpenFiles": [
+    "assets/devops.png",
+    "dev/DevOps.md",
+    "dev/Linux.md",
     "assets/file_system.png",
     "dev/Pasted image 20241012180444.png",
-    "dev/Linux.md",
     "dev/DBMS.md",
     "assets/databases.png",
     "dev/NoSQL.md",
@@ -240,7 +242,6 @@
     "dev/API.md",
     "dev/Dotfiles.md",
     "dev/Docker.md",
-    "dev/Tools.md",
     "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",
     "assets/latency_data_pipelines.png",
