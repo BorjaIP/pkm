@@ -8,48 +8,49 @@ tags:
 ---
 Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability with its clean, easy-to-understand syntax, making it ideal for both beginners and experienced developers. Python supports multiple programming paradigms, including object-oriented, procedural, and functional programming, and has a vast ecosystem of libraries and frameworks that extend its functionality.
 
-| Tool/Framework                                                  | Description                                                                                                                |
-| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Dynaconf](https://www.dynaconf.com/)                           | Configuration Management for Python                                                                                        |
-| [CrytoLens](https://github.com/Cryptolens/cryptolens-python)    | License and sell your software securely                                                                                    |
-| [Locust](https://locust.io/)                                    | An open source load testing tool                                                                                           |
-| [Pipdeptree](https://github.com/naiquevin/pipdeptree)           | Display dependencies tree                                                                                                  |
-| [Databases](https://github.com/encode/databases)                | Async database support for Python                                                                                          |
-| [Vulture](https://github.com/jendrikseipp/vulture)              | Find dead Python code                                                                                                      |
-| [Hatch](https://github.com/pypa/hatch)                          | Modern, extensible Python project management                                                                               |
-| [Towncrier](https://github.com/twisted/towncrier)               | Manage the release notes for your project                                                                                  |
-| [Gitlint](https://github.com/jorisroovers/gitlint)              | Linting for your git commit messages                                                                                       |
-| [License-check](https://github.com/dhatim/python-license-check) | Check python packages from requirement.txt and report issues                                                               |
-| [Pip-licenses](https://github.com/raimon49/pip-licenses)        | Dump the license list of packages installed with pip                                                                       |
-| [Pycln](https://github.com/hadialqattan/pycln)                  | A formatter for finding and removing unused import statements                                                              |
-| [Typeshed](https://github.com/python/typeshed)                  | Collection of library stubs for Python, with static types                                                                  |
-| [Safety](https://github.com/pyupio/safety)                      | Checks Python dependencies for known security vulnerabilities                                                              |
-| [Orjson](https://github.com/ijl/orjson)                         | Fast, correct Python JSON library                                                                                          |
-| [Pympler](https://github.com/pympler/pympler)                   | Development tool to measure, monitor and analyze the memory behavior                                                       |
-| [Loguru](https://github.com/Delgan/loguru)                      | Python logging made simple                                                                                                 |
-| [Debugpy](https://github.com/microsoft/debugpy/)                | An implementation of the Debug Adapter Protocol for Python                                                                 |
-| [Hey](https://github.com/rakyll/hey)                            | HTTP load generator, ApacheBench (ab) replacement                                                                          |
-| [Perfect](https://github.com/PrefectHQ/prefect)                 | Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines              |
-| [Rich](https://github.com/Textualize/rich)                      | Rich is a Python library for rich text and beautiful formatting in the terminal                                            |
-| [Schedule](https://github.com/dbader/schedule)                  | Python job scheduling for humans                                                                                           |
-| [Scalene](https://github.com/plasma-umass/scalene)              | High-performance, high-precision CPU, GPU, and memory profile                                                              |
-| [Memray](https://github.com/bloomberg/memray)                   | Memory profiler                                                                                                            |
-| [Jellyfish](https://github.com/jamesturk/jellyfish/)            | Library for approximate and phonetic matching of strings                                                                   |
-| [Dask](https://github.com/dask/dask)                            | Parallel computing with task scheduling                                                                                    |
-| [Msgspec](https://github.com/jcrist/msgspec)                    | A fast serialization and validation library                                                                                |
-| [Attrs](https://github.com/python-attrs/attrs/tree/main)        | Python Classes Without Boilerplate                                                                                         |
-| [Kivy](https://github.com/kivy/kivy)                            | Open source UI framework                                                                                                   |
-| [Griptape](https://github.com/griptape-ai/griptape)             | Modular Python framework for AI agents and workflows with chain-of-thought reasoning                                       |
-| [GSQuant](https://github.com/goldmansachs/gs-quant)             | Python toolkit for quantitative finance                                                                                    |
-| [Quix](https://github.com/quixio/quix-streams)                  | Python stream processing for [[Kafka]]                                                                                     |
-| [cuDF](https://github.com/rapidsai/cudf)                        | cuDF - GPU DataFrame Library                                                                                               |
-| [pygwalker](https://github.com/Kanaries/pygwalker)              | Turn your pandas dataframe into an interactive UI                                                                          |
-| [FastCRUD](https://github.com/igorbenav/fastcrud)               | FastCRUD offer a robust async CRUD operations and flexible endpoint creation utilities.                                    |
-| [Ormar](https://github.com/collerek/ormar)                      | Python async orm with fastapi in mind and pydantic validation                                                              |
-| [Logfire](https://github.com/pydantic/logfire)                  | Uncomplicated Observability for Python and beyond                                                                          |
-| [Pathway](https://github.com/pathwaycom/pathway)                | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and [[RAG]]                                |
-| [Markitdown](https://github.com/microsoft/markitdown)           | Python tool for converting files and office documents to Markdown                                                          |
-| [VPS-audit](https://github.com/vernu/vps-audit)                 | Lightweight, dependency-free bash script for security, performance auditing and infrastructure monitoring of Linux servers |
+| Tool/Framework                                                                | Description                                                                                                                |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Dynaconf](https://www.dynaconf.com/)                                         | Configuration Management for Python                                                                                        |
+| [CrytoLens](https://github.com/Cryptolens/cryptolens-python)                  | License and sell your software securely                                                                                    |
+| [Locust](https://locust.io/)                                                  | An open source load testing tool                                                                                           |
+| [Pipdeptree](https://github.com/naiquevin/pipdeptree)                         | Display dependencies tree                                                                                                  |
+| [Databases](https://github.com/encode/databases)                              | Async database support for Python                                                                                          |
+| [Vulture](https://github.com/jendrikseipp/vulture)                            | Find dead Python code                                                                                                      |
+| [Hatch](https://github.com/pypa/hatch)                                        | Modern, extensible Python project management                                                                               |
+| [Towncrier](https://github.com/twisted/towncrier)                             | Manage the release notes for your project                                                                                  |
+| [Gitlint](https://github.com/jorisroovers/gitlint)                            | Linting for your git commit messages                                                                                       |
+| [License-check](https://github.com/dhatim/python-license-check)               | Check python packages from requirement.txt and report issues                                                               |
+| [Pip-licenses](https://github.com/raimon49/pip-licenses)                      | Dump the license list of packages installed with pip                                                                       |
+| [Pycln](https://github.com/hadialqattan/pycln)                                | A formatter for finding and removing unused import statements                                                              |
+| [Typeshed](https://github.com/python/typeshed)                                | Collection of library stubs for Python, with static types                                                                  |
+| [Safety](https://github.com/pyupio/safety)                                    | Checks Python dependencies for known security vulnerabilities                                                              |
+| [Orjson](https://github.com/ijl/orjson)                                       | Fast, correct Python JSON library                                                                                          |
+| [Pympler](https://github.com/pympler/pympler)                                 | Development tool to measure, monitor and analyze the memory behavior                                                       |
+| [Loguru](https://github.com/Delgan/loguru)                                    | Python logging made simple                                                                                                 |
+| [Debugpy](https://github.com/microsoft/debugpy/)                              | An implementation of the Debug Adapter Protocol for Python                                                                 |
+| [Hey](https://github.com/rakyll/hey)                                          | HTTP load generator, ApacheBench (ab) replacement                                                                          |
+| [Perfect](https://github.com/PrefectHQ/prefect)                               | Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines              |
+| [Rich](https://github.com/Textualize/rich)                                    | Rich is a Python library for rich text and beautiful formatting in the terminal                                            |
+| [Schedule](https://github.com/dbader/schedule)                                | Python job scheduling for humans                                                                                           |
+| [Scalene](https://github.com/plasma-umass/scalene)                            | High-performance, high-precision CPU, GPU, and memory profile                                                              |
+| [Memray](https://github.com/bloomberg/memray)                                 | Memory profiler                                                                                                            |
+| [Jellyfish](https://github.com/jamesturk/jellyfish/)                          | Library for approximate and phonetic matching of strings                                                                   |
+| [Dask](https://github.com/dask/dask)                                          | Parallel computing with task scheduling                                                                                    |
+| [Msgspec](https://github.com/jcrist/msgspec)                                  | A fast serialization and validation library                                                                                |
+| [Attrs](https://github.com/python-attrs/attrs/tree/main)                      | Python Classes Without Boilerplate                                                                                         |
+| [Kivy](https://github.com/kivy/kivy)                                          | Open source UI framework                                                                                                   |
+| [Griptape](https://github.com/griptape-ai/griptape)                           | Modular Python framework for AI agents and workflows with chain-of-thought reasoning                                       |
+| [GSQuant](https://github.com/goldmansachs/gs-quant)                           | Python toolkit for quantitative finance                                                                                    |
+| [Quix](https://github.com/quixio/quix-streams)                                | Python stream processing for [[Kafka]]                                                                                     |
+| [cuDF](https://github.com/rapidsai/cudf)                                      | cuDF - GPU DataFrame Library                                                                                               |
+| [pygwalker](https://github.com/Kanaries/pygwalker)                            | Turn your pandas dataframe into an interactive UI                                                                          |
+| [FastCRUD](https://github.com/igorbenav/fastcrud)                             | FastCRUD offer a robust async CRUD operations and flexible endpoint creation utilities.                                    |
+| [Ormar](https://github.com/collerek/ormar)                                    | Python async orm with fastapi in mind and pydantic validation                                                              |
+| [Logfire](https://github.com/pydantic/logfire)                                | Uncomplicated Observability for Python and beyond                                                                          |
+| [Pathway](https://github.com/pathwaycom/pathway)                              | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and [[RAG]]                                |
+| [Markitdown](https://github.com/microsoft/markitdown)                         | Python tool for converting files and office documents to Markdown                                                          |
+| [VPS-audit](https://github.com/vernu/vps-audit)                               | Lightweight, dependency-free bash script for security, performance auditing and infrastructure monitoring of Linux servers |
+| [Dependency Injector](https://github.com/ets-labs/python-dependency-injector) | Dependency injection framework for Python                                                                                  |
 
 # Articles/Talks
 

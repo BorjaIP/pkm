@@ -17,6 +17,17 @@ tags:
 - [What is SAGA Pattern in Microservice Architecture? Which Problem does it solve?](https://medium.com/javarevisited/what-is-saga-pattern-in-microservice-architecture-which-problem-does-it-solve-de45d7d01d2b)
 - [System Design Interview Basics: Difference Between API Gateway and Load Balancer](https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121)
 
+# Architecture Patterns
+
+## MVC
+
+- **Model**: The backend that contains all the data logic
+- **View**: The frontend or graphical user interface (GUI)
+- **Controller**: The brains of the application that controls how data is displayed
+
+![[mvc.png]]
+
+![[mvc_diagram.png]]
 # Cloud
 
 [[Cloud]] architecture helps provide a structure to cloud computing solutions, freeing businesses from any reliance on physical data centers and any other infrastructure. The right architecture **improves the business-customer relationship** by optimizing the user experience at the front end of the cloud computing solution while also optimizing back-end operations with servers, solutions, and storage.
