@@ -32,7 +32,7 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - [[EBS]]
 - [[EFS]]
 - [[FSx]]
-#### Use cases
+### Use cases
 
 - **S3**: used for serverless object storage
 - **Glacier**: used for archiving objects
@@ -90,7 +90,7 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - API Gateway
 - AWS Global Accelerator
 - [[ELB]]
-## Availability zones and regions
+### Availability zones and regions
 
 - A **Region** is a physical location in the world of two or more Availability Zones (AZs)
 - An **AZs** is one or more discrete data centers -each with redundant power, networking, and connectivity - housed in separate facilities
@@ -194,15 +194,28 @@ AWS IAM --> Configure access for specific resources
 
 Amazon CloudWatch --> Log applications, monitoring, alarms
 AWS Cloudtrail --> When you have many users and need track them 
-# ACM
 
 AWS Certificate Manager ([ACM](https://aws.amazon.com/certificate-manager/))
 
 - [Managing TLS keys and certs in Istio using Amazon’s ACM](https://faun.pub/managing-tls-keys-and-certs-in-istio-using-amazons-acm-8ff9a0b99033)
 
-# EKS
+## EKS
 
 aws eks --region eu-west-1 update-kubeconfig --profile name
+
+## Cost Reduce
+
+1. [Awesome Cloud Cost](https://github.com/jatalocks/awesome-cloud-cost) – a curated list of tips for reducing cloud costs.
+2. Use **Reserved Instances (RI)** and **Savings Plans** to lower costs. Consider “smart” automated RI SaaS solutions based on your existing workloads.
+3. Prefer **newer-generation EC2 instances**—they are always cheaper. This applies to other products as well, such as using **gp3 instead of gp2** for storage.
+4. Use **S3 storage classes** to cut costs on less frequently accessed data.
+5. If using **multiple private subnets** that require internet access, ensure each has its own **NAT gateway**. Sharing a single NAT gateway can be more expensive. Alternatively, install a **NAT instance** on a small EC2 or use only public subnets with strict access controls.
+6. Move away from **Classic Load Balancers** (deprecated and more expensive). Use **Network Load Balancers (NLB)** or **Application Load Balancers (ALB)** instead.
+7. Prefer **Transit Gateways (or AWS Network Manager)** over **VPC Peering**, especially when dealing with many VPCs, as peering costs scale poorly.
+8. Use **VPC Endpoints** to access AWS services internally. However, compare the cost of an endpoint with the cost of direct usage to ensure savings.
+9. If using **S3 Glacier**, compress files into as few objects as possible before uploading to reduce request costs.
+10. A common best practice is to create a centralized **“endpoint VPC”**, where all endpoints are managed, and the rest of your VPCs/accounts access AWS resources through it.
+11. Use Cloud-native block storage management for identifying and removing unused or unattached storage volumes.
 
 ---
 

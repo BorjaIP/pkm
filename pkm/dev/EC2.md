@@ -119,6 +119,19 @@ To further optimize container usage, particularly with unpredictable workloads, 
 
 Consolidate smaller or similar services into a **single container**. For example, if you have a container to handle internal traffic and a container to handle external traffic, be aware that [[ECS]] supports multiple load balancer target groups.
 
+## Cost Reduce
+
+- Are all EC2 instances properly sized for their workloads?
+- Are they running 24/7? If not, schedule them to shut down overnight and restart in the morning.
+- Are any EC2 instances underutilized? Test, Dev, and Pre-prod environments may not need full capacity—scale down where possible.
+- Are any instances running only a small function? Consider switching to a serverless approach.
+- Can workloads be containerized so they spin up only when needed?
+- Can you move workloads from EC2 to serverless? For example, package applications in Docker and run them on Fargate.
+- Enable hibernation for instances that don’t need to run 24/7—restoring from hibernation is fast and retains the last state.
+- Use [Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) to analyze where the highest EC2 costs come from and leverage other tools for cost predictions.
+- Can you commit to specific resources for at least a year? If so, consider purchasing reserved instances.
+- For non-critical workloads (e.g., Dev), explore using spot instances to reduce costs.
+
 ---
 
 # References

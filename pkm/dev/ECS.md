@@ -5,8 +5,6 @@ aliases:
 tags: cloud, aws
 ---
 
-## ECS
-
 ![ecs](assets/ecs.png)
 
 

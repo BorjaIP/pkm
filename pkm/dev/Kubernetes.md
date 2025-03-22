@@ -517,6 +517,16 @@ PodDisruptionBudget
 
 - For HA you neeed to define Disruptions if a Node of the Cluster is down or upgraded. Stablish the minimum and maximum Pods are needed mandatory for your App.
 
+# Cost Reduce
+
+1. Here is the first tip I got: Any attempt to control costs after an application has been architected and deployed is necessarily focusing on the wrong things. Cloud costs are a function of your 
+2. Consolidate your pods on fewer nodes. Leave only as little headroom as you intend for in your nodes.
+3. Don’t over-commit resources. Pod requests must be optimized over time in order to not over-provision.
+4. If possible, prefer using only a single region to avoid network transfer costs between nodes. Preferably when it’s not production.
+5. If you are running things like k8s there are other tools to monitor load and dynamically adjust, but monitoring all costs on a 5-minute interval seems odd. You could correlate this to your actual infrastructure monitoring. You are going to know if the cost goes crazy if you are monitoring your deployment properly or even better in pre-deployment. 
+6. A list I got from a [Reddit post:](https://www.reddit.com/r/kubernetes/comments/1520nah/reducing_cloud_costs_on_kubernetes_dev_envs_by/)
+
+---
 # References
 
 [1]: [Declarative Configuration Management](https://dev.to/peefy/10-ways-for-kubernetes-declarative-configuration-management-5pb)

@@ -205,14 +205,17 @@ pip config list -v
 flask routes
 ```
 
-
-VENV
-
 ```bash
 00-python-path.py
 
 echo ''import sys; sys.path.append('your-packages-route') ' > /home/ipython.profile_default/startup/00-python-path.py
 ```
+
+## Understanding Python Execution Flow
+
+![[Pasted image 20250322203953.png]]
+
+- [Python Execution](https://emitechlogic.com/python-execution-flow/)
 ## Web-GUIs
 
 | Tool/Framework                                                    | Description                                                                |
