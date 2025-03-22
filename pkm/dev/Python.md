@@ -213,7 +213,7 @@ echo ''import sys; sys.path.append('your-packages-route') ' > /home/ipython.prof
 
 ## Understanding Python Execution Flow
 
-![[Pasted image 20250322203953.png]]
+![[python_flow.png]]
 
 - [Python Execution](https://emitechlogic.com/python-execution-flow/)
 ## Web-GUIs

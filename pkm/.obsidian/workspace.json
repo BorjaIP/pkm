@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "00b70fd49792951c",
+        "id": "4cf5550880189ddc",
         "type": "tabs",
         "children": [
           {
-            "id": "a8aa87686ac95377",
+            "id": "87cc7e5f6aae3af7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/Python.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "New tab"
             }
           }
         ]
@@ -94,13 +90,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Python.md",
+                "file": "assets/python_flow.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python"
+              "title": "Outline of python_flow"
             }
           },
           {
@@ -198,9 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8aa87686ac95377",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
-    "dev/Pasted image 20250322203953.png",
+    "dev/Python.md",
+    "assets/python_flow.png",
     "dev/DevOps.md",
     "dev/EC2.md",
     "dev/AWS.md",
@@ -209,7 +206,6 @@
     "dev/Cloud.md",
     "dev/ECS.md",
     "dev/Homelab.md",
-    "dev/Python.md",
     "assets/rest_tips.png",
     "dev/Architecture.md",
     "assets/mvc_diagram.png",
@@ -235,7 +231,6 @@
     "Untitled.md",
     "assets/wsl_ipv6.png",
     "assets/oltp_vs_olap.png",
-    "assets/latency_data_pipelines.png",
     "de",
     "Untitled",
     "assets/images",
