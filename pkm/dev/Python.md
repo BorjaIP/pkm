@@ -51,6 +51,7 @@ Python is a high-level, interpreted programming language known for its simplicit
 | [Markitdown](https://github.com/microsoft/markitdown)                         | Python tool for converting files and office documents to Markdown                                                          |
 | [VPS-audit](https://github.com/vernu/vps-audit)                               | Lightweight, dependency-free bash script for security, performance auditing and infrastructure monitoring of Linux servers |
 | [Dependency Injector](https://github.com/ets-labs/python-dependency-injector) | Dependency injection framework for Python                                                                                  |
+| [Litestar](https://github.com/litestar-org/litestar)                          | Production-ready, Light, Flexible and Extensible ASGI API framework                                                        |
 
 # Articles/Talks
 

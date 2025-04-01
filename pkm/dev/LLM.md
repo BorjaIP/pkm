@@ -82,6 +82,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Data-formulator](https://github.com/microsoft/data-formulator)                       | Create rich visualizations with AI                                                                                               |
 | [FlashLearn](https://github.com/Pravko-Solutions/FlashLearn)                          | Integrate LLM in any pipeline - fit/predict pattern, JSON driven flows, and built in concurency support.                         |
 | [Pathway AI Pipelines](https://github.com/pathwaycom/llm-app)                         | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data.                                        |
+| [pydantic-ai](https://github.com/pydantic/pydantic-ai)                                | Agent Framework / shim to use Pydantic with LLMs                                                                                 |
 
 
 ![[llm_tree.jpg]]
