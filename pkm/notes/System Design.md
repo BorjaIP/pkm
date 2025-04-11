@@ -24,7 +24,6 @@ Key Considerations:
 - Caching
 - Distributed systems
 - Microservices architecture
-
 # Critical Domains
 
 - Web applications

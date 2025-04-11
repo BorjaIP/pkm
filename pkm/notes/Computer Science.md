@@ -40,14 +40,17 @@ tags:
 - [[Windows]]
 ## [[Computer Architecture]]
 
+- [[System Design]]
 ## Networking
 
 - OSI & TCP Models
-- HTTP/HTTPS
+- [[Remote Access]] ([[Remote Access#HTTPS (Secure HTTP)|HTTPS]], [[Remote Access#1. Virtual Private Network (VPN)|VPN]])
 - [[DNS]] & Routing
 # Software Engineering
 
-- Design Patterns
+- [[Design Patterns]]
+- [[Software Architecture]]
+- [[Architecture Patterns]]
 - SDLC & Agile
 - Testing & Debugging
 - Version Control ([[Git]])

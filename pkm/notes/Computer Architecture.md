@@ -6,61 +6,81 @@ aliases:
 tags:
   - arq
 ---
-
-| Tool                                    | Description                                                                  |
-| --------------------------------------- | ---------------------------------------------------------------------------- |
-| [Archi](https://www.archimatetool.com/) | The Open Source modelling toolkit for creating ArchiMate models and sketches |
-
-- [The C4 model for visualising software architecture](https://c4model.com/)
-- [The Software Architecture Handbook](https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/)
-- [What Is Event-Driven Microservices Architecture?](https://medium.com/fintechexplained/what-is-event-driven-microservices-architecture-278d9e5adf8a)
-- [What is SAGA Pattern in Microservice Architecture? Which Problem does it solve?](https://medium.com/javarevisited/what-is-saga-pattern-in-microservice-architecture-which-problem-does-it-solve-de45d7d01d2b)
-- [System Design Interview Basics: Difference Between API Gateway and Load Balancer](https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121)
-
+**Computer architecture** is the design and organization of computing systems, encompassing how hardware components work together to execute instructions and process data. It represents the conceptual blueprint and structural framework that defines a computer system's functionality, performance, and capabilities.
 # Fundamentals
-- Von Neumann vs Harvard Architecture
-- Instruction Cycle (Fetch-Decode-Execute)
-- ISA (Instruction Set Architecture)
+
+## Von Neumann Architecture
+
+- Single memory space for both instructions and data
+- Sequential instruction execution
+- Characterized by the "von Neumann bottleneck" between processor and memory
+- Still forms the foundation of most modern computing systems
+
+## Harvard Architecture
+
+- Physically separate storage and signal pathways for instructions and data
+- Allows simultaneous access to both instruction and data memory
+- Common in DSPs and microcontrollers
+- Reduces the memory bottleneck for certain applications
+
+## Instruction Set Architecture
+
+- ISA: The interface between hardware and software, defining the set of instructions a processor can execute, addressing modes, registers, and data type.
+## Instruction Cycle (Fetch-Decode-Execute)
 # CPU Design
+
 - ALU (Arithmetic Logic Unit)
 - Control Unit
 - Registers
 - Pipelining & Hazards
 # Memory Hierarchy
+
 - Registers
 - Cache (L1, L2, L3)
 - RAM
 - Virtual Memory & Paging
-# Buses & I/O
+## Memory-Centric Architectures
+
+- Non-von Neumann approaches
+- Neuromorphic computing
+- In-memory computing
+- Near-data processing
+# I/O System
+
 - System Buses (Data, Address, Control)
 - I/O Interfaces
 - Interrupts & DMA
 # Performance
+
 - Clock Speed & CPI
 - Benchmarks & MIPS/FLOPS
-- Parallelism & Multi-Core
+## Parallel Processing Architectures
+
+- **SIMD** (Single Instruction, Multiple Data): Same operation performed on multiple data points simultaneously
+- **MIMD** (Multiple Instruction, Multiple Data): Multiple processors executing different instructions on different data
+- **Vector Processing**: Specialized for operations on data arrays
+- **GPU Architecture**: Optimized for graphics and highly parallel computation
 # Modern Architectures
-- RISC vs CISC
-- Superscalar & Out-of-Order Execution
-- GPUs & Accelerators
-# Architecture Patterns
 
-## MVC
+## RISC (Reduced Instruction Set Computer)
 
-- **Model**: The backend that contains all the data logic
-- **View**: The frontend or graphical user interface (GUI)
-- **Controller**: The brains of the application that controls how data is displayed
+- Simple, highly-optimized instruction set
+- Fixed instruction length
+- Large number of general-purpose registers
+- Load-store architecture
+- Examples: ARM, RISC-V, early MIPS
+## CISC (Complex Instruction Set Computer)
 
-![[mvc.png]]
+- Rich instruction set with many specialized instructions
+- Variable instruction length
+- Fewer registers
+- Memory-to-memory operations
+- Example: x86 architecture
+## Superscalar & Out-of-Order Execution
 
-![[mvc_diagram.png]]
-# Cloud
+# Specialized Architectures
 
-[[Cloud]] architecture helps provide a structure to cloud computing solutions, freeing businesses from any reliance on physical data centers and any other infrastructure. The right architecture **improves the business-customer relationship** by optimizing the user experience at the front end of the cloud computing solution while also optimizing back-end operations with servers, solutions, and storage.
-
-- [Cloud Architecture Patterns](https://distributedleo.medium.com/cloud-architecture-patterns-3a932a95691b)
-- [De Lambda a Kappa: evolución de las arquitecturas Big Data](https://www.paradigmadigital.com/techbiz/de-lambda-a-kappa-evolucion-de-las-arquitecturas-big-data/)
-# Security
-
-- [[Security]]
-
+- **FPGA-based**: Reconfigurable hardware
+- **ASIC**: Application-specific integrated circuits
+- **Quantum Computing**: Based on quantum mechanical principles
+- **AI Accelerators**: Specialized for machine learning workloads (TPUs, NPUs)

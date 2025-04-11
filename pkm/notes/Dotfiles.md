@@ -36,7 +36,7 @@ The **friendly interactive shell** is a Unix shell that attempts to be more inte
 | [Superfile](https://github.com/yorukot/superfile)      | Pretty fancy and modern terminal file manager                      |
 # Chezmoi
 
-- [How To Manage Dotfiles With Chezmoi](https://jerrynsh.com/how-to-manage-dotfiles-with-chezmoi/)
+- [[How To Manage Dotfiles With Chezmoi]]
 
 ```bash
 # see diferences betwen tracker and local

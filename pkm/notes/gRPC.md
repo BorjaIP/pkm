@@ -21,6 +21,6 @@ In [gRPC](https://github.com/grpc/grpc), a client application can directly call 
 # Transcode to REST
 
 - [[Introducing gRPC Support with NGINX]]
-- [[Transcoding HTTP/JSON to gRPC]]
+- [[Transcoding HTTP-JSON to gRPC]]
 - [[Apache APISIX - Gateway transcode]]
 - [[Load balancing gRPC service with Nginx]]

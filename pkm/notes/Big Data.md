@@ -4,6 +4,8 @@ created: Monday 4th March 2024 11:28
 aliases: 
 tags: 
 ---
-Real time data is in seconds or milliseconds 
+
+- [[De Lambda a Kappa - evolución de las arquitecturas Big Data]]
+- Real time data is in seconds or milliseconds 
 
 ![[latency_data_pipelines.png]]
