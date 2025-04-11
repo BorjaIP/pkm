@@ -8,13 +8,11 @@ DevOps is **the combination of cultural philosophies, practices, and tools that
 
 ![[devops.png]]
 
-- [DevOps Roadmap](https://roadmap.sh/devops)
-- [DevOps Newsletters](https://devopsnewsletters.com/)
-- [DevOps Community](https://github.com/rohitg00/DevOpsCommunity)
-- [Developer Handbook](https://github.com/apptension/developer-handbook/blob/master/Technical%20Stack/DevOps%20Developer.md)
-- [DevOps Docs](https://roadmap.sh/devops)
-- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)
-
+- [[DevOps Roadmap]]
+- [[DevOps Newsletters]]
+- [[DevOps Community]]
+- [[DevOps Developer Handbook]]
+- [[DevOps Exercises]]
 # Continuous Integration / Continuous Delivery (CI/CD)
 
 The term CI/CD is commonly used today to describe the overarching tools and practices that are pulling the practices of build, test, and deployment automation together to happen multiple times a day as code merges to the product’s production branch/trunk become more frequent.
@@ -63,7 +61,7 @@ There is a lot of room for novel automation in this category, and in the last fe
 
 Virtual machines (VMs), containers, and other various abstractions of a software production environment have been a blessing to developers for many years as they continue to get better and easier to manage. Why try and debug 100 different things that could go wrong while manually setting up an operational environment when you can automatically spin up template environments that allow you to start coding with almost no issues?
 
-Technologies like [Vagrant](https://www.vagrantup.com/?ref=hackernoon.com) and later [[Docker]] (and [[Container]] in general) made development environment setup a whole lot easier. Both containers and container orchestrators (such as Kubernetes or Nomad) became popular tools for deploying environments in agile, isolated, correctly configured pieces.
+Technologies like [Vagrant](https://www.vagrantup.com/?ref=hackernoon.com) and later [[Docker]] (and [[Containers]] in general) made development environment setup a whole lot easier. Both containers and container orchestrators (such as Kubernetes or Nomad) became popular tools for deploying environments in agile, isolated, correctly configured pieces.
 ## Infrastructure as Code
 
 The full promise of infrastructure as code came with provisioning tools, which—in addition to providing templates for the configuration of infrastructure components—could also boot up the infrastructure itself. This also became much easier as more organizations started using cloud infrastructure that could be spun up with the push of a button.

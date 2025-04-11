@@ -43,23 +43,21 @@ tags:
 | [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit    |
 # Articles/Talks
 
-- [Kubernetes Tools](https://github.com/AutomatingKubernetes/Kubernetes-Tools)
-- [Kubernetes Security Checklist](https://reconshell.com/kubernetes-security-checklist/)
-- [Kubernetes patterns ebook](https://blog.kubeify.com/ebooks/kubernetes-patterns-ebook.pdf)
-- [Starting containers in order on Kubernetes with InitContainers](https://medium.com/@xcoulon/initializing-containers-in-order-with-kubernetes-18173b9cc222)
-- [Securing kubernetes clusters with Istio and Keycloak](https://charnnarong.github.io/notes/kubernetes-istio-keycloak.html)
-- [Hacking an AWS hosted Kubernetes backed product, and failing](https://blog.appsecco.com/hacking-an-aws-hosted-kubernetes-backed-product-and-failing-904cbe0b7c0d)
-- [Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform](https://developers.redhat.com/blog/2020/10/26/adapting-docker-and-kubernetes-containers-to-run-on-red-hat-openshift-container-platform#)
-- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
-- [Practice Enough With These 150 Questions for the CKAD Exam](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
-- [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises)
-- [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes
-- [KillerCoda - Killer Shell CKAD](https://killercoda.com/killer-shell-ckad)
-- [Securing Kubernetes Cluster Networking](https://ahmet.im/blog/kubernetes-network-policy/)
+- [[Kubetools - A Curated List of Kubernetes Tools]]
+- [[Starting containers in order on Kubernetes with InitContainers]]
+- [[Securing kubernetes clusters with Istio and Keycloak]]
+- [[Hacking an AWS hosted Kubernetes backed product, and failing]]
+- [[Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform]]
+- [[Kubernetes CKAD Example Exam Questions Practical Challenge Series]]
+- [[Practice Enough With These 150 Questions for the CKAD Exam]]
+- [[CKAD Exercises]]
+- [[Kubernetes Network Policy Recipes]]
+- [[KillerCoda - Killer Shell CKAD]]
+- [[Securing Kubernetes Cluster Networking]]
 # Packages
 
-- [Find, install and publish Kubernetes packages](https://artifacthub.io/)
-- [Operators for Kubernetes](https://operatorhub.io/)
+- [[Find, install and publish Kubernetes packages]]
+- [[Operators for Kubernetes]]
 # Components
 
 - **Pod**: wrap one or more containers
@@ -105,13 +103,13 @@ spec:
 
 ### Nginx Controller
 
-- [Ingress controller Annotations](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/)
+- [[Ingress controller Annotations]]
 ### mTLS
 
-- [mTLS setup using self-signed cert in Kubernetes and NGINX](https://stackoverflow.com/questions/63025817/mtls-setup-using-self-signed-cert-in-kubernetes-and-nginx)
-- [Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx](https://awkwardferny.medium.com/configuring-certificate-based-mutual-authentication-with-kubernetes-ingress-nginx-20e7e38fdfca)
-- [The magic of TLS, X509 and mutual authentication explained](https://medium.com/littlemanco/the-magic-of-tls-x509-and-mutual-authentication-explained-b2162dec4401)
-- [mutual TLS based on specific IP](https://stackoverflow.com/questions/55690321/mutual-tls-based-on-specific-ip)
+- [mTLS setup using self-signed cert in Kubernetes and NGINX]
+- [[Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx]]
+- [[The magic of TLS, X509 and mutual authentication explained]]
+- [[mutual TLS based on specific IP]]
 
 ```bash
 # Enable client certificate authentication
@@ -336,7 +334,8 @@ kubectl krew install konfig
 
 # Config
 
-- Multiple context for different clusters. [kubeconfig](https://ahmet.im/blog/mastering-kubeconfig/)
+- Multiple context for different clusters.
+- [[Mastering the KUBECONFIG file]]
 
 ```bash
 kubectl config get-contexts
@@ -504,7 +503,7 @@ Some tools primarily employ structured KV for configuration management but also 
 - Broken connection between services with Names or IPs.
 
 1. I would check my coreDNS pod under kube-system if there is an issue.
-2. You could also try using the FQDN (fully qualified domain name) postgres-postgresql.[YOURNAMESPACE].svc.cluster.local
+2. You could also try using the FQDN (fully qualified domain name) postgres-postgresql.{YOURNAMESPACE}.svc.cluster.local
 3. the postgres-postgresql service IP
 4. postgres-postgresql-0 incase there is a problem with your svc networking
 # Scalling
@@ -524,7 +523,7 @@ PodDisruptionBudget
 3. Don’t over-commit resources. Pod requests must be optimized over time in order to not over-provision.
 4. If possible, prefer using only a single region to avoid network transfer costs between nodes. Preferably when it’s not production.
 5. If you are running things like k8s there are other tools to monitor load and dynamically adjust, but monitoring all costs on a 5-minute interval seems odd. You could correlate this to your actual infrastructure monitoring. You are going to know if the cost goes crazy if you are monitoring your deployment properly or even better in pre-deployment. 
-6. A list I got from a [Reddit post:](https://www.reddit.com/r/kubernetes/comments/1520nah/reducing_cloud_costs_on_kubernetes_dev_envs_by/)
+6. More: [[Reducing Cloud Costs on Kubernetes Dev Envs]]
 
 ---
 # References

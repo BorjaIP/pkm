@@ -21,11 +21,12 @@ tags: container
 
 Deploy multiple dockers with [[Docker Compose]]
 
-- [Simple C program to allocate memory from the command line. Useful to test programs or systems under high memory usage conditions](https://github.com/julman99/eatmemory)
-- [One Dockerfile for Production and Development](https://zach.codes/one-dockerfile-for-production-and-development/)
-- [Fast Docker Builds With Caching (Not Only) For Python](https://towardsdatascience.com/fast-docker-builds-with-caching-for-python-533ddc3b0057)
-- [Alpine-machine-learning-base](https://github.com/petronetto/alpine-machine-learning-base)
+# Articles/Talks
 
+- [[Simple C program to allocate memory from the command-line. Useful to test programs or systems under high memory usage conditions]]
+- [[One Dockerfile for Production and Development]]
+- [[Fast Docker Builds With Caching (Not Only) For Python]]
+- [[Alpine-machine-learning-base]]
 # Installation
 
 [get.docker](https://get.docker.com/)

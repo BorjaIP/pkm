@@ -16,10 +16,11 @@ Example use case: A web application with separate containers for frontend, backe
 
 Typical workflow involves creating a configuration file and running `docker-compose up` to start the entire application stack.
 
-- [Docker-compose deployment - RapidMainer Documentation](https://docs.rapidminer.com/latest/deployment/docker-compose/#public_url)
-- [Using YAML Anchors and X Properties in Docker Compose](https://nickjanetakis.com/blog/docker-tip-82-using-yaml-anchors-and-x-properties-in-docker-compose)
-- [Compose Bridge](<- https://docs.docker.com/compose/bridge/usage/>) - Compose Bridge supplies an out-of-the box transformation for your Compose configuration file in [[Kubernetes]] files.
-## Tips
+# Articles/Talks
+
+- [[Using YAML Anchors and X Properties in Docker Compose]]
+- [Compose Bridge](https://docs.docker.com/compose/bridge/usage/) - Compose Bridge supplies an out-of-the box transformation for your Compose configuration file in [[Kubernetes]] files.
+# Examples
 
 - Example for create a good `docker-compose.yaml`.
 
