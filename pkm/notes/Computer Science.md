@@ -35,6 +35,8 @@ tags:
 
 ## [[Operating Systems]]
 
+- [[Linux]]
+- [[Windows]]
 ## [[Computer Architecture]]
 
 ## Networking
@@ -53,30 +55,33 @@ tags:
 # Data
 ## Data Fundamentals
 
-  - Data Types & Modeling
-  - Metadata & Lineage
-  - Data Governance  
+  - Structured data 
+  - Unstructured data
+  - [[Data Governance]]  
 ## [[Big Data]]
 
   - Volume, Velocity, Variety
   - Batch vs Stream Processing
   - Distributed Computing
-## Data Platforms
+## [[Data Platforms]]
 
   - Hadoop Ecosystem (HDFS, Hive, Pig)
-  - Apache Spark & Flink
-  - Cloud Platforms (Glue, BigQuery, Synapse)
+  - Apache Spark & Flink1
+  - [[Cloud|Cloud Platforms]] (Glue, [[BigQuery]], Synapse)
 ## Data Engineering
 
   - ETL / ELT
   - Data Lakes vs Warehouses
   - Data Quality & Validation
-## Data Orchestration
+## [[Data Orchestration]]
 
-  - Apache Airflow
-  - Prefect
-  - Dagster
+  - [[Airflow]]
   - DAGs, Schedulers, Triggers
+## [[Data Applications]]
+
+## [[Business Intelligence]]
+
+## [[Workflow Orchestration]]
 ## Cloud Computing ☁️
 - **Providers**
   - AWS

@@ -5,7 +5,13 @@ aliases:
   - rdb
 tags:
 ---
-RDBMS stands for Relational Database Management System used to maintain a relational database. RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and [[PostgreSQL]].
+RDBMS stands for Relational Database Management System used to maintain a relational database. RDBMS is the basis for all modern database systems:
+
+- MySQL
+- Microsoft SQL Server
+- Oracle
+- [[PostgreSQL]]
+- [[AlloyDB]]
 
 | Tool/Framework                          | Description                         |
 | --------------------------------------- | ----------------------------------- |

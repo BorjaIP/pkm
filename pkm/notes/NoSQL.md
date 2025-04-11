@@ -10,6 +10,6 @@ NoSQL is an approach to database design that focuses on providing a mechanism fo
 - Offers scalability and flexibility.
 - Further divided into:
     - **Document Stores**: [[MongoDB]], [[Elasticsearch]], CouchDB (stores JSON-like documents).
-    - **Key-Value Stores**: Redis, DynamoDB (uses key-value pairs).
+    - **Key-Value Stores**: Redis, [[DynamoDB]] (uses key-value pairs).
     - **Column-Family Stores**: Apache Cassandra, HBase (optimized for big data analytics).
     - **Graph Databases**: Neo4j, ArangoDB (ideal for relationships and network analysis).
