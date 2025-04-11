@@ -17,11 +17,10 @@ In [gRPC](https://github.com/grpc/grpc), a client application can directly call 
 # Articles/Talks
 
 - [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) - The gRPC-Gateway is a plugin of the Google protocol buffers compiler [protoc](https://github.com/protocolbuffers/protobuf). It reads protobuf service definitions and generates a reverse-proxy server which translates a RESTful HTTP API into gRPC.
-- [Deploying Machine Learning Models with PyTorch, gRPC and asyncio](https://github.com/roboflow/deploy-models-with-grpc-pytorch-asyncio)
-
+- [[Deploying Machine Learning Models with PyTorch, gRPC and asyncio]]
 # Transcode to REST
 
-- [gRPC Support with NGINX](https://www.nginx.com/blog/nginx-1-13-10-grpc/)
-- [Transcoding HTTP/JSON to gRPC](https://cloud.google.com/endpoints/docs/grpc/transcoding)
-- [Gateway transcode](https://apisix.apache.org/docs/apisix/plugins/grpc-transcode/)
-- [Load Balancing grpc with Nginx](https://dev.to/techschoolguru/load-balancing-grpc-service-with-nginx-3fio)
+- [[Introducing gRPC Support with NGINX]]
+- [[Transcoding HTTP/JSON to gRPC]]
+- [[Apache APISIX - Gateway transcode]]
+- [[Load balancing gRPC service with Nginx]]
