@@ -13,8 +13,8 @@ Version control is an important part of IaC, and your configuration files should
 | Tool                                               | Description                                                                       |
 | -------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [Checkov](https://github.com/bridgecrewio/checkov) | Prevent cloud misconfigurations and find vulnerabilities during build-time in IaC |
-| [Pyinfra](https://github.com/pyinfra-dev/pyinfra)  | Automates infrastructure using Python.                                            |
-## Tools
+| [Pyinfra](https://github.com/pyinfra-dev/pyinfra)  | Automates infrastructure using [[Python]]                                         |
+# Frameworks
 
 - [[Chef]]
 - [[Ansible]]

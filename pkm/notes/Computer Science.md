@@ -100,18 +100,21 @@ tags:
   - Identity & Access Management
   - Key Management & Secrets
   - Cloud Security Best Practices
+# Infrastructure & Operations
 
-## Infrastructure & Operations ⚙️
-- **DevOps**
-  - CI/CD Pipelines
+## [[DevOps]]
+
+  - [[DevOps#Continuous Integration / Continuous Delivery (CI/CD)|CI/CD Pipelines]]
   - GitOps
-  - Tooling (Jenkins, GitHub Actions, ArgoCD)
   - Monitoring & Logging (Prometheus, Grafana, ELK)
-- **Infrastructure as Code (IaC)**
-  - Terraform
-  - Ansible
+  
+## [[IaC|Infrastructure as Code (IaC)]]
+
+  - [[Terraform]]
+  - [[Ansible]]
   - Pulumi
-  - CloudFormation / Bicep
+  - [[Cloud Formation]] / Bicep
+  
 - **Containers & Orchestration**
   - Docker & Podman
   - Kubernetes

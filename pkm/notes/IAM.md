@@ -47,5 +47,5 @@ Roles can be assumed by both users and other AWS services. For instance, when cr
 
 **Trust Relationships** allow us to create **Roles** that enable users from a DIFFERENT AWS account to temporarily gain access to it. For instance, consider an example like we have one account with a DynamoDB table, and a user from a different account wanting to get access to it.
 
-- [Enabling IAM principal access to your cluster](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html)
-- [Cross-Account Access in the AWS Management Console](https://aws.amazon.com/es/blogs/aws/new-cross-account-access-in-the-aws-management-console/)
+- [[Enable an IAM User or IAM Role to access an EKS cluster]]
+- [[Cross-Account Access in the AWS Management Console]]

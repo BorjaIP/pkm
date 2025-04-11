@@ -38,7 +38,6 @@ Container orchestrators take the benefits of containers and make it easy to scal
 At their core, they are [cluster schedulers](https://medium.com/@copyconstruct/schedulers-kubernetes-and-nomad-b0f2e14a896?ref=hackernoon.com)—intelligent systems that optimize the usage of cloud/virtual infrastructure as if your applications were Tetris pieces. Essentially, a scheduler takes a configuration file with some rules and then goes and deploys any number of applications, services, or components (e.g. load balancers, etc) on containers or VMs in the most optimal way for a given infrastructure according to your parameters.
 
 Orchestrators include [[Kubernetes]], which has a host of additional features, and [Nomad](https://www.nomadproject.io/?ref=hackernoon.com), which has a more focused scheduling use case.
-
 # Development & Testing
 
 -   Security-focused static analysis (SAST) - [SonarQube](http://www.sonarqube.org/?ref=hackernoon.com), [FindBugs](https://www.baeldung.com/intro-to-findbugs?ref=hackernoon.com), [Checkmarx](https://www.checkmarx.com/?ref=hackernoon.com)
@@ -48,7 +47,6 @@ Orchestrators include [[Kubernetes]], which has a host of additional features, 
 # As a Code
 
 The *“as code”* buzzwords started with *infrastructure as code* ([[IaC]]) and the [[DevOps]] movement, when IT operations/sysadmins and developers started working together to automate IT environment modifications with reusable code and then [version control](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/why-use-version-control?ref=hackernoon.com) that code much like developers had been handling their application code changes for many years before.
-
 ## Architecture as code
 
 Being able to create software architecture models as code has been possible for a while. Tools like [Structurizr](https://structurizr.com/?ref=hackernoon.com) allow you to build diagrams this way and check them into version control. But for decades developers have tried, with varied results, to do more with these application models.
