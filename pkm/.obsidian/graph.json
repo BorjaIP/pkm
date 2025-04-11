@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:articles  ",
+      "query": "path:articles/papers  ",
       "color": {
         "a": 1,
         "rgb": 14989636
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "path:articles/webs  ",
+      "color": {
+        "a": 1,
+        "rgb": 5413856
+      }
     }
   ],
   "collapse-display": true,
@@ -40,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 143,
   "scale": 0.3628873693012152,
-  "close": false
+  "close": true
 }

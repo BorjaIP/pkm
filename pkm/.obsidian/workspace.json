@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "471fc3c028f86a7f",
+            "id": "399c3ca40dd8a89f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Computer Architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computer Architecture"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -36,17 +32,31 @@
             }
           },
           {
-            "id": "50ffa74f74b7578c",
+            "id": "7f7d6eae31cb7f08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Big Data.md",
+                "file": "notes/Computer Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Big Data"
+              "title": "Computer Architecture"
+            }
+          },
+          {
+            "id": "471fc3c028f86a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Computer Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computer Architecture"
             }
           }
         ],
@@ -82,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arango",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,30 +230,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "39c182c0025544ac",
   "lastOpenFiles": [
-    "articles/webs",
-    "notes/Databases.md",
-    "notes/Computer Architecture.md",
+    "notes/Big Data.md",
     "notes/Computer Science.md",
-    "notes/TSDB.md",
-    "notes/VDB.md",
-    "notes/GDB.md",
+    "notes/Computer Architecture.md",
+    "notes/Databases.md",
+    "notes/SQL.md",
+    "notes/RDBMS.md",
     "notes/NoSQL.md",
+    "notes/GDB.md",
+    "notes/VDB.md",
+    "notes/TSDB.md",
     "notes/InfluxDB.md",
+    "articles/webs/Relational Database Management System (RDBMS)Architecture.md",
+    "articles/webs/Concepts of Database Architecture.md",
+    "templates/Web.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "templates/Paper.md",
+    "articles/webs",
     "notes/Elasticsearch.md",
     "assets/dbms.png",
-    "notes/Big Data.md",
-    "notes/RDBMS.md",
     "Databases.md",
-    "notes/SQL.md",
     "notes/DBMS.md",
     "notes/MongoDB.md",
     "assets/databases.png",
@@ -253,10 +268,6 @@
     "notes/Data Platform.md",
     "notes/API.md",
     "notes/Apache.md",
-    "notes/Arch.md",
-    "notes/AIM.md",
-    "dev/Computer Science.md",
-    "templates/Dev with tags.md",
     "dev",
     "notes/Pasted image 20241012180444.png",
     "assets/network.jpg",
@@ -274,7 +285,6 @@
     "pkm",
     "New folder",
     "templates",
-    "Untitled.canvas",
-    "notes"
+    "Untitled.canvas"
   ]
 }

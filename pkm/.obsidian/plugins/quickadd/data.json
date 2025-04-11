@@ -62,10 +62,10 @@
     },
     {
       "id": "aba64cc5-5bb6-42b6-b6ad-5ae4f6a0e3d6",
-      "name": "Dev with tags",
+      "name": "Web",
       "type": "Template",
       "command": false,
-      "templatePath": "templates/Dev with tags.md",
+      "templatePath": "templates/Web.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -73,7 +73,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "notes"
+          "articles/webs"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

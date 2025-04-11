@@ -22,8 +22,8 @@ A **Database Management System (DBMS)** is a software program that is used to ma
 
 In short, a database is the physical container of data, whereas a DBMS (Database Management System) is the software that interacts with the database to manage and manipulate that data.
 
-- [What Is Database Architecture?](https://medium.com/oceanize-geeks/concepts-of-database-architecture-dfdc558a93e4)
-- [Relational Database Management System(RDBMS) Architecture](https://medium.com/thedevproject/relational-database-management-system-rdbms-architecture-1-1ba5e64b190a)
+- [[Concepts of Database Architecture]]
+- [[Relational Database Management System (RDBMS)Architecture]]
 
 ![[dbms.png]]
 # Database Model Types

@@ -60,12 +60,7 @@ tags:
 
 - [Cloud Architecture Patterns](https://distributedleo.medium.com/cloud-architecture-patterns-3a932a95691b)
 - [De Lambda a Kappa: evolución de las arquitecturas Big Data](https://www.paradigmadigital.com/techbiz/de-lambda-a-kappa-evolucion-de-las-arquitecturas-big-data/)
-
 # Security
 
 - [[Security]]
-# Databases
-
-- [What Is Database Architecture?](https://medium.com/oceanize-geeks/concepts-of-database-architecture-dfdc558a93e4)
-- [Relational Database Management System(RDBMS) Architecture](https://medium.com/thedevproject/relational-database-management-system-rdbms-architecture-1-1ba5e64b190a)
 

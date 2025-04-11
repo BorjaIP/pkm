@@ -50,13 +50,13 @@ tags:
 - [[NoSQL]]
 - ER Models & Normalization
 - [[RDBMS#Transaction|Transactions]] & [[RDBMS#ACID|ACID]]
-# Data & Big Data
+# Data
 ## Data Fundamentals
 
   - Data Types & Modeling
   - Metadata & Lineage
   - Data Governance  
-## Big Data Concepts
+## [[Big Data]]
 
   - Volume, Velocity, Variety
   - Batch vs Stream Processing
@@ -66,16 +66,17 @@ tags:
   - Hadoop Ecosystem (HDFS, Hive, Pig)
   - Apache Spark & Flink
   - Cloud Platforms (Glue, BigQuery, Synapse)
-- **Data Engineering**
+## Data Engineering
+
   - ETL / ELT
   - Data Lakes vs Warehouses
   - Data Quality & Validation
-- **Data Orchestration**
+## Data Orchestration
+
   - Apache Airflow
   - Prefect
   - Dagster
   - DAGs, Schedulers, Triggers
-
 ## Cloud Computing ☁️
 - **Providers**
   - AWS

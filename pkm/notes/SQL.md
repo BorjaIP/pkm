@@ -8,7 +8,7 @@ SQL (Structured Query Language) is a standardized programming language used for 
 
 SQL is fundamental to relational database management systems (RDBMS) like MySQL, [[PostgreSQL]], Microsoft SQL Server, and Oracle Database. Its core strength lies in its ability to handle large datasets with complex relationships while maintaining data integrity. SQL also supports various powerful features like joins, indexing, and transactions, which enable efficient querying, reporting, and data analysis. Whether in enterprise systems, web applications, or data analytics, SQL remains an essential tool for database management and information retrieval.
 
-## Data Definition Language (DDL)
+# Data Definition Language (DDL)
 
 | Command                                                                         | Description                  |
 | ------------------------------------------------------------------------------- | ---------------------------- |
@@ -23,7 +23,7 @@ SQL is fundamental to relational database management systems (RDBMS) like MySQL,
 | `TRUNCATE TABLE <table>`                                                        | Remove all rows from a table |
 | `CREATE INDEX INDEXNAME ON <table> (<column>)`                                  | Create an index on a table   |
 | `DROP INDEX INDEXNAME`                                                          | Remove an index from a table |
-## Data Manipulation Language (DML)
+# Data Manipulation Language (DML)
 
 | Command                                                                      | Description                    |
 | ---------------------------------------------------------------------------- | ------------------------------ |
@@ -31,7 +31,7 @@ SQL is fundamental to relational database management systems (RDBMS) like MySQL,
 | `SELECT * FROM <table>`                                                      | Retrieve all rows from a table |
 | `UPDATE <table> SET <column_1> = <value_1> WHERE <column_2> = <value_2>`     | Update rows in a table         |
 | `DELETE FROM <table> WHERE <column> = <value>`                               | Delete rows from a table       |
-## Data Query Language (DQL)
+# Data Query Language (DQL)
 
 | Command                                                                               | Description                                                    |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -49,13 +49,13 @@ SQL is fundamental to relational database management systems (RDBMS) like MySQL,
 | `SELECT * FROM <table> WHERE <column> LIKE '<value>%'`                                | Retrieve rows where a column value matches a pattern           |
 | `SELECT * FROM <table> WHERE <column> IS NULL`                                        | Retrieve rows where a column value is NULL                     |
 | `SELECT * FROM <table> WHERE <column> IS NOT NULL`                                    | Retrieve rows where a column value is not NULL                 |
-## Data Control Language (DCL)
+# Data Control Language (DCL)
 
 | Command                                     | Description                    |
 | ------------------------------------------- | ------------------------------ |
 | `GRANT PERMISSIONS ON <table> TO <user>`    | Grant permissions to a user    |
 | `REVOKE PERMISSIONS ON <table> FROM <user>` | Revoke permissions from a user |
-## Transaction Control Language (TCL)
+# Transaction Control Language (TCL)
 
 | Command                             | Description                              |
 | ----------------------------------- | ---------------------------------------- |
@@ -65,7 +65,7 @@ SQL is fundamental to relational database management systems (RDBMS) like MySQL,
 | `SAVEPOINT <savepoint>`             | Create a savepoint in a transaction      |
 | `ROLLBACK TO SAVEPOINT <savepoint>` | Rollback to a savepoint in a transaction |
 | `RELEASE SAVEPOINT <savepoint>`     | Remove a savepoint in a transaction      |
-## System Commands
+# System Commands
 
 | Command                         | Description                                 |
 | ------------------------------- | ------------------------------------------- |
@@ -79,7 +79,7 @@ SQL is fundamental to relational database management systems (RDBMS) like MySQL,
 | `SET autocommit = 0`            | Disable autocommit mode                     |
 | `SET autocommit = 1`            | Enable autocommit mode                      |
 | `SET FOREIGN_KEY_CHECKS = 0`    | Disable foreign key checks                  |
-## User Commands
+# User Commands
 
 | Command                                                      | Description                       |
 | ------------------------------------------------------------ | --------------------------------- |
