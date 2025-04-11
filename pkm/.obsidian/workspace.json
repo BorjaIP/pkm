@@ -72,34 +72,6 @@
               "icon": "lucide-file",
               "title": "Computer Science"
             }
-          },
-          {
-            "id": "6efb31b471c1ceb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Jenkins.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Jenkins"
-            }
-          },
-          {
-            "id": "12fce3bb19ca44aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Flask.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flask"
-            }
           }
         ],
         "currentTab": 4
@@ -281,32 +253,32 @@
   },
   "active": "03ef233b36d30008",
   "lastOpenFiles": [
-    "notes/Jenkins.md",
+    "notes/Skaffold.md",
+    "articles/webs/Using Telepresence to intercept microservices on a Kubernetes cluster.md",
+    "articles/webs/Cloud Development Environments - Using Skaffold and Telepresence on Kubernetes for fast dev loops.md",
     "notes/Computer Science.md",
     "notes/Flask.md",
+    "articles/webs/The Art of Routing in Flask.md",
+    "articles/webs/Boilerplate Code - Flask Dashboard Template project - AppSeed.md",
+    "articles/webs/Simple and extensible administrative interface framework for Flask.md",
+    "articles/webs/Gentelella template powered by Flask.md",
+    "articles/webs/Flask template auth with Dash.md",
+    "notes/Jenkins.md",
+    "articles/webs/How to run multiple stages on the same node with declarative Jenkins pipeline.md",
+    "articles/webs/Sequential stages within parallel pipeline in Jenkins.md",
+    "articles/webs/Continue Jenkins pipeline past failed stage.md",
+    "articles/webs/How do I schedule jobs in Jenkins.md",
+    "articles/webs/Jenkins running multiple steps.md",
+    "articles/webs/Jenkins pipeline Syntax.md",
+    "templates/Web.md",
+    "articles/webs/Jenkins SSH Pipeline Steps.md",
+    "notes/Computer Architecture.md",
     "notes/API.md",
     "notes/PET.md",
     "notes/RDS.md",
     "notes/XaaS.md",
     "notes/System Design.md",
     "notes/Transformers.md",
-    "notes/TSDB.md",
-    "notes/Git.md",
-    "articles/webs/Oh Shit, Git.md",
-    "Untitled.md",
-    "notes/Kubeflow.md",
-    "notes/FSx.md",
-    "notes/DNS.md",
-    "notes/Datastream.md",
-    "notes/Data Applications.md",
-    "notes/Data Extraction.md",
-    "notes/Computer Architecture.md",
-    "notes/Cwl.md",
-    "notes/CRM.md",
-    "notes/Containerd.md",
-    "articles/webs/Open Inference Protocol (V2 Inference Protocol).md",
-    "articles/webs/KServe - The State and Future of Cloud-Native Model Serving.md",
-    "notes/Kubernetes.md",
     "notes/Pasted image 20241012180444.png",
     "assets/feature_store.png",
     "dev",

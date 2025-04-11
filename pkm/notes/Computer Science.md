@@ -6,7 +6,6 @@ aliases:
 tags:
 ---
 **Computer Science** is the study of computation, information, and automation. It explores how data is represented, processed, and communicated through algorithms and software, and how these systems are implemented in hardware and networks. The field spans both theoretical foundations (like logic, complexity, and computability) and practical applications (such as programming, data systems, AI, and cybersecurity), enabling the creation of efficient, secure, and scalable technological solutions.
-
 # Theory
 
 - Automata & Formal Languages

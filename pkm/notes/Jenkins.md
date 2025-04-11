@@ -5,15 +5,13 @@ Aliases:
 Tags: 
 ---
 
-- [SSH Pipeline Steps](https://github.com/jenkinsci/ssh-steps-plugin#configuration)
-- [Running multiple steps](https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#running-multiple-steps)
-- [Pipeline Syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
-- [Running multiple steps](https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/)
-- [How do I schedule jobs in Jenkins?](https://stackoverflow.com/questions/12472645/how-do-i-schedule-jobs-in-jenkins)
-- [Continue Jenkins pipeline past failed stage](https://stackoverflow.com/questions/40600621/continue-jenkins-pipeline-past-failed-stage)
-- [Sequential stages within parallel pipeline in Jenkins](https://stackoverflow.com/questions/59688963/sequential-stages-within-parallel-pipeline-in-jenkins)
-- [How to run multiple stages on the same node with declarative Jenkins pipeline?](https://stackoverflow.com/questions/44870978/how-to-run-multiple-stages-on-the-same-node-with-declarative-jenkins-pipeline)
-
+- [[Jenkins SSH Pipeline Steps]]
+- [[Jenkins running multiple steps]]
+- [[Jenkins pipeline Syntax]]
+- [[How do I schedule jobs in Jenkins]]
+- [[Continue Jenkins pipeline past failed stage]]
+- [[Sequential stages within parallel pipeline in Jenkins]]
+- [[How to run multiple stages on the same node with declarative Jenkins pipeline]]
 # Scripts
 
 ```groovy
