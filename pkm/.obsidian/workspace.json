@@ -46,21 +46,7 @@
             }
           },
           {
-            "id": "4308c9f43b40ea36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/PET.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PET"
-            }
-          },
-          {
-            "id": "03ef233b36d30008",
+            "id": "da793b7da9c586de",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -74,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "feast",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +134,7 @@
               "type": "outline",
               "state": {
                 "file": "notes/Computer Science.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -251,34 +237,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03ef233b36d30008",
+  "active": "a0221034fc8b9150",
   "lastOpenFiles": [
-    "notes/Skaffold.md",
-    "articles/webs/Using Telepresence to intercept microservices on a Kubernetes cluster.md",
-    "articles/webs/Cloud Development Environments - Using Skaffold and Telepresence on Kubernetes for fast dev loops.md",
-    "notes/Computer Science.md",
-    "notes/Flask.md",
-    "articles/webs/The Art of Routing in Flask.md",
-    "articles/webs/Boilerplate Code - Flask Dashboard Template project - AppSeed.md",
-    "articles/webs/Simple and extensible administrative interface framework for Flask.md",
-    "articles/webs/Gentelella template powered by Flask.md",
-    "articles/webs/Flask template auth with Dash.md",
-    "notes/Jenkins.md",
-    "articles/webs/How to run multiple stages on the same node with declarative Jenkins pipeline.md",
-    "articles/webs/Sequential stages within parallel pipeline in Jenkins.md",
-    "articles/webs/Continue Jenkins pipeline past failed stage.md",
-    "articles/webs/How do I schedule jobs in Jenkins.md",
-    "articles/webs/Jenkins running multiple steps.md",
-    "articles/webs/Jenkins pipeline Syntax.md",
-    "templates/Web.md",
-    "articles/webs/Jenkins SSH Pipeline Steps.md",
+    "notes/Kubernetes.md",
+    "notes/Istio.md",
+    "notes/OpenSSL.md",
     "notes/Computer Architecture.md",
-    "notes/API.md",
+    "notes/AWS.md",
+    "articles/webs/An Envoy-Powered, Kubernetes-Native API Gateway.md",
+    "notes/Computer Science.md",
+    "notes/Security.md",
+    "notes/DNS.md",
+    "Untitled 1.md",
     "notes/PET.md",
-    "notes/RDS.md",
-    "notes/XaaS.md",
-    "notes/System Design.md",
-    "notes/Transformers.md",
+    "notes/Data Governance.md",
+    "articles/webs/mTLS setup using self-signed cert in Kubernetes and NGINX.md",
+    "notes/ZTN.md",
+    "assets/ztunnel.png",
+    "assets/service_mesh.png",
+    "articles/webs/Deploying an Istio Gateway with TLS in EKS using the AWS Load Balancer Controller.md",
+    "assets/ztn.png",
+    "Untitled.md",
+    "notes/Machine Learning.md",
+    "notes/Dotfiles.md",
+    "notes/Generative AI.md",
+    "articles/webs/Datahub-helm.md",
+    "notes/Helm.md",
+    "notes/Homelab.md",
+    "notes/Kafka.md",
+    "notes/Nvidia.md",
+    "articles/webs/Privacy Enhancing Technologies & Benefits.md",
+    "notes/Skaffold.md",
     "notes/Pasted image 20241012180444.png",
     "assets/feature_store.png",
     "dev",
@@ -288,9 +277,6 @@
     "assets/network.jpg",
     "assets/python_flow.png",
     "assets/rest_tips.png",
-    "assets/mvc_diagram.png",
-    "assets/mvc.png",
-    "assets/devops.png",
     "de",
     "Untitled",
     "assets/images",

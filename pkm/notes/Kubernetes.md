@@ -101,12 +101,15 @@ spec:
 ```
 ## Ingress
 
+### API Gateway
+
+- [[An Envoy-Powered, Kubernetes-Native API Gateway]]
 ### Nginx Controller
 
 - [[Ingress controller Annotations]]
 ### mTLS
 
-- [mTLS setup using self-signed cert in Kubernetes and NGINX]
+- [[mTLS setup using self-signed cert in Kubernetes and NGINX]]
 - [[Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx]]
 - [[The magic of TLS, X509 and mutual authentication explained]]
 - [[mutual TLS based on specific IP]]

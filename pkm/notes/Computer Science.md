@@ -45,13 +45,25 @@ tags:
 - OSI & TCP Models
 - HTTP/HTTPS
 - [[DNS]] & Routing
-- Network Security
 # Software Engineering
 
 - Design Patterns
 - SDLC & Agile
 - Testing & Debugging
 - Version Control ([[Git]])
+# [[Cloud]]
+
+## Providers
+
+  - [[AWS]]
+  - [[GCP]]
+  - [[Azure]]
+  - [[IBM]]
+##  Core Services
+
+  - Virtual Machines 
+  - [[Serverless]] (Lambda, Cloud Functions)
+  - Load Balancing & Auto Scaling
 # [[Databases]]
 
 - [[SQL]]
@@ -92,24 +104,22 @@ tags:
 ## [[Workflow Orchestration]]
 
 - [[Cwl|Common Workflow Language]]
-# [[Cloud]]
+# [[Security]]
 
-## Providers
+- Secure Coding Practices
+- Key Management & Secrets
+- Data Security ([[PET]]) 
+## Access Control
 
-  - [[AWS]]
-  - [[GCP]]
-  - [[Azure]]
-  - [[IBM]]
-##  Core Services
+- Identity & Access Management ([[IAM]])
+- Authentication (MFA, SSO)
+- Authorization (RBAC, ABAC, DAC)
+## Cybersecurity
 
-  - Virtual Machines 
-  - [[Serverless]] (Lambda, Cloud Functions)
-  - Load Balancing & Auto Scaling
-## Security & [[IAM]]
-
-  - Identity & Access Management
-  - Key Management & Secrets
-  - Cloud Security Best Practices
+- [[PET#Data Encryption|Encryption]] & Hashing
+- Threat Modeling & Pentesting
+- Cloud Security ([[ZTN]])
+- Network Security (FW, VPN, IDS/IPS, [[Security#Secure Protocols|Secure Protocols]])
 # Infrastructure & Operations
 
 ## [[DevOps]]
@@ -130,7 +140,6 @@ tags:
   - [[Kubernetes]]
   - [[Helm]] & [[Kustomize]]
   - Service Mesh ([[Istio]], Linkerd)
-  - Ambient Mesh ([[Istio]], Envoy)  
 ## [[MLOps]]
 
   - Model Versioning , ML Pipelines, Monitoring & Tracking ([[Kubeflow]], [[MLflow]], [[DVC]])
@@ -145,13 +154,7 @@ tags:
 - [[AI Agents]]
 # Web Development
 
-- Frontend (HTML, CSS, JS, Frameworks, [[Python#Web-GUIs|Web GUIs]]])
+- Frontend (HTML, CSS, JS, Frameworks, [[Python#Web-GUIs|Web GUIs]]1)
 - Backend (Node.js, Django, [[Flask]])
 - [[API]] & [[API#API REST|REST]]/GraphQL
 - [[CRM]]
-# Cybersecurity
-
-- Security Fundamentals
-- Encryption & Hashing
-- Threat Modeling & Pentesting
-- Secure Coding Practices

@@ -12,7 +12,6 @@ Privacy-enhancing technologies are technologies that embody fundamental data pro
 # Data Encryption
 
 [Data encryption](https://www.mimecast.com/content/data-encryption/) is the process of converting information into a secret code (or cipher) to hide its meaning. Using a specialized encryption algorithm, companies can encode their data so it becomes indecipherable to anyone but the intended recipient, who relies on another encryption algorithm on their end to decode the information.
-
 ## Data in Transit
 
 Data in transit’s data **that is moving from one location to another**. This includes information traveling via email, collaboration platforms like Microsoft Teams, instant messengers like WhatsApp, and virtually any public communications channel. **Certificates TLS, security frameworks.**
@@ -51,7 +50,7 @@ Some privacy enhancing technologies are also [data masking techniques](https://r
 
 - **Obfuscation:** This one is a general term for data masking that contains multiple methods to replace sensitive information by adding distracting or misleading data to a log or profile.
 - **Pseudonymization:** Identifier fields (fields that contain information specific to an individual) are replaced with fictitious data such as characters or other data. Pseudonymization is [frequently used by businesses to comply with GDPR.](https://research.aimultiple.com/data-masking/#how-does-gdpr-promote-data-masking)
-- **Data minimisation:** Collecting minimum amount of personal data that enables the business to provide the elements of a service.
+- **Data minimization:** Collecting minimum amount of personal data that enables the business to provide the elements of a service.
 - **Communication anonymizers:** Anonymizers replace online identity (IP address, email address) with disposal/one-time untraceable identity.
 
 # Artificial Intelligence (AI) & ML algorithms
@@ -62,4 +61,4 @@ Some privacy enhancing technologies are also [data masking techniques](https://r
 ---
 # References
 
-[1]: [Privacy Enhancing Technologies & Benefits](https://research.aimultiple.com/privacy-enhancing-technologies/)
+[1]: [[Privacy Enhancing Technologies & Benefits]]

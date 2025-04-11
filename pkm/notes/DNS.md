@@ -4,6 +4,10 @@ created: Saturday 25th January 2025 00:33
 aliases: 
 tags: 
 ---
+| Tool                                               | Description                                                              |
+| -------------------------------------------------- | ------------------------------------------------------------------------ |
+| [massdns](https://github.com/blechschmidt/massdns) | A high-performance DNS stub resolver for bulk lookups and reconnaissance |
+| [gobuster](https://github.com/OJ/gobuster)         | Directory/File, DNS and VHost busting tool written in Go                 |
 # DNS Records
 
 ## Common
