@@ -106,6 +106,7 @@ tags:
 
   - [[DevOps#Continuous Integration / Continuous Delivery (CI/CD)|CI/CD Pipelines]]
   - GitOps
+  - DevSecOps
   - Monitoring & Logging (Prometheus, Grafana, ELK)
 ## [[IaC|Infrastructure as Code (IaC)]]
 
@@ -117,19 +118,14 @@ tags:
 
   - [[Docker]] & [[Podman]]
   - [[Kubernetes]]
-  - [[Helm]] & Kustomize
-  - Service Mesh (Istio, Linkerd)
-  - Ambient Mesh (Istio, Envoy)
-  
-- **DevSecOps**
-  - Secure Dev Lifecycle
-  - Secrets Scanning & SAST/DAST
-  - SBOMs & Supply Chain Security
-  - Shift Left Security Practices
-- **MLOps**
-  - Model Versioning & Tracking (MLflow, DVC)
-  - Model Deployment (SageMaker, KFServing)
-  - Feature Stores
+  - [[Helm]] & [[Kustomize]]
+  - Service Mesh ([[Istio]], Linkerd)
+  - Ambient Mesh ([[Istio]], Envoy)  
+## [[MLOps]]
+
+  - Model Versioning & Tracking ([[MLflow]], [[DVC]])
+  - Model Deployment ([[SageMaker]], [[Kubeflow#KServe|KFServe]])
+  - [[Feature Stores]]
   - Monitoring ML Pipelines
 ## AI & Machine Learning
 - Algorithms & Techniques

@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "ed87b29ec0e44a43",
+            "id": "75e2e358105d1ec9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,9 +44,51 @@
               "icon": "lucide-file",
               "title": "Computer Science"
             }
+          },
+          {
+            "id": "7d3cf14e8d723001",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Feature Stores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Feature Stores"
+            }
+          },
+          {
+            "id": "bf7cd80d13b0118e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "de920557d7369e9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Kubeflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kubeflow"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ETL",
+                "query": "feast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Computer Science.md",
+                "file": "notes/Feature Stores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Computer Science"
+              "title": "Outline of Feature Stores"
             }
           },
           {
@@ -223,46 +265,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed87b29ec0e44a43",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
-    "notes/Kubernetes.md",
-    "articles/webs/Reducing Cloud Costs on Kubernetes Dev Envs.md",
-    "notes/Cert Manager.md",
-    "articles/webs/Mastering the KUBECONFIG file.md",
-    "articles/webs/mutual TLS based on specific IP.md",
-    "articles/webs/The magic of TLS, X509 and mutual authentication explained.md",
-    "articles/webs/Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx.md",
-    "articles/webs/mTLS setup using self-signed cert in Kubernetes and NGINX.md",
-    "articles/webs/Ingress controller Annotations.md",
-    "Untitled.md",
-    "articles/webs/Operators for Kubernetes.md",
-    "articles/webs/Find, install and publish Kubernetes packages.md",
-    "articles/webs/Securing Kubernetes Cluster Networking.md",
-    "articles/webs/KillerCoda - Killer Shell CKAD.md",
-    "articles/webs/Kubernetes Network Policy Recipes.md",
-    "articles/webs/CKAD Exercises.md",
-    "articles/webs/Practice Enough With These 150 Questions for the CKAD Exam.md",
-    "articles/webs/Kubernetes CKAD Example Exam Questions Practical Challenge Series.md",
-    "articles/webs/Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform.md",
-    "articles/webs/Hacking an AWS hosted Kubernetes backed product, and failing.md",
-    "articles/webs/Securing kubernetes clusters with Istio and Keycloak.md",
-    "articles/webs/Starting containers in order on Kubernetes with InitContainers.md",
-    "articles/webs/Kubetools - A Curated List of Kubernetes Tools.md",
     "notes/Computer Science.md",
-    "notes/Podman.md",
-    "notes/DevOps.md",
+    "notes/Feature Stores.md",
+    "notes/Computer Architecture.md",
+    "SageMaker.md",
+    "notes/Pasted image 20241012180444.png",
+    "assets/feature_store.png",
+    "dev",
+    "notes/Machine Learning.md",
+    "notes/Kubeflow.md",
+    "notes/Kubernetes.md",
+    "notes/Dvc.md",
+    "articles/webs/CML basic use case.md",
+    "articles/webs/CML with DVC use case.md",
+    "articles/webs/Git Custom References for ML Experiments.md",
+    "articles/webs/Tuning Hyperparameters with Reproducible Experiments.md",
+    "articles/webs/Using DVC to create an efficient version control system for data projects.md",
+    "notes/MLOps.md",
+    "articles/webs/MLOps - Continuous delivery and automation pipelines in machine learning.md",
+    "articles/webs/Continuous Intelligence and CD4ML Workshop.md",
+    "articles/webs/A CD4ML Example Setup on AWS S3, GitLab with DVC.md",
+    "articles/webs/Continuous Delivery for Machine Learning.md",
+    "articles/webs/MLOps - Task and Workflow Orchestration Tools on Kubernetes.md",
+    "notes/Istio.md",
+    "articles/webs/Deploying an Istio Gateway with TLS in EKS using the AWS Load Balancer Controller.md",
+    "articles/webs/How to easily setup Istio service mesh in AWS EKS.md",
+    "notes/Kustomize.md",
+    "notes/Helm.md",
+    "articles/webs/Curated applications for Kubernetes.md",
+    "articles/webs/Datahub-helm.md",
     "articles/webs",
     "assets/dbms.png",
     "assets/databases.png",
-    "dev",
-    "notes/Pasted image 20241012180444.png",
     "assets/network.jpg",
     "assets/python_flow.png",
     "assets/rest_tips.png",
     "assets/mvc_diagram.png",
     "assets/mvc.png",
     "assets/devops.png",
-    "assets/file_system.png",
     "de",
     "Untitled",
     "assets/images",

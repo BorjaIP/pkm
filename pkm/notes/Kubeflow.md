@@ -96,8 +96,6 @@ Use [filebrowser](https://github.com/filebrowser/filebrowser) for provide a file
 Use metacontroller as an add-on for Kubernetes that makes it easy to write and deploy  [[Kubernetes#Custom resources|custom resources]]
 ### Istio
 
-
-
 ### KServe
 
 - [KServe CNCF](https://www.slideshare.net/theofpa/kubecon-2023-eu-kserve-the-state-and-future-of-cloudnative-model-serving)

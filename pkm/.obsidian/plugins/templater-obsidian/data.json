@@ -15,19 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "dev",
-      "template": "templates/Default.md"
+      "folder": "notes",
+      "template": "templates/Note.md"
     },
     {
-      "folder": "articles",
+      "folder": "articles/papers",
       "template": "templates/Paper.md"
+    },
+    {
+      "folder": "articles/webs",
+      "template": "templates/Web.md"
     }
   ],
   "syntax_highlighting": false,
-  "enabled_templates_hotkeys": [
-    "templates/Default.md",
-    "templates/Dev with tags.md"
-  ],
+  "enabled_templates_hotkeys": [],
   "startup_templates": [
     ""
   ],
