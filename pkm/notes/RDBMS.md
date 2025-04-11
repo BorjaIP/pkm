@@ -26,6 +26,8 @@ In computing, a **transaction is a set of related tasks treated as a single acti
 
 A common example of a transaction is a customer's purchase through an e-commerce site. After selecting a product and entering the necessary information, the customer confirms the final sale by clicking OK or taking some other step to conclude the process. This causes the application to launch a sales transaction, which includes multiple steps, such as confirming the product's availability, validating the credit card, initiating the shipping process and placing the order with the warehouse.
 
+### ACID
+
 Transactions in a relational database typically adhere to the following four **ACID properties**:
 
 - **Atomicity**. All operations within the transaction are treated as a single unit. **This means that all operations must succeed for any changes to be committed to the database**. If any operation fails, no changes are committed, and the entire transaction is rolled back.

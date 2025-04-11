@@ -11,7 +11,7 @@ Workflow orchestration means governing your **dataflow** in a way that respects 
 
 A **workflow management system** (**WfMS** or **WFMS**) provides an infrastructure for the set-up, performance, and monitoring of a defined sequence of tasks arranged as a [workflow application](https://en.wikipedia.org/wiki/Workflow_application "Workflow application").
 
-The terms “workflow orchestration” and “[[data orchestration]]” are often used interchangeably, but there are important differences between the two. While both workflow and data orchestration are important for businesses, they serve different purposes. Workflow orchestration is focused on the efficiency of business processes, while data orchestration is focused on the quality and accuracy of data.
+The terms “workflow orchestration” and “[[Data Orchestration]]” are often used interchangeably, but there are important differences between the two. While both workflow and data orchestration are important for businesses, they serve different purposes. Workflow orchestration is focused on the efficiency of business processes, while data orchestration is focused on the quality and accuracy of data.
 
 | Tool                                                  | Description                                                                                                  |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |

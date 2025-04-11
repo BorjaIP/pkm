@@ -4,7 +4,7 @@ created: Thursday 23rd January 2025 23:45
 aliases: 
 tags: 
 ---
-**Serverless** computing is a [[cloud]] computing model where cloud providers dynamically manage server infrastructure, allowing developers to focus on writing code without worrying about server maintenance. Key characteristics include:
+**Serverless** computing is a [[Cloud]] computing model where cloud providers dynamically manage server infrastructure, allowing developers to focus on writing code without worrying about server maintenance. Key characteristics include:
 
 - Automatic scaling based on application demand
 - Pay-per-use pricing model

@@ -2,10 +2,10 @@
   "choices": [
     {
       "id": "157a77ae-abae-48a5-8f35-8ed36d242a01",
-      "name": "Default",
+      "name": "Note",
       "type": "Template",
       "command": false,
-      "templatePath": "templates/Default.md",
+      "templatePath": "templates/Note.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "dev"
+          "notes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -73,7 +73,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "dev"
+          "notes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

@@ -8,49 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87cc7e5f6aae3af7",
+            "id": "471fc3c028f86a7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/LLM.md",
+                "file": "notes/Computer Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM"
+              "title": "Computer Architecture"
             }
           },
           {
-            "id": "02d54876f40c22b1",
+            "id": "39c182c0025544ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Podman.md",
+                "file": "notes/Computer Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Podman"
+              "title": "Computer Science"
             }
           },
           {
-            "id": "a87ba415cfd64573",
+            "id": "50ffa74f74b7578c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/Nix.md",
+                "file": "notes/Big Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nix"
+              "title": "Big Data"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "arango",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 316.5
   },
   "right": {
     "id": "d505a48d468b7564",
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/Nix.md",
+                "file": "notes/Computer Science.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nix"
+              "title": "Outline of Computer Science"
             }
           },
           {
@@ -227,44 +227,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a87ba415cfd64573",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
-    "dev/Docker.md",
-    "dev/Nix.md",
-    "dev/Podman.md",
-    "dev/LLM.md",
-    "Podman.md",
-    "dev/Windows.md",
-    "dev/Machine Learning.md",
-    "dev/Artificial Intelligence.md",
-    "dev/Python.md",
-    "dev/AI Agents.md",
-    "dev/Arch.md",
-    "dev/Nvidia.md",
-    "dev/Linux.md",
-    "dev/Apache.md",
-    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "articles/webs",
+    "notes/Databases.md",
+    "notes/Computer Architecture.md",
+    "notes/Computer Science.md",
+    "notes/TSDB.md",
+    "notes/VDB.md",
+    "notes/GDB.md",
+    "notes/NoSQL.md",
+    "notes/InfluxDB.md",
+    "notes/Elasticsearch.md",
+    "assets/dbms.png",
+    "notes/Big Data.md",
+    "notes/RDBMS.md",
+    "Databases.md",
+    "notes/SQL.md",
+    "notes/DBMS.md",
+    "notes/MongoDB.md",
+    "assets/databases.png",
+    "notes/Operating Systems.md",
+    "Operating Systems.md",
+    "notes/AI Agents.md",
+    "notes/Data Platform.md",
+    "notes/API.md",
+    "notes/Apache.md",
+    "notes/Arch.md",
+    "notes/AIM.md",
+    "dev/Computer Science.md",
+    "templates/Dev with tags.md",
+    "dev",
+    "notes/Pasted image 20241012180444.png",
+    "assets/network.jpg",
     "assets/python_flow.png",
-    "dev/DevOps.md",
-    "dev/EC2.md",
-    "dev/AWS.md",
-    "dev/Kubernetes.md",
-    "dev/VPC.md",
-    "dev/Cloud.md",
-    "dev/ECS.md",
-    "dev/Homelab.md",
     "assets/rest_tips.png",
-    "dev/Architecture.md",
     "assets/mvc_diagram.png",
     "assets/mvc.png",
-    "dev/Trading.md",
-    "dev/PET.md",
     "assets/devops.png",
     "assets/file_system.png",
-    "dev/Pasted image 20241012180444.png",
-    "assets/databases.png",
-    "assets/wsl_ipv6.png",
-    "assets/oltp_vs_olap.png",
     "de",
     "Untitled",
     "assets/images",
@@ -274,6 +275,6 @@
     "New folder",
     "templates",
     "Untitled.canvas",
-    "dev"
+    "notes"
   ]
 }

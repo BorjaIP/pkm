@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Computer Architecture
 created: Saturday 22nd April 2023 21:55
 aliases:
   - arq
@@ -17,6 +17,32 @@ tags:
 - [What is SAGA Pattern in Microservice Architecture? Which Problem does it solve?](https://medium.com/javarevisited/what-is-saga-pattern-in-microservice-architecture-which-problem-does-it-solve-de45d7d01d2b)
 - [System Design Interview Basics: Difference Between API Gateway and Load Balancer](https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121)
 
+# Fundamentals
+- Von Neumann vs Harvard Architecture
+- Instruction Cycle (Fetch-Decode-Execute)
+- ISA (Instruction Set Architecture)
+# CPU Design
+- ALU (Arithmetic Logic Unit)
+- Control Unit
+- Registers
+- Pipelining & Hazards
+# Memory Hierarchy
+- Registers
+- Cache (L1, L2, L3)
+- RAM
+- Virtual Memory & Paging
+# Buses & I/O
+- System Buses (Data, Address, Control)
+- I/O Interfaces
+- Interrupts & DMA
+# Performance
+- Clock Speed & CPI
+- Benchmarks & MIPS/FLOPS
+- Parallelism & Multi-Core
+# Modern Architectures
+- RISC vs CISC
+- Superscalar & Out-of-Order Execution
+- GPUs & Accelerators
 # Architecture Patterns
 
 ## MVC
@@ -43,15 +69,3 @@ tags:
 - [What Is Database Architecture?](https://medium.com/oceanize-geeks/concepts-of-database-architecture-dfdc558a93e4)
 - [Relational Database Management System(RDBMS) Architecture](https://medium.com/thedevproject/relational-database-management-system-rdbms-architecture-1-1ba5e64b190a)
 
-![[architectures.png]]
-
-## Relational Databases
-
-- [[PostgreSQL]]
-- Oracle
-
-## NOSQL Databases
-
-- [[MongoDB]]
-- [[Elasticsearch]]
-- [[InfluxDB]]

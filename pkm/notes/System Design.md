@@ -4,7 +4,7 @@ created: Saturday 25th January 2025 13:54
 aliases: 
 tags: 
 ---
-**System design** is the process of defining the [[architecture]], components, modules, interfaces, and data for a system to satisfy specified requirements. It involves:
+**System design** is the process of defining the [[Computer Architecture]], components, modules, interfaces, and data for a system to satisfy specified requirements. It involves:
 
 Key Considerations:
 

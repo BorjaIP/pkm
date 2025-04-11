@@ -5,7 +5,7 @@ aliases:
 tags: ml
 ---
 
-Data Version Control ([DVC](https://github.com/iterative/dvc)) is a **version** **control** [[machine learning]] models, **data** sets and intermediate files.
+Data Version Control ([DVC](https://github.com/iterative/dvc)) is a **version** **control** [[Machine Learning]] models, **data** sets and intermediate files.
 
 - [Using DVC to create an efficient version control system for data projects](https://medium.com/qonto-way/using-dvc-to-create-an-efficient-version-control-system-for-data-projects-96efd94355fe)
 - [Tuning Hyperparameters with Reproducible Experiments](https://iterative.ai/blog/hyperparam-tuning/)

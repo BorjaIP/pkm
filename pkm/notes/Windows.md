@@ -7,7 +7,7 @@ tags:
   - windows
   - os
 ---
-Windows is a desktop [[operating system]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for personal computers.
+Windows is a desktop [[Operating Systems]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for personal computers.
 # Programs
 
 | Programs                                                                  | Description                                                                   |
