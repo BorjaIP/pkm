@@ -8,8 +8,9 @@ tags: tool
 | Tool                                                   | Description                                         |
 | ------------------------------------------------------ | --------------------------------------------------- |
 | [Gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Git |
-- [Oh Shit, Git??](https://ohshitgit.com/)
-- [GitButler](https://gitbutler.com/)
+# Articles/Talks
+
+- [[Oh Shit, Git]]
 # Large files
 
 ## List the total size of HEAD

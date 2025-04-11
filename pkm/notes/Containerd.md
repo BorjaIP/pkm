@@ -7,8 +7,7 @@ tags:
 An open and reliable [[Containers]] runtime.
 
 Containerd create a system where content (images) is stored in the machine for executing containers. Default folder in Linux is `var/lib/containerd/io.containerd.content.v1.content`, this flow is described [here](https://github.com/containerd/containerd/blob/main/docs/content-flow.md).
-
-## Crtctl
+# Crtctl
 
 [crictl](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md) --> Commands or the same as Docker commands.
 
@@ -42,7 +41,7 @@ systemctl restart containerd
       insecure_skip_verify = true
 ```
 
-## Nerdctl
+# Nerdctl
 
 Install [nerdctl](https://github.com/containerd/nerdctl).
 

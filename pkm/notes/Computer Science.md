@@ -14,6 +14,8 @@ tags:
 - Computational Complexity
 - Logic & Set Theory
 # Programming
+
+- [[Awesome]]
 ## Languages
 
 - [[Python]]
@@ -43,8 +45,14 @@ tags:
 
 - OSI & TCP Models
 - HTTP/HTTPS
-- DNS & Routing
+- [[DNS]] & Routing
 - Network Security
+# Software Engineering
+
+- Design Patterns
+- SDLC & Agile
+- Testing & Debugging
+- Version Control ([[Git]])
 # [[Databases]]
 
 - [[SQL]]
@@ -79,9 +87,12 @@ tags:
   - DAGs, Schedulers, Triggers
 ## [[Data Applications]]
 
+- [[Data extraction]]
 ## [[Business Intelligence]]
 
 ## [[Workflow Orchestration]]
+
+- [[Cwl|Common Workflow Language]]
 # [[Cloud]]
 
 ## Providers
@@ -107,7 +118,7 @@ tags:
   - [[DevOps#Continuous Integration / Continuous Delivery (CI/CD)|CI/CD Pipelines]]
   - GitOps
   - DevSecOps
-  - Monitoring & Logging (Prometheus, Grafana, ELK)
+  - Monitoring & Logging ([[Prometheus]], Grafana, ELK)
 ## [[IaC|Infrastructure as Code (IaC)]]
 
   - [[Terraform]]
@@ -123,30 +134,25 @@ tags:
   - Ambient Mesh ([[Istio]], Envoy)  
 ## [[MLOps]]
 
-  - Model Versioning & Tracking ([[MLflow]], [[DVC]])
+  - Model Versioning , ML Pipelines, Monitoring & Tracking ([[Kubeflow]], [[MLflow]], [[DVC]])
   - Model Deployment ([[SageMaker]], [[Kubeflow#KServe|KFServe]])
   - [[Feature Stores]]
-  - Monitoring ML Pipelines
-## AI & Machine Learning
+# [[Artificial Intelligence]]
+
 - Algorithms & Techniques
-- Neural Networks & Deep Learning
-- NLP & Computer Vision
-- Tools & Frameworks (scikit-learn, TensorFlow, PyTorch)
+- [[Machine Learning]] & [[Deep Learning]]
+- [[Generative AI]]
+- [[NLP]] & Computer Vision
+- [[AI Agents]]
+# Web Development
 
-## Web Development
-- Frontend (HTML, CSS, JS, Frameworks)
-- Backend (Node.js, Django, Flask)
-- APIs & REST/GraphQL
-- DevOps for Web (Vercel, Netlify, Dockerized Apps)
+- Frontend (HTML, CSS, JS, Frameworks, [[Python#Web-GUIs|Web GUIs]]])
+- Backend (Node.js, Django, [[Flask]])
+- [[API]] & [[API#API REST|REST]]/GraphQL
+- [[CRM]]
+# Cybersecurity
 
-## Cybersecurity
 - Security Fundamentals
 - Encryption & Hashing
 - Threat Modeling & Pentesting
 - Secure Coding Practices
-
-## Projects & Notes
-- Personal Projects
-- Code Snippets
-- Learning Notes
-- To-Read/Watch List

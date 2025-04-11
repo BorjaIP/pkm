@@ -14,7 +14,7 @@ Tags:
 - [Sequential stages within parallel pipeline in Jenkins](https://stackoverflow.com/questions/59688963/sequential-stages-within-parallel-pipeline-in-jenkins)
 - [How to run multiple stages on the same node with declarative Jenkins pipeline?](https://stackoverflow.com/questions/44870978/how-to-run-multiple-stages-on-the-same-node-with-declarative-jenkins-pipeline)
 
-## Scripts
+# Scripts
 
 ```groovy
 script {
@@ -49,8 +49,7 @@ agent {label 'slave'}
     }
 }
 ```
-
-## Variables
+# Variables
 
 - [List of variabales](https://www.perforce.com/manuals/jenkins/Content/P4Jenkins/variable-expansion.html)
 

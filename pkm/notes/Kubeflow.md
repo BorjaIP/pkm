@@ -21,31 +21,31 @@ Kubeflow is an open-source platform for [[Machine Learning]] and MLOps on [[Kube
 | [Bootstrap](https://github.com/treebeardtech/kubeflow-bootstrap)   | 🪐 1-click Kubeflow using ArgoCD                            |
 # Articles/Talks
 
-- [Building a Complete AI Based Search Engine with Elasticsearch, Kubeflow and Katib](https://towardsdatascience.com/building-a-complete-ai-based-search-engine-with-elasticsearch-kubeflow-and-katib-590c7b27eb8f)
-- [Search system on top of Elasticsearch, Kubeflow and Katib](https://github.com/WillianFuks/pySearchML)
-- [An end-to-end ML pipeline on-prem:  Notebooks & Kubeflow Pipelines on the new MiniKF](https://medium.com/kubeflow/an-end-to-end-ml-pipeline-on-prem-notebooks-kubeflow-pipelines-on-the-new-minikf-33b7d8e9a836)
-- [Distributed TensorFlow training using Kubeflow on Amazon EKS](https://aws.amazon.com/es/blogs/opensource/distributed-tensorflow-training-using-kubeflow-on-amazon-eks/)
-- [Building a ML Pipeline from Scratch with Kubeflow](https://blogs.cisco.com/developer/machinelearningops03)
-- [Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure](https://github.com/Azure/kubeflow-labs)
+- [[Building a Complete AI Based Search Engine with Elasticsearch, Kubeflow and Katib]]
+- [[Search system on top of Elasticsearch, Kubeflow and Katib]]
+- [[An end-to-end ML pipeline on-prem - Notebooks & Kubeflow Pipelines on the new MiniKF]]
+- [[Distributed TensorFlow training using Kubeflow on Amazon EKS]]
+- [[Building a ML Pipeline from Scratch with Kubeflow]]
+- [[Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lu5zHvpQeSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDINH5WkBhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Main components 
+# Main components 
 
 ![[kubeflow_arch.png]]
 
-### Authentication
+## Authentication
 
 - [Using Keycloak for Kubeflow (instead of dex)](https://medium.com/@iamestelleyu/dex-is-the-defalut-authentication-application-of-kubeflow-and-there-is-a-option-using-both-dex-and-2cea08ca76f6)
 - [Using Keycloak as external OIDC provider on kubeflow](https://velog.io/@hklog/keycloak-kubeflow-dex)
 
 Kubeflow use [ambasador-oidc](https://github.com/arrikto/oidc-authservice) call **oidc-authservice** as an authentication service with an HTTP Server in combination with [Dex](https://journal.arrikto.com/kubeflow-authentication-with-istio-dex-5eafdfac4782) as OIDC provider.
-### Centraldashboard
+## Centraldashboard
 
 The _Kubeflow Central Dashboard_ provides an authenticated web interface for Kubeflow and ecosystem components. It acts as a hub for your machine learning platform and tools by exposing the UIs of components running in the cluster. Access through the [Istio Gateway](https://istio.io/docs/concepts/traffic-management/#gateways) that provides access to the Kubeflow.
-### Notebook
+## Notebook
 
 Kubeflow Notebooks provides a way to run web-based development environments inside your Kubernetes cluster by running them inside Pods. Support [[Jupyter]] and VSCode.
 
@@ -62,7 +62,7 @@ Deactivate secure cookies if TLS is not configured.
 APP_SECURE_COOKIES = false
 ```
 
-### Metadata
+## Metadata
 
 Kubeflow Pipelines backend stores runtime information of a pipeline run in Metadata store. Runtime information includes the status of a task, availability of artifacts, custom properties associated with Execution or Artifact, etc. Learn more at [ML Metadata](https://github.com/google/ml-metadata/blob/master/g3doc/get_started.md)for using [google/ml-metadata](https://github.com/google/ml-metadata).
 
@@ -73,35 +73,33 @@ Kubeflow use these services:
 - metadata-grpc-deployment - allows other components to interact with the metadata service
 - metadata-writer - comprehensive record of the entire machine learning lifecycle
 
-### Pipelines
+## Pipelines
 
-
-### Cache
+## Cache
 
 The cache server is a key-value storage system that store frequently accessed ML artifacts, such as trained models and intermediate results.
 
 - cache-server
-### Admission webhook
+## Admission webhook
 
 We need a way to inject common data (env vars, volumes) to pods (e.g. notebooks). PodPreset implementation, customize it for Kubeflow and rename it to PodDefault to avoid confusion. Use [[Kubernetes#Admission webhook|admision webhook]] and CRD to implement the functionality.
 
 - admission-webhook-deployment
 
-### PVCViewer
+## PVCViewer
 
 Use [filebrowser](https://github.com/filebrowser/filebrowser) for provide a file managing interface within a specified directory.
 
-### Metacontroller
+## Metacontroller
 
 Use metacontroller as an add-on for Kubernetes that makes it easy to write and deploy  [[Kubernetes#Custom resources|custom resources]]
-### Istio
+## Istio
 
-### KServe
+## KServe
 
-- [KServe CNCF](https://www.slideshare.net/theofpa/kubecon-2023-eu-kserve-the-state-and-future-of-cloudnative-model-serving)
-- [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
-
-#### Add SSL
+- [[KServe - The State and Future of Cloud-Native Model Serving]]
+- [[Open Inference Protocol (V2 Inference Protocol)]]
+### Add SSL
 
 - Create certificate
 
@@ -139,7 +137,7 @@ spec:
 ## Other components
 
 
-## CLI
+# CLI
 
 Use [kfp](https://kubeflow-pipelines.readthedocs.io/en/stable/index.html)for interact with Kubeflow as and API for Python, the CLI version only works with [[GCP]] (Google Cloud Platform).
 

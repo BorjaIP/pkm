@@ -9,7 +9,6 @@ Privacy-enhancing technologies are technologies that embody fundamental data pro
 | Tool                                                   | Description                                                                   |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------- |
 | [SecretFlow](https://github.com/secretflow/secretflow) | A unified framework for privacy-preserving data analysis and machine learning |
-
 # Data Encryption
 
 [Data encryption](https://www.mimecast.com/content/data-encryption/) is the process of converting information into a secret code (or cipher) to hide its meaning. Using a specialized encryption algorithm, companies can encode their data so it becomes indecipherable to anyone but the intended recipient, who relies on another encryption algorithm on their end to decode the information.
@@ -56,8 +55,6 @@ Some privacy enhancing technologies are also [data masking techniques](https://r
 - **Communication anonymizers:** Anonymizers replace online identity (IP address, email address) with disposal/one-time untraceable identity.
 
 # Artificial Intelligence (AI) & ML algorithms
-
-
 
 - **Synthetic data generation:** [Synthetic data](https://research.aimultiple.com/synthetic-data/) is an artificially created data by using different algorithms including ML algorithms. If you are interested in privacy-enhancing technologies because you need to transform your data into a testing environment where third-party users have access, [generating synthetic data](https://research.aimultiple.com/synthetic-data-generation/) that has the same statistical characteristics is a better option.
 - **Federated learning:** This is a machine learning technique that trains an algorithm across multiple [decentralized edge devices](https://research.aimultiple.com/edge-analytics/) or servers holding local data samples, without exchanging them. With the decentralization of servers, users can also achieve data minimization by reducing the amount of data that must be retained on a centralized server or in cloud storage.

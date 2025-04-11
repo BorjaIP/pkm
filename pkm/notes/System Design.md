@@ -8,11 +8,11 @@ tags:
 
 Key Considerations:
 
-- Scalability: Ability to handle growing amounts of work
-- Performance: System efficiency and response times
-- Reliability: System's consistency and fault tolerance
-- Security: Protection against potential threats
-- Cost-effectiveness: Balancing system capabilities with resource constraints
+- **Scalability**: Ability to handle growing amounts of work
+- **Performance**: System efficiency and response times
+- **Reliability**: System's consistency and fault tolerance
+- **Security**: Protection against potential threats
+- **Cost-effectiveness**: Balancing system capabilities with resource constraints
 
 | Tool                                                              | Description                                                                   |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------- |

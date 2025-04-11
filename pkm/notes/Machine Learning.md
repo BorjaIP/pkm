@@ -34,7 +34,6 @@ To ensure such algorithms work effectively, however, they must typically be refi
 | [Hydra](https://github.com/facebookresearch/hydra)      | Framework for elegantly configuring complex applications                                                      |
 | [Evidently](https://github.com/evidentlyai/evidently)   | Evaluate and monitor ML models from validation to production                                                  |
 | [LitServe](https://github.com/Lightning-AI/LitServe)    | Lightning-fast serving engine for any AI model of any size                                                    |
-| [Feast](https://github.com/feast-dev/feast)             | The Open Source Feature Store for AI/ML                                                                       |
 ## Types
 
 ### Supervised machine learning 

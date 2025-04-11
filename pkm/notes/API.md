@@ -9,7 +9,7 @@ API stands for **Application Programming Interface**. In the context of APIs, t
 | Tool                                                   | Description                           |
 | ------------------------------------------------------ | ------------------------------------- |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open source API development ecosystem |
-## API REST
+# API REST
 
 - [OpenAPI Specification](https://swagger.io/specification/)
 - [Free Public API](https://www.freepublicapis.com/)
@@ -20,11 +20,11 @@ API stands for **Application Programming Interface**. In the context of APIs, t
 
 ![[rest_tips.png]]
 
-### Authentication Methods
+## Authentication Methods
 
 ![[rest_auth.png]]
 
-#### JWKS
+### JWKS
 
 A JWKS endpoint is a designated HTTPS endpoint typically exposed at a well-known location on the authorization server (or any server managing the cryptographic keys), such as **_“https://<server_domain>/.well-known/jwks.json”_**.
 

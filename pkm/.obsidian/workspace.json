@@ -32,7 +32,35 @@
             }
           },
           {
-            "id": "75e2e358105d1ec9",
+            "id": "7f667dc6fc1c19d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/System Design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System Design"
+            }
+          },
+          {
+            "id": "4308c9f43b40ea36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/PET.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PET"
+            }
+          },
+          {
+            "id": "03ef233b36d30008",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,49 +74,35 @@
             }
           },
           {
-            "id": "7d3cf14e8d723001",
+            "id": "6efb31b471c1ceb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Feature Stores.md",
+                "file": "notes/Jenkins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feature Stores"
+              "title": "Jenkins"
             }
           },
           {
-            "id": "bf7cd80d13b0118e",
+            "id": "12fce3bb19ca44aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Machine Learning.md",
+                "file": "notes/Flask.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
-            }
-          },
-          {
-            "id": "de920557d7369e9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Kubeflow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kubeflow"
+              "title": "Flask"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Feature Stores.md",
+                "file": "notes/Computer Science.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Feature Stores"
+              "title": "Outline of Computer Science"
             }
           },
           {
@@ -265,37 +279,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "03ef233b36d30008",
   "lastOpenFiles": [
+    "notes/Jenkins.md",
     "notes/Computer Science.md",
-    "notes/Feature Stores.md",
+    "notes/Flask.md",
+    "notes/API.md",
+    "notes/PET.md",
+    "notes/RDS.md",
+    "notes/XaaS.md",
+    "notes/System Design.md",
+    "notes/Transformers.md",
+    "notes/TSDB.md",
+    "notes/Git.md",
+    "articles/webs/Oh Shit, Git.md",
+    "Untitled.md",
+    "notes/Kubeflow.md",
+    "notes/FSx.md",
+    "notes/DNS.md",
+    "notes/Datastream.md",
+    "notes/Data Applications.md",
+    "notes/Data Extraction.md",
     "notes/Computer Architecture.md",
-    "SageMaker.md",
+    "notes/Cwl.md",
+    "notes/CRM.md",
+    "notes/Containerd.md",
+    "articles/webs/Open Inference Protocol (V2 Inference Protocol).md",
+    "articles/webs/KServe - The State and Future of Cloud-Native Model Serving.md",
+    "notes/Kubernetes.md",
     "notes/Pasted image 20241012180444.png",
     "assets/feature_store.png",
     "dev",
-    "notes/Machine Learning.md",
-    "notes/Kubeflow.md",
-    "notes/Kubernetes.md",
-    "notes/Dvc.md",
-    "articles/webs/CML basic use case.md",
-    "articles/webs/CML with DVC use case.md",
-    "articles/webs/Git Custom References for ML Experiments.md",
-    "articles/webs/Tuning Hyperparameters with Reproducible Experiments.md",
-    "articles/webs/Using DVC to create an efficient version control system for data projects.md",
-    "notes/MLOps.md",
-    "articles/webs/MLOps - Continuous delivery and automation pipelines in machine learning.md",
-    "articles/webs/Continuous Intelligence and CD4ML Workshop.md",
-    "articles/webs/A CD4ML Example Setup on AWS S3, GitLab with DVC.md",
-    "articles/webs/Continuous Delivery for Machine Learning.md",
-    "articles/webs/MLOps - Task and Workflow Orchestration Tools on Kubernetes.md",
-    "notes/Istio.md",
-    "articles/webs/Deploying an Istio Gateway with TLS in EKS using the AWS Load Balancer Controller.md",
-    "articles/webs/How to easily setup Istio service mesh in AWS EKS.md",
-    "notes/Kustomize.md",
-    "notes/Helm.md",
-    "articles/webs/Curated applications for Kubernetes.md",
-    "articles/webs/Datahub-helm.md",
     "articles/webs",
     "assets/dbms.png",
     "assets/databases.png",

@@ -14,7 +14,6 @@ A standard for sharing and reusing workflows can provide a solution to describin
 | -------------------------------------------------------------------- | ------------------------------------------------------- |
 | [cwl-tool](https://github.com/common-workflow-language/cwltool)      | Common Workflow Language reference implementation       |
 | [Cwl-Airflow](https://github.com/Barski-lab/cwl-airflow/tree/master) | Python package to extend Airflow functionality with CWL |
-
 # Articles/Talks
 
 - [SciDAP: Airflow and CWL-powered bioinformatics platform](https://airflowsummit.org/sessions/2021/scidap/)
