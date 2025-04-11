@@ -4,15 +4,17 @@ created: Sunday 23rd April 2023 17:34
 aliases: 
 tags: cloud
 ---
+# Providers
+
 - [[AWS]]
 - [[Azure]]
+- [[GCP]]
 - [[IBM]]
-
-## Hostings and VPS
+# Hostings and VPS
 
 - [OVH Cloud](https://www.ovhcloud.com/es-es/)
 - [Linode](https://www.linode.com/)
-## Cost Reduce
+# Cost Reduce
 
 1. Cache external dependencies locally to reduce network transfer costs. For example, use pull-through Docker image registries.
 2. Prefer **spot instances** for stateless workloads instead of on-demand instances.

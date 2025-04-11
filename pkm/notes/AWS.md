@@ -20,7 +20,7 @@ Amazon Web Services is a large web of offerings from [Amazon](https://notes.nic
 - [Dendron-aws-vault](https://github.com/dendronhq/dendron-aws-vault)
 - [AWS Well-Architectured Framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
-- [[AIM]]
+- [[IAM]]
 ## Compute
 
 - [[Fargate]]

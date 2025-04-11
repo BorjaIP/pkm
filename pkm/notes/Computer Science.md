@@ -82,21 +82,21 @@ tags:
 ## [[Business Intelligence]]
 
 ## [[Workflow Orchestration]]
-## Cloud Computing ☁️
-- **Providers**
-  - AWS
-  - GCP
-  - Azure
-- **Core Services**
-  - Virtual Machines & EC2
-  - Serverless (Lambda, Cloud Functions)
+# [[Cloud]]
+
+## Providers
+
+  - [[AWS]]
+  - [[GCP]]
+  - [[Azure]]
+  - [[IBM]]
+##  Core Services
+
+  - Virtual Machines 
+  - [[Serverless]] (Lambda, Cloud Functions)
   - Load Balancing & Auto Scaling
-  - Kubernetes in the Cloud (EKS, GKE, AKS)
-- **Storage & Databases**
-  - S3 / Cloud Storage
-  - Managed DBs (DynamoDB, Cloud SQL, Cosmos DB)
-  - Warehousing (Redshift, BigQuery, Synapse)
-- **Security & IAM**
+## Security & [[IAM]]
+
   - Identity & Access Management
   - Key Management & Secrets
   - Cloud Security Best Practices
