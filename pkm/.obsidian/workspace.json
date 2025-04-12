@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "00df8ac3278ca142",
+            "id": "ca07e817ca9f5507",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -259,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Generative AI.md",
+                "file": "notes/Prompt Engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Generative AI"
+              "title": "Outline of Prompt Engineering"
             }
           },
           {
@@ -363,23 +363,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e0765ac58315fea",
+  "active": "59e0ceac64bb3948",
   "lastOpenFiles": [
-    "notes/LLM.md",
-    "notes/Generative AI.md",
+    "articles/webs/Prompt-engineering-guide.md",
     "notes/Prompt Engineering.md",
-    "articles/papers/On the Opportunities and Risks of Foundation Models.md",
-    "notes/Artificial Intelligence.md",
-    "notes/RAG.md",
-    "notes/GPT.md",
+    "notes/LLM.md",
     "notes/Transformers.md",
-    "notes/PrivateGPT.md",
-    "notes/AI Agents.md",
+    "articles/webs/GPU optimized techniques for training transformer models at-scale.md",
+    "articles/webs/8 Types of Prompt Engineering.md",
+    "articles/webs/Awesome GPT Prompt Engineering.md",
+    "articles/webs/Awesome Prompt Engineering.md",
     "notes/MLOps.md",
+    "notes/Computer Science.md",
+    "notes/Artificial Intelligence.md",
+    "notes/Generative AI.md",
+    "articles/papers/Prompting Frameworks for Large Language Models - A Survey.md",
+    "articles/papers/Prompting Frameworks for Large Language Models - A Survey1.md",
+    "articles/papers/A Survey of Large Language Models.md",
+    "notes/GPT.md",
+    "notes/PrivateGPT.md",
+    "notes/RAG.md",
+    "articles/papers/On the Opportunities and Risks of Foundation Models.md",
+    "notes/AI Agents.md",
     "notes/Deep Learning.md",
     "articles/papers/Attention Is All You Need.md",
     "notes/Software Architecture.md",
-    "notes/Computer Science.md",
     "notes/Machine Learning.md",
     "notes/Python.md",
     "assets/transformers_arch.png",
@@ -390,14 +398,6 @@
     "Untitled.md",
     "assets/dnn_arch.png",
     "assets/dl_layers.png",
-    "articles/papers/DiT - Self-supervised Pre-training for Document Image Transformer.md",
-    "articles/webs/DiT - Self-supervised Pre-training for Document Image Transformer.md",
-    "articles/webs/Deploying ML Models in Production with FastAPI and Celery.md",
-    "articles/webs/Elyra 3.3 - Pipelines, custom components, and catalogs.md",
-    "articles/webs/Automate your machine learning workflow tasks using Elyra and Apache Airflow.md",
-    "articles/webs/Introducing Elyra pipelines with custom component support.md",
-    "articles/webs/A Practical Introduction to Grid Search, Random Search, and Bayes Search.md",
-    "articles/webs/Keeping your ML model in shape with Kafka, Airflow and MLFlow.md",
     "notes/Pasted image 20241012180444.png",
     "articles/webs/Transcoding HTTP",
     "assets/ztunnel.png",

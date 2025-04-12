@@ -7,6 +7,6 @@ tags:
 - https://arxiv.org/pdf/2311.12785
 
 ---
-[[Artificial Intelligence|AI]]
+[[Generative AI|GenAI]]
 [[LLM]]
-[[GPT]]
+[[Prompt Engineering|Prompt]]

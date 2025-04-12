@@ -94,7 +94,6 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Accelerating Large Language Models with Mixed-Precision Techniques](https://lightning.ai/pages/community/tutorial/accelerating-large-language-models-with-mixed-precision-techniques/)
 - [Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— (**Part 1/3)**](https://medium.com/thirdai-blog/understanding-the-fundamental-limitations-of-vector-based-retrieval-for-building-llm-powered-48bb7b5a57b3)
 - [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
-- [Prompot-engineering-guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
 - [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
@@ -112,12 +111,6 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
 - https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
 - https://huggingface.co/collections/open-llm-leaderboard/the-big-benchmarks-collection-64faca6335a7fc7d4ffe974a
-# Prompt Engineering
-
-- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
-- [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
-- [8 Types of Prompt Engineering](https://medium.com/@amiraryani/8-types-of-prompt-engineering-5322fff77bdf)
-- [Megatron-LM & Megatron-Core](https://github.com/NVIDIA/Megatron-LM): GPU optimized techniques for training transformer models at-scale
 # Text embeddings
 
 [Text Embeddings](https://docs.cohere.ai/embedding-wiki?ref=cohere-ai.ghost.io) give you the ability to turn unstructured text data into a structured form. With embeddings, you can compare two or more pieces of text, be it single words, sentences, paragraphs, or even longer documents. And since these are sets of numbers, the ways you can process and extract insights from them are limited only by your imagination.
@@ -147,9 +140,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [LLama](https://github.com/facebookresearch/llama)
 - [LlamaHub - Get your RAG application rolling in no time](https://llamahub.ai/)
 - [Lit-Llama](https://github.com/Lightning-AI/lit-llama)
-## Transformers
+# [[Transformers]]
 
-- [[Transformers]]
 # Fine-Tuning
 
 ## RLHF 
