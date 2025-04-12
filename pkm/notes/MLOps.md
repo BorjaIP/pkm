@@ -5,6 +5,11 @@ aliases:
 tags: 
 ---
 MLOps or ML Ops is a paradigm that aims to deploy and maintain [[Machine Learning]] models in production reliably and efficiently. The word is a compound of "machine learning" and the continuous development practice of [[DevOps]] in the software field. Machine learning models are tested and developed in isolated experimental systems.
+
+| Tool/Framework                          | Description                                                                                                                |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [MLRun](https://github.com/mlrun/mlrun) | MLRun is an open source MLOps platform for quickly building and managing continuous ML applications across their lifecycle |
+
 # Articles/Talks
 
 - [[MLOps - Task and Workflow Orchestration Tools on Kubernetes]]

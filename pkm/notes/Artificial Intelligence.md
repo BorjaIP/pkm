@@ -6,9 +6,17 @@ aliases:
   - ai
 tags:
 ---
-**Artificial intelligence (AI)** is the theory and development of computer systems capable of performing tasks that historically required human intelligence, such as recognizing speech, making decisions, and identifying patterns. AI is an umbrella term that encompasses a wide variety of technologies, including [[Machine Learning]], [deep learning](https://www.coursera.org/articles/what-is-deep-learning), [[NLP|Natural Lenguage Processing]] and [[Generative AI]].
+**Artificial intelligence (AI)** is the theory and development of computer systems capable of performing tasks that historically required human intelligence, such as recognizing speech, making decisions, and identifying patterns. AI is an umbrella term that encompasses a wide variety of technologies:
 
-- [OpenDAN is an open source Personal AI OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS?tab=readme-ov-file)
+- [[Machine Learning]]
+- [Deep Learning](https://www.coursera.org/articles/what-is-deep-learning)
+- [[Generative AI]]
+- [[NLP|Natural Language Processing]]
+
+| Tool/Framework                                                               | Description                              |
+| ---------------------------------------------------------------------------- | ---------------------------------------- |
+| [AIStore](https://github.com/NVIDIA/aistore)                                 | Scalable storage for AI applications     |
+| [OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS) | OpenDAN is an open source Personal AI OS |
 
 ---
 # References
