@@ -316,8 +316,7 @@ A table showing **actual vs. predicted** classifications (for Binary/Multi-cla
 - **Average of squared differences** between predicted and actual values.
 - Penalizes large errors more than smaller ones.
 
-$$MSE=\frac{1}{n}​\sum_{i=1}^n ​(yi​−\hat{yi})^2$$
-MSE=n1​i=1∑n​(yi​−y^​i​)2
+$$MSE=\frac{1}{n}​\sum_{i=1}^n ​(y_{i}​−\hat{y_{i}})^2$$
 #### Root Mean Squared Error (RMSE)
 
 - Square root of MSE. Same units as target variable.
@@ -329,7 +328,7 @@ $$RMSE=\sqrt{MSE}$$
 - **Average of absolute** differences between predicted and actual values.    
 - Less sensitive to outliers than MSE.
 
-$$MAE=\frac{1}{n}​\sum_{i=1}^n ​|yi​−\hat{yi}|$$
+$$MAE=\frac{1}{n}​\sum_{i=1}^n ​|y_{i}​−\hat{y_{i}}|$$
 #### R² Score (Coefficient of Determination)
 
 - **Measures the proportion of variance** in the target explained by the model.
@@ -338,7 +337,7 @@ $$MAE=\frac{1}{n}​\sum_{i=1}^n ​|yi​−\hat{yi}|$$
     - **0** = No better than predicting the mean.
     - **Negative** = Worse than the mean baseline.
 
-$$R^2=1-\frac{\sum(yi​−\hat{yi})^2}{\sum(yi​−\bar{yi})^2}​$$
+$$R^2=1-\frac{\sum(y_{i}​−\hat{y_{i}})^2}{\sum(y_{i}​−\bar{y_{i}})^2}​$$
 ## Hyperparameter Tuning
 
 This is the process of **optimizing the model’s configuration settings** to maximize performance.

@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -231,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Computer Science.md",
+                "file": "notes/Deep Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Computer Science"
+              "title": "Outline of Deep Learning"
             }
           },
           {
@@ -335,15 +335,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c2ff6b879cf1867",
+  "active": "af511b07394ea5ad",
   "lastOpenFiles": [
+    "notes/Pasted image 20250412134421.png",
     "notes/Machine Learning.md",
+    "notes/Deep Learning.md",
+    "Untitled.md",
+    "assets/dl_layers.png",
+    "notes/Computer Science.md",
     "articles/papers/DiT - Self-supervised Pre-training for Document Image Transformer.md",
     "articles/webs/DiT - Self-supervised Pre-training for Document Image Transformer.md",
     "articles/webs/Deploying ML Models in Production with FastAPI and Celery.md",
     "articles/webs/Elyra 3.3 - Pipelines, custom components, and catalogs.md",
     "articles/webs/Automate your machine learning workflow tasks using Elyra and Apache Airflow.md",
-    "notes/Computer Science.md",
     "notes/Artificial Intelligence.md",
     "articles/webs/Introducing Elyra pipelines with custom component support.md",
     "articles/webs/A Practical Introduction to Grid Search, Random Search, and Bayes Search.md",
@@ -352,7 +356,6 @@
     "notes/Software Architecture.md",
     "notes/Architecture Patterns.md",
     "notes/Data Governance.md",
-    "notes/Deep Learning.md",
     "notes/MLOps.md",
     "notes/RAG.md",
     "notes/AI Agents.md",
@@ -362,8 +365,6 @@
     "notes/PrivateGPT.md",
     "notes/Pasted image 20241012180444.png",
     "notes/Computer Architecture.md",
-    "notes/Design Patterns.md",
-    "notes/System Design.md",
     "articles/webs/Transcoding HTTP",
     "assets/ztunnel.png",
     "assets/service_mesh.png",
@@ -375,7 +376,6 @@
     "assets/databases.png",
     "assets/network.jpg",
     "assets/python_flow.png",
-    "assets/rest_tips.png",
     "de",
     "Untitled",
     "assets/images",
