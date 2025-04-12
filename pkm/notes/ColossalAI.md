@@ -4,19 +4,17 @@ created: Tuesday 20th June 2023 20:06
 aliases: 
 tags: gpt, llm 
 ---
-Making large AI models cheaper, faster and more accessible.
-
 [Colossal-AI](https://github.com/hpcaitech/ColossalAI) provides a collection of parallel components for you. We aim to support you to write your distributed deep learning models just like how you write your model on your laptop. We provide user-friendly tools to kickstart distributed training and inference in a few lines.
 
-- [ColossalAI-Chat](https://juejin.cn/post/7222250219570757690)
-- [ColossalChat: An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline](https://medium.com/pytorch/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline-5edf08fb538b)
-- [Large Scale Distributed Model Training with Colossal AI and Lightning AI](https://github.com/Lightning-AI/lightning-colossalai)
+Making large AI models cheaper, faster and more accessible.
 
+- [[ColossalAI-Chat]]
+- [[ColossalChat - An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline]]
+- [[Large Scale Distributed Model Training with Colossal AI and Lightning AI]]
 ## MiniChatGPT
 
 - [MiniChatGPT](https://github.com/juncongmoo/minichatgpt) | To Train ChatGPT In 5 Minutes with ColossalAI
-
-## Installation and configuration
+# Installation and configuration
 
 **WARNING**: Install torch 1.12.1
 
@@ -83,8 +81,7 @@ WORLD_SIZE=6  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 torchrun \
     --rm_pretrain "/llama_7b_hf/" \
     --lora_rank 2
 ```
-
-STAGE 1
+## Stage 1
 
 - BloomForCausalLM
 
@@ -106,8 +103,7 @@ python train_sft.py --pretrain 'bigscience/bloom-560m' \
 
 nohup ./train_sft.sh &
 ```
-
-STAGE 2
+## Stage 2
 
 - BloomModel
 
@@ -124,8 +120,7 @@ python train_reward_model.py --pretrain '/workspace/ColossalAI/applications/Chat
 
 nohup ./train_rm.sh &
 ```
-
-STAGE 3
+## Stage 3
 
 - Generate dataset prompt
 
@@ -146,7 +141,7 @@ python train_prompts.py --pretrain '/workspace/ColossalAI/applications/Chat/outp
                         --max_epochs 1
 
 ```
-
+## Script
 
 ```python
 import torch

@@ -96,10 +96,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
 - [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
-- [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
-![[rag_vs_finetuning.png]]
-- [[RAG]]
+# [[RAG]]
 
+RAG is a technique for augmenting LLM knowledge with additional data.
 # Tokenization
 
 ![[tokenization.png]]

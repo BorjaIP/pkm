@@ -18,7 +18,7 @@ Characteristics:
 # Text Generation
 
 Generating human-like, contextually coherent text.
-### Language Models ([[LLM]])
+### Large Language Models ([[LLM]])
 
 - Predict the next word/token in a sequence.
 - Examples: GPT-3/4, LLaMA, Mistral, T5.
@@ -29,6 +29,19 @@ Applications:
 - Conversational agents (chatbots)
 - Code generation (e.g., GitHub Copilot)
 - Text-based games, interactive fiction
+## BERT
+
+Released in 2018, **Bidirectional Encoder Representations from Transformers** ([BERT](https://huggingface.co/docs/transformers/model_doc/bert)) was one of the first foundation models. BERT is a bidirectional model that analyzes the context of a complete sequence then makes a prediction. It was trained on a plain text corpus and Wikipedia using 3.3 billion tokens (words) and 340 million parameters. BERT can answer questions, predict sentences, and translate texts.
+## RoBERTa
+
+[RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta) the full form for this is the Robustly Optimized BERT Pretraining Approach. In the series of attempts to improve the performance of the transformer architecture, RoBERTa is an enhanced version of the BERT model.
+## [[GPT]]
+
+The **Generative Pre-trained Transformer** (GPT) model was developed by OpenAI in 2018. It uses a 12-layer transformer decoder with a self-attention mechanism. And it was trained on the BookCorpus dataset, which holds over 11,000 free novels. A notable feature of GPT-1 is the ability to do zero-shot learning.
+## BLOOM
+
+[BLOOM](https://huggingface.co/bigscience/bloom) is a multilingual model with similar architecture to GPT-3. It was developed in 2022 as a collaborative effort involving over a thousand scientists and the Hugging Space team. **BLOOM** can create text in 46 languages and write code in 13 programming languages.
+
 # Image & Video Generation
 
 Create or manipulate visual content from text prompts or learned patterns.
@@ -71,19 +84,6 @@ AI models that understand and generate across **multiple types of data** simulta
 - Text + Image → Image (e.g., DALL·E)
 - Image + Text → Caption (e.g., Flamingo, GPT-4V)
 - Audio + Video → Text (e.g., Whisper)
-# Language Models
-## BERT
-
-Released in 2018, **Bidirectional Encoder Representations from Transformers** ([BERT](https://huggingface.co/docs/transformers/model_doc/bert)) was one of the first foundation models. BERT is a bidirectional model that analyzes the context of a complete sequence then makes a prediction. It was trained on a plain text corpus and Wikipedia using 3.3 billion tokens (words) and 340 million parameters. BERT can answer questions, predict sentences, and translate texts.
-## RoBERTa
-
-[RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta) the full form for this is the Robustly Optimized BERT Pretraining Approach. In the series of attempts to improve the performance of the transformer architecture, RoBERTa is an enhanced version of the BERT model.
-## [[GPT]]
-
-The **Generative Pre-trained Transformer** (GPT) model was developed by OpenAI in 2018. It uses a 12-layer transformer decoder with a self-attention mechanism. And it was trained on the BookCorpus dataset, which holds over 11,000 free novels. A notable feature of GPT-1 is the ability to do zero-shot learning.
-## BLOOM
-
-[BLOOM](https://huggingface.co/bigscience/bloom) is a multilingual model with similar architecture to GPT-3. It was developed in 2022 as a collaborative effort involving over a thousand scientists and the Hugging Space team. **BLOOM** can create text in 46 languages and write code in 13 programming languages.
 # Evaluation
 
 ## Quantitative Metrics

@@ -31,6 +31,7 @@ The GPT models are designed to generate human-like text in response to a [prompt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zcMQXID447s?si=WHu5ZlfBrqXOOOaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pov3pLFMOPY?si=Hz6GzaVBR2n_X4rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Frameworks
 
 - [[PrivateGPT]]

@@ -4,7 +4,7 @@ created: Friday 10th May 2024 11:13
 aliases: 
 tags:
 ---
-**Retrieval-Augmented Generation** (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models (LLMs) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base, all without the need to retrain the model. It is a cost-effective approach to improving LLM output so it remains relevant, accurate, and useful in various contexts.
+**Retrieval-Augmented Generation** (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models ([[LLM]]) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base, all without the need to retrain the model. It is a cost-effective approach to improving LLM output so it remains relevant, accurate, and useful in various contexts.
 
 | Tool                                                                | Description                                                                  |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -14,13 +14,13 @@ tags:
 | [Verba](https://github.com/weaviate/Verba)                          | Retrieval Augmented Generation (RAG) chatbot powered by Weaviate             |
 # Articles/Talks
 
-- [What is a RAG?](https://python.langchain.com/v0.1/docs/use_cases/question_answering/?ref=blog.langchain.dev)
-- [Modular RAG and RAG Flow: Part Ⅰ](https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-%E2%85%B0-e69b32dc13a3)
-- [Modular RAG and RAG Flow: Part II](https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-ii-77b62bf8a5d3)
-- [Evaluating RAG pipelines with Ragas + LangSmith](https://blog.langchain.dev/evaluating-rag-pipelines-with-ragas-langsmith/)
-- [Hybrid Search a method to Optimize RAG implementation](https://medium.com/@csakash03/hybrid-search-is-a-method-to-optimize-rag-implementation-98d9d0911341)
-- [Solving the out-of-context chunk problem for RAG](https://d-star.ai/solving-the-out-of-context-chunk-problem-for-rag)
-- [Docling+Feast+MIlvusDB](https://github.com/feast-dev/feast/blob/master/examples/rag-docling/docling-quickstart.ipynb)
+- [[What is a RAG]]
+- [[Modular RAG and RAG Flow - Part Ⅰ]]
+- [[Modular RAG and RAG Flow - Part II]]
+- [[Evaluating RAG pipelines with Ragas + LangSmith]]
+- [[Hybrid Search a method to Optimize RAG implementation]]
+- [[Solving the out-of-context chunk problem for RAG]]
+- [[Docling+Feast+MIlvusDB]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aQ4yQXeB1Ss?si=eEbachbYQIgSClU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # Reciprocal Rank Fusion (RRF)
@@ -29,16 +29,22 @@ Reciprocal Rank Fusion (RRF) is a technique for combining the ranks of multiple 
 
 By combining ranks from different queries, we increase the chances that the most relevant documents will appear at the top of the final list. RRF is particularly effective because it doesn’t rely on the absolute scores assigned by the search engine but rather on the relative ranks, making it well-suited for combining results from queries that might have different scales or distributions of scores.
 
-- [Forget RAG, the Future is RAG-Fusion](https://towardsdatascience.com/forget-rag-the-future-is-rag-fusion-1147298d8ad1)
-- [Better RAG results with Reciprocal Rank Fusion and Hybrid Search](https://www.assembled.com/blog/better-rag-results-with-reciprocal-rank-fusion-and-hybrid-search)
+- [[Forget RAG, the Future is RAG-Fusion]]
+- [[Better RAG results with Reciprocal Rank Fusion and Hybrid Search]]
 # Advance  RAG
 
 ![[advance_rag.webp]]
 
-- [LLM RAG Paradigms: Naive RAG, Advanced RAG & Modular RAG](https://medium.com/@drjulija/what-are-naive-rag-advanced-rag-modular-rag-paradigms-edff410c202e)
-
+- [[LLM RAG Paradigms - Naive RAG, Advanced RAG & Modular RAG]]
 # HyDE
 
 Enter Hypothetical Document Embeddings (HyDE), an innovative approach detailed in the paper titled [[Precise Zero-Shot Dense Retrieval without Relevance Labels]].
 
 The core hypothesis of HyDE is simple yet profound: when conducting a document search, using hypothetical answers might yield superior results compared to using the question itself.
+
+# RAG vs Finetuning
+
+- [[RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application]]
+
+![[rag_vs_finetuning.png]]
+ 
