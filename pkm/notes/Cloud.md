@@ -13,6 +13,8 @@ tags: cloud
 - [[Azure]]
 - [[GCP]]
 - [[IBM]]
+
+![[cloud_comparison.png]]
 # Hostings and VPS
 
 - [OVH Cloud](https://www.ovhcloud.com/es-es/)

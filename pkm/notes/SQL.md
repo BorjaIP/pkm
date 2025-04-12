@@ -8,6 +8,7 @@ SQL (Structured Query Language) is a standardized programming language used for 
 
 SQL is fundamental to relational database management systems (RDBMS) like MySQL, [[PostgreSQL]], Microsoft SQL Server, and Oracle Database. Its core strength lies in its ability to handle large datasets with complex relationships while maintaining data integrity. SQL also supports various powerful features like joins, indexing, and transactions, which enable efficient querying, reporting, and data analysis. Whether in enterprise systems, web applications, or data analytics, SQL remains an essential tool for database management and information retrieval.
 
+![[sql_joins.png]]
 # Data Definition Language (DDL)
 
 | Command                                                                         | Description                  |
