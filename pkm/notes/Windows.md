@@ -251,3 +251,14 @@ Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss
 - Problem IPv6 with WSL --> https://github.com/microsoft/WSL/issues/11002
 
 ![[wsl_ipv6.png]]
+
+# Errors
+
+- Windows doesn't respond.
+	1. Open terminal in Admin Mode.
+	2. Enter this commands
+
+```powershell
+taskkill /f /im explorer.exe
+start explorer.exe
+```

@@ -130,7 +130,7 @@
             }
           },
           {
-            "id": "a3f314e9d1f92f64",
+            "id": "62ecfd7308680f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -321,9 +321,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3f314e9d1f92f64",
+  "active": "62ecfd7308680f22",
   "lastOpenFiles": [
     "notes/PrivateGPT.md",
+    "notes/Windows.md",
+    "notes/Architecture Patterns.md",
+    "notes/Transformers.md",
+    "notes/Computer Science.md",
     "notes/GPT.md",
     "articles/webs/How to create a private ChatGPT that interacts with your local documents.md",
     "notes/ColossalAI.md",
@@ -345,10 +349,6 @@
     "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
     "notes/LLM.md",
     "notes/Prompt Engineering.md",
-    "articles/webs/RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application.md",
-    "notes/Transformers.md",
-    "notes/Computer Science.md",
-    "notes/AI Agents.md",
     "assets/sql_joins.png",
     "assets/cloud_comparison.png",
     "assets/prompt_frameworks.png",
