@@ -9,9 +9,11 @@ tags:
 **Artificial intelligence (AI)** is the theory and development of computer systems capable of performing tasks that historically required human intelligence, such as recognizing speech, making decisions, and identifying patterns. AI is an umbrella term that encompasses a wide variety of technologies:
 
 - [[Machine Learning]]
-- [Deep Learning](https://www.coursera.org/articles/what-is-deep-learning)
+- [[Deep Learning]]
 - [[Generative AI]]
 - [[NLP|Natural Language Processing]]
+- Computer Vision
+- [[AI Agents]]
 
 | Tool/Framework                                                               | Description                              |
 | ---------------------------------------------------------------------------- | ---------------------------------------- |

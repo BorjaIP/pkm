@@ -6,7 +6,11 @@ tags:
 ---
 [Transformers](https://huggingface.co/docs/transformers/index) are neural networks that learn context and understanding through sequential data analysis. The **Transformer** models use a modern and evolving mathematical techniques set, generally known as attention or self-attention. This set helps identify how distant data elements influence and depend on one another. Transformers have revolutionized the world of natural language processing (NLP)
 
-The architecture described in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) consists of an encoder and decoder.
+The architecture described in the paper [[Attention Is All You Need]] consists of an encoder and decoder.
+
+![[transformers_arch.png]]
+
+
 ## Serialization and save
 
 - Secure problem with [pickle](https://huggingface.co/docs/hub/security-pickle)

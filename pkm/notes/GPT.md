@@ -16,7 +16,6 @@ The GPT models are designed to generate human-like text in response to a [prompt
 | [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT)           | Code and models for NExT-GPT: Any-to-Any Multimodal Large Language Model                                 |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT)        | A GPT-empowered penetration testing tool                                                                 |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on                              |
-
 # Articles/Talks
 
 - [ChatGPT "DAN" (and other "Jailbreaks")](https://github.com/0xk1h0/ChatGPT_DAN?ref=blog.seclify.com)

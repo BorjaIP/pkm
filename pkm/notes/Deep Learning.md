@@ -61,6 +61,15 @@ Where:
 | **Batch GD**            | Computes gradient over the **entire dataset** per step.       | Small datasets, precise updates.       |
 | **Stochastic GD (SGD)** | Uses **one random sample** per step (noisy, but faster).      | Large datasets, escapes local minima.  |
 | **Mini-Batch GD**       | Compromise: Uses **small random subsets (batches)** per step. | Most common (balances speed/accuracy). |
+## Hyperparameter
+
+Hyperparameters are the tunable parameters adjusted before running the training process. These parameters directly affect model performance and help you achieve faster global minima.
+
+**List of most used hyperparameters:**
+
+- **Learning rate:** step size of each iteration and can be set from 0.1 to 0.0001. In short, it determines the speed at which the model learns.
+- **Batch size:** number of samples passed through a neural network at a time.
+- **Number of epochs:** an iteration of how many times the model changes weights. Too many epochs can cause models to overfit and too few can cause models to underfit, so we have to choose a medium number.
 ## Techniques
 
 Various methods can be used to create strong deep learning models. 
@@ -107,17 +116,136 @@ ResNets provide an alternate pathway for data to flow to make the training proce
 The data from previous layers is fast-forwarded and copied much forward in the Neural Networks. This is what we call _skip connections_ first introduced in Residual Networks to resolve vanishing gradients.
 ## RNNs (Recurrent Neural Networks)
 
+**Recurrent Neural Network** is a type of Artificial Neural Network that are good at **modeling sequential data**. Traditional Deep Neural Networks assume that inputs and outputs are independent of each other, the output of Recurrent Neural Networks depend on the prior elements within the sequence. They have an inherent “_memory_” as they take information from prior inputs to influence the current input and output. One can think of this as a hidden layer that remembers information through the passage of time.
 
+Recurrent Neural Networks work very well with sequences of data as input. Its functionality can be seen in solving NLP problems **like sentiment analysis, spam filters, time series problems like sales forecasting, stock market prediction**, etc.
 
+The input is in the form of sequential data that is fed into the RNN, which has a hidden internal state that gets updated every time it reads the following sequence of data in the input. Inputs-Outputs:
+
+- One-to-one
+- One-to-Many
+- Many-to-one
+- Many-to-many
+
+![[rnn_arch.png]]
 ### LSTM (Long Short-term Memory Networks)
+
+The critical part that we add to this Recurrent Neural Networks is **memory**. We want it to be able to remember what happened many timestamps ago. To achieve this, we need to add extra structures called _gates_ to the artificial neural network structure.
+
+![[lstm_arch.png]]
 
 ## CNNs (Convolutional Neural Networks)
 
+**Convolution neural network** (also known as _ConvNet or CNN_) is a type of feed-forward neural network used in tasks **like image analysis, natural language processing, and other complex image classification** problems.
 
-## DNNs (Deconvolutional Neural Networks)
+![[cnn_arch.png]]
 
-![[Pasted image 20250412134421.png]]
+Three hyperparameters that control the size of the output volume:
 
+- **The depth** - The depth of the output volume is equal to the number of filters we use to look for different features in the image. The output volume has stacked activation/feature maps along with the depth, making it equal to the number of filters used.
+- **Stride** - Stride refers to the number of pixels we slide while matching the filter with the input image patch. If the stride is one, we move the filters one pixel at a time. Higher the stride, smaller output volumes will be produced spatially.
+- **Zero-padding** - It allows us to control the spatial size of the output volume by padding zeros around the border of the input data.
+### ReLU Layer
+
+In this layer, the ReLU [[Deep Learning#Activation Functions|activation function]] is used, and every negative value in the output volume from the convolution layer is replaced with zero. This is done to prevent the values from summing up to zero.
+### Pooling
+
+Pooling is a very important step in the ConvNets as it **reduces the computation and makes the model tolerant towards distortions** and variations. A Fully Connected Dense Neural Networks would use a flattened feature matrix and predict according to the use case.
+
+Pooling layers are added in between two convolution layers with the sole purpose of reducing the spatial size of the image representation. Has two hyperparameters:
+
+- window size
+- stride
+
+Types of Pooling:
+
+- **Max Pooling** selects the maximum element from each of the windows of the feature map. Thus, after the max-pooling layer, the output would be a feature map containing the most dominant features of the previous feature map.
+- **Average Pooling** computes the average of the elements present in the region of the feature map covered by the filter. It simply averages the features from the feature map.
+### Normalization layer
+
+Normalization layers, as the name suggests, normalize the output of the previous layers. It is added in between the convolution and pooling layers, allowing every layer of the network to learn more independently and avoid overfitting the model.
+### CNNs Architectures
+
+- LeNet
+- AlexNet: was trained on the Imagenet dataset with 15 million high-resolution images with 256 * 256 * 3.
+- MobileNets: use depth-wise separable convolutions to **build lightweight** deep Neural Networks
+- VGGNet
+- GoogLeNet
+- SqueezeNet
+- ResNet
+- DenseNet
+- ZFNet
+### DNNs (Deconvolutional Neural Networks)
+
+**Deconvolutional Neural Networks** are CNNs that work in a reverse manner.
+
+When we use convolutional layers and max-pooling, the size of the image is reduced. To go to the original size, we use upsampling and transpose convolutional layers. Upsampling does not have trainable parameters—it just repeats the rows and columns of the image data by its corresponding sizes.
+
+![[dnn_arch.png]]
+
+Transpose Convolutional layer means applying convolutional operation and upsampling at the same time. It is represented as **Conv2DTranspose** (number of filters, filter size, stride). If we set stride=1, we do not have any upsampling and receive an output of the same input size.
 ## GANs (Generative adversarial networks)
 
-## Transformers
+A **generative adversarial network** (GAN), is a deep neural network framework that can learn from training data and generate new data with the same characteristics as the training data. For example, generative networks trained on photographs of human faces can generate realistic-looking faces which are entirely fictitious.
+
+![[gan_arch.png]]
+
+Generative adversarial networks consist of two neural networks, the generator, and the discriminator, which compete against each other. The generator is trained to produce fake data, and the discriminator is trained to distinguish the generator’s fake data from actual examples. 
+
+- **Generator** - The generator takes input as random noise and generates a data sample ideally in the latent space of the input dataset. Throughout the training, it tries to mimic the distribution of the input dataset.
+- **Discriminator** - The discriminator network is a binary classifier that outputs whether the sample is real or fake. The input to the discriminator could either come from an input dataset or generator, and its task is to classify whether the sample is real or fake.
+
+Examples:
+
+- ‌Naïve Bayes
+- Bayesian networks
+- Markov random fields
+- ‌Hidden Markov Models (HMMs)
+- Latent Dirichlet Allocation (LDA)
+- Generative Adversarial Networks (GANs)
+- Autoregressive Model
+### Variants
+
+#### DCGAN (Deep Convolutional GAN)
+
+**DCGAN** is a generative adversarial network architecture based on CNNs. It uses a couple of guidelines, in particular:
+
+- Replacing pooling layers with strided convolutions (discriminator) and fractional-strided convolutions (generator).
+- Using batch norm in both the generator and the discriminator.
+- Removing fully connected hidden layers for deeper architectures.
+- Using ReLU activation in the generator for all layers except for the output, which uses tanh.
+#### Progressive GANs
+
+**Generating high-resolution images** is considered challenging for GAN models as the generator must learn how to output both overall structure and fine details simultaneously. 
+
+The primary contribution of the **ProGan** paper is a training methodology for GANs where we start with low-resolution images, and then progressively increase the resolution by adding layers to the networks.
+#### Conditional GANs
+
+A **conditional generative adversarial network**, or cGAN for short, is a type of GAN that involves the conditional generation of images by a generator model.
+
+In cGANs, a conditional setting is applied, meaning that both the generator and discriminator are conditioned on some sort of auxiliary information (such as class labels or data) from other modalities.
+#### Pix2Pix GAN
+
+Pix2Pix is a Generative Adversarial Network, model designed for general-purpose **image-to-image translation**.
+
+The image-to-image translation is the problem of changing a given image in a specific or controlled way. Examples include translating a landscape photograph from day to night or a segmented image to a photograph.
+#### CycleGAN
+
+The CycleGAN is a technique that involves the automatic training of image-to-image translation models without paired examples. The **models are trained in an unsupervised manner using a collection of images** from the source and target domain that do not need to be related in any way.
+
+The CycleGAN is an extension of the GAN architecture that involves the simultaneous training of two generator models and two discriminator models.
+
+- One generator takes images from the first domain as input and outputs images for the second domain. The other generator takes images from the second domain as input and generates images for the first domain. 
+- Discriminator models are then used to determine how plausible the generated images are and update the generator models accordingly.
+#### Super-resolution GANs
+
+Super-resolution (SR) upsampling a **low-resolution image into a higher resolution** with minimal information distortion. The generator network employs residual blocks, where the idea is to keep information from previous layers alive and allow the network to choose from more features adaptively.
+#### DALLE-2
+
+DALL·E 2 is a new AI system that can create realistic images and art from a description in natural language.
+
+Algorithm explanation:
+
+1. First, a text prompt is an input into a text encoder that is trained to map the prompt to a representation space.
+2. Next, a prior model maps the text encoding to a corresponding image encoding that captures the semantic information of the prompt contained in the text encoding.
+3. Finally, an image decoder stochastically generates an image which is a visual manifestation of this semantic information.
