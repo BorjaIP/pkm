@@ -11,6 +11,7 @@ Making large AI models cheaper, faster and more accessible.
 - [[ColossalAI-Chat]]
 - [[ColossalChat - An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline]]
 - [[Large Scale Distributed Model Training with Colossal AI and Lightning AI]]
+- [[Replicate ChatGPT Training Quickly and Affordable with Open Source Colossal-A]]
 ## MiniChatGPT
 
 - [MiniChatGPT](https://github.com/juncongmoo/minichatgpt) | To Train ChatGPT In 5 Minutes with ColossalAI

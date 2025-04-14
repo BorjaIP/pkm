@@ -74,6 +74,20 @@
             }
           },
           {
+            "id": "0319672187dc7b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Generative AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Generative AI"
+            }
+          },
+          {
             "id": "f6f9a56b866ebabb",
             "type": "leaf",
             "state": {
@@ -114,37 +128,9 @@
               "icon": "lucide-file",
               "title": "GPT"
             }
-          },
-          {
-            "id": "c1626c1407752374",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/PrivateGPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PrivateGPT"
-            }
-          },
-          {
-            "id": "62ecfd7308680f22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -217,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Windows.md",
+                "file": "notes/LLM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows"
+              "title": "Outline of LLM"
             }
           },
           {
@@ -321,34 +307,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62ecfd7308680f22",
+  "active": "70c1abfeab2edfdc",
   "lastOpenFiles": [
-    "notes/PrivateGPT.md",
-    "notes/Windows.md",
-    "notes/Architecture Patterns.md",
-    "notes/Transformers.md",
-    "notes/Computer Science.md",
-    "notes/GPT.md",
-    "articles/webs/How to create a private ChatGPT that interacts with your local documents.md",
-    "notes/ColossalAI.md",
-    "articles/webs/Large Scale Distributed Model Training with Colossal AI and Lightning AI.md",
-    "articles/webs/ColossalChat - An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline.md",
-    "articles/webs/ColossalAI-Chat.md",
-    "notes/Generative AI.md",
-    "notes/RAG.md",
-    "articles/webs/LLM RAG Paradigms - Naive RAG, Advanced RAG & Modular RAG.md",
-    "articles/webs/Docling+Feast+MIlvusDB.md",
-    "articles/webs/Solving the out-of-context chunk problem for RAG.md",
-    "articles/webs/Hybrid Search a method to Optimize RAG implementation.md",
-    "articles/webs/Evaluating RAG pipelines with Ragas + LangSmith.md",
-    "articles/webs/Modular RAG and RAG Flow - Part II.md",
-    "articles/webs/Modular RAG and RAG Flow - Part Ⅰ.md",
-    "articles/webs/What is a RAG.md",
-    "articles/webs/Forget RAG, the Future is RAG-Fusion.md",
-    "articles/webs/Better RAG results with Reciprocal Rank Fusion and Hybrid Search.md",
-    "articles/papers/Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
+    "articles/webs/Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices.md",
     "notes/LLM.md",
-    "notes/Prompt Engineering.md",
+    "articles/webs/Advancing AGI for humanity.md",
+    "articles/webs/Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— Part 1-3.md",
+    "articles/webs/Accelerating Large Language Models with Mixed-Precision Techniques.md",
+    "articles/papers/A Watermark for Large Language Models.md",
+    "notes/GPT.md",
+    "articles/webs/The Practical Guides for Large Language Models.md",
+    "notes/RAG.md",
+    "notes/VDB.md",
+    "articles/webs/Do we really need a specialized vector database.md",
+    "articles/webs/ChatGPT + Enterprise data with Azure OpenAI and AI Search.md",
+    "articles/webs/Building a Privacy-Preserving LLM-Based Chatbot.md",
+    "notes/Data Platforms.md",
+    "notes/AI Agents.md",
+    "articles/webs/I tried… Using ChatGPT for FuNn as a DevOps Engineer.md",
+    "articles/webs/Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — Part 2-3.md",
+    "notes/ColossalAI.md",
+    "articles/webs/Replicate ChatGPT Training Quickly and Affordable with Open Source Colossal-A.md",
+    "articles/webs/Why is GPT-3 15.77x more expensive for certain languages.md",
+    "articles/webs/Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — [Part 2",
+    "articles/webs/ChatGPT DAN, Jailbreaks prompt.md",
+    "notes/Computer Science.md",
+    "notes/Generative AI.md",
+    "notes/Transformers.md",
+    "notes/Architecture Patterns.md",
+    "notes/Software Architecture.md",
     "assets/sql_joins.png",
     "assets/cloud_comparison.png",
     "assets/prompt_frameworks.png",
@@ -368,7 +355,6 @@
     "articles/papers",
     "articles",
     "pkm",
-    "New folder",
     "Untitled.canvas"
   ]
 }

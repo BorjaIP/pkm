@@ -83,22 +83,27 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [FlashLearn](https://github.com/Pravko-Solutions/FlashLearn)                          | Integrate LLM in any pipeline - fit/predict pattern, JSON driven flows, and built in concurency support.                         |
 | [Pathway AI Pipelines](https://github.com/pathwaycom/llm-app)                         | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data.                                        |
 | [pydantic-ai](https://github.com/pydantic/pydantic-ai)                                | Agent Framework / shim to use Pydantic with LLMs                                                                                 |
+| [lollms-webui](https://github.com/ParisNeo/lollms-webui)                              | Lord of Large Language and Multi modal Systems Web                                                                               |
 
 
 ![[llm_tree.jpg]]
 
 # Articles/Talks
 
-- [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide)
-- [A Watermark for Large Language Models](https://github.com/jwkirchenbauer/lm-watermarking)
-- [Accelerating Large Language Models with Mixed-Precision Techniques](https://lightning.ai/pages/community/tutorial/accelerating-large-language-models-with-mixed-precision-techniques/)
-- [Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— (**Part 1/3)**](https://medium.com/thirdai-blog/understanding-the-fundamental-limitations-of-vector-based-retrieval-for-building-llm-powered-48bb7b5a57b3)
-- [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
-- [Evaluating Large Language Model (LLM) systems: Metrics, challenges, and best practices](https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5)
+- [[The Practical Guides for Large Language Models]]
+- [[A Watermark for Large Language Models]]
+- [[Accelerating Large Language Models with Mixed-Precision Techniques]]
+- [[Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— Part 1-3]]
+- [[Advancing AGI for humanity]]
+- [[Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices]]
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
-# [[RAG]]
+**# [[RAG]]
 
 RAG is a technique for augmenting LLM knowledge with additional data.
+# Vector Database ([[VDB]])
+
+- [[Do we really need a specialized vector database]]
+
 # Tokenization
 
 ![[tokenization.png]]
@@ -151,9 +156,11 @@ Distillation
 	- Train a small model to mimic the behavior of a large model
 Adapter Tunning
 Full Fine Tunning
-# Vector Database
 
-- [Do we really need a specialized vector database?](https://modelz.ai/blog/pgvector)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zcMQXID447s?si=WHu5ZlfBrqXOOOaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pov3pLFMOPY?si=Hz6GzaVBR2n_X4rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Parameters
 
 - **Frequency_penalty**: This parameter is used to discourage the model from repeating the same words or phrases too frequently within the generated text. It is a value that is added to the log-probability of a token each time it occurs in the generated text. A higher frequency_penalty value will result in the model being more conservative in its use of repeated tokens.

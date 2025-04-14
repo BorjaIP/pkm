@@ -5,6 +5,7 @@ aliases:
 tags: gpt, llm
 ---
 - https://arxiv.org/pdf/2301.10226.pdf
+- Git - https://github.com/jwkirchenbauer/lm-watermarking
 
 ---
 [[LLM]]
