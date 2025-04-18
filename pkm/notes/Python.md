@@ -52,7 +52,6 @@ Python is a high-level, interpreted programming language known for its simplicit
 | [VPS-audit](https://github.com/vernu/vps-audit)                               | Lightweight, dependency-free bash script for security, performance auditing and infrastructure monitoring of Linux servers |
 | [Dependency Injector](https://github.com/ets-labs/python-dependency-injector) | Dependency injection framework for Python                                                                                  |
 | [Litestar](https://github.com/litestar-org/litestar)                          | Production-ready, Light, Flexible and Extensible ASGI API framework                                                        |
-
 # Articles/Talks
 
 - [Libraries - Best of Python](https://github.com/ml-tooling/best-of-python)
@@ -122,6 +121,11 @@ hatch build
 ```"bash
 uv pip compile requirements/requirements.in -o requirements/requirements.txt
 uv pip install -r requirements/requirements.txt
+```
+
+- Create env with `uv`
+```bash
+uv venv --python 3.11 
 ```
 # Libraries
 

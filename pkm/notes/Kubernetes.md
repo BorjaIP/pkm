@@ -166,7 +166,6 @@ Custom Resources (CRs) in Kubernetes allow you to extend the Kubernetes API and 
 The Kubernetes [declarative API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) enforces a separation of responsibilities. You declare the desired state of your resource. The Kubernetes controller keeps the current state of Kubernetes objects in sync with your declared desired state. This is in contrast to an imperative API, where you _instruct_ a server what to do.
 
 - Use [Metacontroller](https://github.com/metacontroller/metacontroller) is an add-on for Kubernetes that makes it easy to write and deploy CRs.
-
 ## Webhooks
 ### Admission webhook
 
@@ -319,6 +318,19 @@ kubectl auth can-i get deployments.apps
 [Krew](https://krew.sigs.k8s.io/)
 
 ```bash
+# installing
+(  
+ set -x; cd "$(mktemp -d)" &&
+  OS="$(uname | tr '[:upper:]' '[:lower:]')" &&
+  ARCH="$(uname -m | sed -e 's/x86_64/amd64/' -e 's/\(arm\)\(64\)\?.*/\1\2/' -e 's/aarch64$/arm64/')" &&
+  KREW="krew-${OS}_${ARCH}" &&
+  curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/${KREW}.tar.gz" &&
+  tar zxvf "${KREW}.tar.gz" &&
+)
+sudo install -o root -g root -m 0755 krew ~/.local/bin/krew
+```
+
+```bash
 # secret plugin
 kubectl krew install whisper-secret
 kubectl whisper-secret docker-registry my-secret --docker-password -- -n test --docker-username admin
@@ -354,7 +366,6 @@ kubectl konfig merge config <filename> > merged-config && mv -f merged-config co
 export node=node-name;(kubectl config unset clusters.$node && kubectl config unset users.$node && kubectl config unset contexts.$node)
 kubectx -d dev-cluster-01
 ```
-
 # Comands
 
 - Create labels
@@ -405,7 +416,6 @@ curl -k 'https://localhost:6443/readyz?verbose&exclude=etcd'
 curl -k https://localhost:6443/livez/etcd
 ```
 
-
 - Add nodes
 
 ```bash
@@ -432,6 +442,15 @@ kubectl run -n minikube busybox --image=busybox --restart=Never -- /bin/sh -c "s
  kubectl delete namespace <namespace>
 ```
 
+- Logs
+
+```bash
+# ingress nginx
+kubectl logs -n ingress-nginx -l app.kubernetes.io/name=ingress-nginx
+```
+
+
+```
 # Cloud
 ## AWS
 
@@ -518,7 +537,6 @@ HorizontalPodAutoscaler
 PodDisruptionBudget
 
 - For HA you neeed to define Disruptions if a Node of the Cluster is down or upgraded. Stablish the minimum and maximum Pods are needed mandatory for your App.
-
 # Cost Reduce
 
 1. Here is the first tip I got: Any attempt to control costs after an application has been architected and deployed is necessarily focusing on the wrong things. Cloud costs are a function of your 
@@ -527,6 +545,31 @@ PodDisruptionBudget
 4. If possible, prefer using only a single region to avoid network transfer costs between nodes. Preferably when it’s not production.
 5. If you are running things like k8s there are other tools to monitor load and dynamically adjust, but monitoring all costs on a 5-minute interval seems odd. You could correlate this to your actual infrastructure monitoring. You are going to know if the cost goes crazy if you are monitoring your deployment properly or even better in pre-deployment. 
 6. More: [[Reducing Cloud Costs on Kubernetes Dev Envs]]
+
+# Minikube
+
+```bash
+pacman -S minikube
+minikube start --force
+# change context
+kubectl config use-context minikube
+kubectl get pods -A
+# activate dashboard
+minikube dashboard
+minikube dashboard --url
+# tunnel
+ssh -L 38999:127.0.0.1:38999 -fN root@your-server-ip
+```
+
+- Adding images
+```bash
+minikube image load <image name>
+```
+
+- List images
+```bash
+minikube image ls --format table
+```
 
 ---
 # References

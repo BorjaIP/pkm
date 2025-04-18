@@ -297,6 +297,13 @@ ss -tapn
 ss -dst :https
 ss -dst :5432
 ```
+
+### Socat
+
+```bash
+# redirect traffic from localhost to 192.168.49.2
+sudo socat TCP4-LISTEN:80,bind=127.0.0.1,fork,reuseaddr TCP4:192.168.49.2:80
+```
 ### DNS
 
 ```bash

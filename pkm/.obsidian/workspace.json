@@ -74,63 +74,77 @@
             }
           },
           {
-            "id": "0319672187dc7b8c",
+            "id": "c735bf2fc1baf21e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Generative AI.md",
+                "file": "notes/Prompt Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generative AI"
+              "title": "Prompt Engineering"
             }
           },
           {
-            "id": "f6f9a56b866ebabb",
+            "id": "f4539bc7ebce8ec8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Transformers.md",
+                "file": "notes/Kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformers"
+              "title": "Kubernetes"
             }
           },
           {
-            "id": "70c1abfeab2edfdc",
+            "id": "c7b90bc7bb646065",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/LLM.md",
+                "file": "notes/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM"
+              "title": "Docker"
             }
           },
           {
-            "id": "c845906bdda3f1bb",
+            "id": "efce41e946a18efe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/GPT.md",
+                "file": "notes/Prometheus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPT"
+              "title": "Prometheus"
+            }
+          },
+          {
+            "id": "b26f2a4de5773282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Kafka.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kafka"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -203,13 +217,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/LLM.md",
+                "file": "notes/Prometheus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LLM"
+              "title": "Outline of Prometheus"
             }
           },
           {
@@ -307,35 +321,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70c1abfeab2edfdc",
+  "active": "efce41e946a18efe",
   "lastOpenFiles": [
-    "articles/webs/Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices.md",
+    "notes/Python.md",
+    "notes/Kafka.md",
+    "notes/Windows.md",
+    "notes/Prometheus.md",
+    "notes/Kubernetes.md",
+    "notes/Docker.md",
+    "notes/Prompt Engineering.md",
+    "notes/Linux.md",
+    "notes/Terraform.md",
+    "notes/Generative AI.md",
+    "notes/Transformers.md",
     "notes/LLM.md",
+    "notes/GPT.md",
+    "notes/Kubeflow.md",
+    "articles/webs/Mastering the KUBECONFIG file.md",
+    "notes/Makefile.md",
+    "notes/Computer Science.md",
+    "notes/MLOps.md",
+    "articles/webs/Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices.md",
     "articles/webs/Advancing AGI for humanity.md",
     "articles/webs/Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— Part 1-3.md",
     "articles/webs/Accelerating Large Language Models with Mixed-Precision Techniques.md",
     "articles/papers/A Watermark for Large Language Models.md",
-    "notes/GPT.md",
     "articles/webs/The Practical Guides for Large Language Models.md",
     "notes/RAG.md",
     "notes/VDB.md",
-    "articles/webs/Do we really need a specialized vector database.md",
-    "articles/webs/ChatGPT + Enterprise data with Azure OpenAI and AI Search.md",
-    "articles/webs/Building a Privacy-Preserving LLM-Based Chatbot.md",
-    "notes/Data Platforms.md",
-    "notes/AI Agents.md",
-    "articles/webs/I tried… Using ChatGPT for FuNn as a DevOps Engineer.md",
-    "articles/webs/Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — Part 2-3.md",
-    "notes/ColossalAI.md",
-    "articles/webs/Replicate ChatGPT Training Quickly and Affordable with Open Source Colossal-A.md",
-    "articles/webs/Why is GPT-3 15.77x more expensive for certain languages.md",
     "articles/webs/Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — [Part 2",
-    "articles/webs/ChatGPT DAN, Jailbreaks prompt.md",
-    "notes/Computer Science.md",
-    "notes/Generative AI.md",
-    "notes/Transformers.md",
-    "notes/Architecture Patterns.md",
-    "notes/Software Architecture.md",
     "assets/sql_joins.png",
     "assets/cloud_comparison.png",
     "assets/prompt_frameworks.png",

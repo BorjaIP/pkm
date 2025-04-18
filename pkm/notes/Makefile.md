@@ -4,7 +4,6 @@ created: Sunday 23rd April 2023 16:54
 aliases: 
 tags: lenguages
 ---
-
 ## Colors
 
 - [Color Coding Makefile Output](http://jamesdolan.blogspot.com/2009/10/color-coding-makefile-output.html)
