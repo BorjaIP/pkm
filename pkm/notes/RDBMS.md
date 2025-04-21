@@ -16,6 +16,14 @@ RDBMS stands for Relational Database Management System used to maintain a relati
 | Tool/Framework                          | Description                         |
 | --------------------------------------- | ----------------------------------- |
 | [Atlas](https://github.com/ariga/atlas) | Manage your database schema as code |
+# SQLite
+
+```bash
+# show tables
+.tables
+# show squemas
+.schema
+```
 # ORM
 
 ORM produces a structured map that reveals the relationships between objects and tables, or data, without getting into the minutiae of the [data structure](https://builtin.com/data-science/data-structures). Objects are essentially converted into digestible parts that a database can store for future retrieval. ORM connects object-oriented programming languages ([[Python]]) or applications with a relational database, communicating any changes made to an object to the database, which then alters the data accordingly.   

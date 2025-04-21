@@ -237,6 +237,7 @@ sudo tcpdump -ni any host IP and port 443 -s0 -w test.pcap
 ```bash
 # scan open ports
 namp 17.17.20.160
+namp -p- --open -sS -n -Pn 17.17.20.160
 # send request to htat machines
 namp -sn 17.17.20.160
 namp -sn 17.17.20.160-180
@@ -350,6 +351,8 @@ ufw allow 5000
 ```bash
 nc -v 168.91.10.X
 sudo nc -l -p 5050
+# listen port 443
+nc -nlvp 443
 ```
 ### Socket
 
@@ -359,6 +362,9 @@ sudo nc -l -p 5050
 ### Others
 
 ```bash
+# change terminal
+export TERM=xterm
+
 # Test conectivity
 curl -v telnet://$IP:$PORT
 
@@ -372,7 +378,7 @@ curl -I https://www.google.com
 port 3389
 
 # docker network
-ifconfig docker0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+ifconfig docker0 | %% %% %% grep %% %% %% 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
 #### Extract IP
 

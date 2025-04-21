@@ -10,7 +10,7 @@ tags: tools
 - [Keyboard Driven VSCode](https://dev.to/waylonwalker/keyboard-driven-vscode-n0a)
 - [All VSCode Shortcuts for MacOS, Linux and Windows](https://vscode-shortcuts.com/)
 - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
-
+- [[Customizing your VS code setup]]
 ## Devcontainers
 
 - [Deployment Containers](https://containers.dev/)

@@ -91,6 +91,33 @@ ReAct mimics how humans operate in the real world, as we reason verbally and can
 | Research and Summarize          | Research the topic [specific topic] and provide a concise summary including key facts, recent developments, and major players in the field.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Create Perfect Prompt           | Be my prompt creator, assisting me to create optimal prompts. First, inquire about the prompt topic, then improve through iterations, generating: a) a revised prompt, b) suggestions, and c) questions for clarity and enhancement.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Code Request                    | You're a Python developer with experience in creating data-driven visualizations. Develop a Python script to build a very modern looking (clean fonts, colors), interactive dashboard that: <br>- Displays the evolution of the key figures in this PDF document with appropriate type of charts, filters, etc. <br>- Create as many charts as necessary, one below the other. <br>- Don't hesitate to compare current figures with previous periods <br>- Use Plotly Dash for the dashboard. <br>- Ensure the code is compatible with Replit. <br>The dashboard should include dynamic features like hover effects, filters by year, and interactive legends. Format the script with comments explaining key sections and use a clear, professional tone throughout the code. Think step by step to avoid code errors. Just write the full script. |
+## Fabric
+
+- [[Patterns for Fabric]]. Used for inspiration to create good prompts.
+- Summary example:
+
+```bash
+# IDENTITY and PURPOSE
+You are an expert content summarizer. You take content in and output a Markdown formatted summary using the format below.
+
+Take a deep breath and think step by step about how to best accomplish this goal using the following steps.
+
+# OUTPUT SECTIONS
+- Combine all of your understanding of the content into a single, 20-word sentence in a section called ONE SENTENCE SUMMARY:.
+- Output the 10 most important points of the content as a list with no more than 16 words per point into a section called MAIN POINTS:.
+- Output a list of the 5 best takeaways from the content in a section called TAKEAWAYS:.
+
+# OUTPUT INSTRUCTIONS
+- Create the output using the formatting above.
+- You only output human readable Markdown.
+- Output numbered lists, not bullets.
+- Do not output warnings or notes—just the requested sections.
+- Do not repeat items in the output sections.
+- Do not start items with the same opening words.
+
+# INPUT:
+INPUT:
+```
 ## Reasoning (OpenAI, Anthropic Claude, Mixtral)
 
 - [[Reasoning best practices]]
