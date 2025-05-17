@@ -40,10 +40,10 @@ jobs:
         run: |
           docker run --rm -v ${{ github.workspace }}:/workspace quartz-site:latest npx quartz build
 
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: public
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   deploy:
     needs: build
