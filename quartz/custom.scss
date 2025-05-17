@@ -1,0 +1,280 @@
+@use "./base.scss";
+
+// Basics
+
+:root {
+    --desktopMarginTop: 6em;
+    --r1: 0.0625rem;
+    --r3: 0.1875rem;
+    --r5: 0.3125rem;
+    --t1: 1.602em;
+    --t2: 1.424em;
+    --t3: 1.266em;
+    --t4: 1.125em;
+    --t5: 1em;
+    --t6: 0.889em;
+}
+
+h1 {
+    font-size: var(--t1);
+}
+
+h2 {
+    font-size: var(--t2);
+}
+
+h3 {
+    font-size: var(--t3);
+}
+
+h4 {
+    font-size: var(--t4);
+}
+
+h5 {
+    font-size: var(--t5);
+}
+
+h6 {
+    font-size: var(--t6);
+}
+
+small {
+    font-size: 0.875em;
+    line-height: 125%;
+}
+
+ul,
+ol {
+    padding: 0 0 0 1.125em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    padding: 0 0 1em 1.125em;
+}
+
+.page article li>ul,
+.page article li>ol {
+    padding-bottom: 0;
+}
+
+//////////////////////////////////////////////////////////
+// Center
+//////////////////////////////////////////////////////////
+
+// Header
+
+h1.article-title {
+    margin: 0.625em 0 0.25em;
+}
+
+.page .page-header {
+    margin: var(--desktopMarginTop) auto 1em;
+}
+
+// Content meta
+%metaBase {
+    font-size: 0.875em;
+    color: var(--gray);
+    opacity: 1;
+}
+
+p.content-meta {
+    @extend %metaBase;
+    margin-bottom: 2.5em;
+}
+
+.meta {
+    @extend %metaBase;
+    margin-bottom: 1em;
+}
+
+// Breadcrumbs
+
+nav.breadcrumb-container {
+    --bcGap: 0.25em;
+    font-size: 0.875em;
+    color: var(--dark);
+    gap: unset;
+    opacity: 0.6;
+
+    .breadcrumb-element {
+        margin-right: var(--bcGap);
+        text-transform: capitalize;
+
+        >p {
+            display: none;
+        }
+
+        a {
+            color: var(--dark);
+        }
+
+        &::after {
+            content: "/";
+            margin-left: var(--bcGap);
+            opacity: 0.4;
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////
+// Sidebars
+//////////////////////////////////////////////////////////
+
+.page {
+    >#quartz-body {
+        .sidebar {
+            gap: unset;
+            padding: var(--desktopMarginTop) 1.5em 1.5em 1.5em;
+
+            // &.right {
+            //     right: calc(50vw - 727px);
+
+            //     >* {
+            //         flex: 1 1 100%;
+            //     }
+            // }
+
+            &.left {
+                hr {
+                    margin: 1em 0 1em;
+                }
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////
+// Sidebar Left
+//////////////////////////////////////////////////////////
+
+// Page Title
+
+h2.page-title {
+    font-size: var(--t4);
+    margin: 0.0625em 0 0;
+}
+
+h2.page-title a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+// h1.page-title svg {
+//     position: absolute;
+//     bottom: calc(100% + 0.5em);
+//     left: -0.25em;
+//     width: 13.5rem;
+//     max-width: calc(100vw - 2em);
+//     height: auto;
+// }
+
+// Search 
+
+div.search>.search-button {
+    background: none;
+    border: none;
+    padding-top: 0.4em;
+    cursor: default;
+    /* default since we're moving interaction to SVG */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+div.search>.search-button>p {
+    display: none;
+    padding: 0 0.5em;
+}
+
+div.search>.search-button svg {
+    display: inline-block;
+    width: 1.375em;
+    height: 1.375em;
+    padding: 0.5625em;
+    margin: 0;
+}
+
+div.search svg:hover {
+    background-color: var(--lightgray);
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+// Dark Mode Toggle
+
+.darkmode {
+    display: inline-block;
+    font-size: inherit;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.5em -0.5em 0.5em 0;
+    transition: background-color 0.5s;
+    border-radius: var(--r3);
+    padding-top: 0.2em;
+}
+
+.darkmode svg {
+    position: unset;
+    top: unset;
+    width: 1.5em;
+    padding: 0.5625em;
+}
+
+.darkmode svg:hover {
+    background-color: var(--lightgray);
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+// Reader Mode
+
+.readermode {
+    display: inline-block;
+    font-size: inherit;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.4em 0 0 0.7em;
+    transition: background-color 0.5s;
+    border-radius: var(--r3);
+}
+
+.readermode svg {
+    position: unset;
+    top: unset;
+    width: 1.5em;
+    padding: 0.5625em;
+}
+
+.readermode svg:hover {
+    background-color: var(--lightgray);
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+// Recent
+
+.recent-notes>ul.recent-ul>li {
+    margin: 0.5em 0;
+}
+
+div.recent-notes>ul.recent-ul>li .desc h3 {
+    font-size: var(--t6);
+}
+
+div.recent-notes>ul.recent-ul>li .desc a {
+    color: var(--dark);
+}
+
+div.recent-notes>ul.recent-ul>li .section>.meta {
+    font-size: 0.875em;
+    margin: 0;
+}
+
+div.recent-notes>ul.recent-ul>li .section>p {
+    line-height: unset;
+}
