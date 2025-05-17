@@ -38,7 +38,7 @@ jobs:
 
       - name: Run Quartz build inside Docker container
         run: |
-          docker run --rm -v ${{ github.workspace }}:/usr/src/app quartz-site:latest npx quartz build
+          docker run --rm -v ${{ github.workspace }}:/workspace quartz-site:latest npx quartz build -o /workspace/public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
