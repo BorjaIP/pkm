@@ -27,4 +27,5 @@ tags:
 | [Kavita](https://github.com/Kareadita/Kavita)                   | Kavita is a fast, feature rich, cross platform reading server.                                                  |
 | [Syncthing](https://github.com/syncthing/syncthing)             | Open Source Continuous File Synchronization                                                                     |
 | [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)  | Locally hosted web application that allows you to perform various operations on PDF files                       |
+| [Firefly-iii](https://github.com/firefly-iii/firefly-iii)       | Firefly III: a personal finances manager                                                                        |
 - https://www.backblaze.com/blog/the-3-2-1-backup-strategy/
