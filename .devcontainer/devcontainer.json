@@ -1,0 +1,22 @@
+{
+    "name": "Quartz Dev Container",
+    "image": "ghcr.io/jackyzha0/quartz:sha-b34d521",
+    // "build": {
+    //     "dockerfile": "Dockerfile"
+    // },
+    // "dockerFile": "Dockerfile",
+    // "context": "..",
+    // "appPort": [
+    //     3001, // Quartz websockets
+    //     8080 // Quartz UI
+    // ],
+    "forwardPorts": [
+        3001, // Quartz websockets
+        8080 // Quartz UI
+    ],
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "workspaceFolder": "/workspace",
+    "remoteUser": "root"
+}
