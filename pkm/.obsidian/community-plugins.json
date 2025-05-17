@@ -4,5 +4,8 @@
   "dataview",
   "url-into-selection",
   "obsidian-git",
-  "quickadd"
+  "quickadd",
+  "sample-plugin",
+  "auto-tag",
+  "ai-web"
 ]

@@ -106,27 +106,31 @@ pipx install hatch uv pip-tools --python python3.11
 hatch new --init
 ```
 - Create environment using [UV](https://github.com/astral-sh/uv).
-```
+```bash
 hatch env create
 ```
 - Activate venv
-```
+```bash
  hatch shell
 ```
 - Build project
 ```bash
 hatch build
 ```
+## UV
+
+- Create env with `uv`
+```bash
+uv venv --python 3.11 
+```
+
 - Compile requirements
 ```"bash
 uv pip compile requirements/requirements.in -o requirements/requirements.txt
 uv pip install -r requirements/requirements.txt
 ```
 
-- Create env with `uv`
-```bash
-uv venv --python 3.11 
-```
+
 # Libraries
 
 ## Pydantic

@@ -1,8 +1,8 @@
 ---
-title:  Prometheus
+title: Prometheus
 created: Monday 1st May 2023 15:04
 aliases: 
-tags: k8s
+tags: []
 ---
 **Prometheus** is a free software application used for event monitoring and alerting. It records metrics in a time series database built using an HTTP pull model, with flexible queries and real-time alerting.
 
@@ -70,9 +70,4 @@ export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/
                     ######   WARNING: Persistence is disabled!!! You will lose your data when   #####
                     ######            the Grafana pod is terminated.                            #####
                     #################################################################################
-```
-
-
-```bash
-
 ```

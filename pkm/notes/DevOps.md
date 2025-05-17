@@ -81,7 +81,7 @@ The [Configu Orchestrator](https://github.com/configu/configu), which is open-s
 
 At the same time, a policy as code approach to domains like security makes it possible to define and manage policies in ways that different types of stakeholders. Teams write out policies using some type of programming language, such as Python, YAML, or [Rego](https://www.paloaltonetworks.com/content/pan/en_US/blog/prisma-cloud/prisma-cloud-compute-open-policy-agent/).
 
-You may also want to explore tools like [Open Policy Agent](https://www.paloaltonetworks.com/content/pan/en_US/blog/prisma-cloud/prisma-cloud-compute-open-policy-agent/), which aims to provide a common framework for applying PaC to any domain. 
+You may also want to explore tools like [[OPA |Open Policy Agent]], which aims to provide a common framework for applying PaC to any domain. 
 
 ---
 # References

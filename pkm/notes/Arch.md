@@ -4,6 +4,7 @@ created: Saturday 22nd April 2023 21:11
 aliases: 
 tags: linux
 ---
+
 | Tool                                        | Description                |
 | ------------------------------------------- | -------------------------- |
 | [Archcraft](https://archcraft.io/)          | Yet another minimal distro |
@@ -31,8 +32,23 @@ pacman -Qi name
 
 ### Packages installed
 
+- https://averagelinuxuser.com/clean-arch-linux/
+- Show orphan packages, that are not required by your system. Orphans are packages that were installed as a dependency and are no longer required by any package
+
+```bash
+pacman -Qdt
+```
+
+- Packages installed with third party tools (paru)
+
 ```bash
 pacman -Qm
+```
+
+- Show you packages that you explicitly installed and that aren’t dependencies of some other package.
+
+```bash
+pacman -Qet
 ```
 
 ### All packages
@@ -62,7 +78,7 @@ pacman -Yc
 ### Clean pacman cache
 
 ```bash
-sudo pacman -Sc
+sudo pacman -Scc
 ```
 
 ### Pacman Mirrors

@@ -1,8 +1,9 @@
 ---
-title:  Docker
+title: Docker
 created: Sunday 23rd April 2023 17:20
 aliases: 
-tags: container
+tags:
+  - container
 ---
 **Docker** is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.
 
@@ -18,9 +19,7 @@ tags: container
 | [Edgeshark](https://github.com/siemens/edgeshark)                         | Discover and capture container network                        |
 | [Skopeo](https://github.com/containers/skopeo)                            | Work with remote images registries                            |
 | [Dockerc](https://github.com/NilsIrl/dockerc)                             | Container image to single executable compiler                 |
-
 Deploy multiple dockers with [[Docker Compose]]
-
 # Articles/Talks
 
 - [[Simple C program to allocate memory from the command-line. Useful to test programs or systems under high memory usage conditions]]
@@ -111,7 +110,6 @@ docker inspect -f '{{range $key, $value := .NetworkSettings.Networks}}{{$key}} {
 #show volumes
 docker inspect -f '{{json .Mounts}}' ID | jq .
 ```
-
 ## System 
 
 ```bash
@@ -122,6 +120,15 @@ docker system df
 
 ```bash
 docker stats
+```
+
+## Security
+
+```bash
+### SBOM generation (CycloneDX format)
+RUN --mount=type=cache,target=/root/.cache/pip \
+    python -m pip install cyclonedx-bom \
+ && cyclonedx-py -o /install/sbom.json
 ```
 ## Registry
 
@@ -203,3 +210,7 @@ docker rmi $(docker images | grep "<none>" | awk '{print $3}')
 docker rm $(docker images -q | tail -n 5)
 ```
 
+# Virtual machines
+
+- https://github.com/lima-vm/lima
+- https://github.com/abiosoft/colima

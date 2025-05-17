@@ -97,12 +97,18 @@ lscpu
 ```
 ### Memory
 
+- https://www.linuxatemyram.com/
+
 ```bash
 cat /proc/meminfo
 free -mht
 vmstat -saS M
 ```
 
+- Free ram memory
+```bash
+free -h && sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches && free -h
+```
 ### Swap
 
 ```bash

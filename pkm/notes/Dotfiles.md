@@ -39,7 +39,13 @@ The **friendly interactive shell** is a Unix shell that attempts to be more inte
 - [[How To Manage Dotfiles With Chezmoi]]
 
 ```bash
-# see diferences betwen tracker and local
+# edit source file
+chezmoi edit .config/zsh/.zshrc
+
+# apply changes to your original file
+chezmoi -v apply
+
+# see diferences between tracker and local
 chezmoi diff
 
 # update new files

@@ -97,7 +97,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [[Advancing AGI for humanity]]
 - [[Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices]]
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
-**# [[RAG]]
+# [[RAG]]
 
 RAG is a technique for augmenting LLM knowledge with additional data.
 # Vector Database ([[VDB]])

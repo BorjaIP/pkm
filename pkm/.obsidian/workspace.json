@@ -46,63 +46,7 @@
             }
           },
           {
-            "id": "e98b510dbe3a2019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/MLOps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MLOps"
-            }
-          },
-          {
-            "id": "8c2ff6b879cf1867",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Computer Science.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computer Science"
-            }
-          },
-          {
-            "id": "c735bf2fc1baf21e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Prompt Engineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prompt Engineering"
-            }
-          },
-          {
-            "id": "f4539bc7ebce8ec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kubernetes"
-            }
-          },
-          {
-            "id": "c7b90bc7bb646065",
+            "id": "921c34d229c609a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -116,35 +60,21 @@
             }
           },
           {
-            "id": "efce41e946a18efe",
+            "id": "862499fd9631e24d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Prometheus.md",
+                "file": "notes/Arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prometheus"
+              "title": "Arch"
             }
           },
           {
-            "id": "7426ffb87df9fdf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
-            }
-          },
-          {
-            "id": "412c84a5f1c5166c",
+            "id": "c295596b3f210612",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,37 +86,9 @@
               "icon": "lucide-file",
               "title": "Linux"
             }
-          },
-          {
-            "id": "2cbd17d6e42ef6cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/VSCode.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VSCode"
-            }
-          },
-          {
-            "id": "b26f2a4de5773282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Kafka.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -259,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/VSCode.md",
+                "file": "notes/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VSCode"
+              "title": "Outline of Linux"
             }
           },
           {
@@ -321,12 +223,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "articles/webs/a.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Windows"
+              "title": "Outgoing links from a"
             }
           },
           {
@@ -335,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/Windows.md",
+                "file": "articles/webs/,a.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -345,7 +247,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Windows"
+              "title": "Backlinks for ,a"
             }
           }
         ]
@@ -363,34 +265,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cbd17d6e42ef6cd",
+  "active": "c295596b3f210612",
   "lastOpenFiles": [
-    "articles/webs/Customizing your VS code setup.md",
-    "notes/VSCode.md",
+    "conflict-files-obsidian-git.md",
     "notes/Linux.md",
-    "notes/Python.md",
-    "notes/Prometheus.md",
-    "articles/webs/Reasoning best practices.md",
-    "notes/Prompt Engineering.md",
-    "articles/webs/Patterns for Fabric.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "notes/Software Architecture.md",
-    "notes/RDBMS.md",
-    "notes/AlloyDB.md",
-    "notes/SQL.md",
-    "notes/Kafka.md",
-    "notes/Windows.md",
-    "notes/Kubernetes.md",
+    "notes/Arch.md",
     "notes/Docker.md",
-    "notes/Terraform.md",
-    "notes/Generative AI.md",
-    "notes/Transformers.md",
-    "notes/LLM.md",
-    "notes/GPT.md",
-    "notes/Kubeflow.md",
-    "articles/webs/Mastering the KUBECONFIG file.md",
-    "notes/Makefile.md",
+    "notes/Software Architecture.md",
+    "notes/Architecture Patterns.md",
+    "notes/OPA.md",
+    "notes/Data Orchestration.md",
+    "notes/Dotfiles.md",
+    "articles/webs/How To Manage Dotfiles With Chezmoi.md",
+    "notes/Homelab.md",
+    "notes/Proxmox.md",
+    "notes/Databases.md",
+    "notes/Prompt Engineering.md",
+    "notes/MLOps.md",
+    "notes/Machine Learning.md",
+    "notes/DevOps.md",
+    "notes/Deep Learning.md",
     "notes/Computer Science.md",
+    "notes/Skaffold.md",
+    "articles/webs/Cloud Development Environments - Using Skaffold and Telepresence on Kubernetes for fast dev loops.md",
+    "notes/NoSQL.md",
+    "notes/DynamoDB.md",
+    "notes/Kubernetes.md",
+    "articles/webs/MLOps - Task and Workflow Orchestration Tools on Kubernetes.md",
+    "notes/Helm.md",
+    "articles/code",
+    "assets/db_mutations.png",
+    "assets/postgres_wal.png",
+    "Untitled",
     "articles/webs/Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — [Part 2",
     "assets/sql_joins.png",
     "assets/cloud_comparison.png",
@@ -400,17 +306,13 @@
     "assets/lstm_arch.png",
     "assets/rnn_arch.png",
     "assets/cnn_arch.png",
-    "assets/dnn_arch.png",
-    "assets/dl_layers.png",
     "articles/webs/Transcoding HTTP",
     "dev",
     "articles/webs",
     "de",
-    "Untitled",
     "assets/images",
     "articles/papers",
     "articles",
-    "pkm",
     "Untitled.canvas"
   ]
 }

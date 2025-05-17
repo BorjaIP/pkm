@@ -14,10 +14,96 @@ PostgreSQL is a powerful, open source object-relational database system that use
 | [Neon](https://github.com/neondatabase/neon)            | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling                        |
 | [Paradedb](https://github.com/paradedb/paradedb)        | Postgres for Search and Analytics                                                                       |
 | [Pgai](https://github.com/timescale/pgai)               | A suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL |
+# Articles/Talks
 
 - [Certificate Authentication Recipe for PostgreSQL Docker Containers](https://www.crunchydata.com/blog/ssl-certificate-authentication-postgresql-docker-containers)
 - [PostgreSQL High Availability and automatic failover using repmgr](https://medium.com/@joao_o/postgresql-high-availability-and-automatic-failover-using-repmgr-5f505dc6913a)
 - [Pgpool]([https://github.com/bitnami/containers/blob/main/bitnami/pgpool/README.md](https://www.pgpool.net/docs/pgpool-II-4.2.7/en/html/example-kubernetes.html))
+# WAL (Write Ahead Log)
+
+WAL logs are the files in which various transactions are stored. These logs are written to disk before the changes are made to the database.
+
+- Data recovery.
+- Triggers for mutations.
+
+![[postgres_wal.png]]
+
+![[db_mutations.png]]
+
+
+# Triggers
+
+### Example data2Json 
+
+```sql
+CREATE OR REPLACE FUNCTION public.my_json_converter(
+	application varchar(64),
+	category varchar(64),
+	customer_reference_id varchar(8),
+	exception_reason varchar(128),
+	event_timestamp timestamp
+)
+  RETURNS json 
+  LANGUAGE PLPGSQL
+  AS
+$$
+declare
+	json_payload varchar(300);
+BEGIN
+	select json_build_object(
+	'application', application ,
+	'category', category ,
+	'customer_reference_id', customer_reference_id ,
+	'exception_reason', exception_reason ,
+	'event_timestamp', event_timestamp 
+	) into json_payload;
+
+	RETURN json_payload;
+END;
+$$
+```
+
+- See if the trigger is apply correct
+
+```sql
+SELECT tgname, tgrelid::regclass, tgfoid::regprocedure
+FROM pg_trigger
+WHERE NOT tgisinternal;
+```
+### AWS Lambda
+
+```sql
+# install
+CREATE EXTENSION IF NOT EXISTS aws_lambda CASCADE;
+```
+
+- Execute a lambda when 
+```sql
+CREATE OR REPLACE FUNCTION public.my_db_trigger_function()
+  RETURNS TRIGGER 
+  LANGUAGE PLPGSQL
+  AS
+$$
+declare
+	my_record record;
+BEGIN
+	raise notice 'Start my_db_trigger_function';
+	SELECT * FROM aws_lambda.invoke(aws_commons.create_lambda_function_arn('arn:aws:lambda:eu-west-1: :function:my_rds_triggered_topic_writer')
+,(select public.my_json_converter(
+								new.application ,
+								new.category ,
+								new.customer_reference_id ,
+								new.exception_reason ,
+								new.event_timestamp 
+	)
+)
+  , 'Event'
+) into my_record;
+	raise notice 'End my_db_trigger_function';						
+	RETURN NEW;
+END;
+$$
+```
 # PSQL
 
 |Command|Description|
@@ -40,7 +126,7 @@ PostgreSQL is a powerful, open source object-relational database system that use
 
 - Access DB
 ```bash
-psql -h localhost -U admin -W 
+	psql -h localhost -U admin -W 
 psql -d postgres -U webadmin -W
 # AWS
 psql -U user -h hostname.rds.amazonaws.com -p 5432 database

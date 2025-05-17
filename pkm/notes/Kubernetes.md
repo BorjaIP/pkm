@@ -41,6 +41,11 @@ tags:
 | [Kubewall](https://github.com/kubewall/kubewall)                                      | A single binary kubernetes dashboard to manage your multiple clusters                         |
 | [Kubevela](https://github.com/kubevela/kubevela)                                      | The Modern Application Platform                                                               |
 | [Flux](https://github.com/fluxcd/flux2)                                               | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit    |
+| [Cluster-api](https://github.com/kubernetes-sigs/cluster-api)                         | Home for Cluster API, a subproject of sig-cluster-lifecycle                                   |
+| [Kagent](https://github.com/kagent-dev/kagent)                                        | Cloud Native Agentic AI                                                                       |
+| [Kgateway](https://github.com/kgateway-dev/kgateway)                                  | The Cloud-Native API Gateway and AI Gateway.                                                  |
+| [Trident](https://github.com/NetApp/trident)                                          | Storage orchestrator for containers                                                           |
+| [Chaos-mesh](https://github.com/chaos-mesh/chaos-mesh)                                | A Chaos Engineering Platform for Kubernetes.                                                  |
 # Articles/Talks
 
 - [[Kubetools - A Curated List of Kubernetes Tools]]
@@ -449,8 +454,16 @@ kubectl run -n minikube busybox --image=busybox --restart=Never -- /bin/sh -c "s
 kubectl logs -n ingress-nginx -l app.kubernetes.io/name=ingress-nginx
 ```
 
-
+```bash
+- search with fzf and see all the content:
+	k logs kube-proxy > proxy.logs
+	cat proxy.logs | fzf
+- Kubernetes:
+	kgpo | fzf | awk '{print $1}'
+	kgpo | fzf | awk '{print $1}' | xargs -n 1 kubectl describe,logs
 ```
+
+```bash
 # Cloud
 ## AWS
 
