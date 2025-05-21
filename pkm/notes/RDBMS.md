@@ -13,9 +13,10 @@ RDBMS stands for Relational Database Management System used to maintain a relati
 - [[PostgreSQL]]
 - [[AlloyDB]]
 
-| Tool/Framework                          | Description                         |
-| --------------------------------------- | ----------------------------------- |
-| [Atlas](https://github.com/ariga/atlas) | Manage your database schema as code |
+| Tool/Framework                                        | Description                         |
+| ----------------------------------------------------- | ----------------------------------- |
+| [Atlas](https://github.com/ariga/atlas)               | Manage your database schema as code |
+| [Cloudbeaver](https://github.com/dbeaver/cloudbeaver) | Cloud Database Manager              |
 # SQLite
 
 ```bash

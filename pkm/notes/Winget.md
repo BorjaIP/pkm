@@ -6,7 +6,7 @@ tags:
 ---
 [Winget](https://github.com/microsoft/winget-cli) is the Windows Package Manager. This project includes a CLI, PowerShell modules, and a COM (Component Object Model) API .
 
-- List of [packages](https://winget.run/) for install in [[Windows]].
+- List of [packages](https://winget.run/) or [winstall](https://winstall.app/) for install in [[Windows]].
 # Windows preferred packages
 
 ```bash
