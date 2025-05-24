@@ -26,4 +26,5 @@ lxc-destroy -n [lxcid]
 
 pct list
 pct destroy [vmid]
+pct enter 206
 ```
