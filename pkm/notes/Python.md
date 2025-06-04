@@ -111,7 +111,7 @@ hatch env create
 ```
 - Activate venv
 ```bash
- hatch shell
+hatch shell
 ```
 - Build project
 ```bash

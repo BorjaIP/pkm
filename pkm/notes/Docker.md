@@ -68,6 +68,21 @@ sudo systemctl show docker --property Environment
 ```
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
+
+## MacOS
+- Configuration for `docker-compose` caveats and add it as plugin and colima for VM.
+
+```bash
+{
+        "cliPluginsExtraDirs": [
+            "/opt/homebrew/lib/docker/cli-plugins"
+        ],
+        "auths": {},
+        "credsStore": "osxkeychain",
+        "currentContext": "colima"
+}
+```
+
 # Commands
 
 ## Run
