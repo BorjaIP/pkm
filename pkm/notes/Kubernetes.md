@@ -564,6 +564,10 @@ PodDisruptionBudget
 ```bash
 pacman -S minikube
 minikube start --force
+# different resources
+minikube start --cpus 8 --memory 16g --driver docker
+# display capacity
+kubectl get node minikube -o jsonpath='{.status.capacity}'
 # change context
 kubectl config use-context minikube
 kubectl get pods -A
