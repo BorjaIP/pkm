@@ -54,6 +54,12 @@ colima start
 colima start --cpu 6 --memory 6 --disk 20
 ```
 
+- display space disk
+
+```
+colima ssh -- df -h /usr/local
+```
+
 - start as a service in background
 ```bash
 brew services start colima
