@@ -5,22 +5,41 @@ aliases:
 tags:
 ---
 
-| Tool/Framework                                            | Description                                                          |
-| --------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Stats](https://github.com/exelban/stats)                 | System monitor in your menu bar                                      |
-| [Pearcleaner](https://github.com/alienator88/Pearcleaner) | A free, source-available and fair-code licensed mac app cleaner      |
-| [Numi](https://github.com/nikolaeu/numi)                  | Beautiful calculator app for macOS, Linux & Windows                  |
-| [bottom](https://github.com/ClementTsang/bottom)          | Yet another cross-platform graphical process/system monitor          |
-| [yabai](https://github.com/koekeishiya/yabai)             | A tiling window manager for macOS based on binary space partitioning |
-| [Amethyst](https://github.com/ianyh/Amethyst)             | Automatic tiling window manager for macOS à la xmonad                |
-| [skhd](https://github.com/koekeishiya/skhd)               | Simple hotkey daemon for macOS                                       |
-| [Cap](https://github.com/CapSoftware/Cap)                 | Open source Loom alternative. Beautiful, shareable screen recordings |
+| Tool/Framework                                                    | Description                                                               |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [Stats](https://github.com/exelban/stats)                         | System monitor in your menu bar                                           |
+| [Pearcleaner](https://github.com/alienator88/Pearcleaner)         | A free, source-available and fair-code licensed mac app cleaner           |
+| [Numi](https://github.com/nikolaeu/numi)                          | Beautiful calculator app for macOS, Linux & Windows                       |
+| [bottom](https://github.com/ClementTsang/bottom)                  | Yet another cross-platform graphical process/system monitor               |
+| [yabai](https://github.com/koekeishiya/yabai)                     | A tiling window manager for macOS based on binary space partitioning      |
+| [Amethyst](https://github.com/ianyh/Amethyst)                     | Automatic tiling window manager for macOS à la xmonad                     |
+| [skhd](https://github.com/koekeishiya/skhd)                       | Simple hotkey daemon for macOS                                            |
+| [Cap](https://github.com/CapSoftware/Cap)                         | Open source Loom alternative. Beautiful, shareable screen recordings      |
+| [Alt-tab-macos](https://github.com/lwouis/alt-tab-macos)          | Windows alt-tab on macOS                                                  |
+| [Containerization](https://github.com/apple/containerization)     | Containerization is a Swift package for running Linux containers on macOS |
+| [osx-us-altgr-intl](https://github.com/xv0x7c0/osx-us-altgr-intl) | US keymap with altgr-intl variant for OSX                                 |
+
+# Commands
+
+## Network
+
+### Lsof
+
+```bash
+sudo lsof -i -P | grep LISTEN | grep :$PORT
+```
+
+# Startup Apps
+
+Open Finder, click **Go > Go to Folder**. Enter **/Library/LaunchAgents** or **/Library/LaunchDaemons**.
+
 # Schedule
 
 ```bash
 pmset -g sched
 # add schedule on weekdays
 sudo pmset repeat wakeorpoweron MTWRF 08:00:00
+sudo pmset repeat poweron MTWRF 07:50:00
 # remove schedule
 sudo pmset repeat cancel
 ```
