@@ -18,6 +18,7 @@ tags:
 | [Alt-tab-macos](https://github.com/lwouis/alt-tab-macos)          | Windows alt-tab on macOS                                                  |
 | [Containerization](https://github.com/apple/containerization)     | Containerization is a Swift package for running Linux containers on macOS |
 | [osx-us-altgr-intl](https://github.com/xv0x7c0/osx-us-altgr-intl) | US keymap with altgr-intl variant for OSX                                 |
+| [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | macOS audio utility: automatically pause your music, set individual apps                                                                          |
 
 # Commands
 
@@ -31,7 +32,7 @@ sudo lsof -i -P | grep LISTEN | grep :$PORT
 
 # Startup Apps
 
-Open Finder, click **Go > Go to Folder**. Enter **/Library/LaunchAgents** or **/Library/LaunchDaemons**.
+Open Finder, click **Go > Go to Folder**. Enter `/Library/LaunchAgents` or `/Library/LaunchDaemons`.
 
 # Schedule
 
@@ -88,3 +89,14 @@ brew services start colima
 
 - Deploying K8s with more than 1 Node with Colima
 - https://techexpertise.medium.com/multi-node-minikube-k8s-deployment-on-m1-mac-with-colima-and-nfs-pv-762bcf08ac08
+# Raycast
+
+- [Ente Auth](https://github.com/raycast/extensions/blob/53900f5e62a35bd4422c86e8ad3c9c1dad67bd1b/extensions/ente-auth/README.md) extension
+# Ente
+
+```bash
+brew install ente-cli
+ente account add
+# type auth
+ente account list
+```

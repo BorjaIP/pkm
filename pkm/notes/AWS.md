@@ -146,7 +146,6 @@ aws --profile name rds stop-db-instance --db-instance-identifier name
 aws --profile name rds start-db-instance --db-instance-identifier name
 ```
 
-
 ## Core services for Web App
 
 <u>Static Content</u>
@@ -201,7 +200,9 @@ AWS Certificate Manager ([ACM](https://aws.amazon.com/certificate-manager/))
 
 ## EKS
 
+```bash
 aws eks --region eu-west-1 update-kubeconfig --profile name
+```
 
 ## Cost Reduce
 
