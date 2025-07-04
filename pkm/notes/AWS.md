@@ -118,6 +118,12 @@ First you need to create and Access Key and a Secret Key. Check more information
 aws configure --profile profile-name
 ```
 
+- List profiles
+
+```bash
+aws configure list-profiles
+```
+
 - User connected
 
 ```bash

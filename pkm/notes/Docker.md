@@ -186,6 +186,11 @@ docker exec -it CONTAINER_ID bash top
 ```bash
 docker run -it --rm -v /path/on/host:/vol busybox ls -l /vol
 ```
+### Move volume information to other volume
+- [Rename volume](https://www.commands.dev/workflows/rename_docker_volume)
+```bash
+docker volume create --name newvolume && docker run --rm -it -v oldvolume:/from -v newvolume:/to alpine ash -c 'cd /from ; cp -av . /to' && docker volume rm oldvolume
+```
 ## Docker delete
 
 ### Delete all
