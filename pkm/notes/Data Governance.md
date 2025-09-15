@@ -32,6 +32,9 @@ Types of metadata include:
 - **Operational metadata**: Creation/modification dates, usage statistics, access logs
 - **Administrative metadata**: Access permissions, retention policies, compliance requirements
 
+| Tool                                                | Description                                                                                                |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [Amundsen](https://github.com/amundsen-io/amundsen) | Metadata driven application for improving the productivity of data analysts, data scientists and engineers |
 # Data Lineage
 
 Data lineage tracks data's complete journey through systems from its origin to its destination, documenting all transformations, movements, and dependencies along the way. It creates a visual map or documentation of how data flows through an organization.

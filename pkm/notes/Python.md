@@ -182,7 +182,17 @@ sphinx-autobuild docs/source docs/build/html
 
 ## Pre-commit
 
+```bash
 pre-commit run --files client/example.py
+```
+
+## Alembic
+
+```sql
+alembic revision --autogenerate -m "New revision"
+alembic upgrade head
+alembic check
+```
 
 # Commands
 

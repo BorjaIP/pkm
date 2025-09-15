@@ -69,6 +69,21 @@ sudo systemctl show docker --property Environment
 
 Configure variables for proxy in docker [daemon](https://docs.docker.com/config/daemon/systemd/)
 
+## Debug
+
+The output you are showing is from buildkit, which is a replacement for the classic build engine that docker ships with. You can adjust output from this with the `--progress` option:
+
+```
+  --progress string         Set type of progress output (auto, plain, tty). Use plain to show container output
+                            (default "auto")
+```
+
+Adding `--progress=plain` will show the output of the run commands that were not loaded from the cache. This can also be done by setting the `BUILDKIT_PROGRESS` variable:
+
+```bash
+export BUILDKIT_PROGRESS=plain
+```
+
 ## MacOS
 - Configuration for `docker-compose` caveats and add it as plugin and colima for VM.
 

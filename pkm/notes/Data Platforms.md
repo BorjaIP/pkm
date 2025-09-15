@@ -12,3 +12,4 @@ The platform streamlines the process of collecting, managing, and storing data, 
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [Starrocks](https://github.com/StarRocks/starrocks)   | Next-generation data platform designed to make data-intensive real-time analytics fast and easy |
 | [Datahub](https://github.com/datahub-project/datahub) | Open-source metadata platform for the modern data stack.                                        |
+|                                                       |                                                                                                 |

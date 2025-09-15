@@ -13,3 +13,9 @@ Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The 
 - [A journey to Airflow on Kubernetes](https://towardsdatascience.com/a-journey-to-airflow-on-kubernetes-472df467f556)
 - [Airflow Helm Chart (User Community)](https://github.com/airflow-helm/charts/tree/main/charts/airflow)
 - [Guide to Airflow on Kubernetes](https://github.com/rolanddb/airflow-on-kubernetes)
+
+### Fernet-key
+
+```bash
+python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+```
