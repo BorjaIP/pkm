@@ -19,3 +19,12 @@ Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The 
 ```bash
 python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
+
+# CLI
+
+```bash
+# list users
+airflow users list
+# add role
+airflow users add-role -e name@email -r Admin
+```

@@ -98,6 +98,11 @@ export BUILDKIT_PROGRESS=plain
 }
 ```
 
+```bash
+# ssh to VM
+colima ssh
+```
+
 # Commands
 
 ## Run

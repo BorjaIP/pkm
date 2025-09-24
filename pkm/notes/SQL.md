@@ -90,3 +90,80 @@ SQL is fundamental to relational database management systems ([[RDBMS]]) like My
 | `GRANT ALL PRIVILEGES ON <db> TO '<user>'@'<host>'`          | Grant all privileges to a user    |
 | `REVOKE ALL PRIVILEGES ON <db> FROM '<user>'@'<host>'`       | Revoke all privileges from a user |
 | `FLUSH PRIVILEGES`                                           |                                   |
+
+# SQL FluFF
+
+```toml
+[sqlfluff]
+verbose = 0
+nocolor = False
+dialect = snowflake
+templater = jinja
+exclude_rules = ambiguous.column_count, structure.column_order, structure.subquery, layout.select_targets, layout.spacing, layout.indent, layout.long_lines
+ignore_templated_areas = True
+ignore = templating
+max_line_length = 120
+large_file_skip_byte_limit = 0
+processes = 0
+
+[sqlfluff:templater:dbt]
+project_dir = ./
+
+[sqlfluff:indentation]
+indent_unit = space
+tab_space_size = 4
+indented_joins = False
+indented_ctes = False
+indented_using_on = True
+indented_on_contents = True
+indented_then = True
+indented_then_contents = True
+allow_implicit_indents = False
+template_blocks_indent = True
+
+[sqlfluff:rules:references.qualification]
+qualification = 'always'
+
+[sqlfluff:rules:aliasing.length]
+min_alias_length = 1
+
+[sqlfluff:rules:capitalisation.identifiers]
+capitalisation_policy = upper 
+extended_capitalisation_policy = upper
+unquoted_identifiers_policy = all
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.functions]
+extended_capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.literals]
+capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.types]
+capitalisation_policy = upper
+extended_capitalisation_policy = upper
+
+[sqlfluff:rules:aliasing.table]
+force_column_spacing = consistent
+
+[sqlfluff:rules:layout.long_lines]
+ignore_comment_lines = true
+ignore_comment_clauses = true
+
+[sqlfluff:rules:layout.functions]
+force_enable = false
+
+[sqlfluff:rules:layout.cte_bracket]
+forbid_subquery_in = both
+
+[sqlfluff:rules:layout.select_modifiers]
+single_select_element = multiple_elements
+
+[sqlfluff:rules:layout.commas]
+line_position = trailing
+
+[sqlfluff:rules:layout.operators]
+line_position = leading>
+```

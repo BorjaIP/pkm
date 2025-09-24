@@ -17,6 +17,48 @@ RDBMS stands for Relational Database Management System used to maintain a relati
 | ----------------------------------------------------- | ----------------------------------- |
 | [Atlas](https://github.com/ariga/atlas)               | Manage your database schema as code |
 | [Cloudbeaver](https://github.com/dbeaver/cloudbeaver) | Cloud Database Manager              |
+# Components
+
+1. Table
+
+Physical storage of data in the database.
+
+
+3. View
+
+- **Definition:** A _saved SQL query_ that presents data from one or more tables.
+- **Data:** Not stored — computed every time you query it.
+- **Use case:**
+    - Simplify complex queries.
+    - Provide a secure "window" to data (row/column filtering).
+
+3. Materialized View (MV)
+
+- **Definition:** Like a view, but the results are _physically stored_ (precomputed).
+- **Data:** Stored, and **refreshed** periodically or on demand.
+- **Use case:**
+    - Speed up queries (especially aggregations).
+    - Cache expensive joins/aggregations.
+
+4. Temporary Table
+
+- **Definition:** A table that exists only during the session (or transaction).
+- **Data:** Stored temporarily, dropped when session ends.
+- **Use case:** Staging data in ETL pipelines.
+
+# **CTE (Common Table Expression)**
+
+- **Definition:** A _query-defined temporary view_ available only in the query.
+- **Data:** Not stored, in-memory only while query executes.
+- **Use case:** Break down complex queries for readability.
+
+# **External Table**
+
+- **Definition:** A table that points to data stored _outside the database_ (e.g., in S3, GCS, Azure Blob).
+    
+- **Data:** Not ingested, but queried directly.
+    
+- **Use case:** Query raw files (Parquet, JSON, CSV) without loading them first.
 # SQLite
 
 ```bash
