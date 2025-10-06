@@ -194,6 +194,14 @@ alembic upgrade head
 alembic check
 ```
 
+## JWT
+
+```python
+# pip install pyjwt
+import jwt
+encoded_jwt = jwt.encode({'some': 'payload'}, 'secret', algorithm='HS256')
+```
+
 # Commands
 
 - List dependencies.

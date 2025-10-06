@@ -35,3 +35,9 @@ from elasticsearch import Elasticsearch
 client = Elasticsearch(hosts="http://username:password@es-endpoint:es-port/")
 client.info()
 ```
+
+
+```bash
+# show indices
+curl -X GET "http://localhost:9300/_cat/indices?v"
+```

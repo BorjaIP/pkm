@@ -23,7 +23,6 @@ RDBMS stands for Relational Database Management System used to maintain a relati
 
 Physical storage of data in the database.
 
-
 3. View
 
 - **Definition:** A _saved SQL query_ that presents data from one or more tables.
