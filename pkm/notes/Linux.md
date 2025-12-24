@@ -1,7 +1,7 @@
 ---
 title: Linux
 created: Saturday 22nd April 2023 21:02
-aliases: 
+aliases:
 tags:
   - linux
   - os
@@ -386,6 +386,16 @@ port 3389
 # docker network
 ifconfig docker0 | %% %% %% grep %% %% %% 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
 ```
+
+#### Not (curl/netools/dig)
+
+```bash
+# netcat
+nc -zv ip port
+# tcp
+timeout 5 bash -c '</dev/tcp/ip/port && echo PORT_OPEN' || echo PORT_CLOSED
+```
+
 #### Extract IP
 
 ```bash

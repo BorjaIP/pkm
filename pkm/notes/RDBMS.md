@@ -19,19 +19,18 @@ RDBMS stands for Relational Database Management System used to maintain a relati
 | [Cloudbeaver](https://github.com/dbeaver/cloudbeaver) | Cloud Database Manager              |
 # Components
 
-1. Table
+## Table
 
 Physical storage of data in the database.
 
-3. View
+## View
 
 - **Definition:** A _saved SQL query_ that presents data from one or more tables.
 - **Data:** Not stored — computed every time you query it.
 - **Use case:**
     - Simplify complex queries.
     - Provide a secure "window" to data (row/column filtering).
-
-3. Materialized View (MV)
+## Materialized View (MV)
 
 - **Definition:** Like a view, but the results are _physically stored_ (precomputed).
 - **Data:** Stored, and **refreshed** periodically or on demand.
@@ -39,25 +38,115 @@ Physical storage of data in the database.
     - Speed up queries (especially aggregations).
     - Cache expensive joins/aggregations.
 
-4. Temporary Table
+## Temporary Table
 
 - **Definition:** A table that exists only during the session (or transaction).
 - **Data:** Stored temporarily, dropped when session ends.
 - **Use case:** Staging data in ETL pipelines.
 
-# **CTE (Common Table Expression)**
+## CTE (Common Table Expression)
 
 - **Definition:** A _query-defined temporary view_ available only in the query.
 - **Data:** Not stored, in-memory only while query executes.
 - **Use case:** Break down complex queries for readability.
 
-# **External Table**
+```sql
+WITH cte_name AS (
+    SELECT ...
+    FROM ...
+    WHERE ...
+)
+SELECT *
+FROM cte_name
+WHERE ...
+```
+
+## External Table
 
 - **Definition:** A table that points to data stored _outside the database_ (e.g., in S3, GCS, Azure Blob).
-    
 - **Data:** Not ingested, but queried directly.
-    
 - **Use case:** Query raw files (Parquet, JSON, CSV) without loading them first.
+
+## Aggregated Holistic Table
+
+An **aggregated holistic table** is a **single, denormalized, summary table** that combines _multiple sources_, _multiple metrics_, or _multiple granularities_ into one unified dataset designed for **fast analytics**, **business reporting**, or **machine-learning feature extraction**.
+
+Think of it as a _“one-stop table”_ that gives a **complete (holistic) view** of an entity or process (customer, product, transaction, session, etc.). It usually contains both:
+
+1. **Raw identifiers / keys**
+    
+2. **Aggregated metrics** computed from many underlying detailed tables
+    
+3. **Features** derived from other dimensions or history
+    
+4. **Flags, scores, segments**, etc.
+    
+
+### 🔍 Why “Aggregated”?
+
+Because it already contains **precomputed metrics** such as:
+
+- counts
+- sums
+- averages
+- last event timestamps
+- rolling windows (7d, 30d, 90d)
+- engagement scores
+- revenue totals
+
+These are **pre-aggregated** to avoid repeatedly calculating them at query time.
+
+### 🔍 Why “Holistic”?
+
+Because it includes **all relevant information about a business entity** in one place, instead of forcing reports or ML pipelines to JOIN dozens of tables.
+
+It tries to answer “everything about X” in one dataset.
+
+Examples:
+
+- _Holistic customer table_ → everything about a customer
+- _Holistic product table_ → everything about a product
+- _Holistic order table_ → everything about a transaction
+### 🧱 Typical Structure of an Aggregated Holistic Table
+
+ Example: _Customer 360 Holistic Table_
+
+Columns might include:
+ 
+ **Identifiers**
+ 
+- customer_id
+- first_seen_date
+- segment
+
+ **Aggregated metrics**
+
+- total_orders
+- total_revenue
+- avg_order_value
+- last_30d_orders
+- last_7d_sessions
+- churn_score
+
+ **Derived attributes**
+
+- preferred_channel
+- customer_lifetime_group
+- engagement_score
+ 
+ **Flags**
+
+- is_active
+- is_vip
+- is_churned
+
+ **Metadata**
+
+- snapshot_date
+- model_version
+
+This table is typically refreshed daily and consumed downstream.
+
 # SQLite
 
 ```bash

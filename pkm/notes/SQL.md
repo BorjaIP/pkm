@@ -167,3 +167,24 @@ line_position = trailing
 [sqlfluff:rules:layout.operators]
 line_position = leading>
 ```
+
+# Querys
+
+```sql
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'table_name';
+```
+
+
+## Coalesce
+
+**COALESCE** is a function in SQL (and many programming languages) that returns the **first non-NULL value** from a list of expressions.
+
+When your data may contain `NULL` values, `COALESCE` helps you **replace NULLs** with a default value.
+
+`COALESCE(value1, value2, value3, ..., default_value)`
+
+It evaluates each value **from left to right** and returns the first one that is **not NULL**.
+
+`SELECT COALESCE(email, 'no-email-provided') AS user_email FROM users;`

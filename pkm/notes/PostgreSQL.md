@@ -30,6 +30,55 @@ WAL logs are the files in which various transactions are stored. These logs are 
 
 ![[db_mutations.png]]
 
+# Replication
+
+## Data logical replication
+
+- [How to Set Up PostgreSQL Logical Replication: Use Cases and Step-by-Step Guide](https://dev.to/raselmahmuddev/how-to-set-up-postgresql-logical-replication-use-cases-and-step-by-step-guide-536b)
+- Use [pgoutput](https://www.postgresql.org/docs/current/logicaldecoding-output-plugin.html) plugin 
+- Use pub/Sub
+- It is similar of how Debezium works
+- You must have to configure one Primary database as a Publisher
+- Configure a Replica Database as a Subscriber
+
+- How to add for example the table `users` to replicate.
+```sql
+CREATE PUBLICATION central_railway_system_pub
+FOR TABLE
+  users,                      
+  train_schedules,            
+  tickets,                    
+  payments,                   
+  seat_reservations           
+WITH (publish = 'insert, update, delete');
+```
+
+- In the subscriber site.
+```bash
+-- Create a subscription to the primary database
+CREATE SUBSCRIPTION central_railway_system_sub
+   CONNECTION 'host=<primary_ip> port=5432 dbname=primary_db user=replicator_user password=<secure_password> sslmode=require'
+   PUBLICATION central_railway_system_pub
+   WITH (
+      copy_data = true,   -- Copy existing data to replica db.
+      create_slot = true,  
+      enabled = true       
+    );
+```
+
+## Vaccum
+
+VACUUM in PostgreSQL is a maintenance command that reclaims storage space occupied by dead tuples (old row versions that are no longer needed) and updates internal statistics for better query performance. It helps prevent database bloat and ensures efficient use of disk space by marking the space as reusable for new data.
+
+- PostgreSQL databases require periodic maintenance known as [vacuuming](https://www.postgresql.org/docs/current/routine-vacuuming.html).
+- All tables need to be `VACUUM`ed (either manually or with autovacuum) at least every 2 billion transactions
+	- If you ever get the error message “database is not accepting commands”, you are dangerously close to transaction ID wraparound. Most PostgreSQL users understand the principle behind transaction ID wraparound, but many PostgreSQL users have a wrong idea of how to [fix the problem](https://www.rockdata.net/tutorial/troubleshooting-not-accepting-commands/).
+-  Each transaction gets a sequential XID, since they're 32 bit ints, they will eventually wrap around.
+- [Preventing Transaction ID](https://www.postgresql.org/docs/9.3/routine-vacuuming.html#VACUUM-FOR-WRAPAROUND)
+
+# Debezium
+
+Since Debezium is using a replication slot on PG, Debezium constantly sends back to PG the information up to which LSN it has consumed so that PG can flush the WAL files. Now, this information is stored in the table `pg_replication_slots`. When Debezium starts up again, it reads the `restart_lsn` from that table and requests changes that happened before that value. This is how Debezium is ensuring data integrity. Not that if for some reason, that LSN is not available in the WAL files, there is no way to get it back, meaning data loss has happened.
 
 # Triggers
 
