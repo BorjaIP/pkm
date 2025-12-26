@@ -22,4 +22,5 @@ AI agent features three key characteristics:
 | [Micro-agent](https://github.com/BuilderIO/micro-agent)                                  | An AI agent that writes (actually useful) code for you                                                                   |
 | [ACU](https://github.com/francedot/acu)                                                  | A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools |
 | [Lightpanda](https://github.com/lightpanda-io/browser)                                   | Lightpanda: the headless browser designed for AI and automation                                                          |
+| [cognee](https://github.com/topoteretes/cognee)                                          | Memory for AI Agents in 6 lines of code                                                                                  |
 

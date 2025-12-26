@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "e5c7658c52d2279b",
+        "id": "2a13f46f695313e5",
         "type": "tabs",
         "children": [
           {
-            "id": "b0d044b7cd3c11c2",
+            "id": "00b9f6d7eeed8bba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/Feature Stores.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Feature Stores"
+            }
+          },
+          {
+            "id": "9977e35787be5a2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/MacOS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MacOS"
+            }
+          },
+          {
+            "id": "ccf9bb8bb1881dbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Testing"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tests",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Linux.md",
+                "file": "notes/Testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux"
+              "title": "Outline of Testing"
             }
           },
           {
@@ -124,6 +157,16 @@
               },
               "icon": "lucide-info",
               "title": "File properties for Tasks"
+            }
+          },
+          {
+            "id": "d7a91ebcc3ba9672",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ]
@@ -197,35 +240,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "ccf9bb8bb1881dbb",
   "lastOpenFiles": [
+    "notes/MacOS.md",
+    "notes/Testing.md",
+    "Untitled.md",
+    "notes/Feature Stores.md",
+    "Testing.md",
+    "notes/Computer Science.md",
+    "notes/Prompt Engineering.md",
+    "notes/AI Agents.md",
+    "notes/iOS.md",
+    "notes/Flipper Zero.md",
+    "notes/RAG.md",
+    "notes/Computer Architecture.md",
+    "notes/Architecture Patterns.md",
+    "notes/Python.md",
+    "notes/Omop.md",
+    "notes/DBT.md",
+    "notes/Kubernetes.md",
+    "private/Tinybird.md",
     "private/Querys.md",
     "private/Onboarding.md",
     "private/Metabase.md",
     "private/CDC.md",
     "notes/Linux.md",
-    "private/Tinybird.md",
-    "notes/Prompt Engineering.md",
     "notes/ColossalAI.md",
     "articles/papers/Compositional Foundation Models for Hierarchical Planning.md",
     "articles/papers/DiT - Self-supervised Pre-training for Document Image Transformer.md",
-    "articles/papers/Chameleon - Plug-and-Play Compositional Reasoning with Large Language Models.md",
-    "articles/papers/Attention Is All You Need.md",
-    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
-    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
-    "articles/papers/A Survey of Large Language Models.md",
-    "articles/papers/A Watermark for Large Language Models.md",
-    "articles/papers/An LLM Compiler for Parallel Function Calling.md",
-    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
-    "articles/webs/8 Types of Prompt Engineering.md",
-    "articles/webs/A CD4ML Example Setup on AWS S3, GitLab with DVC.md",
-    "private/English.md",
     "notes/Pasted image 20251215150559.png",
-    "private/Service Desk.md",
-    "articles/papers/LLMs Will Always Hallucinate, and We Need to Live With This.md",
-    "notes/OpenSSL.md",
-    "private/Kafka.md",
-    "notes/LLM.md",
     "notes/Pasted image 20251016163603.png",
     "private/assets/Pasted image 20250714103901.png",
     "private/assets",

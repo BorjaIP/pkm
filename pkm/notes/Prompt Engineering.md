@@ -6,6 +6,10 @@ aliases:
 tags:
 ---
 **Prompt Engineering** is the practice of **designing and refining input prompts** to optimize the output of generative AI models, especially large language models ([[LLM]]). It is a crucial skill that transforms raw model potential into useful, accurate, and task-specific results.
+
+| Tool/Framework                                                                                            | Description                                                     |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL System Prompts, Internal Tools & AI Models                 |
 # Articles/Talks
 
 - [[Awesome Prompt Engineering]]

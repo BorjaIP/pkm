@@ -1,7 +1,7 @@
 ---
 title: MacOS
 created: Wednesday 4th June 2025 10:01
-aliases: 
+aliases:
 tags:
 ---
 
@@ -9,6 +9,7 @@ tags:
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | [Stats](https://github.com/exelban/stats)                         | System monitor in your menu bar                                           |
 | [Pearcleaner](https://github.com/alienator88/Pearcleaner)         | A free, source-available and fair-code licensed mac app cleaner           |
+| [Mole](https://github.com/tw93/Mole)                              | 🐹 Deep clean and optimize your Mac.                                      |
 | [Numi](https://github.com/nikolaeu/numi)                          | Beautiful calculator app for macOS, Linux & Windows                       |
 | [bottom](https://github.com/ClementTsang/bottom)                  | Yet another cross-platform graphical process/system monitor               |
 | [yabai](https://github.com/koekeishiya/yabai)                     | A tiling window manager for macOS based on binary space partitioning      |
@@ -18,7 +19,8 @@ tags:
 | [Alt-tab-macos](https://github.com/lwouis/alt-tab-macos)          | Windows alt-tab on macOS                                                  |
 | [Containerization](https://github.com/apple/containerization)     | Containerization is a Swift package for running Linux containers on macOS |
 | [osx-us-altgr-intl](https://github.com/xv0x7c0/osx-us-altgr-intl) | US keymap with altgr-intl variant for OSX                                 |
-| [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | macOS audio utility: automatically pause your music, set individual apps                                                                          |
+| [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | macOS audio utility: automatically pause your music, set individual apps  |
+| [localsend](https://github.com/localsend/localsend)               | An open-source cross-platform alternative to **AirDrop**                  |
 
 # Commands
 
@@ -83,6 +85,8 @@ colima ssh -- df -h /usr/local
 - start as a service in background
 ```bash
 brew services start colima
+# or
+brew services restart colima
 ```
 
 ## K8s

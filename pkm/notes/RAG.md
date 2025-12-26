@@ -12,6 +12,7 @@ tags:
 | [RAGEIo](https://github.com/zetaalphavector/RAGElo)                 | Tools that helps you selecting the best RAG-based                            |
 | [RAGFlow](https://github.com/infiniflow/ragflow?tab=readme-ov-file) | RAG engine based on deep document understanding                              |
 | [Verba](https://github.com/weaviate/Verba)                          | Retrieval Augmented Generation (RAG) chatbot powered by Weaviate             |
+| [kotaemon](https://github.com/Cinnamon/kotaemon)                    | An open-source RAG-based tool for chatting with your documents.              |
 # Articles/Talks
 
 - [[What is a RAG]]

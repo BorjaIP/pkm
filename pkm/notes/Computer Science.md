@@ -46,6 +46,7 @@ tags:
 - OSI & TCP Models
 - [[Remote Access]] ([[Remote Access#HTTPS (Secure HTTP)|HTTPS]], [[Remote Access#1. Virtual Private Network (VPN)|VPN]])
 - [[DNS]] & Routing
+- CDN & Edge Computing
 # Software Engineering
 
 - [[Design Patterns]]
@@ -54,6 +55,17 @@ tags:
 - SDLC & Agile
 - Testing & Debugging
 - Version Control ([[Git]])
+## [[Testing]] & QA
+
+### Levels of Testing
+
+- Unit Testing ([[PyTest]], JUnit, Jest)
+- Integration Testing
+- System & E2E Testing ([[Selenium]], Cypress, Playwright)
+### Methodologies
+
+- TDD (Test Driven Development)
+- BDD (Behavior Driven Development)
 # [[Cloud]]
 
 ## Providers
