@@ -27,6 +27,8 @@ python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().
 airflow users list
 # add role
 airflow users add-role -e name@email -r Admin
+airflow users list -o json 
+airflow roles list -o json
 ```
 
 # Achitecture
