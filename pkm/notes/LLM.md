@@ -86,6 +86,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [lollms-webui](https://github.com/ParisNeo/lollms-webui)                              | Lord of Large Language and Multi modal Systems Web                                                                                           |
 | [Phoenix](https://github.com/Arize-ai/phoenix)                                        | AI Observability & Evaluation                                                                                                                |
 | [Opik](https://github.com/comet-ml/opik)                                              | Debug, evaluate, and monitor your LLM applications, [[RAG]] systems, and agentic workflows with comprehensive tracing, automated evaluations |
+| [deepeval](https://github.com/confident-ai/deepeval)                                  | The LLM Evaluation Framework                                                                                                                 |
 
 
 

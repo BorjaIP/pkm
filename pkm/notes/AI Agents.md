@@ -24,3 +24,4 @@ AI agent features three key characteristics:
 | [Lightpanda](https://github.com/lightpanda-io/browser)                                   | Lightpanda: the headless browser designed for AI and automation                                                          |
 | [cognee](https://github.com/topoteretes/cognee)                                          | Memory for AI Agents in 6 lines of code                                                                                  |
 
+
