@@ -1,3 +1,16 @@
+# Obsidian private folders
 pkm/private/*
+
+# to only exclude plugin configuration. Might be useful to prevent some plugin from exposing sensitive data
 pkm/.obsidian/plugins/auto-tag/
 pkm/.obsidian/plugins/ai-web/
+
+# OR only to exclude workspace cache
+.obsidian/workspace.json
+
+# to exclude workspace cache specific to mobile devices
+.obsidian/workspace-mobile.json
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store
