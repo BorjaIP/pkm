@@ -28,4 +28,5 @@ tags:
 | [Syncthing](https://github.com/syncthing/syncthing)             | Open Source Continuous File Synchronization                                                                     |
 | [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)  | Locally hosted web application that allows you to perform various operations on PDF files                       |
 | [Firefly-iii](https://github.com/firefly-iii/firefly-iii)       | Firefly III: a personal finances manager                                                                        |
+| [pangolin](https://github.com/fosrl/pangolin)                   | Identity-aware VPN and proxy for remote access to anything, anywhere.                                           |
 - https://www.backblaze.com/blog/the-3-2-1-backup-strategy/

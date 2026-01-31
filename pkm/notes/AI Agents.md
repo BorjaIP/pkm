@@ -23,5 +23,6 @@ AI agent features three key characteristics:
 | [ACU](https://github.com/francedot/acu)                                                  | A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools |
 | [Lightpanda](https://github.com/lightpanda-io/browser)                                   | Lightpanda: the headless browser designed for AI and automation                                                          |
 | [cognee](https://github.com/topoteretes/cognee)                                          | Memory for AI Agents in 6 lines of code                                                                                  |
+| [agent-lightning](https://github.com/microsoft/agent-lightning)                          | The absolute trainer to light up AI agents                                                                               |
 
 
