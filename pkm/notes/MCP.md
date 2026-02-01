@@ -20,7 +20,16 @@ Key features of MCP include:
 
 # Docker MCP Gateway
 
-https://www.docker.com/blog/dynamic-mcps-stop-hardcoding-your-agents-world/
+
+```cardlink
+url: https://www.docker.com/blog/dynamic-mcps-stop-hardcoding-your-agents-world/
+title: "Dynamic MCPs: Stop Hardcoding Your Agents’ World | Docker"
+description: "Empower your agents to configure MCPs dynamically with the Docker MCP Gateway smart search and code mode tools."
+host: www.docker.com
+favicon: https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-32x32.png
+image: https://www.docker.com/app/uploads/2025/03/image.png
+```
+
 
 ```bash [docker-compose.yaml]
 services:

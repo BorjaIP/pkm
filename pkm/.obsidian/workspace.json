@@ -4,95 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "12d12b9eaa817b68",
+        "id": "43b53621df1dd3a0",
         "type": "tabs",
         "children": [
           {
-            "id": "1fe4b5bc875e4787",
+            "id": "e97cf0413fff6ba2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Prompt Engineering.md",
+                "file": "notes/Ansible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering"
-            }
-          },
-          {
-            "id": "30a9dece5b90825a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Arch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arch"
-            }
-          },
-          {
-            "id": "49fb6cc9c144f3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/AI Agents.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Agents"
-            }
-          },
-          {
-            "id": "7c874bc3069c4302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux"
-            }
-          },
-          {
-            "id": "163329c09f837856",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/MCP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MCP"
-            }
-          },
-          {
-            "id": "eb0bd6c6ec80f069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Claude.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude"
+              "title": "Ansible"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,6 +33,7 @@
       {
         "id": "9a06b9e173961dcd",
         "type": "tabs",
+        "dimension": 76.06060606060606,
         "children": [
           {
             "id": "59e0ceac64bb3948",
@@ -124,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "anything",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a7924e61572a2f3",
+        "type": "tabs",
+        "dimension": 23.939393939393938,
+        "children": [
+          {
+            "id": "ea147eed648b2494",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -166,13 +113,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Claude.md",
+                "file": "notes/Ansible.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Claude"
+              "title": "Outline of Ansible"
             }
           },
           {
@@ -272,36 +219,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59e0ceac64bb3948",
+  "active": "e97cf0413fff6ba2",
   "lastOpenFiles": [
-    "notes/LLM.md",
-    "notes/Claude.md",
-    "notes/MCP.md",
-    "notes/Linux.md",
-    "notes/AI Agents.md",
-    "notes/Artificial Intelligence.md",
-    "notes/Cert Manager.md",
-    "notes/Architecture Patterns.md",
-    "notes/Homelab.md",
-    "notes/Arch.md",
+    "notes/AlloyDB.md",
+    "notes/Ansible.md",
     "notes/Prompt Engineering.md",
-    "articles/webs/Patterns for Fabric.md",
-    "articles/webs/DevOps Developer Handbook.md",
-    "articles/webs/DevOps Roadmap.md",
-    "articles/webs/DiT - Self-supervised Pre-training for Document Image Transformer.md",
-    "articles/webs/Reasoning best practices.md",
+    "Ansible.md",
+    "notes/Remote Access.md",
+    "notes/Route 53.md",
+    "notes/S3.md",
+    "templates/Note.md",
+    "templates/Dev with tags.md",
+    "notes/VPC.md",
+    "notes/VSCode.md",
+    "notes/Web.md",
+    "notes/Windows.md",
+    "notes/Winget.md",
+    "notes/Wireguard.md",
+    "notes/Workflow Orchestration.md",
+    "notes/XaaS.md",
+    "notes/ZTN.md",
+    "notes/Ubuntu.md",
+    "notes/Vault.md",
+    "notes/TSDB.md",
+    "notes/Transformers.md",
+    "notes/Trading.md",
+    "notes/Tools.md",
+    "notes/Tmux.md",
+    "notes/System Design.md",
     "notes/Pasted image 20251215150559.png",
     "notes/Pasted image 20251016163603.png",
-    "notes/ZTN.md",
-    "notes/XaaS.md",
-    "data-ai-planner-internal.prod.feverdata.com.md",
-    "notes/Python.md",
-    "notes/iOS.md",
-    "notes/Web.md",
-    "notes/Testing.md",
-    "notes/Flipper Zero.md",
-    "notes/DBT.md",
-    "notes/Dotfiles.md",
     "private/assets/Pasted image 20250714103901.png",
     "private/assets",
     "private/assets/Pasted image 20250716165045.png",

@@ -5,4 +5,3 @@ aliases:
 tags: 
 ---
 - https://www.jenkins.io/doc/book/pipeline/syntax/
-
