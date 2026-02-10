@@ -254,3 +254,10 @@ docker rm $(docker images -q | tail -n 5)
 
 - https://github.com/lima-vm/lima
 - https://github.com/abiosoft/colima
+
+# MCP
+
+```bash
+ docker mcp secret set POSTGRES_PASSWORD=my-secret-password
+```
+

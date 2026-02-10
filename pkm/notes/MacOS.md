@@ -89,6 +89,14 @@ brew services start colima
 brew services restart colima
 ```
 
+## Docker
+
+```bash
+# see plugins configuration
+docker info --format '{{.ClientInfo.Plugins}}'
+```
+
+- When using Brew for installing docker-cli plugins maybe the path is `/opt/homebrew/lib/docker/cli-plugins/`
 ## K8s
 
 - Deploying K8s with more than 1 Node with Colima
