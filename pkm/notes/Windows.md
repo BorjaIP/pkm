@@ -41,6 +41,7 @@ Windows is a desktop [[Operating Systems]] developed by Microsoft. For the pas
 | [Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)           | Quick file search & app launcher for Windows with community-made plugins      |
 | [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)             | This project aims to enhance the working environment on Windows               |
 | [Komorebi](https://github.com/LGUG2Z/komorebi)                            | A tiling window manager for Windows                                           |
+| [MagicPods-Windows](https://github.com/steam3d/MagicPods-Windows)         | Add little magic to your Airpods                                              |
 
 - [NZXT](https://nzxt.com/software/cam)
 - [AMD Wraith Prism](https://landing.coolermaster.com/pages/amd-ryzen-wraith-prism-rgb-software/)
