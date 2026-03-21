@@ -1,8 +1,8 @@
 ---
-title:  Tools
+title: Tools
 created: Sunday 23rd April 2023 16:43
-aliases: 
-tags: tool, dev
+aliases:
+tags:
 ---
 
 | Tool                                                              | Description                                                                                                             |
@@ -52,6 +52,7 @@ tags: tool, dev
 | [Documenso](https://github.com/documenso/documenso)               | The Open Source DocuSign Alternative                                                                                    |
 | [OpenSign](https://github.com/OpenSignLabs/OpenSign)              | The free & Open Source DocuSign alternative                                                                             |
 | [Mkcert](https://github.com/FiloSottile/mkcert)                   | A simple zero-config tool to make locally trusted development certificates with any names you'd like                    |
+| [Presenterm](https://github.com/mfontanini/presenterm)            | Terminal-based markdown slideshow tool with syntax highlighting, code execution, Mermaid diagrams and image support      |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

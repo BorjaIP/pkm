@@ -29,6 +29,13 @@ airflow users list
 airflow users add-role -e name@email -r Admin
 airflow users list -o json 
 airflow roles list -o json
+
+airflow users create \
+          --username ai-agent \
+          --firstname ai-agent \
+          --lastname ai-agent \
+          --role Viewer \
+          --email data-ai-agent@example.org
 ```
 
 # Achitecture
