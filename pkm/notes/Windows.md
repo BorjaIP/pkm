@@ -157,8 +157,8 @@ code $PROFILE
 ```
 
 1. Create `profile.ps1` file in .config for custom configuration.
-2. . Install [Terminal Icons](https://github.com/devblackops/Terminal-Icons).
-3.  Install [PSReadLine](https://github.com/PowerShell/PSReadLine).
+2. Install [Terminal Icons](https://github.com/devblackops/Terminal-Icons).
+3. Install [PSReadLine](https://github.com/PowerShell/PSReadLine).
 4. Install [z Directory Jumper](https://github.com/jethrokuan/z).
 5. Install [fzf](https://github.com/junegunn/fzf) y [PSfzf](https://github.com/kelleyma49/PSFzf).
 

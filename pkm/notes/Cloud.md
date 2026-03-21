@@ -14,7 +14,7 @@ tags: cloud
 - [[GCP]]
 - [[IBM]]
 
-![[cloud_comparison.png]]
+![[cloud_comparison.png|455]]
 # Hostings and VPS
 
 - [OVH Cloud](https://www.ovhcloud.com/es-es/)

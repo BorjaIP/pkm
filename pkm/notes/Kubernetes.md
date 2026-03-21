@@ -45,6 +45,7 @@ tags:
 | [Kgateway](https://github.com/kgateway-dev/kgateway)                                  | The Cloud-Native API Gateway and AI Gateway.                                                  |
 | [Trident](https://github.com/NetApp/trident)                                          | Storage orchestrator for containers                                                           |
 | [Chaos-mesh](https://github.com/chaos-mesh/chaos-mesh)                                | A Chaos Engineering Platform for Kubernetes.                                                  |
+| [Kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)                       | AI-powered kubectl plugin that generates and applies Kubernetes manifests using natural language |
 
 # Articles/Talks
 
