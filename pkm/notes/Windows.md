@@ -76,6 +76,51 @@ Open `Task scheduler` and **DISABLE** all unnecessary.
 ```bash
 E:\Programs\OpenRGB\OpenRGB.exe --gui --startminimized --server
 ```
+
+- Configuration folder
+
+```powershell
+C:\Users\<user>\AppData\Roaming\OpenRGB
+```
+
+## Liquidctl
+
+```bash
+pip install liquidctl pywin32 psutil
+```
+
+```
+liquidctl list 
+liquidctl initialize all 
+liquidctl status
+```
+
+- Control Fans (NZXT H500i)
+- fan1 - 2 frontal fans
+- fan2 - 1 back fan
+- fan3 - 1 top fan
+
+```
+liquidctl --match "Smart Device" set fan1 speed 40
+liquidctl --match "Smart Device" set fan2 speed 40
+liquidctl --match "Smart Device" set fan3 speed 40
+```
+## FanControl
+
+- [FanControl Liquidctl](https://github.com/antoine-bouteiller/FanControl.LiquidCtl)
+- Avoid one by one permissions for ddl
+
+```powershell
+Get-ChildItem "C:\Program Files\FanControl\Plugins\" -Recurse -File | ForEach-Object {
+    Unblock-File -Path $_.FullName -ErrorAction SilentlyContinue
+}
+```
+
+- Configuration folder
+
+```powershell
+C:\Program Files\FanControl\Configurations
+```
 # Variables
 
 - System variables for configure program, appdata and user profile.
