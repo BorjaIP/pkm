@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2a13f46f695313e5",
+        "id": "e99b0c5c17172367",
         "type": "tabs",
         "children": [
           {
-            "id": "670caccbe15f3d04",
+            "id": "278fe0718a539460",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Prompt Engineering.md",
+                "file": "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering"
-            }
-          },
-          {
-            "id": "bb71b1a9dee64cbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows"
+              "title": "ARAGOG - Advanced RAG Output Grading"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,6 +33,7 @@
       {
         "id": "9a06b9e173961dcd",
         "type": "tabs",
+        "dimension": 80.71359691417551,
         "children": [
           {
             "id": "59e0ceac64bb3948",
@@ -68,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CTE",
+                "query": "HyDE",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3a08db23dfeb9635",
+        "type": "tabs",
+        "dimension": 19.286403085824492,
+        "children": [
+          {
+            "id": "c8be525c4a73a28d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -110,13 +113,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Windows.md",
+                "file": "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows"
+              "title": "Outline of ARAGOG - Advanced RAG Output Grading"
             }
           },
           {
@@ -226,46 +229,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb71b1a9dee64cbc",
+  "active": "278fe0718a539460",
   "lastOpenFiles": [
-    "notes/Cwl.md",
-    "articles/webs/What is SAGA Pattern in Microservice Architecture - Which Problem does it solve.md",
+    "articles/papers/ART - Automatic multi-step reasoning and tool-use for large language models.md",
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md",
+    "articles/papers/An LLM Compiler for Parallel Function Calling.md",
+    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md",
+    "articles/papers/A Survey of Large Language Models.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md",
+    "articles/papers/A Watermark for Large Language Models.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md",
+    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md",
+    "articles/papers/Attention Is All You Need.md",
+    "articles/papers/ARAGOG - Advanced RAG Output Grading.md.tmp.14708.1774299930111",
+    "articles/papers/API-Bank - A Comprehensive Benchmark for Tool-Augmented LLMs.md.tmp.14708.1774299914196",
+    "articles/papers/Ansible Lightspeed - A Code Generation Service for IT Automation.md.tmp.14708.1774299907901",
+    "articles/papers/An LLM Compiler for Parallel Function Calling.md.tmp.14708.1774299900451",
+    "notes/Computer Science.md",
+    "articles/papers/Algorithms for Hyper-Parameter Optimization.md.tmp.14708.1774299895445",
+    "articles/papers/A Watermark for Large Language Models.md.tmp.14708.1774299889523",
+    "articles/papers/Retrieval-Augmented Generation for Large Language Models - A Survey.md",
+    "articles/papers/A Survey of Large Language Models.md.tmp.14708.1774299631380",
+    "articles/papers/Automated Unit Test Improvement using Large Language Models at Meta.md",
+    "articles/papers/Knowledge Graph Prompting for Multi-Document Question Answering.md",
+    "articles/papers/A benchmark to understand the role of knowledge graphs on large language models accuracy for question and answering on enterprise SQL databases.md.tmp.14708.1774299319381",
+    "articles/papers/How AI Impacts Skill Formation.md",
+    "index.md",
+    "notes/Artificial Intelligence.md",
+    "notes/Machine Learning.md",
+    "notes/AI Agents.md",
+    "notes/LLM.md",
+    "notes/Generative AI.md",
+    "articles/papers/How AI Impacts Skill Formation.md.tmp.25752.1774298801225",
     "notes/Prompt Engineering.md",
-    "notes/Dotfiles.md",
-    "notes/Linux.md",
-    "notes/Data Engineering.md",
-    "notes/Data Platforms.md",
-    "notes/Kafka.md",
-    "notes/Data Governance.md",
-    "notes/Databases.md",
-    "notes/Data Orchestration.md",
-    "notes/Business Intelligence.md",
-    "notes/Data Applications.md",
-    "notes/Data Engineering.md.tmp.17108.1774136005790",
-    "notes/Kubernetes.md.tmp.17108.1774135482877",
-    "notes/Claude.md.tmp.7336.1774133380166",
-    "articles/webs/What Is Event-Driven Microservices Architecture.md",
-    "articles/webs/Why is GPT-3 15.77x more expensive for certain languages.md",
-    "articles/webs/What is a RAG.md",
-    "articles/webs/Using YAML Anchors and X Properties in Docker Compose.md",
+    "notes/Ansible.md",
+    "articles/papers/How AI Impacts Skill Formation.md.tmp.25752.1774298097013",
+    "articles/webs/Tuning Hyperparameters with Reproducible Experiments.md",
+    "articles/webs/Using DVC to create an efficient version control system for data projects.md",
     "articles/webs/Using Telepresence to intercept microservices on a Kubernetes cluster.md",
-    "articles/webs/Solving the out-of-context chunk problem for RAG.md",
-    "articles/webs/Patterns for Fabric.md",
-    "articles/webs/MLOps - Continuous delivery and automation pipelines in machine learning.md",
-    "articles/webs/How do I schedule jobs in Jenkins.md",
-    "articles/webs/Distributed TensorFlow training using Kubeflow on Amazon EKS.md",
-    "articles/webs/Customizing your VS code setup.md",
-    "articles/webs/Cloud Development Environments - Using Skaffold and Telepresence on Kubernetes for fast dev loops.md",
-    "articles/webs/Cloud Architecture Patterns.md",
-    "notes/OpenClaw.md.tmp.7336.1774132645687",
-    "notes/OpenClaw.md.tmp.7336.1774132257374",
-    "notes/MCP.md.tmp.7336.1774131712191",
     "notes/Pasted image 20251215150559.png",
     "notes/Pasted image 20251016163603.png",
-    "notes/Software Design Methodology.md.tmp.7336.1774131385889",
-    "notes/Software Design Methodology.md.tmp.7336.1774131277388",
-    "notes/Software Design Methodology.md.tmp.7336.1774131198367",
-    "notes/Claude.md.tmp.7336.1774130792434",
     "private/assets/Pasted image 20250714103901.png",
     "private/assets/Pasted image 20250716165045.png",
     "private/assets/Pasted image 20250717113606.png",
