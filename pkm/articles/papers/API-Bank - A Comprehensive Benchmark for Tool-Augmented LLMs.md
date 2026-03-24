@@ -11,25 +11,28 @@ tags:
 
 ---
 
+# TL;DR
+
+**API-Bank** is the first comprehensive benchmark for tool-augmented LLMs, covering 73 runnable APIs across three skill dimensions — planning, retrieval, and execution — with a fine-tuned **Lynx** model surpassing Alpaca by over 26 points.
+
 # Summary
 
-Tool-augmented LLMs must plan which APIs to call, retrieve them from a catalog, and execute calls correctly — yet no systematic benchmark existed for this three-stage pipeline. **API-Bank** provides 73 runnable API tools, 314 annotated dialogues with 753 API calls, and a 1,888-dialogue training set spanning 2,138 APIs across 1,000 domains. Evaluated models include **GPT-3, GPT-3.5, and GPT-4**: GPT-4 excels at planning while GPT-3.5 leads on retrieval. Fine-tuning Alpaca on the training set produces **Lynx**, which surpasses the base model by over 26 percentage points and approaches GPT-3.5 performance.
+Tool-augmented LLMs must plan which APIs to call, retrieve them from a catalog, and execute calls correctly — yet no systematic benchmark existed for this three-stage pipeline. **API-Bank** provides 73 runnable API tools, 314 annotated dialogues with 753 API calls, and a 1,888-dialogue training set spanning 2,138 APIs across 1,000 domains. GPT-4 excels at planning while GPT-3.5 leads on retrieval. Fine-tuning Alpaca on the training set produces **Lynx**, which surpasses the base model by over 26 percentage points and approaches GPT-3.5 performance.
 
-# Main points
+# Key contributions
 
-1. Tool use requires three distinct skills: **planning, retrieval, and API call execution**.
-2. **API-Bank** provides 73 runnable tools and 753 annotated API calls for systematic evaluation.
-3. **GPT-4 excels at planning**; GPT-3.5 leads on retrieval — no single model dominates all dimensions.
-4. Fine-tuning on the training set yields **Lynx**, outperforming Alpaca by 26+ percentage points.
-5. Error analysis reveals significant gaps in **multi-step API chaining** and error recovery.
+1. Introduces **API-Bank**, the first benchmark decomposing tool use into three evaluable skills: planning, retrieval, and API call execution.
+2. Provides **73 runnable tools** with ground-truth API calls, enabling execution-level evaluation beyond text matching.
+3. Shows that **GPT-4 and GPT-3.5 specialize differently** — no single model dominates all three tool-use dimensions.
+4. Produces **Lynx** via fine-tuning, demonstrating that a 1,000-domain training set enables smaller models to approach GPT-3.5.
+5. Identifies **multi-step API chaining** as the hardest unsolved subproblem for production tool-augmented systems.
 
-# Takeaways
+# When to cite
 
-1. **Planning and retrieval are separable skills** — evaluate and improve them independently when debugging tool use.
-2. A 1,000-domain training set enables fine-tuned smaller models to **approach GPT-3.5** at lower cost.
-3. **Runnable tools** with ground-truth calls expose failures that text-only evaluations hide entirely.
-4. GPT-4's planning advantage suggests **instruction following quality** drives tool orchestration more than retrieval.
-5. Multi-step API chaining remains the **hardest unsolved subproblem** for production tool-augmented systems.
+1. When evaluating or benchmarking **LLM tool use** across the planning, retrieval, and execution dimensions.
+2. When arguing that **planning and retrieval are separable skills** that should be improved independently.
+3. When citing evidence that **fine-tuning on tool-use data** enables smaller models to approach large-model performance.
+4. When discussing the difficulty of **multi-step API chaining** and error recovery in agentic LLM systems.
 
 ---
 [[LLM]]

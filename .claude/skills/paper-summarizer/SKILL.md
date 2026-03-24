@@ -11,7 +11,7 @@ You are an expert summarizer of research and academic papers. Your goal is to re
 2. **Identify metadata** — Extract the paper title, source URL(s), and the source platform (arxiv, acm, medium, github, openreview, etc.).
 3. **Generate tags** — Follow the tagging rules below. Read the obsidian-helper skill to search for existing tags before creating new ones.
 4. **Find WikiLinks** — Use the obsidian-helper skill to search for existing vault notes that relate to the paper's topics.
-5. **Write the summary** — Follow the output format below.
+5. **Write the note** — Follow the output format below.
 6. **Save the note** — Write to `pkm/articles/papers/<Paper Title>.md` using the template below.
 
 ## Tagging rules
@@ -47,17 +47,21 @@ tags:
 
 ---
 
+# TL;DR
+
+<One sentence. The single core contribution of the paper — what it proposes or proves. No filler.>
+
 # Summary
 
-<A single paragraph of ~100 words. Explain what problem the paper addresses, the approach taken, and the key results. Do not mention authors by name. Write for a technical reader who wants the essence without reading the full paper.>
+<Dense prose, ~80 words. Problem → approach → key result. Do not mention authors. Start with the problem or the finding, not with "This paper...".>
 
-# Main points
+# Key contributions
 
-<Numbered list of 5 points, max 16 words each. Cover: the core problem, the proposed method, key results, limitations or scope, and broader implications.>
+<Numbered list of 3–5 items. Only what is genuinely NEW in this paper: novel method, dataset, benchmark, architecture, or theoretical insight. Each item starts with an action verb (Proposes, Introduces, Shows, Demonstrates, Establishes). Bold the name of the contribution or technique.>
 
-# Takeaways
+# When to cite
 
-<Numbered list of 5 actionable or intellectual insights a reader should walk away with. Focus on what's useful or surprising, not just what was done.>
+<Numbered list of 3–4 specific situations where you would reference this paper. Frame as questions this paper answers or claims it supports, e.g. "When explaining why X works", "When arguing that Y is more efficient than Z". This makes retrieval actionable.>
 
 ---
 <WikiLinks to related vault notes, one per line, e.g. [[LLM]] [[Artificial Intelligence|AI]]>
@@ -67,8 +71,10 @@ tags:
 
 - Section headers use only the first letter capitalized, no colon at the end.
 - Leave one blank line between each section header and its content.
-- The Summary should be information-dense — avoid filler like "the authors propose" or "this paper presents". Start with the problem or the finding.
-- Main points and Takeaways must not overlap — if a point is in one, rephrase or replace it in the other.
+- **TL;DR must be one sentence** — if it takes two, split the less important idea into Key contributions.
+- Summary is information-dense prose — avoid filler like "the authors propose" or "this paper presents". Start with the problem or the finding.
+- Key contributions cover only novelty — do not list things the paper reuses or builds on without modification.
+- When to cite is the most retrieval-critical section: write it so a future search for "papers about X" will match this note.
 - Do not start consecutive list items with the same word.
 - If the paper has a companion GitHub repo or project page, add it as a second bullet before `Source:`.
-- **Bold key terms** throughout the Summary, Main points, and Takeaways — technical concepts, method names, metrics, and findings that a reader would want to scan for. Aim for 2–4 bolded terms per section, enough to aid skimming without saturating the text.
+- **Bold key terms** throughout all sections — technical concepts, method names, metrics, and findings a reader would scan for. Aim for 2–4 bolded terms per section.

@@ -13,25 +13,27 @@ tags:
 
 ---
 
+# TL;DR
+
+An enterprise-domain benchmark shows that adding an **ontology-based knowledge graph** layer over SQL triples GPT-4 question-answering accuracy from 16% to 54% in zero-shot settings.
+
 # Summary
 
-Enterprise SQL databases are hard for **LLMs** to query accurately because schemas alone carry no business semantics. This benchmark uses an insurance-domain enterprise schema paired with an **ontology-based knowledge graph** layer to measure how much semantic context affects accuracy. Testing **GPT-4** with zero-shot prompting, direct SQL achieves only 16% accuracy, while posing the same questions over a knowledge graph representation reaches 54% — a threefold improvement — demonstrating that **semantic enrichment** is a decisive factor, not model capability alone.
+Enterprise SQL databases are hard for **LLMs** to query accurately because schemas alone carry no business semantics. This benchmark uses an insurance-domain enterprise schema paired with an **ontology-based knowledge graph** to measure how much semantic context affects accuracy. Testing **GPT-4** with zero-shot prompting, direct SQL achieves only 16% accuracy while posing the same questions over a KG representation reaches 54%, demonstrating that **semantic enrichment** is a decisive factor independent of model capability.
 
-# Main points
+# Key contributions
 
-1. Zero-shot **GPT-4 on raw enterprise SQL** achieves only 16% question-answering accuracy.
-2. Adding a **knowledge graph** representation over the same data triples accuracy to 54%.
-3. Benchmark covers an **insurance-domain schema** with realistic enterprise reporting queries.
-4. The KG layer supplies **ontology and mappings**, not extra training data or fine-tuning.
-5. Results suggest current **text-to-SQL benchmarks** underrepresent real enterprise complexity.
+1. Introduces a benchmark using a **real enterprise insurance schema** to evaluate LLM question-answering accuracy.
+2. Demonstrates a **threefold accuracy improvement** (16% → 54%) by adding a KG layer over the same raw SQL data.
+3. Shows that **ontology and R2RML mappings** alone — without fine-tuning — supply sufficient semantic context for GPT-4.
+4. Establishes that popular **text-to-SQL benchmarks** underrepresent real enterprise complexity.
 
-# Takeaways
+# When to cite
 
-1. Schema structure alone is insufficient context — **business ontologies** are a practical requirement for enterprise LLM Q&A.
-2. Before investing in model upgrades, teams should evaluate whether **knowledge graph enrichment** closes more of the accuracy gap.
-3. The 16 % baseline reveals that popular **text-to-SQL leaderboards** may be misleadingly optimistic for production settings.
-4. **Ontology-to-SQL mappings** (R2RML / OBDA style) become a competitive engineering asset, not just a semantic-web artifact.
-5. The benchmark methodology — isolated schema, controlled queries, measurable accuracy — is a reusable template for internal **LLM readiness assessments**.
+1. When arguing that **knowledge graph enrichment** is more impactful than model upgrades for enterprise Q&A accuracy.
+2. When supporting claims that **schema structure alone** is insufficient context for LLM-based SQL querying.
+3. When motivating the use of **ontology-to-SQL mappings** (OBDA/R2RML) as a production engineering asset.
+4. When benchmarking **LLM readiness** on domain-specific enterprise data with realistic query complexity.
 
 ---
 [[LLM]]

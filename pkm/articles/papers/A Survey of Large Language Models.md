@@ -13,25 +13,28 @@ tags:
 
 ---
 
+# TL;DR
+
+A comprehensive 144-page survey maps the full LLM lifecycle — **pre-training, adaptation tuning, utilization, and evaluation** — and catalogs open research challenges including hallucination and alignment.
+
 # Summary
 
-Beyond a critical parameter scale, language models exhibit **emergent capabilities** absent in smaller counterparts — qualitatively better reasoning, instruction following, and few-shot generalization. This 144-page survey maps the full LLM lifecycle: **pre-training** (data curation, architecture choices, training recipes), **adaptation tuning** (instruction tuning, RLHF, parameter-efficient methods), **utilization** (in-context learning, chain-of-thought prompting), and **capacity evaluation** across standard benchmarks. It catalogs publicly available resources, analyzes **ChatGPT's** impact on the field, and closes with a structured discussion of open research challenges including hallucination, alignment, and efficiency.
+Beyond a critical parameter scale, language models exhibit **emergent capabilities** absent in smaller counterparts — qualitatively better reasoning, instruction following, and few-shot generalization. This survey maps the full LLM lifecycle: **pre-training** (data curation, architecture choices), **adaptation tuning** (instruction tuning, RLHF, parameter-efficient methods), **utilization** (in-context learning, chain-of-thought prompting), and **capacity evaluation** across standard benchmarks. It covers over 1,000 references and closes with open challenges including hallucination, alignment, and inference efficiency.
 
-# Main points
+# Key contributions
 
-1. **Emergent capabilities** arise only past a parameter threshold, making scale a qualitative, not just quantitative, factor.
-2. **Instruction tuning** and **RLHF** are the primary techniques for turning a pre-trained model into a usable assistant.
-3. **In-context learning** and **chain-of-thought prompting** are the dominant utilization strategies requiring no gradient updates.
-4. Survey covers over 1,000 references across pre-training, tuning, utilization, and evaluation as of early 2023.
-5. Open challenges — **hallucination**, alignment, interpretability, and inference cost — remain largely unsolved.
+1. Provides a structured taxonomy of the **full LLM development pipeline** from pre-training through deployment as of early 2023.
+2. Establishes that **emergent capabilities** appear only past a parameter threshold, making scale qualitatively distinct.
+3. Catalogs **instruction tuning and RLHF** as the primary techniques for converting pre-trained models into usable assistants.
+4. Surveys **in-context learning and chain-of-thought prompting** as the dominant no-gradient utilization strategies.
+5. Identifies **hallucination, alignment, and interpretability** as the principal unsolved open challenges.
 
-# Takeaways
+# When to cite
 
-1. Scaling laws alone do not produce safe or helpful models — **alignment techniques** (RLHF, instruction tuning) are non-optional.
-2. **In-context learning** is a first-class design primitive: structure prompts carefully before reaching for fine-tuning.
-3. Benchmark scores are upper bounds; teams should run **domain-specific evaluations** to measure real-world performance gaps.
-4. **Data quality for pre-training** has disproportionate downstream impact — filtering and curation matter more than raw volume.
-5. The emergent-abilities framing implies smaller models **cannot substitute** for large ones on complex reasoning tasks regardless of prompting tricks.
+1. When needing a canonical reference for the **LLM development lifecycle** or any of its major stages.
+2. When supporting claims about **emergent abilities** and the qualitative role of model scale.
+3. When discussing **instruction tuning or RLHF** as alignment techniques for pre-trained models.
+4. When motivating **domain-specific evaluation** over standard benchmarks for real-world LLM deployment.
 
 ---
 [[LLM]]
