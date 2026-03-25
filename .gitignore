@@ -5,6 +5,10 @@ pkm/private/*
 pkm/.obsidian/plugins/auto-tag/
 pkm/.obsidian/plugins/ai-web/
 
+# Claudian integration
+pkm/.claude/
+pkm/.obsidian/plugins/claudian/data.json
+
 # OR only to exclude workspace cache
 pkm/.obsidian/workspace.json
 
