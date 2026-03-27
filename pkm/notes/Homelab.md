@@ -30,5 +30,6 @@ tags:
 | [Firefly-iii](https://github.com/firefly-iii/firefly-iii)       | Firefly III: a personal finances manager                                                                                       |
 | [pangolin](https://github.com/fosrl/pangolin)                   | Identity-aware VPN and proxy for remote access to anything, anywhere.                                                          |
 | [lidify](https://github.com/Chevron7Locked/lidify)              | Lidify is built for music lovers who want the convenience of streaming services without sacrificing ownership of their library |
+| [Twenty](https://github.com/twentyhq/twenty)                    | Open-source self-hosted CRM, a modern alternative to Salesforce                                                                |
 
 - https://www.backblaze.com/blog/the-3-2-1-backup-strategy/

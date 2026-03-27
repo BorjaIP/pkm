@@ -1,0 +1,89 @@
+{
+  "skill_name": "pkm-tool-adder",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Add Argo CD (https://argoproj.github.io/cd/) to my notes. It's a declarative GitOps continuous delivery tool for Kubernetes.",
+      "expected_output": "A markdown table row for Argo CD is appended to Kubernetes.md. The entry includes the URL and a concise description. The chosen note is justified.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "The target note is Kubernetes.md (not a generic fallback like Tools.md or DevOps.md)",
+          "discriminating": true
+        },
+        {
+          "text": "The proposed table row contains the URL https://argoproj.github.io/cd/",
+          "discriminating": false
+        },
+        {
+          "text": "The proposed table row uses 'Argo CD' (or 'ArgoCD') as the link text",
+          "discriminating": false
+        },
+        {
+          "text": "The description in the table row is factual and ≤20 words (no marketing language)",
+          "discriminating": true
+        },
+        {
+          "text": "The rationale for the chosen note was explicitly stated",
+          "discriminating": true
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Save Grafana to my vault — https://grafana.com — it's an open source analytics and observability platform for metrics, logs and traces.",
+      "expected_output": "A markdown table row for Grafana is appended to Observability.md. The entry includes the URL and a concise description.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "The target note is Observability.md (not Tools.md, DevOps.md, or a cloud provider note)",
+          "discriminating": true
+        },
+        {
+          "text": "The proposed table row contains the URL https://grafana.com",
+          "discriminating": false
+        },
+        {
+          "text": "The proposed table row uses 'Grafana' as the link text",
+          "discriminating": false
+        },
+        {
+          "text": "The description in the table row mentions analytics, monitoring, or visualization",
+          "discriminating": true
+        },
+        {
+          "text": "The rationale for the chosen note was explicitly stated before making the edit",
+          "discriminating": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Add Temporal (https://temporal.io) to my PKM. It's a durable workflow execution engine for writing fault-tolerant distributed code as plain functions.",
+      "expected_output": "A markdown table row for Temporal is appended to Workflow Orchestration.md or Data Orchestration.md (or a new generalizing note is proposed with user confirmation).",
+      "files": [],
+      "assertions": [
+        {
+          "text": "The target note is Workflow Orchestration.md or Data Orchestration.md (not Tools.md or a generic catch-all)",
+          "discriminating": true
+        },
+        {
+          "text": "The proposed table row contains the URL https://temporal.io",
+          "discriminating": false
+        },
+        {
+          "text": "The proposed table row uses 'Temporal' as the link text",
+          "discriminating": false
+        },
+        {
+          "text": "If a new note is proposed, it is a generalizing note (e.g. 'Workflow Engines') not a single-tool note",
+          "discriminating": true
+        },
+        {
+          "text": "If a new note is proposed, the user is asked for confirmation before creation",
+          "discriminating": true
+        }
+      ]
+    }
+  ]
+}
