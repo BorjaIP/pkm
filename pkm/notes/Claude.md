@@ -17,12 +17,45 @@ tags:
 | [claudian](https://github.com/YishenTu/claudian) | Obsidian plugin that integrates Claude Code as an AI collaborator directly into your vault. Supports agentic file ops, bash commands, inline editing with diff previews, slash commands, skills/subagents, vision, and MCP servers. Requires Claude Code CLI. |
 | [HolyClaude](https://github.com/CoderLuii/HolyClaude) | Containerized AI development workstation: Claude Code + web UI (CloudCLI) + headless Chromium + 5 AI CLIs (Claude, Gemini, Codex, Cursor, TaskMaster) + 50+ dev tools in a single Docker image. Supports AMD64/ARM64. No setup required. |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Anthropic hackathon winner. Performance optimization system for Claude Code: 28 agents, 50+ skills, 25+ slash commands, hooks, language rules, and MCP configs. Built from 10+ months of daily use. |
+| [anthropics/skills](https://github.com/anthropics/skills)                    | Official Anthropic repository of Agent Skills — self-contained skill folders Claude loads dynamically for specialized tasks. |
+| [obsidian-skills](https://github.com/kepano/obsidian-skills)                 | Agent skills (by Obsidian's CEO) for Claude Code/Codex to read, write and navigate Obsidian vaults. |
+| [Understand-Anything](https://github.com/Lum1104/Understand-Anything)        | Claude Code plugin that turns any codebase into an interactive, queryable knowledge graph. |
+# Commands
 
 ```bash
 # resume old session
 claude --resume
 ```
 
+```bash
+# Install all plugins
+/reload-plugins
+/plugin
+```
+
+## Install anthropics/skills
+
+```bash
+# Add the official Anthropic skills marketplace
+/plugin marketplace add anthropics/skills
+```
+
+## Install Understand-Anything
+
+```bash
+# Install the plugin
+/plugin marketplace add Lum1104/Understand-Anything
+/plugin install understand-anything
+```
+
+| Command | Description |
+| ------- | ----------- |
+| `/understand` | Analyze the current codebase and build a knowledge graph |
+| `/understand-dashboard` | Open the interactive visualization dashboard |
+| `/understand-chat [QUERY]` | Ask questions about the codebase |
+| `/understand-diff` | Analyze the impact of changes (git diffs / PRs) |
+| `/understand-explain [FILE]` | Deep-dive explanation of a specific file or function |
+| `/understand-onboard` | Generate an onboarding guide for new team members |
 ## Script for rest Cache in Claude Dektop
 
 ```bash

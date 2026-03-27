@@ -19,3 +19,4 @@ Using PaaS offers numerous advantages, including:
 | Tool                                             | Description                                                    |
 | ------------------------------------------------ | -------------------------------------------------------------- |
 | [Dokploy](https://github.com/Dokploy/dokploy)    | Open Source Alternative to Vercel, Netlify and Heroku          |
+| [Coolify](https://github.com/coollabsio/coolify) | Open-source self-hostable PaaS for deploying apps, databases and services on your own infra. |
