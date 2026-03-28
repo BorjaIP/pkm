@@ -25,15 +25,7 @@ The **Z shell** is a Unix shell that can be used as an interactive login shell a
 The **friendly interactive shell** is a Unix shell that attempts to be more interactive and user-friendly than those with a longer history or those formulated as function-compatible replacements for the aforementioned.
 # Terminal
 
-| Tool                                                   | Description                                                        |
-| ------------------------------------------------------ | ------------------------------------------------------------------ |
-| [URXVT](https://wiki.archlinux.org/title/Rxvt-unicode) | Customizable terminal emulator                                     |
-| [Alacritty](https://github.com/alacritty/alacritty)    | A cross-platform, OpenGL terminal emulator                         |
-| [Hyper](https://github.com/vercel/hyper)               | A terminal built on web technologies                               |
-| [Kitty](https://github.com/kovidgoyal/kitty)           | Cross-platform, fast, feature-rich, GPU based terminal             |
-| [Wezterm](https://github.com/wez/wezterm)              | A GPU-accelerated cross-platform terminal emulator and multiplexer |
-| [Tabby](https://github.com/Eugeny/tabby)               | A terminal for a more modern age                                   |
-| [Superfile](https://github.com/yorukot/superfile)      | Pretty fancy and modern terminal file manager                      |
+- [[Terminal]]
 # Chezmoi
 
 - [[How To Manage Dotfiles With Chezmoi]]

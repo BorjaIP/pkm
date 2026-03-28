@@ -13,6 +13,8 @@ Linux® is an [open source](https://www.redhat.com/en/topics/open-source/what-is
 | [Libreboot](https://libreboot.org/)         | Freedoms boot fimeware       |
 | [Lutris](https://lutris.net/)               | Play all your games on Linux |
 | [Bling](https://github.com/BlingCorp/bling) | Utilities for AwesomeWM      |
+
+- See also [[Terminal]] for terminal emulators and TUI file managers.
 # Distribution
 
 A Linux distribution is an operating system made from a software collection that includes the Linux kernel and often a package management system
