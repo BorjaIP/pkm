@@ -21,6 +21,7 @@ tags:
 | [osx-us-altgr-intl](https://github.com/xv0x7c0/osx-us-altgr-intl) | US keymap with altgr-intl variant for OSX                                 |
 | [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | macOS audio utility: automatically pause your music, set individual apps  |
 | [localsend](https://github.com/localsend/localsend)               | An open-source cross-platform alternative to **AirDrop**                  |
+| [Tome](https://github.com/Gremble-io/Tome)                        | Local meeting transcription to Obsidian vault; no cloud, no API keys      |
 
 # Commands
 

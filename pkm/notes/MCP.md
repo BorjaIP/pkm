@@ -18,6 +18,7 @@ Key features of MCP include:
 | [mcp-gateway](https://github.com/docker/mcp-gateway)         | docker mcp CLI plugin / MCP Gateway                         |
 | [agentgateway](https://github.com/agentgateway/agentgateway) | Next Generation Agentic Proxy for AI Agents and MCP servers |
 | [context7](https://github.com/upstash/context7) | MCP server that retrieves current, version-specific library documentation and injects it into prompts, eliminating outdated info and hallucinated APIs. |
+| [knowledge](https://github.com/withoneai/knowledge) | Structured API docs for 40,000+ tools across 250+ platforms, served via CLI or REST API for MCP-compatible AI agents. |
 
 # Docker MCP Gateway
 

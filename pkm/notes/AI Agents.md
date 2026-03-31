@@ -25,5 +25,6 @@ AI agent features three key characteristics:
 | [cognee](https://github.com/topoteretes/cognee)                                          | Memory for AI Agents in 6 lines of code                                                                                  |
 | [agent-lightning](https://github.com/microsoft/agent-lightning)                          | The absolute trainer to light up AI agents                                                                               |
 | [Paperclip](https://github.com/paperclipai/paperclip)                                    | Open-source platform to orchestrate teams of AI agents with org charts, goal cascading, task ticketing, budget controls, and human approval gates |
+| [agency-agents](https://github.com/msitarzewski/agency-agents)                           | A complete AI agency at your fingertips — pre-built agent personalities (engineering, design, sales, marketing, product, QA) for Claude Code, Cursor, Aider, and Windsurf |
 
 
