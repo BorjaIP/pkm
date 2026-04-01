@@ -37,3 +37,4 @@ All awesome repos.
 ---
 - [Workflow engines](https://github.com/meirwah/awesome-workflow-engines#awesome-workflow-engines)
 - [Dendron](https://github.com/dendronhq/awesome-dendron/)
+- [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) — Curated collection of cheatsheets, manuals, one-liners, and CLI/web tools for sysadmin, networking, security, and DevOps

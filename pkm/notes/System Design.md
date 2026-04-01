@@ -14,9 +14,10 @@ Key Considerations:
 - **Security**: Protection against potential threats
 - **Cost-effectiveness**: Balancing system capabilities with resource constraints
 
-| Tool                                                              | Description                                                                   |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [system-design-primer](<[Archi](https://www.archimatetool.com/)>) | Learn how to design large-scale systems. Prep for the system design interview |
+| Tool                                                               | Description                                                                         |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| [system-design-primer](https://www.archimatetool.com/))            | Learn how to design large-scale systems. Prep for the system design interview       |
+| [system-design](https://github.com/karanpratapsingh/system-design) | Comprehensive course on designing systems at scale and system design interview prep |
 # Common Techniques
 
 - Horizontal/vertical scaling

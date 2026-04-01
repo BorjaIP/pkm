@@ -20,6 +20,7 @@ tags:
 | [anthropics/skills](https://github.com/anthropics/skills)                    | Official Anthropic repository of Agent Skills — self-contained skill folders Claude loads dynamically for specialized tasks. |
 | [obsidian-skills](https://github.com/kepano/obsidian-skills)                 | Agent skills (by Obsidian's CEO) for Claude Code/Codex to read, write and navigate Obsidian vaults. |
 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything)        | Claude Code plugin that turns any codebase into an interactive, queryable knowledge graph. |
+| [impeccable](https://github.com/pbakaus/impeccable)                          | Design skill system for AI coding assistants; teaches typography, color, and UX anti-patterns via 20+ slash commands. |
 # Commands
 
 ```bash
