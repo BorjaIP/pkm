@@ -1,0 +1,16 @@
+{
+  "tools": {},
+  "watchEnabled": true,
+  "watchDebounceMs": 500,
+  "deepSearchDefault": false,
+  "deepSearchScope": "both",
+  "favorites": [],
+  "collections": {},
+  "customScanPaths": [
+    "E:\\Documents\\pkm\\pkm"
+  ],
+  "namingMode": "auto",
+  "projectScanEnabled": true,
+  "projectsHomeDir": "",
+  "packageRunner": "auto"
+}

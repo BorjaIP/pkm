@@ -4,9 +4,7 @@ created: Saturday 31st January 2026 23:47
 aliases:
 tags:
 ---
-
 Claude is Anthropic's AI assistant family, available as a web/desktop chat app ([[Claude#Claude Desktop|Claude Desktop]]) and a terminal-based agentic coding tool ([[Claude#Claude Code|Claude Code]]). Models range from the fast [[Haiku]] to the balanced [[Sonnet]] and the most capable [[Opus]], each optimized for different cost/performance trade-offs.
-
 # Claude Code
 
 ## Ecosystem
@@ -23,6 +21,7 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 | [HolyClaude](https://github.com/CoderLuii/HolyClaude) | Containerized AI development workstation: Claude Code + web UI (CloudCLI) + headless Chromium + 5 AI CLIs + 50+ dev tools in a single Docker image. Supports AMD64/ARM64. |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Anthropic hackathon winner. Performance optimization system: 28 agents, 50+ skills, 25+ slash commands, hooks, language rules, and MCP configs. Built from 10+ months of daily use. |
 | [claudian](https://github.com/YishenTu/claudian) | Obsidian plugin that integrates Claude Code directly into your vault. Supports agentic file ops, bash commands, inline editing with diff previews, slash commands, skills/subagents, vision, and MCP servers. |
+| [context-mode](https://github.com/mksglu/context-mode) | MCP server that reduces context window bloat by sandboxing tool outputs and maintaining session continuity through SQLite-backed event tracking and FTS5 search. Claims up to 98% context savings. |
 
 ### Skills & Collections
 
@@ -43,16 +42,32 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 
 | Command | Description |
 | ------- | ----------- |
-| `/clear` | Clears the conversation history and resets the context window, starting fresh without losing your work. |
+| `/clear` | Clears the conversation history and resets the context window, starting fresh without losing your work. Aliases: `/reset`, `/new`. |
 | `/compact` | Summarizes the current conversation into a compressed context to free up token space while preserving key information. |
-| `/context` | Displays the current context window usage: token count, percentage used, and per-message breakdown. |
+| `/context` | Displays the current context window usage as a colored grid. Shows optimization suggestions for context-heavy tools, memory bloat, and capacity warnings. |
 | `/reload-plugins` | Reloads all installed plugins without restarting Claude Code. |
 | `/plugin` | Lists installed plugins and manages plugin lifecycle (install, remove, enable, disable). |
 | `/feedback` | Sends the full conversation history to Anthropic (encrypted). Optionally creates a public GitHub issue. |
+| `/rename [name]` | Rename the current session and show the name on the prompt bar. Without a name, auto-generates one from conversation history. Pairs with `claude -n` / `claude --resume <name>`. |
+| `/resume [session]` | Resume a conversation by ID or name, or open an interactive session picker. Alias: `/continue`. |
+| `/rewind` | Rewind the conversation and/or code to a previous point, or summarize from a selected message. Alias: `/checkpoint`. |
+| `/branch [name]` | Create a named branch of the current conversation at this point, to explore a different path. Alias: `/fork`. |
+| `/export [filename]` | Export the current conversation as plain text. Without a filename, opens a dialog to copy to clipboard or save to a file. |
+| `/btw <question>` | Ask a quick side question without adding to the conversation history. Runs even while Claude is working; ephemeral and answer never enters the context. |
+| `/diff` | Open an interactive diff viewer showing uncommitted changes and per-turn diffs. Use arrow keys to switch between git diff and individual Claude turns. |
+| `/cost` | Show token usage statistics for the current session. |
+| `/stats` | Visualize daily usage, session history, streaks, and model preferences. |
+| `/effort [low\|medium\|high\|max\|auto]` | Set model effort level. `low`/`medium`/`high` persist across sessions; `max` is session-only (Opus 4.6). `auto` resets to model default. |
 
 ```bash
-# Resume a previous session
-claude --resume
+# Start a named session (resumable by name)
+claude -n "my-feature-work"
+
+# Resume a session by name or ID
+claude --resume my-feature-work
+
+# Fork a session on resume (new ID, preserves original)
+claude --resume my-feature-work --fork-session
 ```
 
 ### Statusline
@@ -177,6 +192,16 @@ one for each roadmap idea in @roadmap_ideas/
 | `/understand-diff` | Analyze the impact of changes (git diffs / PRs). |
 | `/understand-explain [FILE]` | Deep-dive explanation of a specific file or function. |
 | `/understand-onboard` | Generate an onboarding guide for new team members. |
+
+### Install context-mode
+
+```bash
+# Install the plugin
+/plugin marketplace add mksglu/context-mode
+/plugin install context-mode@context-mode
+```
+
+Then run `/reload-plugins` and verify with `/context-mode:ctx-doctor`.
 
 ---
 
