@@ -11,18 +11,17 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 
 ### Plugins & Extensions
 
-| Tool | Description |
-| ---- | ----------- |
-| [ccusage](https://github.com/ryoppippi/ccusage) | CLI tool for analyzing Claude Code usage from local JSONL files. |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | Plugin that automatically captures everything Claude does during coding sessions and compresses it with AI. |
-| [claude-hud](https://github.com/jarrodwatts/claude-hud) | Plugin that shows in the terminal statusline: context usage, rate limits, tool activity, task progress, git status, and active agents. Updates every ~300ms. |
-| [ralph](https://github.com/snarktank/ralph) | Autonomous AI agent loop that runs repeatedly until all PRD items are complete. |
-| [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Plugin that turns any codebase into an interactive, queryable knowledge graph. |
-| [HolyClaude](https://github.com/CoderLuii/HolyClaude) | Containerized AI development workstation: Claude Code + web UI (CloudCLI) + headless Chromium + 5 AI CLIs + 50+ dev tools in a single Docker image. Supports AMD64/ARM64. |
-| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Anthropic hackathon winner. Performance optimization system: 28 agents, 50+ skills, 25+ slash commands, hooks, language rules, and MCP configs. Built from 10+ months of daily use. |
-| [claudian](https://github.com/YishenTu/claudian) | Obsidian plugin that integrates Claude Code directly into your vault. Supports agentic file ops, bash commands, inline editing with diff previews, slash commands, skills/subagents, vision, and MCP servers. |
-| [context-mode](https://github.com/mksglu/context-mode) | MCP server that reduces context window bloat by sandboxing tool outputs and maintaining session continuity through SQLite-backed event tracking and FTS5 search. Claims up to 98% context savings. |
-
+| Tool                                                                         | Description                                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ccusage](https://github.com/ryoppippi/ccusage)                              | CLI tool for analyzing Claude Code usage from local JSONL files.                                                                                                                                              |
+| [claude-mem](https://github.com/thedotmack/claude-mem)                       | Plugin that automatically captures everything Claude does during coding sessions and compresses it with AI.                                                                                                   |
+| [claude-hud](https://github.com/jarrodwatts/claude-hud)                      | Plugin that shows in the terminal statusline: context usage, rate limits, tool activity, task progress, git status, and active agents. Updates every ~300ms.                                                  |
+| [ralph](https://github.com/snarktank/ralph)                                  | Autonomous AI agent loop that runs repeatedly until all PRD items are complete.                                                                                                                               |
+| [Understand-Anything](https://github.com/Lum1104/Understand-Anything)        | Plugin that turns any codebase into an interactive, queryable knowledge graph.                                                                                                                                |
+| [HolyClaude](https://github.com/CoderLuii/HolyClaude)                        | Containerized AI development workstation: Claude Code + web UI (CloudCLI) + headless Chromium + 5 AI CLIs + 50+ dev tools in a single Docker image. Supports AMD64/ARM64.                                     |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Anthropic hackathon winner. Performance optimization system: 28 agents, 50+ skills, 25+ slash commands, hooks, language rules, and MCP configs. Built from 10+ months of daily use.                           |
+| [claudian](https://github.com/YishenTu/claudian)                             | Obsidian plugin that integrates Claude Code directly into your vault. Supports agentic file ops, bash commands, inline editing with diff previews, slash commands, skills/subagents, vision, and MCP servers. |
+| [notebooklm-ai-plugin](https://github.com/proyecto26/notebooklm-ai-plugin)  | Claude Code skill that brings Google NotebookLM into the terminal: chat with notebook AI, generate 9 artifact types (slides, audio, video, mind maps, quizzes, flashcards, infographics, reports, data tables), manage sources (URLs, YouTube, files, text), and run fast/deep web research. |
 ### Skills & Collections
 
 | Resource | Description |
@@ -33,6 +32,7 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 | [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. |
 | [awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | An orchestrated sub-agent dev team powered by Claude Code. |
 | [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | Comprehensive guide to Claude Code best practices: subagents, commands, skills, memory systems, and MCP servers. |
+| [marketingskills](https://github.com/coreyhaines31/marketingskills) | 40+ marketing skills for Claude Code and other AI coding agents: conversion optimization, copywriting, SEO, paid ads, analytics, A/B testing, retention, and growth engineering. |
 
 ---
 
@@ -221,7 +221,8 @@ Then run `/reload-plugins` and verify with `/context-mode:ctx-doctor`.
     "ENABLE_TOOL_SEARCH": "true",
     "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "CLAUDE_CODE_ATTRIBUTION_HEADER": "1",
-    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1" 
   },
   "feedbackSurveyRate": 0
 }

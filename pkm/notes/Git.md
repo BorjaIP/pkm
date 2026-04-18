@@ -5,10 +5,10 @@ aliases:
 tags: tool
 ---
 
-| Tool                                                   | Description                                         |
-| ------------------------------------------------------ | --------------------------------------------------- |
-| [Gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Git |
-| [Gnosis](https://github.com/oddur/gnosis) | AI-powered PR review tool that groups changes logically and presents them as guided slideshows. Supports Claude and Gemini with interactive reviews and custom instructions. |
+| Tool                                                   | Description                                                                                                                                                                  |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Git                                                                                                                          |
+| [Gnosis](https://github.com/oddur/gnosis)              | AI-powered PR review tool that groups changes logically and presents them as guided slideshows. Supports Claude and Gemini with interactive reviews and custom instructions. |
 # Articles/Talks
 
 - [[Oh Shit, Git]]

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "notebooklm": {
+      "source": "proyecto26/notebooklm-ai-plugin",
+      "sourceType": "github",
+      "computedHash": "078108b02a17524a42381ca87f6e307e228aed2574494343903dbd3f8a6f3b49"
+    }
+  }
+}
