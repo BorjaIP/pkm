@@ -256,6 +256,29 @@ Then run `/reload-plugins` and verify with `/context-mode:ctx-doctor`.
 | `CLAUDE_CODE_ATTRIBUTION_HEADER` | ⚠️ | Injects an attribution/user-agent header into API requests (useful for identifying Claude Code traffic in API logs). Community-discovered. |
 | `CLAUDE_CODE_DISABLE_TERMINAL_TITLE` | ⚠️ | Prevents Claude Code from dynamically updating the terminal window/tab title with the current task. Useful when it conflicts with shell title management (tmux, iTerm, etc.). Community-discovered. |
 
+### MCP Servers
+
+#### Add an MCP via Streamable HTTP
+
+Use `mcp-remote` to proxy any Streamable HTTP MCP endpoint into Claude Code's `mcpServers` config. This lets you connect to local or remote MCP servers that speak the HTTP transport without needing a native stdio adapter.
+
+Add the following to `~/.claude/settings.json` (or the project-level `.claude/settings.json`):
+
+```json
+"mcpServers": {
+  "mcp-local": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote@latest",
+      "http://localhost:8889/mcp"
+    ]
+  }
+}
+```
+
+> `mcp-remote` is a zero-install bridge — `npx -y` fetches the latest version on first run and caches it. Replace `http://localhost:8889/mcp` with the actual endpoint URL of your MCP server.
+
 ---
 
 # Claude Desktop
