@@ -78,7 +78,7 @@ tags:
 kubectl get secret -n name my-secret -o jsonpath="{.data.username}" | base64 --decode
 ```
 
-- Duplicate an existing _Secret_ in the cluster in different NS
+- Duplicate an existing _Secret_ in the cluster in different NS
 
 ```bash
 kubectl get secrets my-secret -n auth -o json \
@@ -509,10 +509,10 @@ The Templated KV has the capability of static configuration data and dynamic par
 - [[Helm]]
 ### Programmable Key-Value Pair
 
-`Configuration as Code (CaC)` uses code to generate configuration, just like engineers only need to write advanced GPL code, rather than manually writing error-prone and difficult-to-understand server binary code.
+`Configuration as Code (CaC)` uses code to generate configuration, just like engineers only need to write advanced GPL code, rather than manually writing error-prone and difficult-to-understand server binary code.
 
 - [OPA](https://github.com/open-policy-agent/opa) --> Open Policy Agent (OPA) is an open source, general-purpose policy engine.
-- [CEL](https://kubernetes.io/docs/reference/using-api/cel/) --> The [Common Expression Language (CEL)](https://github.com/google/cel-go) is used in the Kubernetes API to declare validation rules, policy rules, and other constraints or conditions.
+- [CEL](https://kubernetes.io/docs/reference/using-api/cel/) --> The [Common Expression Language (CEL)](https://github.com/google/cel-go) is used in the Kubernetes API to declare validation rules, policy rules, and other constraints or conditions.
 ### Typed Key-Value Pair
 
 Based on programmable K-V, typed K-V has more capabilities of type constraints.
@@ -553,11 +553,11 @@ PodDisruptionBudget
 - For HA you neeed to define Disruptions if a Node of the Cluster is down or upgraded. Stablish the minimum and maximum Pods are needed mandatory for your App.
 # Cost Reduce
 
-1. Here is the first tip I got: Any attempt to control costs after an application has been architected and deployed is necessarily focusing on the wrong things. Cloud costs are a function of your 
+1. Here is the first tip I got: Any attempt to control costs after an application has been architected and deployed is necessarily focusing on the wrong things. Cloud costs are a function of your 
 2. Consolidate your pods on fewer nodes. Leave only as little headroom as you intend for in your nodes.
 3. Don’t over-commit resources. Pod requests must be optimized over time in order to not over-provision.
 4. If possible, prefer using only a single region to avoid network transfer costs between nodes. Preferably when it’s not production.
-5. If you are running things like k8s there are other tools to monitor load and dynamically adjust, but monitoring all costs on a 5-minute interval seems odd. You could correlate this to your actual infrastructure monitoring. You are going to know if the cost goes crazy if you are monitoring your deployment properly or even better in pre-deployment. 
+5. If you are running things like k8s there are other tools to monitor load and dynamically adjust, but monitoring all costs on a 5-minute interval seems odd. You could correlate this to your actual infrastructure monitoring. You are going to know if the cost goes crazy if you are monitoring your deployment properly or even better in pre-deployment. 
 6. More: [[Reducing Cloud Costs on Kubernetes Dev Envs]]
 
 # Minikube

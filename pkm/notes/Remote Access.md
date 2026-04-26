@@ -79,8 +79,8 @@ There are several key protocols used for remote access:
 - **Purpose**: Creates a secure, encrypted tunnel between a remote device and the corporate network
 - **Types**:
     - **IPsec VPN**: Provides security at the IP layer
-    - **Point-to-Point Tunneling Protocol (PPTP):**  PPTP has fallen out of favor due to identified security vulnerabilities. It's recommended to opt for more modern and secure alternatives
-    - **Remote Access Services (RAS):** A RAS setup empowers users to securely connect to a corporate network from remote locations, either through traditional dial-up connections or via a VPN
+    - **Point-to-Point Tunneling Protocol (PPTP):**  PPTP has fallen out of favor due to identified security vulnerabilities. It's recommended to opt for more modern and secure alternatives
+    - **Remote Access Services (RAS):** A RAS setup empowers users to securely connect to a corporate network from remote locations, either through traditional dial-up connections or via a VPN
     - **SSL/TLS VPN**: Uses web browsers for secure access
     - **OpenVPN**: Open-source solution with strong encryption
 ## 2. Remote Desktop Protocol (RDP)

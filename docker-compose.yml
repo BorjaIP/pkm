@@ -1,0 +1,20 @@
+services:
+  quartz:
+    image: ghcr.io/jackyzha0/quartz:sha-b34d521
+    ports:
+      - "8080:8080"
+      - "3001:3001"
+    volumes:
+      - ./pkm:/usr/src/app/content
+      - ./quartz/quartz.config.ts:/usr/src/app/quartz.config.ts
+      - ./quartz/quartz.layout.ts:/usr/src/app/quartz.layout.ts
+      - ./quartz/lastmod.ts:/usr/src/app/quartz/plugins/transformers/lastmod.ts
+      - ./quartz/index.ts:/usr/src/app/quartz/components/index.ts
+      - ./quartz/RecentNotes.tsx:/usr/src/app/quartz/components/RecentNotes.tsx
+      - ./quartz/Breadcrumbs.tsx:/usr/src/app/quartz/components/Breadcrumbs.tsx
+      - ./quartz/Divider.tsx:/usr/src/app/quartz/components/Divider.tsx
+      - ./quartz/custom.scss:/usr/src/app/quartz/styles/custom.scss
+    environment:
+      - CHOKIDAR_USEPOLLING=1
+      - CHOKIDAR_INTERVAL=1000
+    command: npx quartz build --serve --watch --concurrency 4

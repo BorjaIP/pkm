@@ -4,9 +4,9 @@ created: Monday 1st May 2023 17:48
 aliases: 
 tags: cloud, aws
 ---
-[AWS Fargate](https://aws.amazon.com/fargate/) is a serverless compute engine for containers. It changes the distribution model entirely so that instead of needing to provision _servers_, you only need to think about the _applications_.
+[AWS Fargate](https://aws.amazon.com/fargate/) is a serverless compute engine for containers. It changes the distribution model entirely so that instead of needing to provision _servers_, you only need to think about the _applications_.
 
-Fargate seems to be a management layer that abstracts away some of the complexity of container orchestration. However, it still needs either [[EKS]] or [[ECS]] in the background.
+Fargate seems to be a management layer that abstracts away some of the complexity of container orchestration. However, it still needs either [[EKS]] or [[ECS]] in the background.
 
 - Testing the solution for **optimize cost-effective**.
   

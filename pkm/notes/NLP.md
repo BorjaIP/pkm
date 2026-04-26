@@ -8,19 +8,19 @@ tags:
 **Natural language processing** (NLP) is a form of [[Artificial Intelligence]] that allows computers to understand human language, whether it be written, spoken, or even scribbled.
 
 ![[nlp.png]]
-## Natural language techniques 
+## Natural language techniques 
 
 NLP encompasses a wide range of techniques to analyze human language. Some of the most common techniques you will likely encounter in the field include:
 
-- **Sentiment analysis:** An NLP technique that analyzes text to identify its sentiments, such as “positive,” “negative,” or “neutral.” Sentiment analysis is commonly used by businesses to better understand customer feedback. 
+- **Sentiment analysis:** An NLP technique that analyzes text to identify its sentiments, such as “positive,” “negative,” or “neutral.” Sentiment analysis is commonly used by businesses to better understand customer feedback. 
 - **Summarization:** An NLP technique that summarizes a longer text, in order to make it more manageable for time-sensitive readers. Some common texts that are summarized include reports and articles.
-- **Keyword extraction:** An NLP technique that analyzes a text to identify the most important keywords or phrases. Keyword extraction is commonly used for [search engine optimization (SEO)](https://www.coursera.org/articles/seo-marketing), social media monitoring, and business intelligence purposes. 
+- **Keyword extraction:** An NLP technique that analyzes a text to identify the most important keywords or phrases. Keyword extraction is commonly used for [search engine optimization (SEO)](https://www.coursera.org/articles/seo-marketing), social media monitoring, and business intelligence purposes. 
 - **Tokenization:** The process of breaking characters, words, or subwords down into “tokens” that can be analyzed by a program. Tokenization undergirds common NLP tasks like word modeling, vocabulary building, and frequent word occurrence.
 ## Models
 
 ### Latent Dirichlet Allocation (LDA)
 
-**Latent Dirichlet Allocation** (LDA) is a popular form of statistical topic modeling. In LDA, documents are represented as a mixture of topics and a topic is a bunch of words. Those topics reside within a hidden, also known as a latent layer. 
+**Latent Dirichlet Allocation** (LDA) is a popular form of statistical topic modeling. In LDA, documents are represented as a mixture of topics and a topic is a bunch of words. Those topics reside within a hidden, also known as a latent layer. 
 
 LDA looks at a document to determine a set of topics that are likely to have generated that collection of words. So, if a document uses certain words that are contained in a topic, you could say the document is about that topic.
 

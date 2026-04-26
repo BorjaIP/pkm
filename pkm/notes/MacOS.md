@@ -35,7 +35,7 @@ sudo lsof -i -P | grep LISTEN | grep :$PORT
 
 # Startup Apps
 
-Open Finder, click **Go > Go to Folder**. Enter `/Library/LaunchAgents` or `/Library/LaunchDaemons`.
+Open Finder, click **Go > Go to Folder**. Enter `/Library/LaunchAgents` or `/Library/LaunchDaemons`.
 
 # Schedule
 
@@ -50,7 +50,7 @@ sudo pmset repeat cancel
 
 # Brew
 
-Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's operating system, macOS, as well as Linux. The name is intended to suggest the idea of building software on the Mac depending on the user's taste.
+Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's operating system, macOS, as well as Linux. The name is intended to suggest the idea of building software on the Mac depending on the user's taste.
 
 - Install a package
 

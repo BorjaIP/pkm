@@ -5,7 +5,7 @@ aliases:
   - GenAI
 tags:
 ---
-**Generative AI** is a type of [[Artificial Intelligence]] that can produce content such as audio, text, code, video, images, and other data. Whereas traditional AI algorithms may be used to identify patterns within a training data set and make predictions, generative AI uses [[Machine Learning]] algorithms to create outputs based on a training data set. 
+**Generative AI** is a type of [[Artificial Intelligence]] that can produce content such as audio, text, code, video, images, and other data. Whereas traditional AI algorithms may be used to identify patterns within a training data set and make predictions, generative AI uses [[Machine Learning]] algorithms to create outputs based on a training data set. 
 # Foundation Models
 
 **Foundation model** is a term [popularized](https://arxiv.org/abs/2108.07258) by an institute at Stanford University. It refers to AI systems with broad capabilities that can be adapted to a range of different, more specific purposes. In other words, the original model provides a base (hence “foundation”) on which other things can be built. This is in contrast to many other AI systems, which are specifically trained and then used for a particular purpose.

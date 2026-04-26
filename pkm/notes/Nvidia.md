@@ -16,7 +16,7 @@ tags:
 - [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 # NCCL
 
-The NVIDIA Collective Communications Library (NCCL, pronounced “Nickel”) is **a library providing inter-GPU communication primitives that are topology-aware and can be easily integrated into applications**.
+The NVIDIA Collective Communications Library (NCCL, pronounced “Nickel”) is **a library providing inter-GPU communication primitives that are topology-aware and can be easily integrated into applications**.
 
 - See if NCLL is installed correctly.
 

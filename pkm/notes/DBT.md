@@ -25,7 +25,7 @@ dbt deps
 dbt list
 # will display the first 5 rows from the query result
 dbt show
-#  rebuild your model on every run
+#  rebuild your model on every run
 dbt run --models my_model --full-refresh
 ```
 

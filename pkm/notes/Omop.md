@@ -14,12 +14,12 @@ OMOP is compatible with many [[RDBMS]], but some tools and extensions may work b
 | [CDM](https://github.com/OHDSI/CommonDataModel)               | Definition and DDLs for the OMOP Common Data Model (CDM)           |
 Here’s a brief overview of its core components:
 
-- **Concepts.** Basic building blocks represent entities such as drugs, diseases, procedures, and observations.
-- **Vocabulary tables.** Provide standardised terminology and classification for concepts, including drug names, disease classifications, and measurement units.
-- **Person table.** Contains demographic information about patients, such as age, gender, and ethnicity.
-- **Observation period table.** Tracks the time period during which each person’s data is collected.
-- **Condition table.** Records diagnoses and medical conditions observed in the data.
-- **Drug exposure table.** Details the medications and treatments patients have received.
-- **Procedure table.** Captures information about medical procedures and interventions.
-- **Measurement table.** Includes data from clinical measurements and laboratory tests.
-- **Visit the occurrence table.** Logs the healthcare visits and encounters.
+- **Concepts.** Basic building blocks represent entities such as drugs, diseases, procedures, and observations.
+- **Vocabulary tables.** Provide standardised terminology and classification for concepts, including drug names, disease classifications, and measurement units.
+- **Person table.** Contains demographic information about patients, such as age, gender, and ethnicity.
+- **Observation period table.** Tracks the time period during which each person’s data is collected.
+- **Condition table.** Records diagnoses and medical conditions observed in the data.
+- **Drug exposure table.** Details the medications and treatments patients have received.
+- **Procedure table.** Captures information about medical procedures and interventions.
+- **Measurement table.** Includes data from clinical measurements and laboratory tests.
+- **Visit the occurrence table.** Logs the healthcare visits and encounters.

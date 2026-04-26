@@ -11,7 +11,7 @@ tags:
 ---
 **Machine learning** is a subfield of [[Artificial Intelligence]] that uses algorithms trained on data sets to create models that enable machines to perform tasks that would otherwise only be possible for humans, such as categorizing images, analyzing data, or predicting price fluctuations.
 
-At its core, the method simply uses algorithms – essentially lists of rules – adjusted and refined using past data sets to make predictions and categorizations when confronted with new data. For example, a [machine learning algorithm](##Models) may be “trained” on a data set consisting of thousands of images of flowers that are labeled with each of their different flower types so that it can then correctly identify a flower in a new photograph based on the differentiating characteristics it learned from other pictures.  
+At its core, the method simply uses algorithms – essentially lists of rules – adjusted and refined using past data sets to make predictions and categorizations when confronted with new data. For example, a [machine learning algorithm](##Models) may be “trained” on a data set consisting of thousands of images of flowers that are labeled with each of their different flower types so that it can then correctly identify a flower in a new photograph based on the differentiating characteristics it learned from other pictures.  
 
 To ensure such algorithms work effectively, however, they must typically be refined many times until they accumulate a comprehensive list of instructions that allow them to function correctly. Algorithms that have been trained sufficiently eventually become [machine learning models](##Models), which are essentially algorithms that have been trained to perform specific tasks like sorting images, predicting housing prices, or making chess moves. In some cases, algorithms are layered on top of each other to create complex networks that allow them to do increasingly complex, nuanced tasks like generating text and powering chatbots via a method known as “[[deep learning]].”
 
@@ -27,7 +27,7 @@ To ensure such algorithms work effectively, however, they must typically be refi
 | [Aim](https://github.com/aimhubio/aim)                 | An easy-to-use & supercharged open-source experiment tracker                                                  |
 | [Meltano](https://github.com/meltano/meltano)          | The declarative code-first data integration engine that powers your wildest data and ML-powered product ideas |
 | [Hydra](https://github.com/facebookresearch/hydra)     | Framework for elegantly configuring complex applications                                                      |
-| [Evidently](https://github.com/evidentlyai/evidently)  | Evidently is ​​an open-source ML and LLM observability framework.                                             |
+| [Evidently](https://github.com/evidentlyai/evidently)  | Evidently is an open-source ML and LLM observability framework.                                             |
 | [LitServe](https://github.com/Lightning-AI/LitServe)   | Lightning-fast serving engine for any AI model of any size                                                    |
 # Articles/Talks
 
@@ -41,14 +41,14 @@ To ensure such algorithms work effectively, however, they must typically be refi
 ![[ml_models.jpg]]
 # Supervised Learning
 
-In supervised machine learning, algorithms are trained on _labeled_ data sets that include tags describing each piece of data. In other words, the algorithms are fed data that includes an “answer key” describing how the data should be interpreted. For example, an algorithm may be fed images of flowers that include tags for each flower type so that it will be able to identify the flower better again when fed a new photograph. 
+In supervised machine learning, algorithms are trained on _labeled_ data sets that include tags describing each piece of data. In other words, the algorithms are fed data that includes an “answer key” describing how the data should be interpreted. For example, an algorithm may be fed images of flowers that include tags for each flower type so that it will be able to identify the flower better again when fed a new photograph. 
 
-Supervised machine learning is often used to create machine learning models used for **prediction and classification purposes**. 
+Supervised machine learning is often used to create machine learning models used for **prediction and classification purposes**. 
 ## Classification
 
 **Binary Classification**
 
-- Predicts **one of two possible classes** (e.g., Yes/No, True/False, Spam/Not Spam).
+- Predicts **one of two possible classes** (e.g., Yes/No, True/False, Spam/Not Spam).
 - Algorithms used:
 	- Logistic Regression
     - Support Vector Machines (SVM)
@@ -61,7 +61,7 @@ Supervised machine learning is often used to create machine learning models used
 
 **Multi-class Classification**
 
-- Predicts **one class out of three or more possible classes**.
+- Predicts **one class out of three or more possible classes**.
 - Algorithms used:
     - SoftMax Regression (Logistic Regression extended for multiple classes)
     - Random Forests
@@ -71,7 +71,7 @@ Examples:
 - Handwritten Digit Recognition (0-9 digits)
 - Animal Image Classification (Cat, Dog, Bird, etc.)
 - Sentiment Analysis (Positive, Neutral, Negative)
-### Naive Bayes 
+### Naive Bayes 
 
 **Naive Bayes** is a set of supervised learning algorithms used to create predictive models for binary or multi-classification tasks. It is based on **Bayes' Theorem** and operates on conditional probabilities, which estimate the likelihood of a classification based on the combined factors while assuming independence between them.
 
@@ -97,7 +97,7 @@ Random forests address a common issue called "**overfitting**" that can occur wi
 
 ### K-nearest neighbor (KNN)
 
-**K-nearest neighbor (KNN)** is a supervised learning algorithm commonly used for classification and predictive modeling tasks. The name "K-nearest neighbor" reflects the algorithm's approach of classifying an output based on its proximity to other data points on a graph. 
+**K-nearest neighbor (KNN)** is a supervised learning algorithm commonly used for classification and predictive modeling tasks. The name "K-nearest neighbor" reflects the algorithm's approach of classifying an output based on its proximity to other data points on a graph. 
 
 Let's say we have a dataset with labeled points, some marked as blue and others as red. When we want to classify a new data point, KNN looks at its nearest neighbors in the graph. The "K" in KNN refers to the number of nearest neighbors considered. For example, if K is set to 5, the algorithm looks at the 5 closest points to the new data point.
 
@@ -106,7 +106,7 @@ Based on the majority of the labels among the K nearest neighbors, the algorithm
 Additionally, KNN can also be used for prediction tasks. Instead of assigning a class label, KNN can estimate the value of an unknown data point based on the average or median of its K nearest neighbors.
 ### Support vector machine (SVM)
 
-A **support vector machine (SVM)** is a supervised learning algorithm commonly used for classification and predictive modeling tasks. SVM algorithms are popular because they are reliable and can work well even with a small amount of data. SVM algorithms work by creating a decision boundary called a **hyperplane**. In two-dimensional space, this hyperplane is like a line that separates two sets of labeled data. 
+A **support vector machine (SVM)** is a supervised learning algorithm commonly used for classification and predictive modeling tasks. SVM algorithms are popular because they are reliable and can work well even with a small amount of data. SVM algorithms work by creating a decision boundary called a **hyperplane**. In two-dimensional space, this hyperplane is like a line that separates two sets of labeled data. 
 
 The goal of SVM is to find the best possible decision boundary by maximizing the margin between the two sets of labeled data. It looks for the widest gap or space between the classes. Any new data point that falls on either side of this decision boundary is classified based on the labels in the training dataset.
 
@@ -128,16 +128,16 @@ In simple terms, linear regression takes a set of data points with known input a
 Linear regression is primarily used for **predictive modeling** rather than categorization. It is useful when we want to understand how changes in the input variable affect the output variable. By analyzing the slope and intercept of the regression line, we can gain insights into the relationship between the variables and make predictions based on this understanding.
 ### Logistic regression
 
-**Logistic regression**, also known as "logit regression," is a supervised learning algorithm primarily used for binary classification tasks. It is commonly employed when we want to determine whether an input belongs to one class or another, such as deciding whether an image is a cat or not a cat. 
+**Logistic regression**, also known as "logit regression," is a supervised learning algorithm primarily used for binary classification tasks. It is commonly employed when we want to determine whether an input belongs to one class or another, such as deciding whether an image is a cat or not a cat. 
 
-Logistic regression predicts the _probability_ that an input can be categorized into a single primary class. However, in practice, it is commonly used to group outputs into two categories: the primary class and not the primary class. To accomplish this, logistic regression creates a threshold or boundary for binary classification. For example, any output value between 0 and 0.49 might be classified as one group, while values between 0.50 and 1.00 would be classified as the other group. 
+Logistic regression predicts the _probability_ that an input can be categorized into a single primary class. However, in practice, it is commonly used to group outputs into two categories: the primary class and not the primary class. To accomplish this, logistic regression creates a threshold or boundary for binary classification. For example, any output value between 0 and 0.49 might be classified as one group, while values between 0.50 and 1.00 would be classified as the other group. 
 
 Consequently, logistic regression is typically used for binary categorization rather than predictive modeling. It enables us to assign input data to one of two classes based on the probability estimate and a defined threshold. This makes logistic regression a powerful tool for tasks such as image recognition, spam email detection, or medical diagnosis where we need to categorize data into distinct classes.
-# Unsupervised machine learning 
+# Unsupervised machine learning 
 
-Unsupervised machine learning uses _unlabeled_ data sets to train algorithms. In this process, the algorithm is fed data that doesn't include tags, which requires it to uncover patterns on its own without any outside guidance. For instance, an algorithm may be fed a large amount of unlabeled user data culled from a social media site in order to identify behavioral trends on the platform. 
+Unsupervised machine learning uses _unlabeled_ data sets to train algorithms. In this process, the algorithm is fed data that doesn't include tags, which requires it to uncover patterns on its own without any outside guidance. For instance, an algorithm may be fed a large amount of unlabeled user data culled from a social media site in order to identify behavioral trends on the platform. 
 
-Unsupervised machine learning is often used by researchers and data scientists to **identify patterns within large**, unlabeled data sets quickly and efficiently. 
+Unsupervised machine learning is often used by researchers and data scientists to **identify patterns within large**, unlabeled data sets quickly and efficiently. 
 ## Clustering
 
 ### K-means
@@ -156,13 +156,13 @@ Clustering algorithms are particularly useful for large datasets and can provide
 Principal component analysis simplifies large data tables. With a vast sea of data, identifying the most important variables and finding patterns can be difficult. PCA’s **simplification can help you visualize, analyze, and recognize patterns in your data more easily.**
 ### UMAP
 
-**Uniform Manifold Approximation and Projection** (UMAP) is a manifold learning technique that aims to reduce the dimensionality of data while preserving its topological structure. It is particularly useful for visualizing high-dimensional datasets in a low-dimensional space, typically two or three dimensions. UMAP is often compared to [t-SNE](https://www.geeksforgeeks.org/ml-t-distributed-stochastic-neighbor-embedding-t-sne-algorithm/) (t-distributed Stochastic Neighbor Embedding) due to its similar application in data visualization, but it offers several advantages, including better preservation of global data structure and faster computation times.
-# Semi-supervised machine learning 
+**Uniform Manifold Approximation and Projection** (UMAP) is a manifold learning technique that aims to reduce the dimensionality of data while preserving its topological structure. It is particularly useful for visualizing high-dimensional datasets in a low-dimensional space, typically two or three dimensions. UMAP is often compared to [t-SNE](https://www.geeksforgeeks.org/ml-t-distributed-stochastic-neighbor-embedding-t-sne-algorithm/) (t-distributed Stochastic Neighbor Embedding) due to its similar application in data visualization, but it offers several advantages, including better preservation of global data structure and faster computation times.
+# Semi-supervised machine learning 
 
-Semi-supervised machine learning uses both _unlabeled and labeled_ data sets to train algorithms. Generally, during semi-supervised machine learning, algorithms are first fed a small amount of labeled data to help direct their development and then fed much larger quantities of unlabeled data to complete the model. For example, an algorithm may be fed a smaller quantity of labeled speech data and then trained on a much larger set of unlabeled speech data in order to create a machine learning model capable of speech recognition. 
+Semi-supervised machine learning uses both _unlabeled and labeled_ data sets to train algorithms. Generally, during semi-supervised machine learning, algorithms are first fed a small amount of labeled data to help direct their development and then fed much larger quantities of unlabeled data to complete the model. For example, an algorithm may be fed a smaller quantity of labeled speech data and then trained on a much larger set of unlabeled speech data in order to create a machine learning model capable of speech recognition. 
 
-Semi-supervised machine learning is often employed to train algorithms for classification and prediction purposes in the event that large volumes of labeled data is unavailable. 
-# Reinforcement learning 
+Semi-supervised machine learning is often employed to train algorithms for classification and prediction purposes in the event that large volumes of labeled data is unavailable. 
+# Reinforcement learning 
 
 Reinforcement learning uses _trial and error_ to train algorithms and create models. During the training process, algorithms operate in specific environments and then are provided with feedback following each outcome. Much like how a child learns, the algorithm slowly begins to acquire an understanding of its environment and begins to optimize actions to achieve particular outcomes. For instance, an algorithm may be optimized by playing successive games of chess, which allow it to learn from its past success and failures playing each game.
 # Feature Engineering 
@@ -206,20 +206,20 @@ Convert **categorical or textual data** into numerical formats so models can pro
 - Works well for nominal data (no order).
 - Can cause high dimensionality if many unique values.
 - Example: "Color" (Red, Green, Blue) becomes:
-    - `Red = [1, 0, 0]`, `Green = [0, 1, 0]`, `Blue = [0, 0, 1]`.
+    - `Red = [1, 0, 0]`, `Green = [0, 1, 0]`, `Blue = [0, 0, 1]`.
 ### Label Encoding
 
 - Assigns each category a **unique integer**.
 - Useful for ordinal categories (e.g., low, medium, high).
 - Can introduce unintended order for nominal variables.
-- **How it works:** Assigns each category a **unique integer**.
+- **How it works:** Assigns each category a **unique integer**.
     - Example: "Size" (Small=1, Medium=2, Large=3).
 ### Embeddings
 
 - Map categories into **dense, continuous vector space**.
 - Often learned during training (e.g., in NLP with Word2Vec or deep models).
 - Efficient for high-cardinality or hierarchical categories.
-- Example: Word embeddings (Word2Vec) where "king" → `[0.2, -0.5, 0.7]`.
+- Example: Word embeddings (Word2Vec) where "king" → `[0.2, -0.5, 0.7]`.
 ## Feature Transformation
 
 Apply mathematical operations to normalize, scale, or enrich data:
@@ -269,32 +269,32 @@ These are the **quantitative measures** used to judge the model's predictions.
 - The ratio of correct predictions to total predictions.
 - May be misleading in **imbalanced datasets**.
 
-$$Accuracy=\frac{True Positives (TP)+True Negatives (TN)}{TP+TN+FP+FN}​$$
+$$Accuracy=\frac{True Positives (TP)+True Negatives (TN)}{TP+TN+FP+FN}$$
 
 #### Precision
 
 - Of all positive predictions, how many were actually positive?
 - **Important when false positives are costly.**
 
-$$Precision=\frac{True Positives (TP)}{TP + False Positives (FP)}​$$
+$$Precision=\frac{True Positives (TP)}{TP + False Positives (FP)}$$
 #### Recall (Sensitivity)
 
 - Of all actual positives, how many were predicted correctly?
 - **Important when false negatives are costly.**
 
-$$Precision=\frac{True Positives (TP)}{TP + False Negatives (FN)}​$$
+$$Precision=\frac{True Positives (TP)}{TP + False Negatives (FN)}$$
 #### F1 Score
 
 - Harmonic mean of precision and recall.
 - Balances both **false positives and false negatives.**
 
-$$F1 Score=2\times\frac{Precision \times Recall}{Precision + Recall}​$$
+$$F1 Score=2\times\frac{Precision \times Recall}{Precision + Recall}$$
 #### ROC-AUC (Receiver Operating Characteristic – Area Under Curve)
 
 - Measures the model's ability to distinguish between classes.
-- Comparing **multiple models**.
-- **ROC Curve:** Plots **True Positive Rate (Recall)** vs. **False Positive Rate (FPR)**.
-- **AUC:** Area under ROC curve (1 = perfect, 0.5 = random guessing).
+- Comparing **multiple models**.
+- **ROC Curve:** Plots **True Positive Rate (Recall)** vs. **False Positive Rate (FPR)**.
+- **AUC:** Area under ROC curve (1 = perfect, 0.5 = random guessing).
 #### Confusion Matrix
 
 - A 2x2 matrix for binary classification showing:
@@ -303,7 +303,7 @@ $$F1 Score=2\times\frac{Precision \times Recall}{Precision + Recall}​$$
     - True Negatives (TN)
     - False Negatives (FN)
 
-A table showing **actual vs. predicted** classifications (for Binary/Multi-class).
+A table showing **actual vs. predicted** classifications (for Binary/Multi-class).
 
 |                      | **Predicted: Positive** | **Predicted: Negative** |
 | -------------------- | ----------------------- | ----------------------- |
@@ -316,7 +316,7 @@ A table showing **actual vs. predicted** classifications (for Binary/Multi-cla
 - **Average of squared differences** between predicted and actual values.
 - Penalizes large errors more than smaller ones.
 
-$$MSE=\frac{1}{n}​\sum_{i=1}^n ​(y_{i}​−\hat{y_{i}})^2$$
+$$MSE=\frac{1}{n}\sum_{i=1}^n (y_{i}−\hat{y_{i}})^2$$
 #### Root Mean Squared Error (RMSE)
 
 - Square root of MSE. Same units as target variable.
@@ -328,16 +328,16 @@ $$RMSE=\sqrt{MSE}$$
 - **Average of absolute** differences between predicted and actual values.    
 - Less sensitive to outliers than MSE.
 
-$$MAE=\frac{1}{n}​\sum_{i=1}^n ​|y_{i}​−\hat{y_{i}}|$$
+$$MAE=\frac{1}{n}\sum_{i=1}^n |y_{i}−\hat{y_{i}}|$$
 #### R² Score (Coefficient of Determination)
 
 - **Measures the proportion of variance** in the target explained by the model.
 - **Interpretation:*
-    - **1** = Perfect fit.
-    - **0** = No better than predicting the mean.
-    - **Negative** = Worse than the mean baseline.
+    - **1** = Perfect fit.
+    - **0** = No better than predicting the mean.
+    - **Negative** = Worse than the mean baseline.
 
-$$R^2=1-\frac{\sum(y_{i}​−\hat{y_{i}})^2}{\sum(y_{i}​−\bar{y_{i}})^2}​$$
+$$R^2=1-\frac{\sum(y_{i}−\hat{y_{i}})^2}{\sum(y_{i}−\bar{y_{i}})^2}$$
 ## Hyperparameter Tuning
 
 This is the process of **optimizing the model’s configuration settings** to maximize performance.

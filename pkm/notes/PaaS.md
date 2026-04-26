@@ -14,7 +14,7 @@ Using PaaS offers numerous advantages, including:1
 - Application customization without software maintenance
 - Significant reduction in the amount of coding needed
 - Automation of business policy
-- Easy migration to the hybrid model
+- Easy migration to the hybrid model
 
 | Tool                                             | Description                                                    |
 | ------------------------------------------------ | -------------------------------------------------------------- |

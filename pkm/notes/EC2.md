@@ -128,7 +128,7 @@ Consolidate smaller or similar services into a **single container**. For example
 - Can workloads be containerized so they spin up only when needed?
 - Can you move workloads from EC2 to serverless? For example, package applications in Docker and run them on Fargate.
 - Enable hibernation for instances that don’t need to run 24/7—restoring from hibernation is fast and retains the last state.
-- Use [Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) to analyze where the highest EC2 costs come from and leverage other tools for cost predictions.
+- Use [Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) to analyze where the highest EC2 costs come from and leverage other tools for cost predictions.
 - Can you commit to specific resources for at least a year? If so, consider purchasing reserved instances.
 - For non-critical workloads (e.g., Dev), explore using spot instances to reduce costs.
 

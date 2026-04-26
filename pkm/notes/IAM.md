@@ -4,7 +4,7 @@ created: Tuesday 20th February 2024 19:09
 aliases: 
 tags: 
 ---
-Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, you can control access to services and resources under specific conditions. Use IAM policies to manage permissions for your workforce and systems to ensure [least privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege). 
+Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, you can control access to services and resources under specific conditions. Use IAM policies to manage permissions for your workforce and systems to ensure [least privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege). 
 ### Tips
 
 - The root account is the email address you used to sign up for AWS. The **root account** has **full administrative access** to AWS. For this reason, it is important to secure this account.

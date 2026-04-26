@@ -144,9 +144,14 @@ nav.breadcrumb-container {
                     margin: 1em 0 1em;
                 }
             }
+
+            &.right {
+                overflow: hidden;
+            }
         }
     }
 }
+
 
 //////////////////////////////////////////////////////////
 // Sidebar Left
@@ -173,87 +178,73 @@ h2.page-title a {
 //     height: auto;
 // }
 
-// Search 
+// Icon bar (Search + Darkmode + ReaderMode)
 
-div.search>.search-button {
-    background: none;
-    border: none;
-    padding-top: 0.4em;
-    cursor: default;
-    /* default since we're moving interaction to SVG */
+%icon-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+
+    &:hover {
+        background-color: var(--lightgray);
+    }
+}
+
+%icon-svg {
+    width: 18px;
+    height: 18px;
+    position: static;
+    top: unset;
+    flex-shrink: 0;
+}
+
+// Search
+
+div.search {
+    min-width: unset;
+    max-width: unset;
+}
+
+div.search>.search-button {
+    @extend %icon-btn;
 }
 
 div.search>.search-button>p {
     display: none;
-    padding: 0 0.5em;
 }
 
 div.search>.search-button svg {
-    display: inline-block;
-    width: 1.375em;
-    height: 1.375em;
-    padding: 0.5625em;
-    margin: 0;
+    @extend %icon-svg;
 }
 
-div.search svg:hover {
-    background-color: var(--lightgray);
-    border-radius: 0.25em;
-    cursor: pointer;
-}
-
-// Dark Mode Toggle
+// Darkmode
 
 .darkmode {
-    display: inline-block;
-    font-size: inherit;
-    width: 2.5em;
-    height: 2.5em;
-    margin: 0.5em -0.5em 0.5em 0;
-    transition: background-color 0.5s;
-    border-radius: var(--r3);
-    padding-top: 0.2em;
-}
+    @extend %icon-btn;
 
-.darkmode svg {
-    position: unset;
-    top: unset;
-    width: 1.5em;
-    padding: 0.5625em;
-}
-
-.darkmode svg:hover {
-    background-color: var(--lightgray);
-    border-radius: 0.25em;
-    cursor: pointer;
+    svg {
+        @extend %icon-svg;
+    }
 }
 
 // Reader Mode
 
 .readermode {
-    display: inline-block;
-    font-size: inherit;
-    width: 2.5em;
-    height: 2.5em;
-    margin: 0.4em 0 0 0.7em;
-    transition: background-color 0.5s;
-    border-radius: var(--r3);
-}
+    @extend %icon-btn;
 
-.readermode svg {
-    position: unset;
-    top: unset;
-    width: 1.5em;
-    padding: 0.5625em;
-}
-
-.readermode svg:hover {
-    background-color: var(--lightgray);
-    border-radius: 0.25em;
-    cursor: pointer;
+    svg {
+        @extend %icon-svg;
+        stroke: var(--darkgray);
+    }
 }
 
 // Recent
@@ -268,6 +259,7 @@ div.recent-notes>ul.recent-ul>li .desc h3 {
 
 div.recent-notes>ul.recent-ul>li .desc a {
     color: var(--dark);
+    text-decoration: none;
 }
 
 div.recent-notes>ul.recent-ul>li .section>.meta {
@@ -277,4 +269,26 @@ div.recent-notes>ul.recent-ul>li .section>.meta {
 
 div.recent-notes>ul.recent-ul>li .section>p {
     line-height: unset;
+}
+
+//////////////////////////////////////////////////////////
+// Table of Contents
+//////////////////////////////////////////////////////////
+
+.toc {
+    min-height: 0;
+    max-height: calc(100vh - 250px - var(--desktopMarginTop) - 12rem);
+}
+
+.explorer:not(.collapsed) {
+    min-height: 0;
+}
+
+.explorer-content {
+    max-height: calc(100vh - var(--desktopMarginTop) - 18rem);
+}
+
+ul.toc-content.overflow {
+    overflow-y: auto;
+    max-height: calc(100% - 2rem);
 }

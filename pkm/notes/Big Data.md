@@ -5,7 +5,7 @@ aliases:
 tags: 
 ---
 
-- [[De Lambda a Kappa - evolución de las arquitecturas Big Data]]
+- [[De Lambda a Kappa - evolución de las arquitecturas Big Data]]
 - Real time data is in seconds or milliseconds 
 
 ![[latency_data_pipelines.png]]

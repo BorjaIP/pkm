@@ -8,9 +8,9 @@ Agentic [[Artificial Intelligence|AI]] refers to artificial intelligence capable
 
 AI agent features three key characteristics:
 
-- **Planning:** an AI agent is capable of creating a step-by-step plan with discrete milestone goals from a prompt while learning from mistakes via a reward system to improve future outputs.
-- **Memory:** an AI agent combines the ability to use short-term memory to process chat-based prompts and follow-up prompts with longer-term data retention and recall (often [[RAG]]).
-- **Tool use:** an agent can query APIs to request additional information or execute an action based on an end user’s request.
+- **Planning:** an AI agent is capable of creating a step-by-step plan with discrete milestone goals from a prompt while learning from mistakes via a reward system to improve future outputs.
+- **Memory:** an AI agent combines the ability to use short-term memory to process chat-based prompts and follow-up prompts with longer-term data retention and recall (often [[RAG]]).
+- **Tool use:** an agent can query APIs to request additional information or execute an action based on an end user’s request.
 
 ## Tools & Frameworks
 

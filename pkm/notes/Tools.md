@@ -17,7 +17,7 @@ tags:
 | [Smodin](https://smodin.io/free-english-rewriter-and-spinner)     | Rewrite or paraphrase any text                                                                                          |
 | [Seeweedfs](https://github.com/seaweedfs/seaweedfs)               | Fast distributed storage system for blobs, objects, files, and data lake                                                |
 | [Cyberchef](https://cyberchef.org/)                               | Web app for encryption, encoding, compression and data analysis.                                                        |
-| [100L5](https://10015.io/)                                        | All **Online Tools** in “One Box”                                                                                       |
+| [100L5](https://10015.io/)                                        | All **Online Tools** in “One Box”                                                                                       |
 | [Script-collection](https://github.com/neteler/script_collection) | Collection of useful helper scripts for Linux power users                                                               |
 | [Tinywow](https://tinywow.com/)                                   | Free online conversion                                                                                                  |
 | [Pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)  | A collection of pure bash alternatives to external processes                                                            |

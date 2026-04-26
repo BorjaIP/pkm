@@ -40,13 +40,13 @@ airflow users create \
 
 # Achitecture
 
-- **Workers** - Execute the assigned tasks
-- **Scheduler** - Responsible for adding the necessary tasks to the queue
-- **Web server** - HTTP Server provides access to DAG/task status information 
-- **Database** - Contains information about the status of tasks, DAGs, Variables, connections, etc.
-- **Celery** - Queue mechanism
-	- **Broker** - Stores commands for execution
-	- **Result backend** - Stores status of completed commands
+- **Workers** - Execute the assigned tasks
+- **Scheduler** - Responsible for adding the necessary tasks to the queue
+- **Web server** - HTTP Server provides access to DAG/task status information 
+- **Database** - Contains information about the status of tasks, DAGs, Variables, connections, etc.
+- **Celery** - Queue mechanism
+	- **Broker** - Stores commands for execution
+	- **Result backend** - Stores status of completed commands
 
 ## Logs
 

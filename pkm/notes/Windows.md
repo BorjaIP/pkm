@@ -7,7 +7,7 @@ tags:
   - windows
   - os
 ---
-Windows is a desktop [[Operating Systems]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for personal computers.
+Windows is a desktop [[Operating Systems]] developed by Microsoft. For the past three decades, Windows has been the most popular operating system for personal computers.
 # Programs
 
 | Programs                                                                  | Description                                                                   |
@@ -216,7 +216,7 @@ $PSVersionTable
 
 # Package manager
 
-**A** **package** **manager** or **package**-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner. A **package** **manager** deals with **packages**, distributions of software and data in archive files.
+**A** **package** **manager** or **package**-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner. A **package** **manager** deals with **packages**, distributions of software and data in archive files.
 
 - [[Winget]]
 - [[Chocolatey]]

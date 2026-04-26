@@ -7,7 +7,7 @@ tags:
   - cloud
   - aws
 ---
-Amazon Web Services is a large web of offerings from [Amazon](https://notes.nicolevanderhoeven.com/Amazon) that are centered around the creation, deployment, maintenance, and operations of web applications.
+Amazon Web Services is a large web of offerings from [Amazon](https://notes.nicolevanderhoeven.com/Amazon) that are centered around the creation, deployment, maintenance, and operations of web applications.
 
 ![[aws_services.png]]
 
@@ -212,16 +212,16 @@ aws eks --region eu-west-1 update-kubeconfig --profile name
 
 ## Cost Reduce
 
-1. [Awesome Cloud Cost](https://github.com/jatalocks/awesome-cloud-cost) – a curated list of tips for reducing cloud costs.
-2. Use **Reserved Instances (RI)** and **Savings Plans** to lower costs. Consider “smart” automated RI SaaS solutions based on your existing workloads.
-3. Prefer **newer-generation EC2 instances**—they are always cheaper. This applies to other products as well, such as using **gp3 instead of gp2** for storage.
-4. Use **S3 storage classes** to cut costs on less frequently accessed data.
-5. If using **multiple private subnets** that require internet access, ensure each has its own **NAT gateway**. Sharing a single NAT gateway can be more expensive. Alternatively, install a **NAT instance** on a small EC2 or use only public subnets with strict access controls.
-6. Move away from **Classic Load Balancers** (deprecated and more expensive). Use **Network Load Balancers (NLB)** or **Application Load Balancers (ALB)** instead.
-7. Prefer **Transit Gateways (or AWS Network Manager)** over **VPC Peering**, especially when dealing with many VPCs, as peering costs scale poorly.
-8. Use **VPC Endpoints** to access AWS services internally. However, compare the cost of an endpoint with the cost of direct usage to ensure savings.
-9. If using **S3 Glacier**, compress files into as few objects as possible before uploading to reduce request costs.
-10. A common best practice is to create a centralized **“endpoint VPC”**, where all endpoints are managed, and the rest of your VPCs/accounts access AWS resources through it.
+1. [Awesome Cloud Cost](https://github.com/jatalocks/awesome-cloud-cost) – a curated list of tips for reducing cloud costs.
+2. Use **Reserved Instances (RI)** and **Savings Plans** to lower costs. Consider “smart” automated RI SaaS solutions based on your existing workloads.
+3. Prefer **newer-generation EC2 instances**—they are always cheaper. This applies to other products as well, such as using **gp3 instead of gp2** for storage.
+4. Use **S3 storage classes** to cut costs on less frequently accessed data.
+5. If using **multiple private subnets** that require internet access, ensure each has its own **NAT gateway**. Sharing a single NAT gateway can be more expensive. Alternatively, install a **NAT instance** on a small EC2 or use only public subnets with strict access controls.
+6. Move away from **Classic Load Balancers** (deprecated and more expensive). Use **Network Load Balancers (NLB)** or **Application Load Balancers (ALB)** instead.
+7. Prefer **Transit Gateways (or AWS Network Manager)** over **VPC Peering**, especially when dealing with many VPCs, as peering costs scale poorly.
+8. Use **VPC Endpoints** to access AWS services internally. However, compare the cost of an endpoint with the cost of direct usage to ensure savings.
+9. If using **S3 Glacier**, compress files into as few objects as possible before uploading to reduce request costs.
+10. A common best practice is to create a centralized **“endpoint VPC”**, where all endpoints are managed, and the rest of your VPCs/accounts access AWS resources through it.
 11. Use Cloud-native block storage management for identifying and removing unused or unattached storage volumes.
 
 ---

@@ -16,7 +16,7 @@ tags:
 - [Linux Academy - Using Terraform to Manage Applications and Infrastructure](https://github.com/linuxacademy/content-terraform-2021)
 - [How To Structure a Terraform Project](https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project)
 - [Creates a standalone Docker host on EC2](https://github.com/futurice/terraform-examples/tree/master/aws/aws_ec2_ebs_docker_host)
-- [Terraform's Azure Provider to provision resources in Azure](https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples)
+- [Terraform's Azure Provider to provision resources in Azure](https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples)
 - [Docker the Terraform Way](https://joachim8675309.medium.com/docker-the-terraform-way-a7c16b5f59ed)
 - [Terraform at Scale — Modualized Hierachical Layout and Continuous Delivery of Infrastructure](https://faun.pub/terraform-at-scale-modualized-hierachical-layout-cb5dbe5a368d)
 
