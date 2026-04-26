@@ -1,4 +1,7 @@
 {
   "attachmentFolderPath": "notes",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "showInlineTitle": false,
+  "readableLineLength": true
 }

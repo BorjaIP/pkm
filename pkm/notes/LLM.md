@@ -87,6 +87,8 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [Phoenix](https://github.com/Arize-ai/phoenix)                                        | AI Observability & Evaluation                                                                                                                |
 | [Opik](https://github.com/comet-ml/opik)                                              | Debug, evaluate, and monitor your LLM applications, [[RAG]] systems, and agentic workflows with comprehensive tracing, automated evaluations |
 | [deepeval](https://github.com/confident-ai/deepeval)                                  | The LLM Evaluation Framework                                                                                                                 |
+| [oMLX](https://github.com/jundot/omlx)                                                   | Local LLM inference server optimized for Apple Silicon Macs with continuous batching and tiered KV caching managed via native menu bar application               |
+| [Onyx](https://github.com/onyx-dot-app/onyx)                                             | Open-source AI platform with RAG, web search, code execution, and custom AI agents all in a feature-rich self-hosted interface                                |
 
 
 

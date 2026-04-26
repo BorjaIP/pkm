@@ -53,6 +53,7 @@ tags:
 | [OpenSign](https://github.com/OpenSignLabs/OpenSign)              | The free & Open Source DocuSign alternative                                                                             |
 | [Mkcert](https://github.com/FiloSottile/mkcert)                   | A simple zero-config tool to make locally trusted development certificates with any names you'd like                    |
 | [Presenterm](https://github.com/mfontanini/presenterm)            | Terminal-based markdown slideshow tool with syntax highlighting, code execution, Mermaid diagrams and image support      |
+| [TREK](https://github.com/mauriceboe/TREK)                        | Self-hosted, real-time collaborative travel planner with interactive maps, budgets, packing lists, and expense tracking |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

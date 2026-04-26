@@ -58,6 +58,7 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 | `/cost` | Show token usage statistics for the current session. |
 | `/stats` | Visualize daily usage, session history, streaks, and model preferences. |
 | `/effort [low\|medium\|high\|max\|auto]` | Set model effort level. `low`/`medium`/`high` persist across sessions; `max` is session-only (Opus 4.6). `auto` resets to model default. |
+| `/history` | Search your global conversation history from `~/.claude/history.jsonl`. Shows recent conversations in an easy-to-scan format with date, project, topic, and session ID. |
 
 ```bash
 # Start a named session (resumable by name)
@@ -164,6 +165,36 @@ one for each roadmap idea in @roadmap_ideas/
 - Exploring a large module or unfamiliar codebase section
 - Processing many files in parallel (one subagent per file/topic)
 - Any research phase before writing code — offload it, get the summary, then act
+
+### Customs Commands (history)
+
+**Description:** Search your global conversation history from `~/.claude/history.jsonl` in an easy-to-scan format.
+
+**Path:** `~/.claude/skills/history.md`
+
+**Code:**
+```markdown
+Please read my global conversation history from ~/.claude/history.jsonl and present it in an easy-to-scan format.
+
+For each conversation, show:
+- Entry number
+- Date/time (human readable format: "Nov 10, 2025 15:48")
+- Project name (just the folder name, not full path)
+- First 60-80 characters of the conversation topic
+- Session ID (if available)
+
+IMPORTANT: Format as a plain text table with properly padded columns (NOT markdown tables).
+
+Focus on the most recent 10 conversations in the first table. If there are more, show another 5-7 in an "Additional Recent Conversations" table.
+
+At the end, include:
+---
+Tip: Resume any conversation by running:
+- claude --resume <session-id>
+- claude --resume (to see an interactive list of recent sessions)
+```
+
+**What it does:** Displays your recent conversations (up to 10 most recent) with date, project name, conversation topic, and session ID — allowing you to quickly find and resume old sessions.
 
 ---
 

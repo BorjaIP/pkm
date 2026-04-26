@@ -20,3 +20,9 @@ inspiration for create plugins in obsidian
 - https://github.com/RavenWits/obsidian-ai-summarize
 - https://github.com/HyeonseoNam/auto-classifier
 - https://github.com/CtrlAltFocus/obsidian-plugin-auto-tag
+
+## Tools & Templates
+
+| Tool | Description |
+| ---- | ----------- |
+| [Obsidian Mind](https://github.com/breferrari/obsidian-mind) | Obsidian vault template enabling Claude Code to maintain continuous context across sessions with automatic note organization and semantic links |
