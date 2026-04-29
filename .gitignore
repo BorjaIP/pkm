@@ -19,4 +19,6 @@ pkm/.obsidian/workspace-mobile.json
 .trash/
 .DS_Store
 
+# Custom paths
 pkm/meridian/
+pkm/ops/

@@ -4,6 +4,9 @@ created: Saturday 31st January 2026 23:47
 aliases:
 tags:
 ---
+> [!note] Second Brain note — not a Claude Code project file
+> This file is a personal knowledge base note about the Claude AI ecosystem.
+> It is excluded from Claude Code's auto-loading via `claudeMdExcludes` in `~/.claude/settings.json`.
 Claude is Anthropic's AI assistant family, available as a web/desktop chat app ([[Claude#Claude Desktop|Claude Desktop]]) and a terminal-based agentic coding tool ([[Claude#Claude Code|Claude Code]]). Models range from the fast [[Haiku]] to the balanced [[Sonnet]] and the most capable [[Opus]], each optimized for different cost/performance trade-offs.
 # Claude Code
 
@@ -24,15 +27,15 @@ Claude is Anthropic's AI assistant family, available as a web/desktop chat app (
 | [notebooklm-ai-plugin](https://github.com/proyecto26/notebooklm-ai-plugin)  | Claude Code skill that brings Google NotebookLM into the terminal: chat with notebook AI, generate 9 artifact types (slides, audio, video, mind maps, quizzes, flashcards, infographics, reports, data tables), manage sources (URLs, YouTube, files, text), and run fast/deep web research. |
 ### Skills & Collections
 
-| Resource | Description |
-| -------- | ----------- |
-| [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic repository of Agent Skills — self-contained skill folders Claude loads dynamically for specialized tasks. |
-| [obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills (by Obsidian's CEO) for Claude Code to read, write, and navigate Obsidian vaults. |
-| [impeccable](https://github.com/pbakaus/impeccable) | Design skill system for AI coding assistants; teaches typography, color, and UX anti-patterns via 20+ slash commands. |
-| [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases. |
-| [awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | An orchestrated sub-agent dev team powered by Claude Code. |
-| [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | Comprehensive guide to Claude Code best practices: subagents, commands, skills, memory systems, and MCP servers. |
-| [marketingskills](https://github.com/coreyhaines31/marketingskills) | 40+ marketing skills for Claude Code and other AI coding agents: conversion optimization, copywriting, SEO, paid ads, analytics, A/B testing, retention, and growth engineering. |
+| Resource                                                                                    | Description                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [anthropics/skills](https://github.com/anthropics/skills)                                   | Official Anthropic repository of Agent Skills — self-contained skill folders Claude loads dynamically for specialized tasks.                                                     |
+| [obsidian-skills](https://github.com/kepano/obsidian-skills)                                | Agent skills (by Obsidian's CEO) for Claude Code to read, write, and navigate Obsidian vaults.                                                                                   |
+| [impeccable](https://github.com/pbakaus/impeccable)                                         | Design skill system for AI coding assistants; teaches typography, color, and UX anti-patterns via 20+ slash commands.                                                            |
+| [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.                                                                           |
+| [awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents)             | An orchestrated sub-agent dev team powered by Claude Code.                                                                                                                       |
+| [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)      | Comprehensive guide to Claude Code best practices: subagents, commands, skills, memory systems, and MCP servers.                                                                 |
+| [marketingskills](https://github.com/coreyhaines31/marketingskills)                         | 40+ marketing skills for Claude Code and other AI coding agents: conversion optimization, copywriting, SEO, paid ads, analytics, A/B testing, retention, and growth engineering. |
 
 ---
 
