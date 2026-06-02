@@ -74,6 +74,32 @@ claude --resume my-feature-work
 claude --resume my-feature-work --fork-session
 ```
 
+### Code Review Commands
+
+**Three specialized review commands for analyzing code changes:**
+
+| Command                 | Usage                                                                                                                                                | Output                               |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| `/review`               | Posts review to GitHub PR. Optional context: `/review Check the database migration compatibility.`                                                   | Posted to PR as comment              |
+| `/code-review [effort]` | Reviews local uncommitted changes. Efforts: `low`, `medium`, `high`, `max`, `ultra`. Options: `--comment` (post to PR), `--fix` (apply corrections). | Terminal output or PR comments       |
+| `/security-review`      | Scans for vulnerabilities, injection attacks, credential leaks. Optional focus: `/security-review Focus on the JWT validation logic.`                | Terminal output with severity levels |
+
+**Quick examples:**
+
+```bash
+# Review changes locally before pushing
+/code-review high
+
+# Find security issues
+/security-review
+
+# Auto-fix issues and post to PR
+/code-review high --fix --comment
+
+# Post final review to GitHub PR
+/review Ready for merge — all checks passed.
+```
+
 ### Statusline
 
 Mix `/statusline` with [ccusage](https://github.com/ryoppippi/ccusage) to get real context usage visible in your statusline at all times.
