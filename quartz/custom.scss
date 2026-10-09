@@ -15,6 +15,17 @@
     --t6: 0.889em;
 }
 
+// Inconsolata runs small; match the 18px effective size of borjaip.github.io.
+html {
+    font-size: 112.5%;
+}
+
+// Soft accent on link hover, like the portfolio (pink accent via --tertiary).
+a:hover,
+a:focus {
+    color: var(--tertiary);
+}
+
 h1 {
     font-size: var(--t1);
 }
@@ -142,6 +153,9 @@ nav.breadcrumb-container {
             &.left {
                 hr {
                     margin: 1em 0 1em;
+                    // The sidebar is a 100vh flex column: when the Explorer expands
+                    // (e.g. on a note page) the 1px divider would shrink to 0.
+                    flex-shrink: 0;
                 }
             }
 

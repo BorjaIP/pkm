@@ -1,5 +1,5 @@
 # Base in https://github.com/jackyzha0/quartz/pkgs/container/quartz
-FROM ghcr.io/jackyzha0/quartz:sha-b34d521
+FROM ghcr.io/jackyzha0/quartz:sha-d25a6ea
 
 # Copy content to show
 COPY ./pkm/ ./content/

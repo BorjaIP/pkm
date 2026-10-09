@@ -1,6 +1,6 @@
 {
     "name": "Quartz Dev Container",
-    "image": "ghcr.io/jackyzha0/quartz:sha-b34d521",
+    "image": "ghcr.io/jackyzha0/quartz:sha-d25a6ea",
     // "build": {
     //     "dockerfile": "Dockerfile"
     // },
