@@ -13,7 +13,7 @@ const config: QuartzConfig = {
         enablePopovers: false, // https://github.com/jackyzha0/quartz/issues/890
         analytics: null,
         locale: "en-US",
-        // baseUrl: "url.com",
+        baseUrl: "borjaip.github.io/pkm",
         ignorePatterns: ["private", "**/templates", ".obsidian"],
         defaultDateType: "created",
         theme: {
