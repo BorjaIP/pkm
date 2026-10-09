@@ -9,7 +9,7 @@ tags:
 
 I'm **Borja**, an AI Platform Engineer working across data, platform, and AI tooling. This is my **Second Brain** — a personal knowledge management system I use to think, learn, and operate.
 
-This vault is one half of a two-repository setup. The other is **[`personal-os-skills`](https://github.com/borjairigoyen/personal-os-skills)** — a collection of skills that write directly into this vault: meeting notes, ops triage, runbooks, project tracking, and more. Together they form a personal OS: `personal-os-skills` acts as the **agentic write layer**, capturing and structuring operational knowledge automatically, while `pkm` is the **knowledge base** — the place where everything lands, connects, and gets published.
+This vault is one half of a two-repository setup. The other is **[`personal-os-skills`](https://github.com/BorjaIP/personal-os-skills)** — a collection of skills that write directly into this vault: meeting notes, ops triage, runbooks, project tracking, and more. Together they form a personal OS: `personal-os-skills` acts as the **agentic write layer**, capturing and structuring operational knowledge automatically, while `pkm` is the **knowledge base** — the place where everything lands, connects, and gets published.
 
 ---
 
