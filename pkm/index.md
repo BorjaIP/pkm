@@ -86,15 +86,6 @@ Meeting notes don't live in isolation. The `meet` skill structures them to **lin
 
 ---
 
-##  Quick Navigation
-
-| Area | Link |
-|---|---|
-| CS knowledge base | [[Computer Science]] |
-| Ops & triage index | [[ops/_index]] |
-
----
-
 ## Start Here — Explore by Topic
 
 New to the garden? These four notes are the best entry points. Each one is a hub that links out to the atomic notes on its topic.
