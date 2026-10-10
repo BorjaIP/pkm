@@ -69,7 +69,7 @@ Evidence level in brackets. Site references are from the official showcase.
 - [x] R2 (enabled; hover behavior not visually checked) Popovers: issue #890 was closed 2025-03-10 by commit 8d33608, which is an ancestor of the v4 tip (compare: ahead 197, behind 0). [verified]
 - [ ] R3 Citations plugin for `articles/papers`. [Quartz feature list; fit with our note format unverified]
 - [ ] R4 Sidenotes: no Quartz plugin found; try `<span class="sidenote">` plus custom CSS. [experiment, untested]
-- [ ] R5 "Start here" landing: replace the flat list in `pkm/index.md` with a few curated entry notes, like The Pond (turntrout.com). [evidenced on that site]
+- [x] R5 (links verified HTTP 200 locally; layout not visually checked) "Start Here" section appended to `pkm/index.md` (title and existing context unchanged): Computer Science, Artificial Intelligence, Software Architecture, DevOps. Inspired by The Pond (turntrout.com). [evidenced on that site]
 - [x] R6 Already provided by Quartz (heading `a[role=anchor]` and a ToC are in the built HTML of a note; verified). Heading anchors and ToC for long notes, as in A Pattern Language (patternlanguage.cc). [evidenced on that site]
 - [ ] R7 Evaluate Stacked pages, Bases, Canvas and encrypted pages from the Quartz feature list; check which exist in the chosen version. [unverified per version]
 - [ ] R8 Check the code-block theme (`nord` in dark) against the new `#0a0a0a` background. [own recommendation]

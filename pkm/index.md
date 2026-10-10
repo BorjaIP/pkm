@@ -92,3 +92,16 @@ Meeting notes don't live in isolation. The `meet` skill structures them to **lin
 |---|---|
 | CS knowledge base | [[Computer Science]] |
 | Ops & triage index | [[ops/_index]] |
+
+---
+
+## Start Here — Explore by Topic
+
+New to the garden? These four notes are the best entry points. Each one is a hub that links out to the atomic notes on its topic.
+
+| Topic | What you'll find |
+|---|---|
+| [[Computer Science]] | Theory, programming languages and the fundamentals the rest of the garden builds on |
+| [[Artificial Intelligence]] | Machine learning, deep learning, generative AI, NLP and [[AI Agents]] |
+| [[Software Architecture]] | Structure, architectural decisions, quality attributes and patterns (see also [[Architecture Patterns]]) |
+| [[DevOps]] | CI/CD, platform practices and curated roadmaps and resources |
