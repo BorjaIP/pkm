@@ -50,6 +50,9 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Type-check Quartz overrides
+        run: docker run --rm quartz-site:ci npx tsc --noEmit
+
       - name: Build the fixture site
         run: |
           set -o pipefail
