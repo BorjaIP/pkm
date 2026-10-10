@@ -228,6 +228,48 @@ nav.breadcrumb-container {
 // Sidebar Left
 //////////////////////////////////////////////////////////
 
+// Back link to the main site, above the page title. Muted like the breadcrumbs;
+// brand pink on hover, with the arrow nudging left.
+
+a.back-to-site {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    margin-bottom: 0.75em;
+    font-size: 0.875em;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--dark);
+    opacity: 0.6;
+    text-decoration: none;
+    transition: opacity 200ms ease, color 200ms ease;
+
+    .back-arrow {
+        display: inline-block;
+        transition: transform 200ms ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        opacity: 1;
+        color: var(--tertiary);
+
+        .back-arrow {
+            transform: translateX(-3px);
+        }
+    }
+
+    // On small screens the left sidebar is a single row: keep only the arrow.
+    @media (max-width: 800px) {
+        margin: 0 0.5em 0 0;
+        font-size: 1.1em;
+
+        .back-label {
+            display: none;
+        }
+    }
+}
+
 // Page Title
 
 h2.page-title {

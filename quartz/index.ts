@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Divider from "./Divider"
+import BackToSite from "./BackToSite"
 
 export {
     ArticleTitle,
@@ -52,4 +53,5 @@ export {
     Flex,
     ConditionalRender,
     Divider,
+    BackToSite,
 }
