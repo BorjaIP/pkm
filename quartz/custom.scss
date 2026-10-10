@@ -56,6 +56,31 @@ $measure: 76ch;
     p {
         margin: 1em 0;
     }
+
+    // Links: pink (--secondary) plus a visible underline; heading anchors and tags keep their own look.
+    a:not([role="anchor"]):not(.tag-link) {
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+
+        &:hover,
+        &:focus {
+            text-decoration-color: currentColor;
+        }
+    }
+
+    // Bold: heavier and in the brightest text color so it stands out from body text.
+    strong,
+    b {
+        font-weight: 700;
+        color: var(--dark);
+    }
+
+    a strong,
+    a b {
+        color: inherit;
+    }
 }
 
 h1 {
