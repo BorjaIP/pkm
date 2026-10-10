@@ -21,7 +21,7 @@ CI in this repository covers **only the site's presentation, build and deploymen
 
 CI must **never** validate, lint, rewrite or gate the Obsidian notes (`pkm/`): note content, links, frontmatter, tags, assets and vault structure are out of scope. In particular:
 
-- Checks that run on pull requests are path-filtered to the infrastructure paths above; changes under `pkm/` must not trigger them.
+- Checks that run on pull requests ignore notes (`paths-ignore: pkm/**`): a PR that only changes `pkm/` does not trigger them. Notes are pushed straight to `main` from Obsidian, not through PRs. A PR that mixes notes and infrastructure does run the checks, which build a fixture and never read the notes.
 - CI builds use a small fixture under `ci/` instead of the real vault, so a check never depends on note content.
 - `deploy.yaml` is the only workflow that runs on note changes, and only to publish them (push to `main`).
 - Do not add broken-link, spell-check, frontmatter or formatting checks for notes.

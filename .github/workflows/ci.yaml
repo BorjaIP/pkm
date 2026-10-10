@@ -2,13 +2,12 @@ name: CI
 
 on:
   pull_request:
-    paths:
-      - "Dockerfile"
-      - "docker-compose.yml"
-      - ".devcontainer/**"
-      - "quartz/**"
-      - "ci/**"
-      - ".github/**"
+    # Every PR runs the checks unless it only changes notes. Notes are pushed straight to
+    # main from Obsidian and are out of scope; ignoring them (instead of allow-listing the
+    # infrastructure paths) means a required check is never left "Pending" on a PR that
+    # touches only AGENTS.md, README.md, .gitignore, etc.
+    paths-ignore:
+      - "pkm/**"
   workflow_dispatch:
 
 permissions:
