@@ -26,6 +26,63 @@ a:focus {
     color: var(--tertiary);
 }
 
+// Reading comfort: keep lines around 76 characters and give text room to breathe.
+// `ch` tracks the monospace advance, so this holds if the font size changes.
+$measure: 76ch;
+
+.page .page-header,
+.page article {
+    max-width: $measure;
+}
+
+.page article {
+    margin-inline: auto;
+    line-height: 1.75;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.3;
+    }
+
+    h2,
+    h3 {
+        margin-top: 1.75em;
+    }
+
+    p {
+        margin: 1em 0;
+    }
+
+    // Links: pink (--secondary) plus a visible underline; heading anchors and tags keep their own look.
+    a:not([role="anchor"]):not(.tag-link) {
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+
+        &:hover,
+        &:focus {
+            text-decoration-color: currentColor;
+        }
+    }
+
+    // Bold: heavier and in the brightest text color so it stands out from body text.
+    strong,
+    b {
+        font-weight: 700;
+        color: var(--dark);
+    }
+
+    a strong,
+    a b {
+        color: inherit;
+    }
+}
+
 h1 {
     font-size: var(--t1);
 }

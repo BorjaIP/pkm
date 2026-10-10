@@ -1,6 +1,6 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-function Divider({ displayClass }: QuartzComponentProps) {
+function Divider(_props: QuartzComponentProps) {
     return <hr />
 }
 

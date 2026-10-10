@@ -20,7 +20,7 @@ function parseCustomDate(input: any): Date {
 
     if (!match) return new Date(input)
 
-    const [, , dayStr, , monthStr, yearStr, hourStr, minuteStr] = match
+    const [, , dayStr, , monthStr, yearStr] = match
 
     const months = [
         "January", "February", "March", "April", "May", "June",

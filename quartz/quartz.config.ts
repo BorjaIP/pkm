@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     configuration: {
         pageTitle: "Personal Second Brain",
         enableSPA: true,
-        enablePopovers: false, // https://github.com/jackyzha0/quartz/issues/890
+        enablePopovers: true,
         analytics: null,
         locale: "en-US",
         baseUrl: "borjaip.github.io/pkm",
@@ -32,8 +32,8 @@ const config: QuartzConfig = {
                     gray: "#888888",
                     darkgray: "#2B303B",
                     dark: "#0a0a0a",
-                    secondary: "#2B303B",
-                    tertiary: "#de73be",
+                    secondary: "#b8338f",
+                    tertiary: "#8f1f6c",
                     highlight: "rgba(222, 115, 190, 0.1)",
                     textHighlight: "#de73be55",
                 },
@@ -43,8 +43,8 @@ const config: QuartzConfig = {
                     gray: "#666666",
                     darkgray: "#d4d4d4",
                     dark: "#e8e8e8",
-                    secondary: "#bbbbbb",
-                    tertiary: "#de73be",
+                    secondary: "#de73be",
+                    tertiary: "#f0a0d8",
                     highlight: "rgba(222, 115, 190, 0.12)",
                     textHighlight: "#de73be55",
                 },
@@ -69,6 +69,7 @@ const config: QuartzConfig = {
             Plugin.TableOfContents(),
             Plugin.CrawlLinks({
                 markdownLinkResolution: "shortest",
+                openLinksInNewTab: true,
             }),
             Plugin.Description(),
             Plugin.Latex({ renderEngine: "katex" })
