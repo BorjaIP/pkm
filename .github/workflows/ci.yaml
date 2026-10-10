@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  pull_request:
+    paths:
+      - "Dockerfile"
+      - "docker-compose.yml"
+      - ".devcontainer/**"
+      - "quartz/**"
+      - "ci/**"
+      - ".github/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  workflows:
+    name: Lint workflows
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Run actionlint
+        run: docker run --rm -v "$PWD":/repo -w /repo rhysd/actionlint:1.7.7 -color
+
+  site:
+    name: Build site
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
+
+      - name: Build Docker image
+        uses: docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25 # v5.4.0
+        with:
+          context: .
+          load: true
+          push: false
+          tags: quartz-site:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Type-check Quartz overrides
+        run: docker run --rm quartz-site:ci npx tsc --noEmit
+
+      - name: Build the fixture site
+        run: |
+          set -o pipefail
+          mkdir -p ci/out
+          docker run --rm \
+            -v "$PWD/ci/fixture:/usr/src/app/content:ro" \
+            -v "$PWD/ci/out:/out" \
+            quartz-site:ci npx quartz build -o /out/site 2>&1 | tee build.log
+
+      - name: Check build output
+        run: bash ci/check-output.sh ci/out/site build.log
