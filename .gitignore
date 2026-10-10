@@ -27,3 +27,7 @@ pkm/ops/
 pkm/meetings/
 
 .atl
+
+# CI artifacts
+ci/out/
+build.log
