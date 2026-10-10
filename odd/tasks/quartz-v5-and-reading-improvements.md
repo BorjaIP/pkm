@@ -73,6 +73,7 @@ Evidence level in brackets. Site references are from the official showcase.
 - [x] R6 Already provided by Quartz (heading `a[role=anchor]` and a ToC are in the built HTML of a note; verified). Heading anchors and ToC for long notes, as in A Pattern Language (patternlanguage.cc). [evidenced on that site]
 - [ ] R7 Evaluate Stacked pages, Bases, Canvas and encrypted pages from the Quartz feature list; check which exist in the chosen version. [unverified per version]
 - [x] R9 (CSS/colors verified in served build; visual check pending) Links and bold were hard to see: links were `#bbb` (about the body color) with weight 600, bold nearly the same color. Now links use the brand pink (`--secondary`: `#de73be` dark / `#b8338f` light, contrast 6.88 and 5.15 vs backgrounds) with a thin underline; bold is weight 700 in the brightest text color. Hover uses `#f0a0d8` (dark) / `#8f1f6c` (light).
+- [x] R10 External links (references) open in a new tab via `CrawlLinks.openLinksInNewTab`; verified in built HTML: external links get `target="_blank"`, internal links do not.
 - [ ] R8 Check the code-block theme (`nord` in dark) against the new `#0a0a0a` background. [own recommendation]
 
 ## Sources
