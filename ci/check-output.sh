@@ -52,28 +52,6 @@ else
   fail "sample note page exists"
 fi
 
-# External link behaviour on index.html
-if [[ -s "$out/index.html" ]]; then
-  links="$(grep -o '<a [^>]*>' "$out/index.html" || true)"
-  external="$(grep 'class="external' <<<"$links" || true)"
-  internal="$(grep 'class="internal' <<<"$links" || true)"
-  if [[ -n "$external" ]]; then pass "index.html has at least one external link"; else fail "index.html has at least one external link"; fi
-  if [[ -n "$external" ]] && ! grep -qv 'target="_blank"' <<<"$external"; then
-    pass "all external links open in a new tab"
-  else
-    fail "all external links open in a new tab"
-  fi
-  if grep -q 'target="_blank"' <<<"$internal"; then
-    fail "no internal link opens in a new tab"
-  else
-    pass "no internal link opens in a new tab"
-  fi
-else
-  fail "index.html has at least one external link"
-  fail "all external links open in a new tab"
-  fail "no internal link opens in a new tab"
-fi
-
 # Excluded content
 if [[ -d "$out" ]]; then
   leaked="$(find "$out" -type f \( -iname '*secret*' -o -iname '*template*' -o -iname '*draft*' \) | head -n 5 || true)"

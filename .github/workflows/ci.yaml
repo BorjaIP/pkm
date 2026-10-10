@@ -61,7 +61,7 @@ jobs:
           docker run --rm \
             -v "$PWD/ci/fixture:/usr/src/app/content:ro" \
             -v "$PWD/ci/out:/out" \
-            quartz-site:ci npx quartz build -o /out/site 2>&1 | tee build.log
+            quartz-site:ci npx quartz build -o /out/site 2>&1 | tee ci/build.log
 
       - name: Check build output
-        run: bash ci/check-output.sh ci/out/site build.log
+        run: bash ci/check-output.sh ci/out/site ci/build.log
