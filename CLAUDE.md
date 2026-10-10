@@ -66,3 +66,7 @@ tags:
 Push to `main` → GitHub Actions (`deploy.yaml`) → Docker build → `npx quartz build` → GitHub Pages.
 
 The Quartz config (`quartz/quartz.config.ts`) controls which plugins run, the theme, and what gets excluded. Custom components in `quartz/` override Quartz defaults and are copied into the container at build time (see `Dockerfile`).
+
+## Agent Rules
+
+See @AGENTS.md — in particular, never commit or push vault content (`pkm/`); that is only done from Obsidian.

@@ -1,0 +1,16 @@
+# Normalize line endings to LF across Windows, WSL and macOS
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+
+# Third-party Obsidian plugins: keep as distributed
+pkm/.obsidian/plugins/**/*.js -text
