@@ -66,3 +66,14 @@ tags:
 Push to `main` → GitHub Actions (`deploy.yaml`) → Docker build → `npx quartz build` → GitHub Pages.
 
 The Quartz config (`quartz/quartz.config.ts`) controls which plugins run, the theme, and what gets excluded. Custom components in `quartz/` override Quartz defaults and are copied into the container at build time (see `Dockerfile`).
+
+## CI Scope
+
+CI in this repository covers **only the site's presentation, build and deployment**: the Quartz image and its overrides (`quartz/`), `Dockerfile`, `docker-compose.yml`, `.devcontainer/`, and `.github/`.
+
+CI must **never** validate, lint, rewrite or gate the Obsidian notes (`pkm/`): note content, links, frontmatter, tags, assets and vault structure are out of scope. In particular:
+
+- Checks that run on pull requests are path-filtered to the infrastructure paths above; changes under `pkm/` must not trigger them.
+- CI builds use a small fixture under `ci/` instead of the real vault, so a check never depends on note content.
+- `deploy.yaml` is the only workflow that runs on note changes, and only to publish them (push to `main`).
+- Do not add broken-link, spell-check, frontmatter or formatting checks for notes.
