@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     configuration: {
         pageTitle: "Personal Second Brain",
         enableSPA: true,
-        enablePopovers: false, // https://github.com/jackyzha0/quartz/issues/890
+        enablePopovers: true,
         analytics: null,
         locale: "en-US",
         baseUrl: "borjaip.github.io/pkm",
