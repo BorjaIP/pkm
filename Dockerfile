@@ -12,6 +12,7 @@ COPY ./quartz/index.ts ./quartz/components/index.ts
 COPY ./quartz/RecentNotes.tsx ./quartz/components/RecentNotes.tsx
 COPY ./quartz/Breadcrumbs.tsx ./quartz/components/Breadcrumbs.tsx
 COPY ./quartz/Divider.tsx ./quartz/components/Divider.tsx
+COPY ./quartz/BackToSite.tsx ./quartz/components/BackToSite.tsx
 COPY ./quartz/custom.scss ./quartz/styles/custom.scss
 
 

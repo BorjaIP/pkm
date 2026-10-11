@@ -26,6 +26,63 @@ a:focus {
     color: var(--tertiary);
 }
 
+// Reading comfort: keep lines around 76 characters and give text room to breathe.
+// `ch` tracks the monospace advance, so this holds if the font size changes.
+$measure: 76ch;
+
+.page .page-header,
+.page article {
+    max-width: $measure;
+}
+
+.page article {
+    margin-inline: auto;
+    line-height: 1.75;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.3;
+    }
+
+    h2,
+    h3 {
+        margin-top: 1.75em;
+    }
+
+    p {
+        margin: 1em 0;
+    }
+
+    // Links: pink (--secondary) plus a visible underline; heading anchors and tags keep their own look.
+    a:not([role="anchor"]):not(.tag-link) {
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--secondary) 55%, transparent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+
+        &:hover,
+        &:focus {
+            text-decoration-color: currentColor;
+        }
+    }
+
+    // Bold: heavier and in the brightest text color so it stands out from body text.
+    strong,
+    b {
+        font-weight: 700;
+        color: var(--dark);
+    }
+
+    a strong,
+    a b {
+        color: inherit;
+    }
+}
+
 h1 {
     font-size: var(--t1);
 }
@@ -170,6 +227,48 @@ nav.breadcrumb-container {
 //////////////////////////////////////////////////////////
 // Sidebar Left
 //////////////////////////////////////////////////////////
+
+// Back link to the main site, above the page title. Muted like the breadcrumbs;
+// brand pink on hover, with the arrow nudging left.
+
+a.back-to-site {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    margin-bottom: 0.75em;
+    font-size: 0.875em;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--dark);
+    opacity: 0.6;
+    text-decoration: none;
+    transition: opacity 200ms ease, color 200ms ease;
+
+    .back-arrow {
+        display: inline-block;
+        transition: transform 200ms ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        opacity: 1;
+        color: var(--tertiary);
+
+        .back-arrow {
+            transform: translateX(-3px);
+        }
+    }
+
+    // On small screens the left sidebar is a single row: keep only the arrow.
+    @media (max-width: 800px) {
+        margin: 0 0.5em 0 0;
+        font-size: 1.1em;
+
+        .back-label {
+            display: none;
+        }
+    }
+}
 
 // Page Title
 

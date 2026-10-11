@@ -13,6 +13,7 @@ services:
       - ./quartz/RecentNotes.tsx:/usr/src/app/quartz/components/RecentNotes.tsx
       - ./quartz/Breadcrumbs.tsx:/usr/src/app/quartz/components/Breadcrumbs.tsx
       - ./quartz/Divider.tsx:/usr/src/app/quartz/components/Divider.tsx
+      - ./quartz/BackToSite.tsx:/usr/src/app/quartz/components/BackToSite.tsx
       - ./quartz/custom.scss:/usr/src/app/quartz/styles/custom.scss
     environment:
       - CHOKIDAR_USEPOLLING=1

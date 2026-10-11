@@ -1,5 +1,5 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
+import { SimpleSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
@@ -35,7 +35,6 @@ export default ((userOpts?: Partial<Options>) => {
         {
             pages.slice(0, opts.limit).map((page) => {
                 const title = page.frontmatter?.title
-                const tags = page.frontmatter?.tags ?? []
 
                 return (
                     <li class= "recent-li" >
