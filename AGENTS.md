@@ -2,6 +2,20 @@
 
 Rules for AI agents (Claude Code, Codex, etc.) working in this repository.
 
+## Scope separation
+
+This repository has **two instruction files** with different purposes:
+
+| File | Scope | When to read |
+|---|---|---|
+| **`AGENTS.md`** (this file) | Repository infrastructure, Git rules, publishing pipeline, Docker/Quartz. | When asked to modify `quartz/`, `Dockerfile`, GitHub Actions, `.devcontainer/`, or when committing/pushing infrastructure files. |
+| **`pkm/.claude/WIKI.md`** | Second Brain knowledge operations — ingest, query, lint, catalog, log, cross-references. | When asked about *knowledge in the vault* — "what do I know about X?", "ingest this paper", "compare A and B from my notes", "lint my wiki", etc. |
+
+**`AGENTS.md` stays for infrastructure and Git discipline.**  
+**`WIKI.md` is the schema that turns the agent into a disciplined wiki maintainer rather than a generic chatbot.**
+
+---
+
 ## Git: who commits what
 
 This repo is synced across several machines (Windows, WSL and macOS). To keep formatting consistent, commits are split by scope:
