@@ -21,12 +21,11 @@ Kubeflow is an open-source platform for [[Machine Learning]] and MLOps on [[Kube
 | [Bootstrap](https://github.com/treebeardtech/kubeflow-bootstrap)   | 🪐 1-click Kubeflow using ArgoCD                            |
 # Articles/Talks
 
-- [[Building a Complete AI Based Search Engine with Elasticsearch, Kubeflow and Katib]]
-- [[Search system on top of Elasticsearch, Kubeflow and Katib]]
+- [Search system on top of Elasticsearch, Kubeflow and Katib](https://github.com/WillianFuks/pySearchML)
 - [[An end-to-end ML pipeline on-prem - Notebooks & Kubeflow Pipelines on the new MiniKF]]
 - [[Distributed TensorFlow training using Kubeflow on Amazon EKS]]
 - [[Building a ML Pipeline from Scratch with Kubeflow]]
-- [[Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure]]
+- [Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure](https://github.com/Azure/kubeflow-labs)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lu5zHvpQeSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -98,7 +97,7 @@ Use metacontroller as an add-on for Kubernetes that makes it easy to write and d
 ## KServe
 
 - [[KServe - The State and Future of Cloud-Native Model Serving]]
-- [[Open Inference Protocol (V2 Inference Protocol)]]
+- [Open Inference Protocol (V2 Inference Protocol)](https://kserve.github.io/website/0.10/modelserving/data_plane/v2_protocol/)
 ### Add SSL
 
 - Create certificate

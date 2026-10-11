@@ -21,5 +21,5 @@ MLOps or ML Ops is a paradigm that aims to deploy and maintain [[Machine Learnin
 
 - [[Continuous Delivery for Machine Learning]]
 - [[A CD4ML Example Setup on AWS S3, GitLab with DVC]]
-- [[Continuous Intelligence and CD4ML Workshop]]
+- [Continuous Intelligence and CD4ML Workshop](https://github.com/ThoughtWorksInc/cd4ml-workshop)
 - [[MLOps - Continuous delivery and automation pipelines in machine learning]]

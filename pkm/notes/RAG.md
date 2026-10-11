@@ -16,7 +16,6 @@ tags:
 | [LEANN](https://github.com/yichuan-w/LEANN)                         | A Low-Storage Vector Index                                                   |
 # Articles/Talks
 
-- [[What is a RAG]]
 - [[Modular RAG and RAG Flow - Part Ⅰ]]
 - [[Modular RAG and RAG Flow - Part II]]
 - [[Evaluating RAG pipelines with Ragas + LangSmith]]

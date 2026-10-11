@@ -101,7 +101,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 - [[A Watermark for Large Language Models]]
 - [[Accelerating Large Language Models with Mixed-Precision Techniques]]
 - [[Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots— Part 1-3]]
-- [[Advancing AGI for humanity]]
+- [Advancing AGI for humanity](https://thegenerality.com/agi/index.html)
 - [[Evaluating Large Language Model (LLM) systems - Metrics, challenges, and best practices]]
 - [LLM-PowerHouse: A Curated Guide for Large Language Models with Custom Training and Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing)
 # [[RAG]]

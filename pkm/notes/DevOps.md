@@ -8,11 +8,11 @@ DevOps is **the combination of cultural philosophies, practices, and tools that 
 
 ![[devops.png]]
 
-- [[DevOps Roadmap]]
-- [[DevOps Newsletters]]
-- [[DevOps Community]]
-- [[DevOps Developer Handbook]]
-- [[DevOps Exercises]]
+- [DevOps Roadmap](https://roadmap.sh/devops)
+- [DevOps Newsletters](https://devopsnewsletters.com/)
+- [DevOps Community](https://github.com/rohitg00/DevOpsCommunity)
+- [DevOps Developer Handbook](https://github.com/apptension/developer-handbook/blob/master/Technical%20Stack/DevOps%20Developer.md)
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises?tab=readme-ov-file)
 # Continuous Integration / Continuous Delivery (CI/CD)
 
 The term CI/CD is commonly used today to describe the overarching tools and practices that are pulling the practices of build, test, and deployment automation together to happen multiple times a day as code merges to the product’s production branch/trunk become more frequent.

@@ -36,7 +36,7 @@ To ensure such algorithms work effectively, however, they must typically be refi
 - [[Automate your machine learning workflow tasks using Elyra and Apache Airflow]]
 - [[Elyra 3.3 - Pipelines, custom components, and catalogs]]
 - [[Deploying ML Models in Production with FastAPI and Celery]]
-- [[DiT - Self-supervised Pre-training for Document Image Transformer]]
+- [DiT - Self-supervised Pre-training for Document Image Transformer](https://github.com/microsoft/unilm/tree/master/dit)
 
 ![[ml_models.jpg]]
 # Supervised Learning

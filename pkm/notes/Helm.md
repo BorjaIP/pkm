@@ -17,5 +17,5 @@ helm plugin install https://github.com/hickeyma/helm-mapkubeapis
 
 # Inspired repositories
 
-- [[Datahub-helm]]
-- [[Curated applications for Kubernetes]]
+- [Datahub-helm](https://github.com/acryldata/datahub-helm)
+- [Curated applications for Kubernetes](https://github.com/helm/charts)

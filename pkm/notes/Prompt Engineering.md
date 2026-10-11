@@ -12,15 +12,15 @@ tags:
 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL System Prompts, Internal Tools & AI Models                 |
 # Articles/Talks
 
-- [[Awesome Prompt Engineering]]
-- [[Awesome GPT Prompt Engineering]]
+- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
+- [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
 - [[8 Types of Prompt Engineering]]
 - [[GPU optimized techniques for training transformer models at-scale]]
 - [[Prompt-engineering-guide]]
 # Prompt Types & Techniques
 
 - [[Prompting Frameworks for Large Language Models - A Survey]]
-- [[Google - Prompt Engineering]]
+- [Google - Prompt Engineering](https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view)
 ## Zero-shot
 
 This involves giving the AI a task without any prior examples. You describe what you want in detail, assuming the AI has no prior knowledge of the task.
@@ -99,7 +99,7 @@ ReAct mimics how humans operate in the real world, as we reason verbally and can
 | Technical                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 ## Fabric
 
-- [[Patterns for Fabric]]. Used for inspiration to create good prompts.
+- [Patterns for Fabric](https://github.com/danielmiessler/fabric/blob/main/patterns/ai/system.md). Used for inspiration to create good prompts.
 - Summary example:
 
 ```bash
@@ -232,7 +232,7 @@ By following these instructions, you will ensure that your problem-solving appro
 
 ## Vercel v0 system prompt
 
-- [[FULL v0, Cursor, Manus, Same.dev & Lovable System Prompts & AI Models]]
+- [FULL v0, Cursor, Manus, Same.dev & Lovable System Prompts & AI Models](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/tree/main)
 ## Coding
 
 ```

@@ -54,16 +54,16 @@ tags:
 - [[Securing kubernetes clusters with Istio and Keycloak]]
 - [[Hacking an AWS hosted Kubernetes backed product, and failing]]
 - [[Adapting Docker and Kubernetes containers to run on Red Hat OpenShift Container Platform]]
-- [[Kubernetes CKAD Example Exam Questions Practical Challenge Series]]
-- [[Practice Enough With These 150 Questions for the CKAD Exam]]
+- [Kubernetes CKAD Example Exam Questions Practical Challenge Series](https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681)
+- [Practice Enough With These 150 Questions for the CKAD Exam](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
 - [[CKAD Exercises]]
 - [[Kubernetes Network Policy Recipes]]
-- [[KillerCoda - Killer Shell CKAD]]
+- [KillerCoda - Killer Shell CKAD](https://killercoda.com/killer-shell-ckad)
 - [[Securing Kubernetes Cluster Networking]]
 # Packages
 
-- [[Find, install and publish Kubernetes packages]]
-- [[Operators for Kubernetes]]
+- [Find, install and publish Kubernetes packages](https://artifacthub.io/)
+- [Operators for Kubernetes](https://artifacthub.io/)
 # Components
 
 - **Pod**: wrap one or more containers
@@ -117,7 +117,6 @@ spec:
 
 - [[mTLS setup using self-signed cert in Kubernetes and NGINX]]
 - [[Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx]]
-- [[The magic of TLS, X509 and mutual authentication explained]]
 - [[mutual TLS based on specific IP]]
 
 ```bash

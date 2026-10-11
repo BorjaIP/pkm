@@ -23,4 +23,4 @@ Data Version Control ([DVC](https://github.com/iterative/dvc)) is a **version** 
 Continuous Machine Learning ([CML](https://github.com/iterative/cml)) | CI/CD for ML
 
 - [[CML with DVC use case]]
-- [[CML basic use case]]
+- [CML basic use case](https://gitlab.com/iterative.ai/cml-base-case)

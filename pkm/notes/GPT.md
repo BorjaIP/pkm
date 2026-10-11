@@ -16,10 +16,9 @@ tags:
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyone, to use and to build on                              |
 # Articles/Talks
 
-- [[ChatGPT DAN, Jailbreaks prompt]]
+- [ChatGPT DAN, Jailbreaks prompt](https://github.com/0xk1h0/ChatGPT_DAN?ref=blog.seclify.com)
 - [[Neural Databases - A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT — Part 2-3]]
 - [[Why is GPT-3 15.77x more expensive for certain languages]]
-- [[Building a Privacy-Preserving LLM-Based Chatbot]]
 - [[I tried… Using ChatGPT for FuNn as a DevOps Engineer]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6K1lyyzpxtk?si=1DGB5dUijjRROOgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
