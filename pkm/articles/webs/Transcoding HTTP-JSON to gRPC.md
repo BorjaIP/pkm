@@ -5,7 +5,6 @@ aliases:
 tags:
   - grpc
   - api-gateway
-  - api
 ---
 - https://cloud.google.com/endpoints/docs/grpc/transcoding
 - Type: reference

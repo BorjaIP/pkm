@@ -2,7 +2,12 @@
 title:  DynamoDB
 created: Thursday 29th February 2024 16:57
 aliases: 
-tags: 
+tags:
+  - aws
+  - db
+  - nosql
+part_of:
+  - "[[AWS]]"
 ---
 **DynamoDB** is a fully managed **NoSQL** database service that provides fast and predictable performance with seamless scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database so that you don't have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling. DynamoDB also offers encryption at rest, which eliminates the operational burden and complexity involved in protecting sensitive data.
 

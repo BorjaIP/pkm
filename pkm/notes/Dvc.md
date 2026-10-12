@@ -2,7 +2,12 @@
 title:  Dvc
 created: Monday 24th April 2023 20:57
 aliases: 
-tags: ml
+tags:
+  - ml
+  - dvc
+  - mlops
+part_of:
+  - "[[MLOps]]"
 ---
 Data Version Control ([DVC](https://github.com/iterative/dvc)) is a **version** **control** [[Machine Learning]] models, **data** sets and intermediate files.
 

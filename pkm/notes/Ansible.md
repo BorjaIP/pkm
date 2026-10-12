@@ -1,11 +1,14 @@
 ---
 title: Ansible
 created: Sunday 2nd February 2026 12:17
+aliases: 
 tags:
   - automation
   - devops
   - iac
   - configuration-management
+part_of:
+  - "[[IaC]]"
 ---
 ## Core Concepts
 
@@ -73,5 +76,5 @@ This playbook installs the `tree` utility on all servers in the `web_servers` gr
 - [[Docker]]
 - [[Terraform]]
 - [[Python]]
-- [[YAML]]
+- YAML
 

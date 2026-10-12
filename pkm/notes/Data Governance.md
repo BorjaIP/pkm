@@ -2,7 +2,9 @@
 title:  Data Governance
 created: Friday 11th April 2025 21:10
 aliases: 
-tags: 
+tags:
+  - data-engineering
+  - security
 ---
 **Data governance** is the formal management of data assets within an organization through the combination of people, processes, and technology. It establishes a framework of policies, procedures, standards, and metrics that ensure data is used effectively, efficiently, securely, and in compliance with relevant regulations.
 

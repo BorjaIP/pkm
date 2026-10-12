@@ -4,6 +4,10 @@ created: Monday 5th February 2024 13:20
 aliases:
   - GenAI
 tags:
+  - ai
+  - llm
+part_of:
+  - "[[Artificial Intelligence]]"
 ---
 **Generative AI** is a type of [[Artificial Intelligence]] that can produce content such as audio, text, code, video, images, and other data. Whereas traditional AI algorithms may be used to identify patterns within a training data set and make predictions, generative AI uses [[Machine Learning]] algorithms to create outputs based on a training data set. 
 # Foundation Models

@@ -3,6 +3,7 @@ title:  Software Design Methodology
 created: Saturday 21st March 2026 00:00
 aliases:
 tags:
+  - architecture
 ---
 Software design methodology based on three complementary artifacts that guide development from product vision to technical implementation decisions.
 

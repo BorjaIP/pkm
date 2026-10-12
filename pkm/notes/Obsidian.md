@@ -2,7 +2,8 @@
 title:  Obsidian
 created: Wednesday 23rd April 2025 22:30
 aliases: 
-tags: 
+tags:
+  - tools
 ---
 
 # Commands

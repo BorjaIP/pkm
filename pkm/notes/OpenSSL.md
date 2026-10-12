@@ -5,6 +5,7 @@ aliases:
   - ssl
 tags:
   - ssl
+  - security
 ---
 **OpenSSL** is a software library for applications that provide secure communications over computer networks against eavesdropping, and identify the party at the other end. OpenSSL is a versatile command line tool that can be used for a large variety of tasks related to Public Key Infrastructure (PKI) and HTTPS (HTTP over TLS).
 

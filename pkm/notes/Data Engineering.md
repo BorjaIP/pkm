@@ -4,7 +4,8 @@ created: Friday 21st March 2026 00:35
 aliases:
   - DE
 tags:
-  - data
+  - data-engineering
+  - etl
 ---
 **Data Engineering** is the discipline of designing, building, and maintaining the infrastructure and systems that collect, store, transform, and deliver data reliably at scale. It bridges raw data sources and the consumers of that data — including [[Data Applications|data applications]], [[Machine Learning]] models, and [[Business Intelligence]] dashboards.
 

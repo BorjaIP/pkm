@@ -6,7 +6,7 @@ aliases:
 tags:
   - llm
   - multi-agent
-  - ai-agents
+  - agents
   - framework
   - ml
 ---
@@ -45,7 +45,7 @@ The paper validates the framework across six applications: **math problem solvin
 
 ---
 [[LLM]]
-[[Multi-Agent Systems]]
+Multi-Agent Systems
 [[Prompt Engineering]]
 [[RAG]]
 [[Generative AI]]

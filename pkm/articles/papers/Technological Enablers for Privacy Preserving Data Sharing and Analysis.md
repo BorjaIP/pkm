@@ -3,8 +3,8 @@ title:  Technological Enablers for Privacy Preserving Data Sharing and Analysis
 created: Wednesday 12th June 2024 17:16
 aliases:
 tags:
-  - pet
-  - fl
+  - privacy
+  - federated-learning
 ---
 - https://publications.jrc.ec.europa.eu/repository/handle/JRC134350
 - https://www.sciencedirect.com/science/article/pii/S2352340924005274?via%3Dihub
@@ -37,5 +37,5 @@ No single privacy technology suits all data-sharing scenarios. This JRC report s
 
 ---
 [[PET]]
-[[FL]]
+FL
 [[Machine Learning|ML]]

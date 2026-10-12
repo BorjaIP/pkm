@@ -5,6 +5,8 @@ aliases:
 tags:
   - gpt
   - llm
+part_of:
+  - "[[LLM]]"
 ---
 **GPT** is a family of AI models built by OpenAI. It stands for Generative Pre-trained Transformer, which is basically a description of what the AI models do and how they work (I'll dig into that more in a minute).
 

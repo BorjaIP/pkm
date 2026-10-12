@@ -2,7 +2,13 @@
 title:  Helm
 created: Sunday 30th April 2023 20:02
 aliases: 
-tags: k8s
+tags:
+  - k8s
+  - devops
+part_of:
+  - "[[Kubernetes]]"
+alternative_to:
+  - "[[Kustomize]]"
 ---
 **Helm** is a tool for managing Charts. Charts are packages of pre-configured [[Kubernetes]] resources.
 

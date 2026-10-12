@@ -3,7 +3,8 @@ title: Data Orchestration
 created: Monday 4th March 2024 11:51
 aliases: 
 tags:
-  - ETL
+  - etl
+  - orchestration
 ---
 Data orchestration is an **automated process for bringing data together from multiple sources, standardizing it, and preparing it for data analysis.**
 

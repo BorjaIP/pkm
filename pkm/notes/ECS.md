@@ -2,7 +2,11 @@
 title:  ECS
 created: Monday 1st May 2023 17:45
 aliases: 
-tags: cloud, aws
+tags:
+  - cloud
+  - aws
+part_of:
+  - "[[AWS]]"
 ---
 
 ![ecs](assets/ecs.png)

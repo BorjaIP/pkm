@@ -2,7 +2,9 @@
 title:  Winget
 created: Sunday 23rd April 2023 15:02
 aliases: 
-tags: 
+tags:
+  - windows
+  - tools
 ---
 [Winget](https://github.com/microsoft/winget-cli) is the Windows Package Manager. This project includes a CLI, PowerShell modules, and a COM (Component Object Model) API .
 

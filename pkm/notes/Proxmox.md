@@ -2,7 +2,9 @@
 title:  Proxmox
 created: Wednesday 7th May 2025 16:58
 aliases: 
-tags: 
+tags:
+  - homelab
+  - linux
 ---
 - List all VM IDs on the node using the following command
 

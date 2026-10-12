@@ -2,7 +2,9 @@
 title:  Data Extraction
 created: Thursday 23rd January 2025 10:30
 aliases: 
-tags: Data Extraction
+tags:
+  - data-engineering
+  - etl
 ---
 **Data Extraction** retrieves structured or unstructured data from various sources, such as websites, databases, documents, or APIs. This information can be in text, images, files, or any other digital format. The extracted data is then typically transformed and stored for analysis or further use.
 

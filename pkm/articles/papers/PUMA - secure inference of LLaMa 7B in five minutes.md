@@ -4,7 +4,7 @@ created: Tuesday 25th July 2023 15:39
 aliases:
 tags:
   - llm
-  - pet
+  - privacy
   - ml
 ---
 - https://arxiv.org/pdf/2307.12533.pdf

@@ -13,6 +13,7 @@ You are an expert summarizer of research and academic papers. Your goal is to re
 4. **Find WikiLinks** — Use the obsidian-helper skill to search for existing vault notes that relate to the paper's topics.
 5. **Write the note** — Follow the output format below.
 6. **Save the note** — Write to `pkm/articles/papers/<Paper Title>.md` using the template below.
+7. **Refresh the index** — From the repository root run `python .claude/scripts/catalog.py` so the catalog and tag index include the new note.
 
 ## Tagging rules
 

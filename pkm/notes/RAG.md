@@ -3,6 +3,12 @@ title: RAG
 created: Friday 10th May 2024 11:13
 aliases: 
 tags:
+  - rag
+  - llm
+  - retrieval
+uses:
+  - "[[VDB]]"
+  - "[[LLM]]"
 ---
 **Retrieval-Augmented Generation** (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models ([[LLM]]) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base, all without the need to retrain the model. It is a cost-effective approach to improving LLM output so it remains relevant, accurate, and useful in various contexts.
 
@@ -16,6 +22,7 @@ tags:
 | [LEANN](https://github.com/yichuan-w/LEANN)                         | A Low-Storage Vector Index                                                   |
 # Articles/Talks
 
+- [[state-of-rag|State of RAG]] (digest of this vault)
 - [[Modular RAG and RAG Flow - Part Ⅰ]]
 - [[Modular RAG and RAG Flow - Part II]]
 - [[Evaluating RAG pipelines with Ragas + LangSmith]]

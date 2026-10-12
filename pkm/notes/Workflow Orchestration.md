@@ -4,8 +4,8 @@ created: Monday 4th March 2024 10:58
 aliases:
   - workflow
 tags:
-  - wfms
-  - ETL
+  - workflow
+  - etl
 ---
 Workflow orchestration means governing your **dataflow** in a way that respects the **orchestration rules** and your **business logic**. A workflow orchestration tool allows you to **schedule**, **run**, and **observe** your workflows.
 

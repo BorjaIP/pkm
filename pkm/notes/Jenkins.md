@@ -2,7 +2,12 @@
 title:  Jenkins
 created: Saturday 29th April 2023 17:05
 Aliases: 
-Tags: 
+tags:
+  - jenkins
+  - ci-cd
+  - devops
+part_of:
+  - "[[DevOps]]"
 ---
 
 - [[Jenkins SSH Pipeline Steps]]

@@ -2,7 +2,13 @@
 title:  FastAPI
 created: Sunday 30th April 2023 17:22
 aliases: 
-tags: framework
+tags:
+  - framework
+  - python
+alternative_to:
+  - "[[Flask]]"
+uses:
+  - "[[Python]]"
 ---
 [FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard [[Python]] type hints.
 

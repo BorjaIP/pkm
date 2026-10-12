@@ -2,7 +2,8 @@
 title:  Cloud
 created: Sunday 23rd April 2023 17:34
 aliases: 
-tags: cloud
+tags:
+  - cloud
 ---
 [[Cloud]] architecture helps provide a structure to cloud computing solutions, freeing businesses from any reliance on physical data centers and any other infrastructure. The right architecture **improves the business-customer relationship** by optimizing the user experience at the front end of the cloud computing solution while also optimizing back-end operations with servers, solutions, and storage.
 

@@ -4,7 +4,7 @@ created: Saturday 12th April 2025 13:04
 aliases:
 tags:
   - ml
-  - dl
+  - deep-learning
 ---
 - https://arxiv.org/pdf/2203.02378
 - Source: arxiv

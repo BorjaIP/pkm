@@ -4,7 +4,7 @@ created: Monday 5th February 2024 09:04
 aliases: 
 tags:
   - ml
-  - dev
+  - tools
 ---
 
 | Tool/Framework                                             | Description                                                                                                      |

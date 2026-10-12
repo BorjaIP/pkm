@@ -2,7 +2,9 @@
 title:  Chocolatey
 created: Saturday 22nd April 2023 19:28
 aliases:
-tags: windows
+tags:
+  - windows
+  - tools
 ---
 
 ## Cheetshet

@@ -2,7 +2,8 @@
 title:  Design Patterns
 created: Saturday 12th April 2025 00:31
 aliases: 
-tags: 
+tags:
+  - architecture
 ---
 **Design patterns** are reusable solutions to common problems that occur during software design and development. They represent best practices evolved over time by experienced software practitioners to solve recurring design challenges.
 

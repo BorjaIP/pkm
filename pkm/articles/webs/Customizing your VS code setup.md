@@ -5,7 +5,6 @@ aliases:
 tags:
   - vscode
   - tools
-  - customization
 ---
 - https://medium.com/@uiuxwithdiptanshu/vs-code-ricing-customizing-vs-code-at-the-next-level-6a516910dcb6
 - Type: tutorial

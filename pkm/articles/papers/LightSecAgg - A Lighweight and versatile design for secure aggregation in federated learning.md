@@ -3,8 +3,8 @@ title: LightSecAgg - A Lighweight and versatile design for secure aggregation in
 created: Friday 28th July 2023 08:58
 aliases:
 tags:
-  - fl
-  - pet
+  - federated-learning
+  - privacy
   - ml
 ---
 - https://arxiv.org/pdf/2109.14236.pdf
@@ -35,6 +35,6 @@ Standard secure aggregation in **federated learning** requires pairwise secret s
 4. When discussing **linear-scaling cryptographic protocols** as an alternative to quadratic multi-party computation designs.
 
 ---
-[[FL]]
+FL
 [[PET]]
 [[Machine Learning|ML]]

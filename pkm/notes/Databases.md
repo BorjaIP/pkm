@@ -4,6 +4,8 @@ created: Friday 11th April 2025 17:26
 aliases:
   - db
 tags:
+  - db
+  - sql
 ---
 A **database** is an organized collection of structured data that is stored and managed in a way that allows easy access, retrieval, manipulation, and updating. It typically stores data in tables, rows, and columns, and it can be designed to handle large amounts of data efficiently.
 

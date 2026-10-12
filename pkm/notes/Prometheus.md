@@ -2,7 +2,11 @@
 title: Prometheus
 created: Monday 1st May 2023 15:04
 aliases: 
-tags: []
+tags:
+  - observability
+  - devops
+part_of:
+  - "[[Observability]]"
 ---
 **Prometheus** is a free software application used for event monitoring and alerting. It records metrics in a time series database built using an HTTP pull model, with flexible queries and real-time alerting.
 

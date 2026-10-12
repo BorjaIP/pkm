@@ -2,7 +2,10 @@
 title:  Wireguard
 created: Thursday 12th June 2025 17:06
 aliases: 
-tags: 
+tags:
+  - networking
+  - security
+  - linux
 ---
 # CLI
 

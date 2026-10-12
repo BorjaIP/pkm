@@ -6,8 +6,10 @@ aliases:
   - ml
 tags:
   - ml
-  - dl
+  - deep-learning
   - ai
+part_of:
+  - "[[Artificial Intelligence]]"
 ---
 **Machine learning** is a subfield of [[Artificial Intelligence]] that uses algorithms trained on data sets to create models that enable machines to perform tasks that would otherwise only be possible for humans, such as categorizing images, analyzing data, or predicting price fluctuations.
 

@@ -2,7 +2,9 @@
 title:  ZTN
 created: Friday 11th April 2025 23:24
 aliases: 
-tags: 
+tags:
+  - security
+  - networking
 ---
 **Zero trust network** is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies their identity and authorization to access resources.
 

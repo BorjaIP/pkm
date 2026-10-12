@@ -4,6 +4,9 @@ created: Monday 5th February 2024 12:23
 aliases: 
 tags:
   - ai
+  - ml
+part_of:
+  - "[[Artificial Intelligence]]"
 ---
 **Natural language processing** (NLP) is a form of [[Artificial Intelligence]] that allows computers to understand human language, whether it be written, spoken, or even scribbled.
 

@@ -2,7 +2,13 @@
 title:  Podman
 created: Saturday 5th April 2025 13:03
 aliases: 
-tags: 
+tags:
+  - container
+  - linux
+part_of:
+  - "[[Containers]]"
+alternative_to:
+  - "[[Docker]]"
 ---
 **Podman** is an open-source container engine developed by Red Hat, designed for developing, managing, and running containers and container images. It's a part of the **libpod** library, and is often seen as a drop-in replacement for [[Docker]], with some key differences.
 

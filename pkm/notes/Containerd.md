@@ -2,7 +2,11 @@
 title:  Containerd
 created: Sunday 23rd April 2023 17:31
 aliases: 
-tags: 
+tags:
+  - container
+  - k8s
+part_of:
+  - "[[Containers]]"
 ---
 An open and reliable [[Containers]] runtime.
 

@@ -24,8 +24,8 @@ Choosing an orchestrator shapes your dependencies, so the article sets criteria 
 # Key takeaways
 
 1. **Define the criteria first**: scheduler, dashboard, Kubernetes integration, minimal extra concepts, no vendor lock-in.
-2. **Kubeflow Pipelines** can be installed alone (via kustomize, no Helm) and sits on Argo/Tekton underneath.
-3. **MLflow** excels at experiment tracking but is not a workflow engine; **Metaflow** is tightly coupled to AWS.
+2. **Kubeflow Pipelines** can be installed alone (via kustomize, no [[Helm]]) and sits on Argo/Tekton underneath.
+3. **MLflow** excels at experiment tracking but is not a workflow engine; **Metaflow** is tightly coupled to [[AWS]].
 4. **Flyte** (Lyft) is Kubernetes-native with a strong dashboard; **Prefect** has arguably the best API.
 5. **Argo and Tekton** are YAML-first and interchangeable for CI/CD-style flows; Airflow is powerful but heavier; **Luigi** is the simplest, Make-like option.
 6. **Dataflow engines** (Beam, Flink) and TFX are not orchestrators.

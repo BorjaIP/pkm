@@ -5,7 +5,7 @@ aliases:
 tags:
   - llm
   - knowledge-graph
-  - SQL
+  - sql
   - gpt
 ---
 - https://arxiv.org/pdf/2311.07509.pdf

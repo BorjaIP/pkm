@@ -2,7 +2,10 @@
 title:  DBT
 created: Thursday 16th October 2025 13:27
 aliases: 
-tags: 
+tags:
+  - data-engineering
+  - etl
+  - sql
 ---
 
 # Structure

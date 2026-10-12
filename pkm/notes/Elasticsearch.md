@@ -2,7 +2,11 @@
 title:  Elasticsearch
 created: Sunday 30th April 2023 20:43
 aliases: elastic
-tags: db
+tags:
+  - db
+  - retrieval
+part_of:
+  - "[[Databases]]"
 ---
 
 - [Create a dashboard to visualize application logs in Kibana](https://dev.to/moesmp/create-a-dashboard-to-visualize-application-logs-in-kibana-2h5h)

@@ -4,6 +4,11 @@ created: Saturday 12th April 2025 12:47
 aliases:
   - dl
 tags:
+  - deep-learning
+  - ml
+  - ai
+part_of:
+  - "[[Machine Learning]]"
 ---
  **Deep learning** is a specialized subset of [[machine learning]] that uses multi-layered neural networks to analyze and process data, mimicking the way the human brain works. It is particularly effective at **recognizing complex patterns and making decisions based on large amounts of unstructured data**.
 

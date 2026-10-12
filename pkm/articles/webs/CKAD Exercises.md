@@ -4,7 +4,6 @@ created: Friday 11th April 2025 21:51
 aliases: 
 tags:
   - k8s
-  - ckad
   - devops
 ---
 - https://github.com/dgkanatsios/CKAD-exercises

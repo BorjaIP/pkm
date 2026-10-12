@@ -4,7 +4,7 @@ created: Saturday 12th April 2025 18:57
 aliases: 
 tags:
   - gpu
-  - dl
+  - deep-learning
   - llm
   - transformer
 ---

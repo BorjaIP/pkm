@@ -3,6 +3,10 @@ title: Agents
 created: Saturday 1st February 2025 19:34
 aliases: 
 tags:
+  - ai
+  - agents
+part_of:
+  - "[[Artificial Intelligence]]"
 ---
 Agentic [[Artificial Intelligence|AI]] refers to artificial intelligence capable of making decisions, planning, and adapting to new information in real time. AI agents learn and enhance their performance through feedback, utilizing advanced algorithms and sensory inputs to execute tasks and engage with their environments.
 

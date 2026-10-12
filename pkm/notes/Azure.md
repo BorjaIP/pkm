@@ -2,7 +2,9 @@
 title:  Azure
 created: Monday 1st May 2023 17:25
 aliases: 
-tags: cloud
+tags:
+  - cloud
+  - azure
 ---
 
 - [Azure container-instances-reference](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/container-instances/container-instances-reference-yaml.md)

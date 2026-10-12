@@ -4,6 +4,7 @@ created: Friday 11th April 2025 22:47
 aliases: 
 tags:
   - git
+  - tools
 ---
 - https://ohshitgit.com/
 - Type: reference

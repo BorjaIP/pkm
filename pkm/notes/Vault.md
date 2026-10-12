@@ -2,7 +2,9 @@
 title:  Vault
 created: Saturday 29th April 2023 16:43
 aliases: 
-tags: ssl
+tags:
+  - ssl
+  - security
 ---
 
 - [Build your own certificate authority (CA)](https://developer.hashicorp.com/vault/tutorials/secrets-management/pki-engine)

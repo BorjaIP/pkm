@@ -2,7 +2,13 @@
 title:  KCL
 created: Friday 31st May 2024 18:37
 aliases: 
-tags: 
+tags:
+  - iac
+  - config
+part_of:
+  - "[[IaC]]"
+alternative_to:
+  - "[[Terraform]]"
 ---
 [KCL](https://github.com/kcl-lang/kcl) is an open-source configuration and policy language hosted by the Cloud Native Computing Foundation (CNCF) as a Sandbox Project. Built on a foundation of constraints and functional programming principles, KCL enhances the process of writing complex configurations, particularly in cloud-native environments. By leveraging advanced programming language techniques, KCL promotes improved modularity, scalability, and stability in configuration management. It simplifies logic writing, offers easy-to-use automation APIs, and seamlessly integrates with existing systems.
 

@@ -4,6 +4,7 @@ created: Friday 11th April 2025 16:59
 aliases:
   - cs
 tags:
+  - computer-science
 ---
 **Computer Science** is the study of computation, information, and automation. It explores how data is represented, processed, and communicated through algorithms and software, and how these systems are implemented in hardware and networks. The field spans both theoretical foundations (like logic, complexity, and computability) and practical applications (such as programming, data systems, AI, and cybersecurity), enabling the creation of efficient, secure, and scalable technological solutions.
 # Theory
@@ -61,7 +62,7 @@ tags:
 
 - Unit Testing ([[PyTest]], JUnit, Jest)
 - Integration Testing
-- System & E2E Testing ([[Selenium]], Cypress, Playwright)
+- System & E2E Testing (Selenium, Cypress, Playwright)
 ### Methodologies
 
 - TDD (Test Driven Development)
@@ -157,8 +158,8 @@ tags:
   - Service Mesh ([[Istio]], Linkerd)
 ## [[MLOps]]
 
-  - Model Versioning , ML Pipelines, Monitoring & Tracking ([[Kubeflow]], [[MLflow]], [[DVC]])
-  - Model Deployment ([[SageMaker]], [[Kubeflow#KServe|KFServe]])
+  - Model Versioning , ML Pipelines, Monitoring & Tracking ([[Kubeflow]], MLflow, [[DVC]])
+  - Model Deployment (SageMaker, [[Kubeflow#KServe|KFServe]])
   - [[Feature Stores]]
 # [[Artificial Intelligence]]
 

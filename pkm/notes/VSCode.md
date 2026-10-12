@@ -2,7 +2,9 @@
 title:  VSCode
 created: Sunday 23rd April 2023 16:47
 aliases: 
-tags: tools
+tags:
+  - tools
+  - vscode
 ---
 
 - [VS Code - You don't need that extension](https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html)

@@ -4,6 +4,7 @@ created: Thursday 20th July 2023 12:34
 aliases: 
 tags:
   - gpu
+  - deep-learning
 ---
 
 | Tool/Framework                                         | Description                                                                                           |

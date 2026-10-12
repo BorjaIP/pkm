@@ -2,7 +2,11 @@
 title:  ECR
 created: Monday 1st May 2023 17:55
 aliases: 
-tags: cloud, aws
+tags:
+  - cloud
+  - aws
+part_of:
+  - "[[AWS]]"
 ---
 
 - [Using Amazon ECR Images with Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/userguide/ecr-repositories.html)

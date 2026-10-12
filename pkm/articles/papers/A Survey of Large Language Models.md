@@ -5,7 +5,7 @@ aliases:
 tags:
   - llm
   - ml
-  - dl
+  - deep-learning
   - gpt
 ---
 - https://arxiv.org/pdf/2303.18223.pdf

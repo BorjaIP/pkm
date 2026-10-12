@@ -2,7 +2,8 @@
 title:  Software Architecture
 created: Saturday 12th April 2025 00:26
 aliases: 
-tags: 
+tags:
+  - architecture
 ---
 **Software architecture** is the high-level structure of a software system that defines its organization, components, relationships, and principles governing its design and evolution. It serves as the blueprint for both the system and the project developing it, addressing both functional and quality requirements.
 
@@ -48,3 +49,6 @@ Key aspects of software architecture include:
 
 ![[mvc_diagram.png]]
 
+# Digest
+
+- [[state-of-distributed-architecture|State of distributed systems architecture]] (digest of this vault)

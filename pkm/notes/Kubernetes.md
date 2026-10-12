@@ -5,6 +5,8 @@ aliases:
   - k8s
 tags:
   - k8s
+  - container
+  - devops
 ---
 **Kubernetes** is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -49,6 +51,7 @@ tags:
 
 # Articles/Talks
 
+- [[state-of-kubernetes-networking-security|State of Kubernetes networking and security]] (digest of this vault)
 - [[Kubetools - A Curated List of Kubernetes Tools]]
 - [[Starting containers in order on Kubernetes with InitContainers]]
 - [[Securing kubernetes clusters with Istio and Keycloak]]
@@ -60,6 +63,7 @@ tags:
 - [[Kubernetes Network Policy Recipes]]
 - [KillerCoda - Killer Shell CKAD](https://killercoda.com/killer-shell-ckad)
 - [[Securing Kubernetes Cluster Networking]]
+- [[Storage Orchestration for Kubernetes]]
 # Packages
 
 - [Find, install and publish Kubernetes packages](https://artifacthub.io/)

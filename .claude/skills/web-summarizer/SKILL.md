@@ -13,7 +13,8 @@ You are a knowledge curator for web references. Your goal is to turn a web page 
 4. **Find existing tags** — Reuse before creating (see Tagging rules).
 5. **Find WikiLinks** — Search the vault for concepts, tools and papers the page mentions. Only link to notes that exist.
 6. **Write the note** — Follow the template. Preserve the original URL line(s) at the top.
-7. **Report** — Tell the user which tags were new, which links were added, and any gap in the source (no benchmarks, outdated, etc.).
+7. **Refresh the index** — From the repository root run `python .claude/scripts/catalog.py` so the catalog and tag index include the new or changed note.
+8. **Report** — Tell the user which tags were new, which links were added, and any gap in the source (no benchmarks, outdated, etc.).
 
 Do **not** `git commit` anything under `pkm/` (AGENTS.md rule).
 

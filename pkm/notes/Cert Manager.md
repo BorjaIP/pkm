@@ -4,6 +4,10 @@ created: Friday 31st May 2024 18:25
 aliases: 
 tags:
   - k8s
+  - ssl
+  - security
+part_of:
+  - "[[Kubernetes]]"
 ---
 **Cert-manager** adds certificates and certificates issuer as resource types in Kubernetes clusters and simplifies the process of obtaining, renewing, and using those certificates. It is running by jet stack under an open-source project.
 

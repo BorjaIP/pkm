@@ -2,7 +2,12 @@
 title:  Feature Stores
 created: Friday 11th April 2025 22:21
 aliases: 
-tags: 
+tags:
+  - mlops
+  - ml
+  - data-engineering
+part_of:
+  - "[[MLOps]]"
 ---
 A **feature store** is a centralized repository that stores curated features. It is a data management layer that allows data scientists, machine learning engineers and data engineers to collaborate, share and discover features. Another way to think about it is that feature stores interface between the raw data and the models. It takes raw data and then transforms it into features subsequently used for model training and inference. This ensures that the features used across both models are consistent.
 

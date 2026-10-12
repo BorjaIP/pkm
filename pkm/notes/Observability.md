@@ -2,7 +2,9 @@
 title:  Observability
 created: Tuesday 5th March 2024 14:14
 aliases: 
-tags: 
+tags:
+  - observability
+  - devops
 ---
 **Observability** is the ability to assess a system’s current state based on the data it produces. Typically executed by dedicated software tools, observability helps developers gain end-to-end real-time visibility of their distributed infrastructure. It enables them to **monitor key performance indicators and metrics, troubleshoot and debug applications and networks, detect anomalies, identify patterns or trends, and address issues** before they impact the bottom line.
 

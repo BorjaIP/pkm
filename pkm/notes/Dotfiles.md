@@ -2,7 +2,10 @@
 title:  Dotfiles
 created: Monday 1st May 2023 16:33
 aliases: 
-tags: 
+tags:
+  - dotfiles
+  - linux
+  - tools
 ---
 **Dotfiles** are configuration files used to customize the settings of your applications and development environment on a computer. They typically start with a dot (.) in their filename and can be tracked using version control systems like Git to synchronize settings across different devices.
 

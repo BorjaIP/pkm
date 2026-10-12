@@ -4,7 +4,7 @@ created: Friday 2nd February 2024 11:17
 aliases:
 tags:
   - blockchain
-  - fl
+  - federated-learning
   - ml
 ---
 - https://arxiv.org/pdf/2009.09338.pdf
@@ -35,7 +35,7 @@ Standard federated learning depends on a trusted central server — a single poi
 4. When comparing **reputation-based Byzantine filtering** against cryptographic Byzantine defenses in FL.
 
 ---
-[[FL]]
+FL
 [[PET]]
-[[Blockchain]]
+Blockchain
 [[Machine Learning|ML]]

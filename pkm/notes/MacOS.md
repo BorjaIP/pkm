@@ -3,6 +3,8 @@ title: MacOS
 created: Wednesday 4th June 2025 10:01
 aliases:
 tags:
+  - os
+  - tools
 ---
 
 | Tool/Framework                                                    | Description                                                               |

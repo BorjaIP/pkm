@@ -4,7 +4,8 @@ created: Sunday 23rd April 2023 16:51
 aliases:
   - py
 tags:
-  - lenguages
+  - programming-languages
+  - python
 ---
 Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability with its clean, easy-to-understand syntax, making it ideal for both beginners and experienced developers. Python supports multiple programming paradigms, including object-oriented, procedural, and functional programming, and has a vast ecosystem of libraries and frameworks that extend its functionality.
 

@@ -2,7 +2,11 @@
 title:  Kafka
 created: Saturday 12th October 2024 17:52
 aliases: 
-tags: Kafka
+tags:
+  - kafka
+  - event-driven
+part_of:
+  - "[[Apache]]"
 ---
 [[Apache]] Kafka is an open-source distributed event streaming platform used for building real-time data pipelines and streaming applications. Originally developed by LinkedIn and later donated to the Apache Software Foundation, Kafka is designed to handle high-throughput, low-latency data streams across distributed systems. It acts as a message broker, facilitating the continuous exchange of data between producers (sources of data) and consumers (applications that process data).
 

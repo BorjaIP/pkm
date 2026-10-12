@@ -2,7 +2,8 @@
 title:  PaaS
 created: Saturday 1st February 2025 22:40
 aliases: 
-tags: 
+tags:
+  - cloud
 ---
 Cloud platform services, also known as **platform as a service** (PaaS), provide cloud components to certain software while being used mainly for applications. PaaS delivers a framework that developers can build upon and use to create customized applications. All servers, storage, and networking can be managed by the enterprise or a third-party provider while the developers can maintain management of the applications.
 

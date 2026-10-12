@@ -3,6 +3,8 @@ title: DevOps
 created: Sunday 23rd April 2023 16:57
 aliases: 
 tags:
+  - devops
+  - ci-cd
 ---
 DevOps is **the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity**: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
 
@@ -53,7 +55,7 @@ The concept of [model-driven development](https://en.wikipedia.org/wiki/Model-dr
 
 ## Projects as code + Scaffolding
 
-The code generation concepts from model-driven development, however, are as old as programming itself. The compilers that turn Ruby, [[Python]], or [[Java]] into C code are all generators. Even novice frontend programmers today understand the importance of code generation, which saves you from writing blocks and blocks of the dreaded stuff we consider [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code?ref=hackernoon.com).
+The code generation concepts from model-driven development, however, are as old as programming itself. The compilers that turn Ruby, [[Python]], or Java into C code are all generators. Even novice frontend programmers today understand the importance of code generation, which saves you from writing blocks and blocks of the dreaded stuff we consider [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code?ref=hackernoon.com).
 
 There is a lot of room for novel automation in this category, and in the last few years “projects as code”—repo and delivery pipeline setup for applications—has filled in some gaps that tools coming out of the DevOps movement hadn’t addressed yet. Tools like [Yeoman](https://yeoman.io/?ref=hackernoon.com) for JavaScript projects and [JHipster](https://www.jhipster.tech/?ref=hackernoon.com) for Java projects have provided bare-bones, flexible frameworks for setting up projects using Node.js and Spring Boot+Angular respectively. [[Cloud]] vendors, such as Microsoft Azure, are creating [tools](https://azure.microsoft.com/en-us/services/devops/pipelines/?ref=hackernoon.com) that set up delivery pipelines. Another company, realMethods, [has built a tool](https://modeling-languages.com/realmethods-devops-project-generation/?ref=hackernoon.com) that takes database schema or modeled requirements and uses them to generate tech stack specific skeleton code, along with build and config files, CI/CD YAML, Docker files and images, Kubernetes cluster config, and Terraform provisioning files.
 

@@ -3,7 +3,6 @@ title:  SOAR - Improved Indexing for Approximate Nearest Neighbor Search
 created: Thursday 13th June 2024 10:31
 aliases:
 tags:
-  - ann
   - vector-search
   - indexing
   - embeddings

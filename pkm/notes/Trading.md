@@ -2,7 +2,8 @@
 title:  Trading
 created: Saturday 1st February 2025 19:53
 aliases: 
-tags: 
+tags:
+  - trading
 ---
 **Trading** is the process of buying and selling assets - like stocks, cryptocurrencies, commodities, forex (foreign exchange), or other financial instruments - with the goal of making a profit from price movements. Traders can profit in two main ways:
 

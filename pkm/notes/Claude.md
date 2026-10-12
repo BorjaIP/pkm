@@ -3,11 +3,16 @@ title:  Claude
 created: Saturday 31st January 2026 23:47
 aliases:
 tags:
+  - llm
+  - ai
+  - co-anthropic
+part_of:
+  - "[[LLM]]"
 ---
 > [!note] Second Brain note — not a Claude Code project file
 > This file is a personal knowledge base note about the Claude AI ecosystem.
 > It is excluded from Claude Code's auto-loading via `claudeMdExcludes` in `~/.claude/settings.json`.
-Claude is Anthropic's AI assistant family, available as a web/desktop chat app ([[Claude#Claude Desktop|Claude Desktop]]) and a terminal-based agentic coding tool ([[Claude#Claude Code|Claude Code]]). Models range from the fast [[Haiku]] to the balanced [[Sonnet]] and the most capable [[Opus]], each optimized for different cost/performance trade-offs.
+Claude is Anthropic's AI assistant family, available as a web/desktop chat app ([[Claude#Claude Desktop|Claude Desktop]]) and a terminal-based agentic coding tool ([[Claude#Claude Code|Claude Code]]). Models range from the fast Haiku to the balanced Sonnet and the most capable Opus, each optimized for different cost/performance trade-offs.
 # Claude Code
 
 ## Ecosystem

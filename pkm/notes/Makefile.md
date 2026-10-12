@@ -2,7 +2,9 @@
 title:  Makefile
 created: Sunday 23rd April 2023 16:54
 aliases: 
-tags: lenguages
+tags:
+  - programming-languages
+  - devops
 ---
 ## Colors
 

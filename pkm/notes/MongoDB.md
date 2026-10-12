@@ -2,7 +2,11 @@
 title:  MongoDB
 created: Sunday 30th April 2023 21:17
 aliases: 
-tags: db
+tags:
+  - db
+  - nosql
+part_of:
+  - "[[NoSQL]]"
 ---
 
 - Create user and pass in specific database.

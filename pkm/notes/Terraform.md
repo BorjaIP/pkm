@@ -4,6 +4,14 @@ created: Sunday 23rd April 2023 16:58
 aliases:
   - opentf
 tags:
+  - iac
+  - devops
+  - cloud
+part_of:
+  - "[[IaC]]"
+alternative_to:
+  - "[[Cloud Formation]]"
+  - "[[KCL]]"
 ---
 
 | Tool                                                     | Description                                                          |

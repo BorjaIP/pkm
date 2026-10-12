@@ -2,7 +2,12 @@
 title:  RDS
 created: Thursday 29th February 2024 16:44
 aliases: 
-tags: 
+tags:
+  - aws
+  - db
+  - sql
+part_of:
+  - "[[AWS]]"
 ---
 **Relational Database Service** (RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the [[AWS]] Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
 

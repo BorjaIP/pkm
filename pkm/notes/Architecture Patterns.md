@@ -2,7 +2,8 @@
 title:  Architecture Patterns
 created: Saturday 12th April 2025 00:36
 aliases: 
-tags: 
+tags:
+  - architecture
 ---
 Software **architecture patterns** are standardized, high-level structures that provide templates for organizing entire software systems. They represent proven solutions to recurring architectural challenges, offering a foundation upon which software architects can build reliable, scalable, and maintainable applications.
 

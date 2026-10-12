@@ -4,6 +4,10 @@ created: Tuesday 21st May 2024 15:46
 aliases:
   - rdb
 tags:
+  - db
+  - sql
+part_of:
+  - "[[Databases]]"
 ---
 RDBMS stands for Relational Database Management System used to maintain a relational database. RDBMS is the basis for all modern database systems:
 

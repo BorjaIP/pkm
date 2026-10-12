@@ -26,5 +26,5 @@ When starting new projects, PostgreSQL is the default choice over MySQL. This pr
 # Related
 
 - [[PostgreSQL]]
-- [[MySQL]]
+- MySQL
 - [[RDBMS]]

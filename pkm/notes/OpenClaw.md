@@ -3,6 +3,10 @@ title:  OpenClaw
 created: Sunday 15th February 2026 20:34
 aliases:
 tags:
+  - ai
+  - agents
+part_of:
+  - "[[AI Agents]]"
 ---
 **OpenClaw** is an open-source, locally-run personal AI assistant framework that operates as an autonomous agent integrated with messaging platforms. 
 

@@ -2,7 +2,9 @@
 title:  Remote Access
 created: Saturday 25th January 2025 12:21
 aliases: 
-tags: 
+tags:
+  - networking
+  - linux
 ---
 **Remote access** is a networked computing methodology enabling users to access computer systems, applications, or data from a geographically distant location through secure, authenticated communication channels. It involves connecting to a network infrastructure via encrypted protocols, allowing seamless interaction with resources regardless of physical proximity.
 

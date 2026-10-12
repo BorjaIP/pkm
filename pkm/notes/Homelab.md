@@ -3,7 +3,8 @@ title: Homelab
 created: Friday 29th November 2024 23:43
 aliases: 
 tags:
-  - Homelab
+  - homelab
+  - linux
 ---
 
 | Tool                                                            | Description                                                                                                                    |

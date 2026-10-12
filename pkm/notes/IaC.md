@@ -2,7 +2,9 @@
 title:  IaC
 created: Saturday 29th April 2023 16:10
 aliases: 
-tags: 
+tags:
+  - iac
+  - devops
 ---
 **Infrastructure as Code** (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
 
@@ -16,6 +18,6 @@ Version control is an important part of IaC, and your configuration files should
 | [Pyinfra](https://github.com/pyinfra-dev/pyinfra)  | Automates infrastructure using [[Python]]                                         |
 # Frameworks
 
-- [[Chef]]
+- Chef
 - [[Ansible]]
 - [[Terraform]]

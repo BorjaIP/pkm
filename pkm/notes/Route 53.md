@@ -2,7 +2,11 @@
 title:  Route 53
 created: Friday 1st March 2024 09:53
 aliases: 
-tags: 
+tags:
+  - aws
+  - networking
+part_of:
+  - "[[AWS]]"
 ---
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
 

@@ -4,7 +4,8 @@ created: Saturday 22nd April 2023 21:55
 aliases:
   - arq
 tags:
-  - arq
+  - computer-architecture
+  - computer-science
 ---
 **Computer architecture** is the design and organization of computing systems, encompassing how hardware components work together to execute instructions and process data. It represents the conceptual blueprint and structural framework that defines a computer system's functionality, performance, and capabilities.
 # Fundamentals

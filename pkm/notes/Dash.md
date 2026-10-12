@@ -2,7 +2,14 @@
 title:  Dash
 created: Monday 1st May 2023 14:43
 aliases: 
-tags: 
+tags:
+  - python
+  - data-apps
+part_of:
+  - "[[Data Applications]]"
+uses:
+  - "[[Flask]]"
+  - "[[Python]]"
 ---
 [Dash](https://plotly.com/dash/) is a [[Data Applications|Data App]] & Dashboards for [[Python]]. No JavaScript Required.
 

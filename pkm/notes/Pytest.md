@@ -1,8 +1,9 @@
 ---
 title: Pytest
 created: Friday 2nd February 2026 12:17
+aliases: 
 tags:
-  - testing
+  - software-testing
   - python
   - pytest
 ---

@@ -2,7 +2,9 @@
 title:  SQL
 created: Saturday 12th October 2024 18:26
 aliases: 
-tags: SQL
+tags:
+  - sql
+  - db
 ---
 SQL (Structured Query Language) is a standardized programming language used for managing and manipulating **relational databases**. First developed in the 1970s by IBM, SQL has become the most widely used language for querying and managing structured data. It allows users to interact with databases by performing tasks such as retrieving data (through SELECT queries), updating records, inserting new data, and deleting unwanted information.
 

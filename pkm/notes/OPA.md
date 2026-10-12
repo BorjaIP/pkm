@@ -2,7 +2,9 @@
 title:  OPA
 created: Saturday 3rd May 2025 10:34
 aliases: 
-tags: 
+tags:
+  - security
+  - devops
 ---
 **Open Policy Agent (OPA)** is an open-source, general-purpose policy engine that enables **policy-based control** across the cloud-native stack. It's widely used for **decoupling policy decisions** from the services making those decisions, making systems more flexible, secure, and easier to manage.
 

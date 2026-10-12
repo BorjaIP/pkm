@@ -2,7 +2,8 @@
 title:  Testing
 created: Friday 26th December 2025 13:42
 aliases: 
-tags: 
+tags:
+  - software-testing
 ---
 **Testing in software engineering** is the process of **evaluating software to find defects and verify that it works as intended**. The goal is to ensure the software is **correct, reliable, secure, and usable** before it is released to users.
 

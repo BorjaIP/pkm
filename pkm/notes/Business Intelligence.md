@@ -4,7 +4,8 @@ created: Monday 4th March 2024 10:39
 aliases:
   - bi
 tags:
-  - bi
+  - business-intelligence
+  - data-engineering
 ---
 **Business intelligence** (BI) is a specialist function that uses technology, data tools and services to provide insights that guide business decisions and business monitoring. These insights often take the form of metrics and visualized data to give an overview of the organization’s current state.
 

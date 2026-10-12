@@ -2,7 +2,9 @@
 title:  Hugo
 created: Thursday 24th April 2025 18:18
 aliases: 
-tags: 
+tags:
+  - web
+  - tools
 ---
 - Create a new Hugo project
 ```bash

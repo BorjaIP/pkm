@@ -3,6 +3,8 @@ title: Harness Engineering
 created: Sunday 26th April 2026 14:15
 aliases:
 tags:
+  - devops
+  - architecture
 ---
 
 **Harness Engineering** is a software engineering discipline focused on designing, building, and maintaining the **infrastructure, tools, and frameworks that enable effective software development and deployment**. It encompasses the creation of the scaffolding, processes, and automation systems that support development teams in writing, testing, deploying, and operating software reliably at scale.

@@ -2,7 +2,12 @@
 title:  Docker Compose
 created: Sunday 23rd April 2023 17:29
 aliases: 
-tags: 
+tags:
+  - container
+  - devops
+  - docker
+part_of:
+  - "[[Docker]]"
 ---
 **Docker Compose** is a tool for defining and running multi-container [[Docker]] applications. Key features:
 

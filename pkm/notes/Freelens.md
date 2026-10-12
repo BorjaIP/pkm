@@ -2,7 +2,9 @@
 title:  Freelens
 created: Saturday 21st March 2026 11:01
 aliases: 
-tags: 
+tags:
+  - k8s
+  - tools
 ---
 Config for custom NS and other options:
 

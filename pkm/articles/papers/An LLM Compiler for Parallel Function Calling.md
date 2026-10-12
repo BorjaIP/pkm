@@ -4,7 +4,7 @@ created: Monday 13th May 2024 11:44
 aliases:
 tags:
   - llm
-  - tool
+  - tool-use
 ---
 - https://arxiv.org/pdf/2312.04511
 - https://github.com/SqueezeAILab/LLMCompiler

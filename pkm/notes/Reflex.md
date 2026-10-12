@@ -2,7 +2,9 @@
 title:  Reflex
 created: Tuesday 22nd April 2025 23:46
 aliases: 
-tags: 
+tags:
+  - python
+  - web
 ---
 
 - https://geniepy.com/blog/how-to-run-reflex-apps-in-production/

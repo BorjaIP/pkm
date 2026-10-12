@@ -2,7 +2,12 @@
 title:  Datastream
 created: Wednesday 6th March 2024 17:49
 aliases: 
-tags: 
+tags:
+  - gcp
+  - data-engineering
+  - etl
+part_of:
+  - "[[GCP]]"
 ---
 **Datastream** is a serverless and easy-to-use change data capture (**CDC**) and replication service that lets you synchronize data reliably, and with minimal latency.
 

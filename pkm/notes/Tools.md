@@ -3,6 +3,7 @@ title: Tools
 created: Sunday 23rd April 2023 16:43
 aliases:
 tags:
+  - tools
 ---
 
 | Tool                                                              | Description                                                                                                             |

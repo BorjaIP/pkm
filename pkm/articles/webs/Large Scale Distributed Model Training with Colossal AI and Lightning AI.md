@@ -5,7 +5,7 @@ aliases:
 tags:
   - gpu
   - python
-  - dl
+  - deep-learning
 ---
 - https://github.com/Lightning-Universe/lightning-ColossalAI
 - Type: repo

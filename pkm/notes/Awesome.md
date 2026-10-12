@@ -2,7 +2,8 @@
 title:  Awesome
 created: Wednesday 14th February 2024 19:55
 aliases: 
-tags: 
+tags:
+  - tools
 ---
 ![[awesome.png]]
 

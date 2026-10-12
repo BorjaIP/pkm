@@ -2,7 +2,9 @@
 title:  Arch
 created: Saturday 22nd April 2023 21:11
 aliases: 
-tags: linux
+tags:
+  - linux
+  - os
 ---
 
 | Tool                                        | Description                |

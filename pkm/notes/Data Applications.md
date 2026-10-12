@@ -4,7 +4,8 @@ created: Monday 4th March 2024 11:11
 aliases:
   - Data App
 tags:
-  - dataApp
+  - data-apps
+  - python
 ---
 A **data application** (or data app) processes and analyzes [[Big Data]] to rapidly deliver insights or take autonomous action. Data apps place the power of data science, [[Machine Learning]], artificial intelligence, automation, and other advanced data techniques in the hands of leaders, business users, and more. They are used to empower informed decision-making, boost operational efficiency, drive revenue, and differentiate from competitors.
 

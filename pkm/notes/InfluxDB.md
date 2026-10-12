@@ -2,7 +2,11 @@
 title:  InfluxDB
 created: Sunday 30th April 2023 21:18
 aliases: 
-tags: db
+tags:
+  - db
+  - observability
+part_of:
+  - "[[TSDB]]"
 ---
 # Types
 

@@ -2,7 +2,8 @@
 title:  DNS
 created: Saturday 25th January 2025 00:33
 aliases: 
-tags: 
+tags:
+  - networking
 ---
 | Tool                                               | Description                                                              |
 | -------------------------------------------------- | ------------------------------------------------------------------------ |

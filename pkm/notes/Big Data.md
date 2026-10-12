@@ -2,7 +2,9 @@
 title:  Big Data
 created: Monday 4th March 2024 11:28
 aliases: 
-tags: 
+tags:
+  - big-data
+  - data-engineering
 ---
 
 - [[De Lambda a Kappa - evolución de las arquitecturas Big Data]]

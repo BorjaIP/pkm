@@ -2,7 +2,9 @@
 title:  Web
 created: Thursday 30th October 2025 13:58
 aliases: 
-tags: 
+tags:
+  - web
+  - tools
 ---
 
 | Tool/Framework                                        | Description                                                    |

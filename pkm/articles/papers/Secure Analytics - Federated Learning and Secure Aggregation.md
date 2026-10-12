@@ -3,8 +3,8 @@ title:  Secure Analytics - Federated Learning and Secure Aggregation
 created: Friday 28th July 2023 08:56
 aliases:
 tags:
-  - fl
-  - pet
+  - federated-learning
+  - privacy
 ---
 - https://inst.eecs.berkeley.edu/~cs261/fa18/scribe/10_15.pdf
 - Source: berkeley
@@ -34,6 +34,6 @@ Federated learning requires aggregating model gradients from many clients withou
 4. When establishing baseline communication cost for **secure aggregation** before comparing optimized protocols.
 
 ---
-[[FL]]
+FL
 [[PET]]
 [[Machine Learning|ML]]

@@ -2,7 +2,13 @@
 title:  Transformers
 created: Tuesday 20th June 2023 18:54
 aliases: 
-tags: 
+tags:
+  - deep-learning
+  - llm
+  - nlp
+  - transformer
+part_of:
+  - "[[Deep Learning]]"
 ---
 [Transformers](https://huggingface.co/docs/transformers/index) are neural networks that learn context and understanding through sequential data analysis. The **Transformer** models use a modern and evolving mathematical techniques set, generally known as attention or self-attention. This set helps identify how distant data elements influence and depend on one another. Transformers have revolutionized the world of natural language processing (NLP)
 

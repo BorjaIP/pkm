@@ -2,7 +2,9 @@
 title:  Git
 created: Sunday 23rd April 2023 16:46
 aliases: 
-tags: tool
+tags:
+  - tools
+  - git
 ---
 
 | Tool                                                   | Description                                                                                                                                                                  |

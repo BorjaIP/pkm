@@ -4,7 +4,7 @@ created: Monday 5th February 2024 19:43
 aliases:
 tags:
   - llm
-  - tool
+  - tool-use
 ---
 - https://aclanthology.org/2023.emnlp-main.187.pdf
 - Source: acl

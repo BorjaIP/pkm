@@ -2,7 +2,13 @@
 title:  PrivateGPT
 created: Tuesday 20th June 2023 18:38
 aliases: 
-tags: gpt
+tags:
+  - gpt
+  - llm
+  - rag
+uses:
+  - "[[RAG]]"
+  - "[[LLM]]"
 ---
 [PrivateGPT](https://github.com/imartinez/privateGPT) is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models ([[LLM]]), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
 ## Articles/Talks

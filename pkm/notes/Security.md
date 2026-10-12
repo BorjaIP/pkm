@@ -2,7 +2,9 @@
 title:  Security
 created: Tuesday 5th March 2024 12:32
 aliases: 
-tags: 
+tags:
+  - security
+  - tools
 ---
 
 | Tool                                            | Description                                              |

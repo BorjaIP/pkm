@@ -3,6 +3,8 @@ title: GCP
 created: Wednesday 6th March 2024 14:39
 aliases: 
 tags:
+  - gcp
+  - cloud
 ---
 **Google Cloud Platform**, offered by Google, is a suite of cloud computing services that provides a series of modular cloud services including computing, data storage, data analytics, and machine learning, alongside a set of management tools.
 

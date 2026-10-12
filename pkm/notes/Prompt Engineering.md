@@ -4,6 +4,10 @@ created: Saturday 12th April 2025 18:23
 aliases:
   - Prompt
 tags:
+  - prompt-engineering
+  - llm
+part_of:
+  - "[[LLM]]"
 ---
 **Prompt Engineering** is the practice of **designing and refining input prompts** to optimize the output of generative AI models, especially large language models ([[LLM]]). It is a crucial skill that transforms raw model potential into useful, accurate, and task-specific results.
 
@@ -12,6 +16,7 @@ tags:
 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL System Prompts, Internal Tools & AI Models                 |
 # Articles/Talks
 
+- [[state-of-prompting-and-reasoning|State of prompting and reasoning]] (digest of this vault)
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
 - [[8 Types of Prompt Engineering]]

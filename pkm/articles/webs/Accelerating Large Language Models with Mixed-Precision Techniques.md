@@ -4,7 +4,7 @@ created: Monday 14th April 2025 21:05
 aliases: 
 tags:
   - gpu
-  - dl
+  - deep-learning
   - llm
 ---
 - https://lightning.ai/pages/community/tutorial/accelerating-large-language-models-with-mixed-precision-techniques/

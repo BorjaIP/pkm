@@ -2,7 +2,9 @@
 title:  PET
 created: Thursday 27th July 2023 16:39
 aliases: 
-tags: pet
+tags:
+  - privacy
+  - security
 ---
 Privacy-enhancing technologies are technologies that embody fundamental data protection principles by minimizing personal data use, maximizing data security, and empowering individuals. PETs allow online users to protect the privacy of their personally identifiable information, which is often provided to and handled by services or applications
 

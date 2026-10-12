@@ -5,6 +5,8 @@ aliases:
   - KG
   - kg
 tags:
+  - knowledge-graph
+  - ai
 ---
 A **knowledge** **graph** is a **graph**-based data model that represents and operates on entities and their relationships. Learn about the origins, features, and uses of **knowledge** **graphs** in various domains, such as search engines, social networks, and scientific research.
 

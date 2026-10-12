@@ -2,7 +2,14 @@
 title:  Flask
 created: Sunday 30th April 2023 17:17
 aliases: 
-tags: framework
+tags:
+  - framework
+  - python
+  - web
+alternative_to:
+  - "[[FastAPI]]"
+uses:
+  - "[[Python]]"
 ---
 Flask is a lightweight [[Python]] framework for web applications that provides the basics for URL routing and page rendering.
 

@@ -2,7 +2,10 @@
 title:  Nix
 created: Saturday 5th April 2025 13:09
 aliases: 
-tags: 
+tags:
+  - linux
+  - tools
+  - devops
 ---
 **Nix** is a **package manager** and a **build system** that makes software deployments **deterministic**, **reproducible**, and **isolated**. It comes from the **NixOS** ecosystem but can be used on any Unix-like system.
 

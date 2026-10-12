@@ -2,7 +2,11 @@
 title:  Cwl
 created: Friday 20th October 2023 09:26
 aliases: 
-tags: 
+tags:
+  - workflow
+  - orchestration
+part_of:
+  - "[[Workflow Orchestration]]"
 ---
 Common Workflow Language ([CWL](https://www.commonwl.org/)) is an open standard for describing how to run command line tools and connect them to create workflows.
 

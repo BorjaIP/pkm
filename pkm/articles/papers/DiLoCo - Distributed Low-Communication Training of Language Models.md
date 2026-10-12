@@ -4,8 +4,8 @@ created: Wednesday 1st April 2026 14:00
 aliases:
 tags:
   - llm
-  - fl
-  - dl
+  - federated-learning
+  - deep-learning
   - org-deepmind
 ---
 - https://arxiv.org/abs/2311.08105

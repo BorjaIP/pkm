@@ -1,5 +1,5 @@
 ---
-title:  Prompot-engineering-guide
+title:  Prompt-engineering-guide
 created: Saturday 12th April 2025 19:00
 aliases: 
 tags:
@@ -47,7 +47,7 @@ A structured handbook (also published at promptingguide.ai) with sections for in
 
 # Caveats
 
-- The note's frontmatter title keeps the original spelling, "Prompot-engineering-guide".
+- A living guide: techniques, model coverage and links change over time, so check the site for current versions.
 
 ---
 [[Prompt Engineering]] [[LLM]] [[AI Agents]] [[RAG]]

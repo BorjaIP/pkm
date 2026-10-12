@@ -2,7 +2,11 @@
 title:  NoSQL
 created: Friday 21st February 2025 17:44
 aliases: 
-tags: 
+tags:
+  - db
+  - nosql
+part_of:
+  - "[[Databases]]"
 ---
 NoSQL is an approach to database design that focuses on providing a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases. Instead of the typical tabular structure of a relational database, NoSQL databases house data within one data structure
 

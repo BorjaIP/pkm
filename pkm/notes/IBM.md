@@ -2,7 +2,10 @@
 title:  IBM
 created: Friday 27th October 2023 08:48
 aliases: 
-tags: 
+tags:
+  - cloud
+  - ml
+  - co-ibm
 ---
 ## AI / machine learning
 

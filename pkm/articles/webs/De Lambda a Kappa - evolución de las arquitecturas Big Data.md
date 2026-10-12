@@ -5,7 +5,6 @@ aliases:
 tags:
   - architecture
   - big-data
-  - data-engineering
 ---
 - https://www.paradigmadigital.com/techbiz/de-lambda-a-kappa-evolucion-de-las-arquitecturas-big-data/
 - Type: article

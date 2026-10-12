@@ -2,7 +2,11 @@
 title:  VPC
 created: Friday 1st March 2024 09:49
 aliases: 
-tags: 
+tags:
+  - aws
+  - networking
+part_of:
+  - "[[AWS]]"
 ---
 With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 

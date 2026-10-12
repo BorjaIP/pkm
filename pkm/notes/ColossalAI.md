@@ -2,7 +2,11 @@
 title:  ColossalAI
 created: Tuesday 20th June 2023 20:06
 aliases: 
-tags: gpt, llm 
+tags:
+  - gpt
+  - llm
+  - deep-learning
+  - gpu
 ---
 [Colossal-AI](https://github.com/hpcaitech/ColossalAI) provides a collection of parallel components for you. We aim to support you to write your distributed deep learning models just like how you write your model on your laptop. We provide user-friendly tools to kickstart distributed training and inference in a few lines.
 
