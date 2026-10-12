@@ -19,3 +19,4 @@ A **terminal emulator** is a program that replicates the function of a classic h
 | [Superfile](https://github.com/yorukot/superfile)      | Pretty fancy and modern terminal file manager                      |
 | [Yazi](https://github.com/sxyazi/yazi)                 | Blazing-fast terminal file manager built on async I/O              |
 | [Glow](https://github.com/charmbracelet/glow)          | Render Markdown in the terminal with style                         |
+| [tgrep](https://github.com/microsoft/tgrep) | Regex code search using a trigram index to narrow searches before verifying matches |

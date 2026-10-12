@@ -55,6 +55,9 @@ tags:
 | [Mkcert](https://github.com/FiloSottile/mkcert)                   | A simple zero-config tool to make locally trusted development certificates with any names you'd like                    |
 | [Presenterm](https://github.com/mfontanini/presenterm)            | Terminal-based markdown slideshow tool with syntax highlighting, code execution, Mermaid diagrams and image support      |
 | [TREK](https://github.com/mauriceboe/TREK)                        | Self-hosted, real-time collaborative travel planner with interactive maps, budgets, packing lists, and expense tracking |
+| [OpenLogi](https://github.com/AprilNEA/OpenLogi)                  | Local-first alternative to Logitech Options+ for remapping buttons, DPI and SmartShift                                  |
+| [anydoc](https://github.com/firecrawl/anydoc) | Rust library converting office documents, ebooks, spreadsheets and PDFs into Markdown for LLMs |
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generates short videos from a topic: AI script, stock footage, voiceover, subtitles and editing |
 
 - [Trend repositories](https://trendshift.io/)
 - [Roadmap.sh](https://github.com/kamranahmedse/developer-roadmap)

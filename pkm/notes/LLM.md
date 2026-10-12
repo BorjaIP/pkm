@@ -149,6 +149,7 @@ RAG is a technique for augmenting LLM knowledge with additional data.
 
 - [List of Open Sourced Fine-Tuned Large Language Models (LLM)](https://medium.com/geekculture/list-of-open-sourced-fine-tuned-large-language-models-llm-8d95a2e0dc76)
 - [Falcon](https://github.com/Sentdex/Falcon-LLM/)
+- [colibri](https://github.com/JustVugg/colibri) - C inference engine running large mixture-of-experts models on modest hardware by streaming experts from disk
 ## LLama
 
 - [LLama](https://github.com/facebookresearch/llama)

@@ -17,7 +17,7 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 
 | Tag | Notes | notes/ | papers/ | webs/ | Meaning |
 |---|---:|---:|---:|---:|---|
-| `llm` | 72 | 10 | 45 | 17 | Large language models |
+| `llm` | 73 | 10 | 46 | 17 | Large language models |
 | `ml` | 46 | 10 | 27 | 9 | Machine learning |
 | `devops` | 36 | 17 | 2 | 17 |  |
 | `k8s` | 31 | 9 | 0 | 22 | Kubernetes |
@@ -34,10 +34,10 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 | `deep-learning` | 17 | 5 | 9 | 3 | Deep learning, neural networks |
 | `linux` | 14 | 14 | 0 | 0 |  |
 | `networking` | 14 | 7 | 0 | 7 | Networking |
+| `agents` | 13 | 4 | 8 | 1 | AI agents |
+| `ai` | 13 | 11 | 2 | 0 | Artificial intelligence in general |
 | `ci-cd` | 13 | 2 | 0 | 11 | Continuous integration and delivery |
-| `ai` | 12 | 10 | 2 | 0 | Artificial intelligence in general |
 | `python` | 12 | 7 | 0 | 5 |  |
-| `agents` | 11 | 3 | 7 | 1 | AI agents |
 | `data-engineering` | 11 | 11 | 0 | 0 |  |
 | `sql` | 11 | 8 | 1 | 2 |  |
 | `embeddings` | 10 | 0 | 4 | 6 | Text/vector embeddings |
@@ -62,6 +62,7 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 | `software-testing` | 5 | 2 | 3 | 0 |  |
 | `storage` | 5 | 4 | 0 | 1 |  |
 | `api-gateway` | 4 | 0 | 0 | 4 | API gateways and ingress |
+| `code-generation` | 4 | 0 | 4 | 0 |  |
 | `docker` | 4 | 2 | 0 | 2 |  |
 | `gcp` | 4 | 4 | 0 | 0 |  |
 | `git` | 4 | 1 | 0 | 3 |  |
@@ -73,7 +74,6 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 | `serving` | 4 | 0 | 1 | 3 | Model serving |
 | `web` | 4 | 4 | 0 | 0 |  |
 | `co-anthropic` | 3 | 2 | 1 | 0 |  |
-| `code-generation` | 3 | 0 | 3 | 0 |  |
 | `config` | 3 | 1 | 0 | 2 |  |
 | `dense-retrieval` | 3 | 0 | 3 | 0 |  |
 | `event-driven` | 3 | 1 | 0 | 2 | Event-driven architecture and messaging |

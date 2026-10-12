@@ -24,6 +24,7 @@ When answering a query:
 
 | Page | Summary | Tags | Created |
 |---|---|---|---|
+| [[Agent Skills]] | Agent Skills are self-contained folders (a SKILL.md plus scripts and resources) that an AI coding agent loads on demand for specialized... | agents, ai | Tuesday 13th October 2026 10:00 |
 | [[AI Agents\|Agents]] | Agentic AI refers to artificial intelligence capable of making decisions, planning, and adapting to new information in real time. AI agents... | ai, agents | Saturday 1st February 2025 19:34 |
 | [[Airflow]] | Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows. | etl, orchestration | Tuesday 20th June 2023 19:48 |
 | [[AlloyDB]] | AlloyDB for PostgreSQL is a fully managed, PostgreSQL-compatible database service that's designed for your most demanding workloads... | gcp, db, sql | Wednesday 6th March 2024 15:17 |
@@ -42,7 +43,7 @@ When answering a query:
 | [[Business Intelligence\|Bussiness Inteligence]] | Business intelligence (BI) is a specialist function that uses technology, data tools and services to provide insights that guide business... | business-intelligence, data-engineering | Monday 4th March 2024 10:39 |
 | [[Cert Manager]] | Cert-manager adds certificates and certificates issuer as resource types in Kubernetes clusters and simplifies the process of obtaining... | k8s, ssl, security | Friday 31st May 2024 18:25 |
 | [[Chocolatey]] | Notes and references on Chocolatey. | windows, tools | Saturday 22nd April 2023 19:28 |
-| [[Claude]] | Three specialized review commands for analyzing code changes: | llm, ai, co-anthropic | Saturday 31st January 2026 23:47 |
+| [[Claude]] | Agent skills (anthropics/skills, obsidian-skills, impeccable, marketingskills...) live in Agent Skills. Subagent collections stay here. | llm, ai, co-anthropic | Saturday 31st January 2026 23:47 |
 | [[Cloud]] | Cloud architecture helps provide a structure to cloud computing solutions, freeing businesses from any reliance on physical data centers... | cloud | Sunday 23rd April 2023 17:34 |
 | [[Cloud Formation]] | AWS CloudFormation is an Infrastructure as code service that takes programmatic instructions for how a full stack should be built and goes... | cloud, aws | Monday 1st May 2023 17:39 |
 | [[ColossalAI]] | Colossal-AI provides a collection of parallel components for you. We aim to support you to write your distributed deep learning models just... | gpt, llm, deep-learning, gpu | Tuesday 20th June 2023 20:06 |
@@ -176,7 +177,7 @@ When answering a query:
 | [[XaaS]] | X as a service (rendered as aaS in acronyms) is a phrasal template for any business model in which a product use is offered as a... | cloud | Saturday 1st February 2025 22:34 |
 | [[ZTN]] | Zero trust network is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies... | security, networking | Friday 11th April 2025 23:24 |
 
-*Total: 151 concept notes*
+*Total: 152 concept notes*
 
 ---
 
@@ -241,6 +242,7 @@ When answering a query:
 | [[SWE-CI Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration]] | SWE-CI introduces a benchmark to evaluate AI agents on their ability to maintain real software codebases through continuous integration... | agents, devops, code-generation, software-testing, tool-use | Wednesday 25th March 2026 18:54 |
 | [[TDFlow Agentic Workflows for Test Driven Software Engineering\|"TDFlow: Agentic Workflows for Test Driven Software Engineering"]] | TDFlow frames software repair as a test-resolution problem, using a four-agent pipeline guided by human-written tests to reach 88.8% on... | agents, code-generation, software-testing, llm, multi-agent | Friday 17th April 2026 16:00 |
 | [[Technological Enablers for Privacy Preserving Data Sharing and Analysis]] | This EU Joint Research Centre report surveys six privacy-enhancing technology categories — differential privacy, federated learning, SMPC... | privacy, federated-learning | Wednesday 12th June 2024 17:16 |
+| [[The End of Software Engineering - How AI Agents Are Fundamentally Restructuring the Software Paradigm]] | A position paper arguing that AI agents, where an LLM generates decision logic at runtime and code is only a temporary tool, restructure... | agents, llm, code-generation | Monday 12th October 2026 19:10 |
 | [[The Era of 1-bit LLMs - All Large Language Models are in 1.58 Bits]] | BitNet b1.58 quantizes every LLM weight to {-1, 0, +1}, achieving perplexity parity with full-precision models at 3B+ parameters while... | llm, ml | Wednesday 6th March 2024 18:30 |
 | [[Toolformer - Language Models Can Teach Themselves to Use Tools]] | Toolformer teaches language models to autonomously decide when and how to call external APIs using self-supervised learning, where only API... | llm, tool-use, self-supervised | Monday 5th February 2024 19:46 |
 | [[Unifying Large Language Models and Knowledge Graphs - A Roadmap]] | A roadmap survey that structures LLM-KG integration into three paradigms — KG-enhanced LLMs, LLM-augmented KGs, and Synergized LLM+KG — and... | llm, ai, knowledge-graph | Friday 9th February 2024 08:43 |
@@ -248,7 +250,7 @@ When answering a query:
 | [[VisionLLM - Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks]] | VisionLLM unifies detection, segmentation, captioning, and VQA under a single LLM autoregressive decoder by expressing all tasks as natural... | llm, gpt, ml | Wednesday 27th September 2023 14:13 |
 | [[When Federated Learning Meets Blockchain - A New Distributed Learning Paradigm]] | This paper proposes replacing the trusted central server in federated learning with a blockchain aggregation layer using smart contracts... | blockchain, federated-learning, ml | Friday 2nd February 2024 11:17 |
 
-*Total: 63 paper summaries*
+*Total: 64 paper summaries*
 
 ---
 

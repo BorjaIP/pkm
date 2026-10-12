@@ -11,6 +11,9 @@ tags:
 | ----------------------------------------------- | -------------------------------------------------------- |
 | [Falco](https://github.com/falcosecurity/falco) | Cloud native runtime security tool for Linux OS          |
 | [ffuf](https://github.com/ffuf/ffuf)            | Fast web fuzzer written in Go                            |
+| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | Software reverse engineering framework by the NSA: disassembler, decompiler and scripting |
+| [Prempti](https://github.com/falcosecurity/prempti) | Falco-based policy layer that allows, blocks or confirms AI coding agent tool calls and logs them |
+| [MailAccess](https://github.com/KatrielMoses/MailAccess) | Self-hostable OSINT platform that checks an email address against breaches, social networks and DNS |
 # Secure Protocols
 ## TLS
 

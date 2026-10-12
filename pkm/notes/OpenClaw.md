@@ -41,4 +41,3 @@ webSearch.provider: "tavily"
 
 | Tool                                                                            | Description                                                                                                                   |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | Curated collection of 5,400+ OpenClaw skills filtered and categorized from the official OpenClaw Skills Registry.             |

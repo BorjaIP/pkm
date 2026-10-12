@@ -13,4 +13,3 @@ Data engineers are responsible for building [[Data Orchestration|data pipelines]
 
 | Tool/Resource                                                                               | Description                                                   |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Data-engineering-skills](https://github.com/AltimateAI/data-engineering-skills)           | A curated list of skills and resources for data engineers     |

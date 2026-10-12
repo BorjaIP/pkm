@@ -24,4 +24,3 @@ System Design describes **how** the system will be built: components, interfaces
 | Tool | Description |
 | ---- | ----------- |
 | [plan-cascade](https://github.com/Taoidle/plan-cascade) | AI-powered cascading development framework. Decomposes complex projects into parallel executable tasks with auto-generated PRDs, design docs, and multi-agent collaboration. |
-| [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill that implements persistent markdown-based planning using a three-file pattern (task_plan.md, findings.md, progress.md) to maintain structured task tracking across context resets. |
