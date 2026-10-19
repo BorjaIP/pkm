@@ -20,6 +20,7 @@ Key Technical Components:
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | [KasmVNC](https://github.com/kasmtech/KasmVNC)     | Modern VNC Server and client, web based and secure                                                    |
 | [Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight                                                            |
+| [Coder](https://github.com/coder/coder)            | Self-hosted platform for provisioning remote development environments on your own infrastructure       |
 # Transmission protocols
 
 ## TCP (Transmission Control Protocol)
