@@ -370,8 +370,9 @@ When answering a query:
 | Page | Summary | Tags | Created |
 |---|---|---|---|
 | [[prefer-postgresql-over-mysql\|Prefer PostgreSQL over MySQL for new projects]] | When starting new projects, PostgreSQL is the default choice over MySQL. This preference covers general-purpose relational database needs... | remembered, agent, database | Saturday 11th October 2025 13:45 |
+| [[vault-first-query-workflow\|Vault-First Query Workflow]] | For technical questions, consult Borja's Second Brain before web search or general knowledge, and make the retrieval process transparent. | remembered, agent, wiki, workflow | Sunday 25th October 2026 12:34 |
 
-*Total: 1 remembered entry*
+*Total: 2 remembered entries*
 
 ---
 

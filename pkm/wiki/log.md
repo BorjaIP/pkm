@@ -132,3 +132,16 @@ cp templates/Agent-Log.md wiki/log.md
 - Source: github.com/simstudioai/sim, github.com/tt-a1i/archify, github.com/temporalio/temporal
 - Updated: [[AI Agents]], [[Agent Skills]], [[Workflow Orchestration]]
 - Note: added with pkm-tool-adder; Sim in the AI Agents tools table, archify in the Agent Skills "Design and frontend" table, Temporal at the end of the Workflow Orchestration table
+
+## [2026-10-25 12:34] remember | Vault-first query workflow
+- Scope: general
+- Expires: none
+- Page: wiki/remembered/vault-first-query-workflow.md
+- Catalog updated: Yes
+
+## [2026-10-25 12:36] update | Public English vault and private cross-reference boundary
+- Disposition: Update
+- Source: Conversation with Borja; repository `.gitignore`
+- Updated: wiki/remembered/vault-first-query-workflow.md
+- Notes: Public notes remain in English for publication; `pkm/private/` may inform answers but must never leak into public notes, generated indexes, commits, or the site.
+- Gitignore verified: `pkm/private/*`
