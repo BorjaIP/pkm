@@ -32,10 +32,10 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 | `retrieval` | 18 | 2 | 6 | 10 | Information retrieval and search |
 | `architecture` | 17 | 8 | 0 | 9 | Software and system architecture |
 | `deep-learning` | 17 | 5 | 9 | 3 | Deep learning, neural networks |
+| `agents` | 14 | 5 | 8 | 1 | AI agents |
+| `ai` | 14 | 12 | 2 | 0 | Artificial intelligence in general |
 | `linux` | 14 | 14 | 0 | 0 |  |
 | `networking` | 14 | 7 | 0 | 7 | Networking |
-| `agents` | 13 | 4 | 8 | 1 | AI agents |
-| `ai` | 13 | 11 | 2 | 0 | Artificial intelligence in general |
 | `ci-cd` | 13 | 2 | 0 | 11 | Continuous integration and delivery |
 | `python` | 12 | 7 | 0 | 5 |  |
 | `data-engineering` | 11 | 11 | 0 | 0 |  |

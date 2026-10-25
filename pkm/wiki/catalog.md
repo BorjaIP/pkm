@@ -96,6 +96,7 @@ When answering a query:
 | [[gRPC\|grpc]] | In gRPC, a client application can directly call a method on a server application on a different machine as if it were a local object... | grpc, api | Tuesday 20th June 2023 19:36 |
 | [[Harness Engineering]] | Harness Engineering is a software engineering discipline focused on designing, building, and maintaining the infrastructure, tools, and... | devops, architecture | Sunday 26th April 2026 14:15 |
 | [[Helm]] | Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources. | k8s, devops | Sunday 30th April 2023 20:02 |
+| [[Hermes]] | Hermes Agent is the open-source, self-hosted personal AI agent built by Nous Research. Its defining trait is a built-in learning loop: it... | ai, agents | Wednesday 14th October 2026 19:43 |
 | [[Homelab]] | Resources and projects to draw ideas from — not necessarily in use, but worth studying. | homelab, linux | Friday 29th November 2024 23:43 |
 | [[Hugo]] | Notes and references on Hugo. | web, tools | Thursday 24th April 2025 18:18 |
 | [[IaC]] | Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes. | iac, devops | Saturday 29th April 2023 16:10 |
@@ -177,7 +178,7 @@ When answering a query:
 | [[XaaS]] | X as a service (rendered as aaS in acronyms) is a phrasal template for any business model in which a product use is offered as a... | cloud | Saturday 1st February 2025 22:34 |
 | [[ZTN]] | Zero trust network is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies... | security, networking | Friday 11th April 2025 23:24 |
 
-*Total: 152 concept notes*
+*Total: 153 concept notes*
 
 ---
 

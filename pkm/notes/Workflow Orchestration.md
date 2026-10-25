@@ -22,4 +22,5 @@ The terms “workflow orchestration” and “[[Data Orchestration]]” are ofte
 | [Prefect](https://github.com/PrefectHQ/prefect)       | Workflow orchestration tool empowering developers                                                            |
 | [DStack](https://github.com/dstackai/dstack)          | Orchestrate GPU workloads effortlessly on any cloud                                                          |
 | [Windmill](https://github.com/windmill-labs/windmill) | Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. |
+| [Temporal](https://github.com/temporalio/temporal)    | Durable execution platform that runs workflows resiliently and retries failed operations automatically       |
 - [n8n-hosting](https://github.com/n8n-io/n8n-hosting/blob/main/README.md)

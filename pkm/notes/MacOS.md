@@ -17,12 +17,10 @@ tags:
 | [yabai](https://github.com/koekeishiya/yabai)                     | A tiling window manager for macOS based on binary space partitioning      |
 | [Amethyst](https://github.com/ianyh/Amethyst)                     | Automatic tiling window manager for macOS à la xmonad                     |
 | [skhd](https://github.com/koekeishiya/skhd)                       | Simple hotkey daemon for macOS                                            |
-| [Cap](https://github.com/CapSoftware/Cap)                         | Open source Loom alternative. Beautiful, shareable screen recordings      |
 | [Alt-tab-macos](https://github.com/lwouis/alt-tab-macos)          | Windows alt-tab on macOS                                                  |
 | [Containerization](https://github.com/apple/containerization)     | Containerization is a Swift package for running Linux containers on macOS |
 | [osx-us-altgr-intl](https://github.com/xv0x7c0/osx-us-altgr-intl) | US keymap with altgr-intl variant for OSX                                 |
 | [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) | macOS audio utility: automatically pause your music, set individual apps  |
-| [localsend](https://github.com/localsend/localsend)               | An open-source cross-platform alternative to **AirDrop**                  |
 | [Tome](https://github.com/Gremble-io/Tome)                        | Local meeting transcription to Obsidian vault; no cloud, no API keys      |
 
 # Commands

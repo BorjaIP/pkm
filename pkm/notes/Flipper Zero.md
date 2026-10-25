@@ -10,3 +10,5 @@ tags:
 | Tool/Framework                                           | Description                                   |
 | -------------------------------------------------------- | --------------------------------------------- |
 | [Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) | A collective of different IRs for the Flipper |
+| [clipper](https://github.com/Realgagenichols/clipper) | MCP server letting AI clients control a Flipper Zero (Momentum firmware) over USB with 32 tools |
+| [PromptZero](https://github.com/xunholy/promptzero) | AI assistant that turns plain-language requests into Flipper Zero wireless and hardware security payloads |

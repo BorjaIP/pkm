@@ -79,6 +79,12 @@ Produce natural-sounding speech, effects, or music compositions.
 - Clone specific voices using short samples.
 - Use cases: dubbing, virtual assistants, gaming.
 
+## Tools
+
+| Tool | Description |
+| ---- | ----------- |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | Local desktop app for voice cloning, video dubbing, dictation and transcription |
+
 # Multimodal Models
 
 AI models that understand and generate across **multiple types of data** simultaneously.

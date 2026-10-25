@@ -11,6 +11,7 @@ API stands for **Application Programming Interface**. In the context of APIs, th
 | Tool                                                   | Description                           |
 | ------------------------------------------------------ | ------------------------------------- |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Open source API development ecosystem |
+| [Posting](https://github.com/darrenburns/posting) | Terminal HTTP client TUI that stores requests as local YAML files and runs over SSH |
 # API REST
 
 - [OpenAPI Specification](https://swagger.io/specification/)

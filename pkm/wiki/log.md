@@ -90,3 +90,45 @@ cp templates/Agent-Log.md wiki/log.md
 - Fixed: 0 (no auto-fixes applied)
 - Flagged: 11 broken wikilinks, 31 orphan notes
 - Report: wiki/lint-reports/2025-10-11-lint.md
+
+## [2026-10-14 19:44] ingest | Hermes
+- Disposition: New
+- Source: https://hermes-agent.nousresearch.com/ (official docs), https://github.com/NousResearch/hermes-agent (README, AGENTS.md)
+- Updated: [[Hermes]]
+- Note: curated skill table pending the skill list from Borja
+
+## [2026-10-14 19:55] update | Hermes — useful skills
+- Disposition: Update
+- Source: github.com/Panniantong/Agent-Reach, github.com/blader/humanizer, github.com/kepano/defuddle (1-3 of Borja's list)
+- Updated: [[Hermes]]
+- Note: resolved the pending skill table; catalog regenerated
+
+## [2026-10-14 20:50] update | Raindrop "Load" collection -> 4 tools catalogued
+- Disposition: Update
+- Source: Raindrop collection Load (id 76095311): github.com/MakazhanAlpamys/Soup, github.com/ARahim3/DigUp, github.com/diegosouzapw/OmniRoute, github.com/wheresryan22/anatomy
+- Updated: [[LLM]], [[Agent Skills]]
+- Note: rows appended with pkm-tool-adder; Soup/DigUp/OmniRoute in the LLM tool table, anatomy in the Agent Skills "Design and frontend" table
+
+## [2026-10-14 20:57] update | Raindrop "Load" emptied after cataloguing
+- Disposition: Update
+- Source: Raindrop bookmarks 1889819477, 1889819398, 1889819243, 1889819185 deleted (collection Load id 76095311 now empty)
+- Updated: [[LLM]], [[Agent Skills]]
+- Note: rows in the vault are the remaining record of these items; Raindrop Trash was not emptied and the Load collection was left in place
+
+## [2026-10-14 22:26] update | tuxedo tool row added to [[Terminal]]
+- Disposition: New
+- Source: https://github.com/webstonehq/tuxedo
+- Updated: [[Terminal]]
+- Note: added with pkm-tool-adder; Terminal.md chosen over Tools.md because terminal TUI apps live there
+
+## [2026-10-17 12:42] update | VoiceStudio tool row added to [[Generative AI]]
+- Disposition: New
+- Source: https://github.com/debpalash/VoiceStudio
+- Updated: [[Generative AI]]
+- Note: added with pkm-tool-adder; new "## Tools" table created under the Audio & Music Generation section (that note had no tools table; its tools were plain prose)
+
+## [2026-10-17 18:16] update | Sim, archify and Temporal tool rows added
+- Disposition: New
+- Source: github.com/simstudioai/sim, github.com/tt-a1i/archify, github.com/temporalio/temporal
+- Updated: [[AI Agents]], [[Agent Skills]], [[Workflow Orchestration]]
+- Note: added with pkm-tool-adder; Sim in the AI Agents tools table, archify in the Agent Skills "Design and frontend" table, Temporal at the end of the Workflow Orchestration table

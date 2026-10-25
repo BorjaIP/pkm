@@ -45,6 +45,7 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [FastChat](https://github.com/lm-sys/FastChat)                                        | An open platform for training, serving, and evaluating large language models. Release repo for **Vicuna** and **Chatbot Arena**.             |
 | [UltraChat](https://github.com/thunlp/UltraChat)                                      | Large-scale, Informative, and Diverse Multi-round Chat Data                                                                                  |
 | [LiteLLM](https://github.com/BerriAI/litellm)                                         | Call all LLM APIs using the OpenAI format. (100+ LLMs)                                                                                       |
+| [FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi) | Self-hosted OpenAI-compatible gateway that routes across free-tier LLM providers with automatic failover |
 | [AgentGPT](https://github.com/reworkd/AgentGPT)                                       | Assemble, configure, and deploy autonomous AI Agents in your browser                                                                         |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                            | Accessible AI for everyone, to use and to build on.                                                                                          |
 | [AutoGen](https://github.com/microsoft/autogen)                                       | A programming framework for agentic AI                                                                                                       |
@@ -56,7 +57,6 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [LLMStack](https://github.com/trypromptly/llmstack)                                   | No-code multi-agent framework to build LLM Agents                                                                                            |
 | [Vanna](https://github.com/vanna-ai/vanna)                                            | Chat with your [[SQL]] database                                                                                                              |
 | [Deepseek](https://github.com/deepseek-ai/DeepSeek-Coder-V2)                          | Closed-Source Models in Code Intelligence                                                                                                    |
-| [LocalAI](https://github.com/mudler/LocalAI)                                          | Open Source OpenAI alternative, Self-hosted                                                                                                  |
 | [LLama-Factory](https://github.com/hiyouga/LLaMA-Factory)                             | Unify Efficient Fine-Tuning                                                                                                                  |
 | [Lago](https://github.com/getlago/lago)                                               | Metering and Usage Based Billing API, Consumption tracking                                                                                   |
 | [Lunary](https://github.com/lunary-ai/lunary)                                         | The production toolkit for LLMs                                                                                                              |
@@ -91,7 +91,9 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 | [deepeval](https://github.com/confident-ai/deepeval)                                  | The LLM Evaluation Framework                                                                                                                 |
 | [oMLX](https://github.com/jundot/omlx)                                                   | Local LLM inference server optimized for Apple Silicon Macs with continuous batching and tiered KV caching managed via native menu bar application               |
 | [Onyx](https://github.com/onyx-dot-app/onyx)                                             | Open-source AI platform with RAG, web search, code execution, and custom AI agents all in a feature-rich self-hosted interface                                |
-| [Open Notebook](https://github.com/lfnovo/open-notebook)                                 | Privacy-focused alternative to Google Notebook LM for AI-powered research |
+| [Soup](https://github.com/MakazhanAlpamys/Soup)                                       | Fine-tunes and post-trains LLMs from one YAML; layer streaming runs an 8B model on a 4 GB GPU                                                |
+| [DigUp](https://github.com/ARahim3/DigUp)                                             | On-device semantic search over local files, using EmbeddingGemma 2 multimodal embeddings                                                     |
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute)                                | AI gateway aggregating many providers and models, with quota-aware fallback and token compression                                            |
 
 
 

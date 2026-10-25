@@ -11,6 +11,7 @@ tags:
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Git                                                                                                                          |
 | [Gnosis](https://github.com/oddur/gnosis)              | AI-powered PR review tool that groups changes logically and presents them as guided slideshows. Supports Claude and Gemini with interactive reviews and custom instructions. |
+| [gh-dash](https://github.com/dlvhdr/gh-dash) | Terminal UI for viewing and managing GitHub pull requests and issues |
 # Articles/Talks
 
 - [[Oh Shit, Git]]

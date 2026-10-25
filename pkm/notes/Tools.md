@@ -50,12 +50,9 @@ tags:
 | [Bunkerweb](https://github.com/bunkerity/bunkerweb)               | Open-source and next-generation Web Application Firewall (WAF)                                                          |
 | [Jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)      | Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV |
 | [Fabric](https://github.com/danielmiessler/fabric)                | Open-source framework for augmenting humans using AI                                                                    |
-| [Documenso](https://github.com/documenso/documenso)               | The Open Source DocuSign Alternative                                                                                    |
-| [OpenSign](https://github.com/OpenSignLabs/OpenSign)              | The free & Open Source DocuSign alternative                                                                             |
 | [Mkcert](https://github.com/FiloSottile/mkcert)                   | A simple zero-config tool to make locally trusted development certificates with any names you'd like                    |
 | [Presenterm](https://github.com/mfontanini/presenterm)            | Terminal-based markdown slideshow tool with syntax highlighting, code execution, Mermaid diagrams and image support      |
 | [TREK](https://github.com/mauriceboe/TREK)                        | Self-hosted, real-time collaborative travel planner with interactive maps, budgets, packing lists, and expense tracking |
-| [OpenLogi](https://github.com/AprilNEA/OpenLogi)                  | Local-first alternative to Logitech Options+ for remapping buttons, DPI and SmartShift                                  |
 | [anydoc](https://github.com/firecrawl/anydoc) | Rust library converting office documents, ebooks, spreadsheets and PDFs into Markdown for LLMs |
 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generates short videos from a topic: AI script, stock footage, voiceover, subtitles and editing |
 
