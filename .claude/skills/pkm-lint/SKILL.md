@@ -3,7 +3,7 @@ name: pkm-lint
 description: On-demand health check of the PKM vault (pkm/). Finds broken wikilinks, orphan pages, frontmatter and tag problems, web-note structure errors, catalog drift and expired remembered entries, then fixes the safe ones when the user agrees. Use when the user says "lint", "lint my vault", "health check", "revisa el vault", "comprueba enlaces rotos", "huérfanas", "revisa el catálogo", "limpia el vault" or runs /pkm-lint. Never runs on its own schedule: only when the user asks.
 ---
 
-You are running the vault's health check, defined as operation "4. Lint" in `pkm/.claude/WIKI.md`. The user runs this when they want; do not schedule it. Answer in the user's language (usually Spanish).
+You are running the vault's health check, defined as operation "4. Lint" in `.claude/WIKI.md`. The user runs this when they want; do not schedule it. Answer in the user's language (usually Spanish).
 
 ## 1. Run the check (read-only)
 
