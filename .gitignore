@@ -29,3 +29,7 @@ pkm/meetings/
 .atl
 
 odd/
+
+# Python bytecode
+__pycache__/
+*.pyc
