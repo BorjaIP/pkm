@@ -177,9 +177,10 @@ When answering a query:
 | [[Wireguard]] | [Peer] PublicKey = Endpoint = :51280 AllowedIPs = , PersistentKeepalive = 25 | networking, security, linux | Thursday 12th June 2025 17:06 |
 | [[Workflow Orchestration\|Workflow]] | Workflow orchestration means governing your dataflow in a way that respects the orchestration rules and your business logic. A workflow... | workflow, etl | Monday 4th March 2024 10:58 |
 | [[XaaS]] | X as a service (rendered as aaS in acronyms) is a phrasal template for any business model in which a product use is offered as a... | cloud | Saturday 1st February 2025 22:34 |
+| [[YubiKey]] | [ Y u b i k e y s - c h e a t s h e e t ] ( h t t p s : / / g i t h u b . c o m / O p s e k / Y u b i k e y s - c h e a t s h e e t ) |  |  |
 | [[ZTN]] | Zero trust network is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies... | security, networking | Friday 11th April 2025 23:24 |
 
-*Total: 154 concept notes*
+*Total: 155 concept notes*
 
 ---
 

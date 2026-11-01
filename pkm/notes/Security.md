@@ -14,6 +14,7 @@ tags:
 | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | Software reverse engineering framework by the NSA: disassembler, decompiler and scripting |
 | [Prempti](https://github.com/falcosecurity/prempti) | Falco-based policy layer that allows, blocks or confirms AI coding agent tool calls and logs them |
 | [MailAccess](https://github.com/KatrielMoses/MailAccess) | Self-hostable OSINT platform that checks an email address against breaches, social networks and DNS |
+| [YubiKey](https://github.com/Opsek/Yubikeys-cheatsheet) | Hardware security key: FIDO2, OTP, GPG, SSH. See [[YubiKey]] |
 # Secure Protocols
 ## TLS
 
