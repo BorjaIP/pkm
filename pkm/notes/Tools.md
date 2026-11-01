@@ -54,6 +54,7 @@ tags:
 | [Presenterm](https://github.com/mfontanini/presenterm)            | Terminal-based markdown slideshow tool with syntax highlighting, code execution, Mermaid diagrams and image support      |
 | [TREK](https://github.com/mauriceboe/TREK)                        | Self-hosted, real-time collaborative travel planner with interactive maps, budgets, packing lists, and expense tracking |
 | [anydoc](https://github.com/firecrawl/anydoc) | Rust library converting office documents, ebooks, spreadsheets and PDFs into Markdown for LLMs |
+| [Hex](https://github.com/anomalyco/hex) | Local voice dictation for Mac, Windows and Linux: hold a shortcut, speak, text is pasted on-device |
 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generates short videos from a topic: AI script, stock footage, voiceover, subtitles and editing |
 
 - [Trend repositories](https://trendshift.io/)

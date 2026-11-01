@@ -29,6 +29,7 @@ Agent Skills are self-contained folders (a `SKILL.md` plus scripts and resources
 | [code-reviewer](https://skills.sh/google-gemini/gemini-cli/code-reviewer) | Automated code review for local changes and remote PRs with structured analysis across correctness, maintainability, security, efficiency, and test coverage. Supports GitHub CLI checkout. | `npx skills add https://github.com/google-gemini/gemini-cli --skill code-reviewer` |
 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill that implements persistent markdown-based planning using a three-file pattern (task_plan.md, findings.md, progress.md) to maintain structured task tracking across context resets. |  |
 | [eidos](https://github.com/agenticnotetaking/eidos) | Claude Code plugin that keeps Markdown specs and code in sync for spec-driven development | `/plugin marketplace add agenticnotetaking/eidos` then `/plugin install eidos@eidos` |
+| [ponytail](https://github.com/DietrichGebert/ponytail) | Skill that makes AI coding agents write minimal code, favoring reuse over extra features | `/plugin marketplace add DietrichGebert/ponytail` then `/plugin install ponytail@ponytail` |
 
 ## Design and frontend
 

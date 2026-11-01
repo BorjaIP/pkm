@@ -72,6 +72,9 @@ Android/Termux has its own signed APT repository with `stable` and `canary` chan
 | [Agent Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet — one CLI, zero API fees.               | `pipx install https://github.com/Panniantong/agent-reach/archive/main.zip`, then `agent-reach install --env=auto` (read-only check) and `--system` only after you approve system changes |
 | [Humanizer](https://github.com/blader/humanizer)          | Agent skill that removes signs of AI-generated writing from text.                          | `hermes skills install https://raw.githubusercontent.com/blader/humanizer/main/SKILL.md`                                                                                                 |
 | [Defuddle](https://github.com/kepano/defuddle)            | Get the main content of any page as Markdown. Not an Agent Skill — a Node library and CLI. | `npm install -g defuddle`, then `defuddle parse <url> --markdown` (or wrap it in your own skill with `/learn`)                                                                           |
+| [unbroker](https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/security/unbroker) | Finds a consenting person's exposed data on people-search sites and requests deletion. Install: `hermes skills install official/security/unbroker` |
+
+Jev-based skills (model routing, memory, compaction) are collected in [[Jev]].
 
 ### How these three fit Hermes
 

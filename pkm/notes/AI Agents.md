@@ -49,6 +49,7 @@ AI agent features three key characteristics:
 | [pi-config](https://github.com/amosblomqvist/pi-config) | Personal config for the pi coding agent: extensions and skills like headless browser, web search and PDF reader |
 | [Honcho](https://github.com/plastic-labs/honcho) | Open-source memory service that stores agent conversations and builds queryable peer representations |
 | [mem0](https://github.com/mem0ai/mem0) | Open-source memory layer giving AI agents and apps persistent, searchable memory across sessions |
+| [Hindsight](https://github.com/vectorize-io/hindsight) | Agent memory system that helps AI agents learn from experience over time, beyond recalling past conversations |
 | [OpenViking](https://github.com/volcengine/OpenViking) | Open-source context database organizing agent memory, knowledge and skills as a virtual filesystem |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Local library, proxy and MCP server that compresses tool outputs, logs and files before LLM calls |
 | [OpenHuman](https://github.com/tinyhumansai/openhuman) | Open-source agent harness with a desktop app and a Rust library |

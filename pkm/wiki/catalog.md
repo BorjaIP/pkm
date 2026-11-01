@@ -106,6 +106,7 @@ When answering a query:
 | [[iOS]] | Notes and references on iOS. | os, tools | Friday 26th December 2025 12:55 |
 | [[Istio]] | Istio makes it easy to create a network of deployed services with load balancing, service-to-service authentication, monitoring, and more... | k8s, istio | Saturday 29th April 2023 16:49 |
 | [[Jenkins]] | Notes and references on Jenkins. | jenkins, ci-cd, devops | Saturday 29th April 2023 17:05 |
+| [[Jev]] | [ j e v g r e p ] ( h t t p s : / / g i t h u b . c o m / d z h n g / j e v g r e p ) |  |  |
 | [[Jupyter]] | Notes and references on Jupyter. | ml, tools | Monday 5th February 2024 09:04 |
 | [[Kafka]] | Apache Kafka is an open-source distributed event streaming platform used for building real-time data pipelines and streaming applications... | kafka, event-driven | Saturday 12th October 2024 17:52 |
 | [[KCL]] | KCL is an open-source configuration and policy language hosted by the Cloud Native Computing Foundation (CNCF) as a Sandbox Project. Built... | iac, config | Friday 31st May 2024 18:37 |
@@ -178,7 +179,7 @@ When answering a query:
 | [[XaaS]] | X as a service (rendered as aaS in acronyms) is a phrasal template for any business model in which a product use is offered as a... | cloud | Saturday 1st February 2025 22:34 |
 | [[ZTN]] | Zero trust network is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies... | security, networking | Friday 11th April 2025 23:24 |
 
-*Total: 153 concept notes*
+*Total: 154 concept notes*
 
 ---
 
