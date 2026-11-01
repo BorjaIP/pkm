@@ -106,7 +106,7 @@ When answering a query:
 | [[iOS]] | Notes and references on iOS. | os, tools | Friday 26th December 2025 12:55 |
 | [[Istio]] | Istio makes it easy to create a network of deployed services with load balancing, service-to-service authentication, monitoring, and more... | k8s, istio | Saturday 29th April 2023 16:49 |
 | [[Jenkins]] | Notes and references on Jenkins. | jenkins, ci-cd, devops | Saturday 29th April 2023 17:05 |
-| [[Jev]] | [ j e v g r e p ] ( h t t p s : / / g i t h u b . c o m / d z h n g / j e v g r e p ) |  |  |
+| [[Jev]] | Jev is a non-generative "decision model" from TypeSafe AI. It never writes text: you give it a state and a typed question (pick one option... | llm, agents, ai | Sunday 1st November 2026 12:00 |
 | [[Jupyter]] | Notes and references on Jupyter. | ml, tools | Monday 5th February 2024 09:04 |
 | [[Kafka]] | Apache Kafka is an open-source distributed event streaming platform used for building real-time data pipelines and streaming applications... | kafka, event-driven | Saturday 12th October 2024 17:52 |
 | [[KCL]] | KCL is an open-source configuration and policy language hosted by the Cloud Native Computing Foundation (CNCF) as a Sandbox Project. Built... | iac, config | Friday 31st May 2024 18:37 |
@@ -177,7 +177,7 @@ When answering a query:
 | [[Wireguard]] | [Peer] PublicKey = Endpoint = :51280 AllowedIPs = , PersistentKeepalive = 25 | networking, security, linux | Thursday 12th June 2025 17:06 |
 | [[Workflow Orchestration\|Workflow]] | Workflow orchestration means governing your dataflow in a way that respects the orchestration rules and your business logic. A workflow... | workflow, etl | Monday 4th March 2024 10:58 |
 | [[XaaS]] | X as a service (rendered as aaS in acronyms) is a phrasal template for any business model in which a product use is offered as a... | cloud | Saturday 1st February 2025 22:34 |
-| [[YubiKey]] | [ Y u b i k e y s - c h e a t s h e e t ] ( h t t p s : / / g i t h u b . c o m / O p s e k / Y u b i k e y s - c h e a t s h e e t ) |  |  |
+| [[YubiKey]] | A YubiKey is a hardware security key from Yubico. It holds secrets that never leave the device and proves you are you by touch, so a stolen... | security | Sunday 1st November 2026 13:00 |
 | [[ZTN]] | Zero trust network is a security paradigm that does not grant implicit trust to users, devices, and services, and continuously verifies... | security, networking | Friday 11th April 2025 23:24 |
 
 *Total: 155 concept notes*

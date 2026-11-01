@@ -92,6 +92,10 @@ def main():
     for p in pages:
         if p.rel.startswith(("wiki/logs/",)) or p.rel == "wiki/log.md":
             continue
+        raw = read_text(p.path).split("\n")
+        if len(raw) > 15 and sum(1 for l in raw if len(l.strip()) <= 1) > 0.8 * len(raw):
+            add("Corrupted format", "%s: almost every line has one character (bad write); rewrite the file" % p.rel)
+            continue
         if not p.has_fm:
             add("Frontmatter", "%s: missing frontmatter" % p.rel)
             continue

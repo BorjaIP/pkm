@@ -17,7 +17,7 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 
 | Tag | Notes | notes/ | papers/ | webs/ | Meaning |
 |---|---:|---:|---:|---:|---|
-| `llm` | 73 | 10 | 46 | 17 | Large language models |
+| `llm` | 74 | 11 | 46 | 17 | Large language models |
 | `ml` | 46 | 10 | 27 | 9 | Machine learning |
 | `devops` | 36 | 17 | 2 | 17 |  |
 | `k8s` | 31 | 9 | 0 | 22 | Kubernetes |
@@ -25,15 +25,15 @@ Regenerate with `python .claude/scripts/catalog.py` (it writes this page and the
 | `mlops` | 23 | 4 | 0 | 19 | ML operations: pipelines, serving, tracking |
 | `rag` | 23 | 3 | 4 | 16 | Retrieval-augmented generation |
 | `tools` | 23 | 19 | 0 | 4 | Tools and utilities |
+| `security` | 22 | 12 | 0 | 10 | Security |
 | `db` | 21 | 16 | 0 | 5 | Databases |
-| `security` | 21 | 11 | 0 | 10 | Security |
 | `cloud` | 18 | 15 | 0 | 3 |  |
 | `gpt` | 18 | 3 | 11 | 4 | GPT family and ChatGPT-style models |
 | `retrieval` | 18 | 2 | 6 | 10 | Information retrieval and search |
 | `architecture` | 17 | 8 | 0 | 9 | Software and system architecture |
 | `deep-learning` | 17 | 5 | 9 | 3 | Deep learning, neural networks |
-| `agents` | 14 | 5 | 8 | 1 | AI agents |
-| `ai` | 14 | 12 | 2 | 0 | Artificial intelligence in general |
+| `agents` | 15 | 6 | 8 | 1 | AI agents |
+| `ai` | 15 | 13 | 2 | 0 | Artificial intelligence in general |
 | `linux` | 14 | 14 | 0 | 0 |  |
 | `networking` | 14 | 7 | 0 | 7 | Networking |
 | `ci-cd` | 13 | 2 | 0 | 11 | Continuous integration and delivery |

@@ -18,7 +18,8 @@ This repository has **two instruction files** with different purposes:
 
 For any technical question the vault may cover (Kubernetes, MLOps, RAG, AWS, architecture, tools, papers...), **check the vault before web search or general knowledge**: read `pkm/wiki/catalog.md` (one line and tags per page), then the matching topic digest in `pkm/wiki/queries/state-of-*.md` and the cited notes. Follow the source URL on a note when you need evidence. Go outside the vault only when it has nothing relevant or the user asks for fresh information. Details are in `.claude/WIKI.md`.
 
-Vault maintenance scripts (Python 3, standard library only) live in `.claude/scripts/` (next to `.claude/skills/`): `lint.py` (health check), `catalog.py` (regenerates `wiki/catalog.md` and `wiki/tag-index.md`) and `suggest_links.py` (proposes new wikilinks). Run them from the repository root. They are meant to be triggered by the user through the `pkm-lint` and `pkm-link-enricher` skills; do not schedule them.
+Vault maintenance scripts (Python 3, standard library only) live in `.claude/scripts/` (next to `.claude/skills/`): `lint.py` (health check), `catalog.py` (regenerates `wiki/catalog.md` and `wiki/tag-index.md`) and `suggest_links.py` (proposes new wikilinks). Run them from the repository root. When creating a note, use the Write tool or pass a list of lines to any script (joining a string with `"
+".join(...)` puts one character per line), then reread the file; `lint.py` reports this as "Corrupted format". They are meant to be triggered by the user through the `pkm-lint` and `pkm-link-enricher` skills; do not schedule them.
 
 ---
 
