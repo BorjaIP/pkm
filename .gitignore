@@ -1,3 +1,7 @@
+# Agent wiki is private and synced through Box, not Git
+pkm/wiki/
+pkm/RCLONE_TEST
+
 # Obsidian private folders
 pkm/private/*
 

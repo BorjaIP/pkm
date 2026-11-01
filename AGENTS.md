@@ -16,7 +16,7 @@ This repository has **two instruction files** with different purposes:
 
 ### Vault first
 
-For any technical question the vault may cover (Kubernetes, MLOps, RAG, AWS, architecture, tools, papers...), **check the vault before web search or general knowledge**: read `pkm/wiki/catalog.md` (one line and tags per page), then the matching topic digest in `pkm/wiki/queries/state-of-*.md` and the cited notes. Follow the source URL on a note when you need evidence. Go outside the vault only when it has nothing relevant or the user asks for fresh information. Details are in `.claude/WIKI.md`.
+For any technical question the vault may cover (Kubernetes, MLOps, RAG, AWS, architecture, tools, papers...), **check the vault before web search or general knowledge**: after the Box-synced private wiki is available locally, read `pkm/wiki/catalog.md` (one line and tags per page), then the matching topic digest in `pkm/wiki/queries/state-of-*.md` and the cited notes. If `pkm/wiki/` is absent, sync/restore the private workspace first; do not conclude that the vault has no material. Follow the source URL on a note when you need evidence. Go outside the vault only when it has nothing relevant or the user asks for fresh information. Details are in `.claude/WIKI.md`.
 
 Vault maintenance scripts (Python 3, standard library only) live in `.claude/scripts/` (next to `.claude/skills/`): `lint.py` (health check), `catalog.py` (regenerates `wiki/catalog.md` and `wiki/tag-index.md`) and `suggest_links.py` (proposes new wikilinks). Run them from the repository root. When creating a note, use the Write tool or pass a list of lines to any script (joining a string with `"
 ".join(...)` puts one character per line), then reread the file; `lint.py` reports this as "Corrupted format". They are meant to be triggered by the user through the `pkm-lint` and `pkm-link-enricher` skills; do not schedule them.
@@ -48,10 +48,10 @@ Lilith is Borja's personal assistant: Hermes Agent running on the home-server VM
 
 How to use it:
 
-- Knowledge questions: vault first (`pkm/wiki/catalog.md`, then the matching topic digest, then the notes) and cite the note path. See "Vault first" above.
+- Knowledge questions: private wiki first (`pkm/wiki/catalog.md`, then the matching topic digest, then the public notes) and cite the note path. If the private wiki is missing, restore it from the Box sync before answering. See "Vault first" above.
 - Wiki operations (ingest, remember, query, lint, links): follow `.claude/WIKI.md`.
 - Notes are written in English (see "Note Format"). Talk to Borja in Spanish.
-- `pkm/private/` is never in Git. Content that arrives from Apple Notes or Reminders is not part of this repository.
+- `pkm/wiki/` and `pkm/private/` are intended to be outside Git. `pkm/private/` is already ignored; `pkm/wiki/` remains tracked temporarily until the Box snapshot and migration complete. Both will be synchronized separately with Box. Content that arrives from Apple Notes or Reminders is not part of this repository.
 
 What she may do:
 
