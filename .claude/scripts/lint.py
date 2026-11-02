@@ -2,7 +2,8 @@
 """Read-only health check of the vault (the 'lint' operation of WIKI.md).
 
 Checks: broken wikilinks, orphan pages, frontmatter format, tag format, untagged pages,
-web-note structure, catalog drift, expired remembered entries.
+web-note structure, catalog drift, expired remembered entries, and the frontmatter/tag
+format of pkm/private/ (not catalogued or published, so format only).
 
 Usage:
   python .claude/scripts/lint.py            # print the report
@@ -14,11 +15,47 @@ import collections
 import datetime
 import re
 import sys
-from pkmlib import (VAULT, CREATED_RE, FM_RE, iter_pages, all_note_names, read_text, write_text,
+from pkmlib import (VAULT, CREATED_RE, FM_RE, Page, iter_pages, all_note_names, read_text, write_text,
                     utf8_stdout, get_scalar)
 
 TYPES = {"article", "tutorial", "reference", "repo", "qa"}
 TAG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+
+def lint_private(add):
+    """Frontmatter health of pkm/private/.
+
+    ``private/`` is neither catalogued nor published and its links may point outside the
+    vault, so only the format rules are checked here: frontmatter presence and keys,
+    ``created`` format, YAML tag lists, and the corrupted-write guard.
+    """
+    base = VAULT / "private"
+    if not base.exists():
+        return 0
+    checked = 0
+    for path in sorted(base.rglob("*.md")):
+        if any(part.startswith(".") for part in path.relative_to(VAULT).parts):
+            continue
+        p = Page(path)
+        checked += 1
+        raw = read_text(p.path).split("\n")
+        if len(raw) > 15 and sum(1 for l in raw if len(l.strip()) <= 1) > 0.8 * len(raw):
+            add("Corrupted format", "%s: almost every line has one character (bad write); rewrite the file" % p.rel)
+            continue
+        if not p.has_fm:
+            add("Frontmatter", "%s: missing frontmatter" % p.rel)
+            continue
+        for key in ("title", "created", "aliases", "tags"):
+            if not re.search(r"^" + key + r"\s*:", p.fm, re.I | re.M):
+                add("Frontmatter", "%s: missing '%s'" % (p.rel, key))
+        if p.created and not CREATED_RE.match(p.created):
+            add("Frontmatter", "%s: created not in 'dddd Do MMMM YYYY HH:mm' format: %r" % (p.rel, p.created))
+        if p.inline_tags:
+            add("Tags", "%s: tags written inline (use a YAML list)" % p.rel)
+        for t in p.tags:
+            if not TAG_RE.match(t):
+                add("Tags", "%s: tag '%s' is not lowercase kebab-case" % (p.rel, t))
+    return checked
 
 
 def unlink_broken(pages, broken_by_page):
@@ -158,8 +195,11 @@ def main():
         fixed = unlink_broken(pages, broken_by_page)
         print("Broken links turned into plain text: %d in %d pages (index.md is never touched)\n" % fixed)
 
+    private_checked = lint_private(add)
+
     lines = ["# Lint Report — %s" % today, "",
-             "Pages checked: %d" % len(pages), ""]
+             "Pages checked: %d" % len(pages),
+             "Private pages checked (frontmatter only): %d" % private_checked, ""]
     if not findings:
         lines.append("No findings.")
     for section, items in findings.items():

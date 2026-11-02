@@ -88,7 +88,7 @@ tags:
 ```
 
 **Rules:**
-- `created` uses the **human-readable format**: `dddd Do MMMM YYYY HH:mm` (e.g., `Saturday 12th April 2025 18:00`). Never ISO 8601. This matches Obsidian Templater output.
+- `created` uses the **human-readable format**: `dddd Do MMMM YYYY HH:mm` (e.g., `Saturday 12th April 2025 18:00`). Never ISO 8601. This matches Obsidian Templater output. Before writing a page, open any note in `notes/` and copy its format literally: weekday name, day number with `st/nd/rd/th`, month name, four-digit year, 24-hour `HH:mm` (`Saturday 1st February 2025 19:34`). ISO dates (`2026-11-01`), leading zeros (`01st`) and missing times are lint findings, and the check now covers `pkm/private/` too.
 - `aliases` stays empty or lists synonyms for wikilink resolution.
 - `tags` stays empty or lists existing tags. Create new tags sparingly.
 - Agent-generated pages in `wiki/` may add extra YAML **below** the standard block:
@@ -244,6 +244,7 @@ Trigger: "What do I know about X?", "Summarize my notes on Y", "Compare A and B"
    - Sources cited: articles/papers/... (if any)
    - Answer archived: [[Archived: <question summary>]] (optional)
    ```
+   Log every **standard** or **deep** query. A **micro** query (catalog only, no page opened) is logged only when the answer changes state — typically when it establishes that the vault has nothing on the topic and the answer must go outside it. Routine "does a note on X exist?" checks stay out of the log so it does not fill with no-op lines.
 7. **Optional archive** (only if user says "save this answer to the wiki"):
    - Write the answer as a new page in `wiki/queries/` using `templates/Agent-Archive.md`.
    - File name reflects the query topic, kebab-case.
@@ -299,7 +300,7 @@ python .claude/scripts/lint.py          # print the report
 python .claude/scripts/lint.py --save   # also store it in wiki/lint-reports/ when it is long
 ```
 
-It checks: broken wikilinks, orphan pages, frontmatter and `created` format, tag format and untagged pages, web-note structure (URL line, `Type`, TL;DR, Key takeaways, When to use), catalog drift (pages missing from, or rows without a file in, `wiki/catalog.md`), and `wiki/remembered/` entries whose `expires_at` or `review_after` has passed.
+It checks: broken wikilinks, orphan pages, frontmatter and `created` format, tag format and untagged pages, web-note structure (URL line, `Type`, TL;DR, Key takeaways, When to use), catalog drift (pages missing from, or rows without a file in, `wiki/catalog.md`), `wiki/remembered/` entries whose `expires_at` or `review_after` has passed, and the frontmatter and tags of `pkm/private/` — format only, since private notes are neither catalogued nor published, so links and orphans are not evaluated there.
 
 **Then, as the agent:**
 
@@ -390,3 +391,4 @@ This schema is co-evolved. If a workflow doesn't work, the human and the agent a
 - `2026-10-12` — Fixed corrupted paths (`wiki/catawiki/log.md` -> `wiki/catalog.md`), removed the obsolete `raw/` ingest step, added rules for `articles/webs/` (enriched in place), catalog now generated with a Tags column, scripted lint, typed relations, topic digests and the vault-first rule (inspired by garrytan/gbrain).
 - `2026-10-25` — Moved WIKI.md to global `~/.claude/WIKI.md` for multi-agent access. Updated all path references to be vault-relative with explicit documentation that scripts run from vault root.
 - `2026-10-25` — Corrected the previous entry: the schema is tracked at `.claude/WIKI.md` in the repository (no global copy exists, so Hermes on another machine gets it with `git pull`); scripts are run from the repository root, not from the vault folder; `wiki/...` paths are relative to the vault folder `pkm/`; removed the stale `.claude/` block from the vault tree.
+- `2026-11-02` — Retrieval audit made tier-aware (standard/deep always logged, micro only when it changes state) after an audit found a single `query` entry in the whole log. `lint.py` now checks the frontmatter and tags of `pkm/private/` (format only) — it found a missing `aliases` and six ISO `created` dates on its first run. Frontmatter rule now says to copy the `created` format from a note in `notes/` and names the three invalid shapes.
