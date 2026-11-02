@@ -91,6 +91,27 @@ Jev-based skills (model routing, memory, compaction) are collected in [[Jev]].
 - **Defuddle is a tool for skills, not a skill.** It needs Node.js and takes a URL, a file or HTML on stdin, which makes it a natural `/learn` subject or a manual fallback when `web_extract` returns clutter. It outputs HTML, Markdown (`--markdown`) or JSON (`--json`), can prepend YAML frontmatter (`--frontmatter`) and ships site-specific extractors for GitHub, Reddit, Hacker News, Medium, Substack, Twitter/X, YouTube and Wikipedia. It was built for the Obsidian Web Clipper, and its README states the project is still a work in progress.
 - **Compatibility.** All three target Claude Code, Codex, OpenClaw or Cursor first. The portable part is the `SKILL.md` standard that Hermes implements through agentskills.io; the CLI-backed ones work through the terminal toolset regardless of harness. For a repository that bundles several skills, `hermes skills tap add <owner>/<repo>` adds it as a searchable source instead of installing one file.
 
+## Plugins
+
+Hermes grows through **plugins and skills, not core changes**. A plugin is a directory with a `plugin.yaml` manifest plus an optional `__init__.py` (`register(ctx)`) and an optional dashboard/desktop UI; it is installed from the curated catalog (`hermes plugins search`, `hermes plugins install <name> --enable`), from a Git URL or from `owner/repo`. Two kinds matter in practice:
+
+- **Capability plugins** add tools, hooks or middleware to the agent loop, so they cost context on every call (e.g. `advanced-delegation`, `hermes-jev`). They must be enabled in `plugins.enabled`; the dashboard never imports backend code from a plugin that is not on that allow-list.
+- **Surface plugins** add UI only — a dashboard tab, a Desktop page — and declare no tools, hooks or environment variables, so they cost nothing per turn.
+
+| Plugin | Surface | What it adds |
+| ------ | ------- | ------------ |
+| [Memory Wiki](https://github.com/NousResearch/hermes-official-plugins/tree/main/memory-wiki) | dashboard tab + opt-in Desktop page | Browsable session-history wiki (subject pages and daily logs derived from `state.db`) plus a read-only `MEMORY.md` / `USER.md` audit panel |
+
+### Memory Wiki
+
+An official Nous plugin (`hermes-memory-wiki` in the catalog, formerly the standalone `NousResearch/hermes-memory-wiki` repo) that answers "what has this agent been doing, and what does it carry into every session?" without spending a token:
+
+- **Deterministic, not generated.** Subject pages and daily logs are derived from `state.db` rows, not written by an LLM, so they are reproducible and free to open.
+- **Read-only by design.** It opens `state.db` through the public `hermes_state.SessionDB` API and only reads memory files; editing memory stays with the `memory` tool, which keeps prompt caching intact.
+- **Backend routes** are mounted at `/api/plugins/memory-wiki/`: `/overview`, `/subjects?q=`, `/subjects/{slug}`, `/days` and `/days/{date}`.
+- **Two halves, two machines.** The dashboard backend goes on the machine running the gateway; the native Desktop page (`desktop/plugin.js`) is installed on the client and ships disabled, so a remote-gateway user enables both separately.
+- **Restart or Rescan.** Dashboard manifests are discovered at server start, so a freshly installed tab needs *Rescan* in the Plugins page (or a dashboard restart); the backend router itself is hot-mounted on the first authenticated request.
+
 ## Hermes versus OpenClaw
 
 Both are open-source and self-hosted, and both put messaging apps in front of a persistent agent; Hermes even ships `hermes claw migrate` for OpenClaw users. The architectural difference is where the intelligence is organised: [[OpenClaw]] is built around a central Gateway that coordinates everything, while Hermes makes the agent loop itself the core and treats platforms, tools and skills as edges around it.

@@ -43,6 +43,7 @@ AI agent features three key characteristics:
 | [Agentic AI Prompt Research](https://github.com/Leonxlnx/agentic-ai-prompt-research)     | Documents reconstructed prompt patterns and architectural designs that power agentic AI coding assistants for building autonomous systems                                 |
 | [OpenWork](https://github.com/different-ai/openwork)                                     | Open-source local-first platform for running agentic AI workflows with desktop app, CLI, and web server interfaces                                                        |
 | [DeerFlow](https://github.com/bytedance/deer-flow) | ByteDance open-source agent harness orchestrating sub-agents, memory and sandboxes for research, coding and creation |
+| [Petdex](https://petdex.dev/) | Gallery and installer of animated desktop pets for coding agents. See [[Petdex]] |
 | [OpenChamber](https://github.com/openchamber/openchamber)                                | UI for running and reviewing AI coding agents on OpenCode, across desktop, web and mobile                                                                                 |
 | [Letta Code](https://github.com/letta-ai/letta-code) | Open-source CLI and desktop harness for agents with persistent memory that improve over time |
 | [Link](https://github.com/gowtham0992/link) | Local Markdown memory and source-backed notes shared by Claude, Codex and Cursor via CLI or MCP |
