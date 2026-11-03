@@ -89,7 +89,36 @@ Jev-based skills (model routing, memory, compaction) are collected in [[Jev]].
 - **Agent Reach is read-only and channel-dependent.** Check `agent-reach help` before using older installation commands: current releases expose `setup`, `skill`, `doctor` and `check`. It selects a backend per platform and keeps fallbacks where available — web, YouTube, RSS, GitHub, X/Twitter, Reddit, Bilibili, Facebook, Instagram, Xiaohongshu, LinkedIn, V2EX, Xueqiu and Xiaoyuzhou — with `agent-reach doctor --text` reporting the current state. Cookies and tokens stay local and are opt-in; the current Hermes installation has not configured any.
 - **Humanizer is a heavy skill.** One `SKILL.md` of roughly 32 KB that `skill_view` loads whole, so invoking it costs that much context for the rest of the session. Load it deliberately, when a text is actually being rewritten. It works from Wikipedia's *Signs of AI writing*: it flags all 26 tells strongest first, drafts a rewrite, critiques its own draft and returns the final version, and on a file it edits only prose — code, data, frontmatter and link targets stay untouched. It asks rather than inventing a missing fact. Its upstream cross-agent path is `npx skills add blader/humanizer --global --agent '*'`.
 - **Defuddle is a tool for skills, not a skill.** It needs Node.js and takes a URL, a file or HTML on stdin, which makes it a natural `/learn` subject or a manual fallback when `web_extract` returns clutter. It outputs HTML, Markdown (`--markdown`) or JSON (`--json`), can prepend YAML frontmatter (`--frontmatter`) and ships site-specific extractors for GitHub, Reddit, Hacker News, Medium, Substack, Twitter/X, YouTube and Wikipedia. It was built for the Obsidian Web Clipper, and its README states the project is still a work in progress.
-- **Compatibility.** All three target Claude Code, Codex, OpenClaw or Cursor first. The portable part is the `SKILL.md` standard that Hermes implements through agentskills.io; the CLI-backed ones work through the terminal toolset regardless of harness. For a repository that bundles several skills, `hermes skills tap add <owner>/<repo>` adds it as a searchable source instead of installing one file.
+- **Compatibility.** All three target Claude Code, Codex, OpenClaw or Cursor first. The portable part is the `SKILL.md` standard that Hermes implements through agentskills.io; CLI-backed skills let Hermes delegate through its terminal toolset. For a repository that bundles several skills, `hermes skills tap add <owner>/<repo>` adds it as a searchable source instead of installing one file.
+
+### Delegate work to external coding harnesses
+
+Hermes' Claude Code and Codex skills are orchestration instructions, not imported connectors. They teach Hermes to invoke the corresponding CLI through its terminal tool, so the harness performs the task using its own CLI session, authentication, configuration and available tools. This is distinct from selecting Claude or Codex as Hermes' model provider: model selection changes who reasons in the Hermes turn, while CLI delegation starts a separate harness process.
+
+For example, the Claude Code skill uses `claude -p` for one-shot tasks and supports interactive sessions for multi-turn work. Avoid `--bare` when the goal is to use Claude Code's configured MCP servers, because that flag explicitly skips MCP discovery and plugin loading. The Codex skill invokes Codex CLI (`codex exec` for one-shot work); its own configuration and authentication are distinct from Hermes' provider credentials. In either case, which connected tools are available depends on the harness CLI's own session/configuration and organizational policy. A Hermes skill does not make those tools appear individually in Hermes' tool list.
+
+This delegation path differs from configuring the harness itself as an MCP server. Hermes documents `codex mcp-server` as a Codex MCP preset, and Claude Code provides `claude mcp serve`; those expose a harness interface over MCP rather than Hermes invoking its CLI through the terminal. Cursor's CLI documentation describes MCP consumption and ACP as the client interface to Cursor CLI; it does not document the same MCP-server command in the cited material.
+
+The harness path is not a policy bypass: retain the harness's approvals and respect the Owner's authorization requirements for underlying services. Delegate only tasks and tool use that the relevant account and organization permit.
+
+For ticket creation, the user's preferred harness order is Claude Code, then Cursor Agent, then Codex CLI. This is a priority/fallback sequence, not round-robin: begin with Claude for each request and move on only if the harness or an authorized ticket integration is unavailable. Never switch harnesses to evade an explicit permission denial, organizational policy or required Owner approval. Verify a created ticket by reading it back before reporting success. The detailed procedure is in the `ticket-harness-routing` Hermes skill.
+
+### Cross-session instructions and profiles
+
+For behavior that should carry across sessions in one Hermes instance, distinguish the loaded context layers:
+
+- `SOUL.md` is always loaded from the active `HERMES_HOME`, but it is intended for identity, voice and communication style, not detailed workflows.
+- `USER.md` and `MEMORY.md` are injected from the active profile's memory at session start. Use them for stable user preferences and compact operational facts; changes become prompt context on the next session.
+- Skills are reusable procedures, loaded when relevant. Keep repeatable Second Brain capture/curation steps in a skill rather than duplicating a long checklist in `SOUL.md`.
+- Project context such as `AGENTS.md` is discovered from the session's working directory and applies to that project, not every session globally.
+
+A Hermes Bot is a profile, not a shared global assistant. Profiles isolate their own `SOUL.md`, memories, skills, configuration and sessions. Therefore a preference recorded in the default profile does not automatically propagate to a Bot or another profile. To make a procedure available across profiles, install or share the skill with each profile (for example, configure a shared external skill directory where appropriate); still keep profile-specific memory and credentials separate. A dedicated Bot is useful for a distinct role or isolated context, not as the mechanism for a rule that should govern the default agent's everyday sessions.
+
+For a general preference that future sessions should document durable outcomes in this Second Brain, keep a concise preference in the active profile's memory and the detailed workflow in a relevant skill; keep this note as the knowledge source. For this vault, follow `AGENTS.md` and `.claude/WIKI.md` rather than assuming the PKM rules are loaded in every unrelated working directory.
+
+Sources: [Hermes context files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files), [Hermes SOUL.md](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes), [Hermes file guide](https://hermes-agent.nousresearch.com/docs/user-guide/which-file-does-what), [Hermes profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles), [Hermes Bot Mode](https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode).
+
+Sources: [Claude Code skill in Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code), [Codex skill in Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-codex), [Hermes MCP](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp), [Claude Code MCP](https://code.claude.com/docs/en/mcp), [Codex MCP server](https://developers.openai.com/codex/mcp-server), [Cursor CLI MCP and ACP](https://cursor.com/docs/cli/mcp).
 
 ## Plugins
 
@@ -117,4 +146,4 @@ An official Nous plugin (`hermes-memory-wiki` in the catalog, formerly the stand
 Both are open-source and self-hosted, and both put messaging apps in front of a persistent agent; Hermes even ships `hermes claw migrate` for OpenClaw users. The architectural difference is where the intelligence is organised: [[OpenClaw]] is built around a central Gateway that coordinates everything, while Hermes makes the agent loop itself the core and treats platforms, tools and skills as edges around it.
 
 ---
-Related: [[AI Agents]], [[Agent Skills]], [[OpenClaw]]
+Related: [[AI Agents]], [[Agent Skills]], [[Claude]], [[MCP]], [[OpenClaw]]

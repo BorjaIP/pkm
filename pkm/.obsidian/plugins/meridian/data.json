@@ -1,7 +1,7 @@
 {
   "root": "meridian",
   "userName": "",
-  "owner": "all",
+  "owner": "me",
   "tab": "backlog",
-  "project": "all"
+  "project": "fever-gemini-ai-agents"
 }
