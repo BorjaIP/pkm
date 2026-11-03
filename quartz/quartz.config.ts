@@ -14,7 +14,7 @@ const config: QuartzConfig = {
         analytics: null,
         locale: "en-US",
         baseUrl: "borjaip.github.io/pkm",
-        ignorePatterns: ["private", "**/templates", ".obsidian"],
+        ignorePatterns: ["private", "wiki", "**/templates", ".obsidian"],
         defaultDateType: "created",
         theme: {
             fontOrigin: "googleFonts",

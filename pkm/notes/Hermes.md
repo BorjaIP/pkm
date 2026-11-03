@@ -69,13 +69,16 @@ Android/Termux has its own signed APT repository with `stable` and `canary` chan
 
 | Skill                                                     | Description                                                                                | Install                                                                                                                                                                                  |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Agent Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet — one CLI, zero API fees.               | `pipx install https://github.com/Panniantong/agent-reach/archive/main.zip`, then `agent-reach install --env=auto` (read-only check) and `--system` only after you approve system changes |
+| [Agent Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent read-only access to platform content through one CLI.               | `uv tool install 'https://github.com/Panniantong/Agent-Reach/archive/main.zip'`, then `agent-reach setup --text`; link the generated skill to the target agent and verify with `agent-reach doctor --text` |
 | [Humanizer](https://github.com/blader/humanizer)          | Agent skill that removes signs of AI-generated writing from text.                          | `hermes skills install https://raw.githubusercontent.com/blader/humanizer/main/SKILL.md`                                                                                                 |
 | [Defuddle](https://github.com/kepano/defuddle)            | Get the main content of any page as Markdown. Not an Agent Skill — a Node library and CLI. | `npm install -g defuddle`, then `defuddle parse <url> --markdown` (or wrap it in your own skill with `/learn`)                                                                           |
+| [unbroker](https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/security/unbroker) | Finds a consenting person's exposed data on people-search sites and requests deletion. Install: `hermes skills install official/security/unbroker` |
+
+Jev-based skills (model routing, memory, compaction) are collected in [[Jev]].
 
 ### How these three fit Hermes
 
-- **Agent Reach does not write to `~/.hermes/skills/`.** Its installer registers the skill in `~/.agents/skills/`, `~/.claude/skills/`, `~/.opencode/skill/` or `~/.openclaw/skills/`. Point Hermes at the cross-tool directory it already scans, so one copy serves every agent:
+- **Agent Reach uses a shared cross-agent skill directory.** The current registration flow links the skill from `~/.agents/skills/` into the target agents. Point Hermes at the shared directory so one copy serves every agent:
 
   ```yaml
   skills:
@@ -83,10 +86,31 @@ Android/Termux has its own signed APT repository with `stable` and `canary` chan
       - ~/.agents/skills
   ```
 
-- **Agent Reach is safe by default and shell-dependent.** `agent-reach install` only inspects the machine and lists missing dependencies; it installs packages and writes configuration only with `--system`. It drives its upstream tools through shell commands, so the `terminal` toolset has to be enabled in Hermes (`hermes tools`). The repository ships `SKILL.md` with Chinese-first trigger phrases and `SKILL_en.md` as the English variant. It does not wrap those tools: it selects one backend per platform and keeps a fallback ready — web, YouTube, RSS, GitHub, X/Twitter, Reddit, Bilibili, Facebook, Instagram, Xiaohongshu, LinkedIn, V2EX, Xueqiu and Xiaoyuzhou — with `agent-reach doctor` reporting which route is live. Cookies and tokens stay in `~/.agent-reach/` on your machine; the only paid piece is a proxy if you deploy on a server.
+- **Agent Reach is read-only and channel-dependent.** Check `agent-reach help` before using older installation commands: current releases expose `setup`, `skill`, `doctor` and `check`. It selects a backend per platform and keeps fallbacks where available — web, YouTube, RSS, GitHub, X/Twitter, Reddit, Bilibili, Facebook, Instagram, Xiaohongshu, LinkedIn, V2EX, Xueqiu and Xiaoyuzhou — with `agent-reach doctor --text` reporting the current state. Cookies and tokens stay local and are opt-in; the current Hermes installation has not configured any.
 - **Humanizer is a heavy skill.** One `SKILL.md` of roughly 32 KB that `skill_view` loads whole, so invoking it costs that much context for the rest of the session. Load it deliberately, when a text is actually being rewritten. It works from Wikipedia's *Signs of AI writing*: it flags all 26 tells strongest first, drafts a rewrite, critiques its own draft and returns the final version, and on a file it edits only prose — code, data, frontmatter and link targets stay untouched. It asks rather than inventing a missing fact. Its upstream cross-agent path is `npx skills add blader/humanizer --global --agent '*'`.
 - **Defuddle is a tool for skills, not a skill.** It needs Node.js and takes a URL, a file or HTML on stdin, which makes it a natural `/learn` subject or a manual fallback when `web_extract` returns clutter. It outputs HTML, Markdown (`--markdown`) or JSON (`--json`), can prepend YAML frontmatter (`--frontmatter`) and ships site-specific extractors for GitHub, Reddit, Hacker News, Medium, Substack, Twitter/X, YouTube and Wikipedia. It was built for the Obsidian Web Clipper, and its README states the project is still a work in progress.
 - **Compatibility.** All three target Claude Code, Codex, OpenClaw or Cursor first. The portable part is the `SKILL.md` standard that Hermes implements through agentskills.io; the CLI-backed ones work through the terminal toolset regardless of harness. For a repository that bundles several skills, `hermes skills tap add <owner>/<repo>` adds it as a searchable source instead of installing one file.
+
+## Plugins
+
+Hermes grows through **plugins and skills, not core changes**. A plugin is a directory with a `plugin.yaml` manifest plus an optional `__init__.py` (`register(ctx)`) and an optional dashboard/desktop UI; it is installed from the curated catalog (`hermes plugins search`, `hermes plugins install <name> --enable`), from a Git URL or from `owner/repo`. Two kinds matter in practice:
+
+- **Capability plugins** add tools, hooks or middleware to the agent loop, so they cost context on every call (e.g. `advanced-delegation`, `hermes-jev`). They must be enabled in `plugins.enabled`; the dashboard never imports backend code from a plugin that is not on that allow-list.
+- **Surface plugins** add UI only — a dashboard tab, a Desktop page — and declare no tools, hooks or environment variables, so they cost nothing per turn.
+
+| Plugin | Surface | What it adds |
+| ------ | ------- | ------------ |
+| [Memory Wiki](https://github.com/NousResearch/hermes-official-plugins/tree/main/memory-wiki) | dashboard tab + opt-in Desktop page | Browsable session-history wiki (subject pages and daily logs derived from `state.db`) plus a read-only `MEMORY.md` / `USER.md` audit panel |
+
+### Memory Wiki
+
+An official Nous plugin (`hermes-memory-wiki` in the catalog, formerly the standalone `NousResearch/hermes-memory-wiki` repo) that answers "what has this agent been doing, and what does it carry into every session?" without spending a token:
+
+- **Deterministic, not generated.** Subject pages and daily logs are derived from `state.db` rows, not written by an LLM, so they are reproducible and free to open.
+- **Read-only by design.** It opens `state.db` through the public `hermes_state.SessionDB` API and only reads memory files; editing memory stays with the `memory` tool, which keeps prompt caching intact.
+- **Backend routes** are mounted at `/api/plugins/memory-wiki/`: `/overview`, `/subjects?q=`, `/subjects/{slug}`, `/days` and `/days/{date}`.
+- **Two halves, two machines.** The dashboard backend goes on the machine running the gateway; the native Desktop page (`desktop/plugin.js`) is installed on the client and ships disabled, so a remote-gateway user enables both separately.
+- **Restart or Rescan.** Dashboard manifests are discovered at server start, so a freshly installed tab needs *Rescan* in the Plugins page (or a dashboard restart); the backend router itself is hot-mounted on the first authenticated request.
 
 ## Hermes versus OpenClaw
 

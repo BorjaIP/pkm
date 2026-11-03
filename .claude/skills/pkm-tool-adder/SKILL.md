@@ -108,3 +108,4 @@ Before finishing, verify:
 - [ ] The description is factual, not marketing copy
 - [ ] The table row is properly formatted and aligned with the rest of the table
 - [ ] You told the user where the tool was added
+- [ ] If you created a new note, write it with the Write tool (never call a newline join on a string instead of a list, which puts one character per line), open it to confirm it reads normally, and run `python .claude/scripts/lint.py` to check for "Corrupted format"

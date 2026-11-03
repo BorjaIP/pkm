@@ -10,6 +10,9 @@ tags:
 | Tool                                                            | Description                                                                                                                    |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | [Immich](https://github.com/immich-app/immich)                  | High performance self-hosted photo and video management solution                                                               |
+| [Diun](https://github.com/crazy-max/diun) | Watches container images on Docker registries and notifies when they are updated |
+| [Tunarr](https://github.com/chrisbenincasa/tunarr) | Builds custom live TV channels from Plex, Jellyfin, Emby or local media, streamed as IPTV |
+| [Wholphin](https://github.com/damontecres/Wholphin) | Open-source Android TV client for Jellyfin with a Plex-style interface |
 | [Flame](https://github.com/pawelmalak/flame)                    | Flame is self-hosted startpage for your server.                                                                                |
 | [Swag](https://github.com/linuxserver/docker-swag)              | Nginx webserver and reverse proxy with php support and a built-in Certbot                                                      |
 | [Trash-guides](https://trash-guides.info/)                      | Guides mainly for Sonarr/Radarr/Bazarr                                                                                         |

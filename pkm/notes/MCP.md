@@ -28,6 +28,7 @@ Key features of MCP include:
 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for AI agents: browser automation, network inspection, performance tracing, console debugging, and screenshots via Puppeteer.                                                                |
 | [CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)     | Transforms code repositories into queryable graph databases via CLI or MCP server; supports 14 languages with function call tracking, dead code detection, and complexity analysis.                          |
 | [GitNexus](https://github.com/abhigyanpatwari/GitNexus)                      | Zero-server code intelligence engine that precomputes codebase knowledge graphs for AI agents (Claude Code, Cursor); supports blast radius analysis and breaking change prevention via MCP or in-browser UI. |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Local MCP server in C that indexes a repo into a SQLite knowledge graph for callers, call paths and semantic search |
 | [context-mode](https://github.com/mksglu/context-mode)                       | MCP server that reduces context window bloat by sandboxing tool outputs and maintaining session continuity through SQLite-backed event tracking and FTS5 search. Claims up to 98% context savings.           |
 # Chrome DevTools MCP
 
