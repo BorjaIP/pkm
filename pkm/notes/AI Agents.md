@@ -55,6 +55,7 @@ AI agent features three key characteristics:
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Local library, proxy and MCP server that compresses tool outputs, logs and files before LLM calls |
 | [OpenHuman](https://github.com/tinyhumansai/openhuman) | Open-source agent harness with a desktop app and a Rust library |
 | [OpenKB](https://github.com/VectifyAI/OpenKB) | CLI that compiles raw documents into an interlinked, LLM-maintained Markdown wiki |
+| [Herdr](https://herdr.dev/) | Open-source agent-centric environment for Claude Code and Codex: agents keep running when the window closes, with customizable layouts and mods. See [[Herdr]] |
 | [Sim](https://github.com/simstudioai/sim)                                                | Collaborative low-code workspace to build, deploy and monitor AI agents and workflows                                                                                     |
 
 ## Agent Skills

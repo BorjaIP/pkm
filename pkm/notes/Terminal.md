@@ -21,3 +21,4 @@ A **terminal emulator** is a program that replicates the function of a classic h
 | [Glow](https://github.com/charmbracelet/glow)          | Render Markdown in the terminal with style                         |
 | [tgrep](https://github.com/microsoft/tgrep) | Regex code search using a trigram index to narrow searches before verifying matches |
 | [tuxedo](https://github.com/webstonehq/tuxedo)         | Keyboard-driven terminal UI and CLI for todo.txt files, with vim-style bindings |
+| [Herdr](https://herdr.dev/) | Agent-centric terminal environment for coding agents with persistent sessions and customizable layouts. See [[Herdr]] |
