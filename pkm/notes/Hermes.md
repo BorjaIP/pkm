@@ -120,6 +120,13 @@ Sources: [Hermes context files](https://hermes-agent.nousresearch.com/docs/user-
 
 Sources: [Claude Code skill in Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code), [Codex skill in Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-codex), [Hermes MCP](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp), [Claude Code MCP](https://code.claude.com/docs/en/mcp), [Codex MCP server](https://developers.openai.com/codex/mcp-server), [Cursor CLI MCP and ACP](https://cursor.com/docs/cli/mcp).
 
+## Things to Check Out
+
+- [Credential Pools — Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/credential-pools)
+- [Fallback Providers — Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers)
+- [Provider Routing — Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/provider-routing)
+- [Jev Routing — personal plugin README](https://github.com/apoapostolov/hermes-agent-awesome-plugins/blob/main/personal/hermes-jev-routing/README.md)
+
 ## Plugins
 
 Hermes grows through **plugins and skills, not core changes**. A plugin is a directory with a `plugin.yaml` manifest plus an optional `__init__.py` (`register(ctx)`) and an optional dashboard/desktop UI; it is installed from the curated catalog (`hermes plugins search`, `hermes plugins install <name> --enable`), from a Git URL or from `owner/repo`. Two kinds matter in practice:
