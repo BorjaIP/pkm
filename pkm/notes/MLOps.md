@@ -16,7 +16,6 @@ MLOps or ML Ops is a paradigm that aims to deploy and maintain [[Machine Learnin
 | [Flyte](https://github.com/flyteorg/flyte)      | Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.               |
 # Articles/Talks
 
-- [[state-of-mlops|State of MLOps and model serving]] (digest of this vault)
 - [[MLOps - Task and Workflow Orchestration Tools on Kubernetes]]
 # CD4ML
 

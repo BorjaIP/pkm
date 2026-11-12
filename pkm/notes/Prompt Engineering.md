@@ -16,7 +16,6 @@ part_of:
 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL System Prompts, Internal Tools & AI Models                 |
 # Articles/Talks
 
-- [[state-of-prompting-and-reasoning|State of prompting and reasoning]] (digest of this vault)
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [Awesome GPT Prompt Engineering](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)
 - [[8 Types of Prompt Engineering]]

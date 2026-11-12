@@ -51,7 +51,6 @@ tags:
 
 # Articles/Talks
 
-- [[state-of-kubernetes-networking-security|State of Kubernetes networking and security]] (digest of this vault)
 - [[Kubetools - A Curated List of Kubernetes Tools]]
 - [[Starting containers in order on Kubernetes with InitContainers]]
 - [[Securing kubernetes clusters with Istio and Keycloak]]

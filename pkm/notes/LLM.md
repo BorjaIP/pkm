@@ -101,7 +101,6 @@ A **large language model** is a type of [[Artificial Intelligence]] algorithm th
 
 # Articles/Talks
 
-- [[state-of-llm-training-efficiency|State of LLM training efficiency and alignment]] (digest of this vault)
 - [[The Practical Guides for Large Language Models]]
 - [[A Watermark for Large Language Models]]
 - [[Accelerating Large Language Models with Mixed-Precision Techniques]]

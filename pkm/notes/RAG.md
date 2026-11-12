@@ -22,7 +22,6 @@ uses:
 | [LEANN](https://github.com/yichuan-w/LEANN)                         | A Low-Storage Vector Index                                                   |
 # Articles/Talks
 
-- [[state-of-rag|State of RAG]] (digest of this vault)
 - [[Modular RAG and RAG Flow - Part Ⅰ]]
 - [[Modular RAG and RAG Flow - Part II]]
 - [[Evaluating RAG pipelines with Ragas + LangSmith]]

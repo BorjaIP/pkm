@@ -49,6 +49,3 @@ Key aspects of software architecture include:
 
 ![[mvc_diagram.png]]
 
-# Digest
-
-- [[state-of-distributed-architecture|State of distributed systems architecture]] (digest of this vault)

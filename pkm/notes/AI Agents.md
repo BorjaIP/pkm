@@ -28,6 +28,7 @@ AI agent features three key characteristics:
 | [Micro-agent](https://github.com/BuilderIO/micro-agent)                                  | An AI agent that writes (actually useful) code for you                                                                                                                    |
 | [ACU](https://github.com/francedot/acu)                                                  | A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools                                                  |
 | [Lightpanda](https://github.com/lightpanda-io/browser)                                   | Lightpanda: the headless browser designed for AI and automation                                                                                                           |
+| [Obscura](https://github.com/h4ckf0r0day/obscura) | Rust headless browser engine running JavaScript via V8 for AI agents and scrapers, without Chromium |
 | [cognee](https://github.com/topoteretes/cognee)                                          | Memory for AI Agents in 6 lines of code                                                                                                                                   |
 | [agent-lightning](https://github.com/microsoft/agent-lightning)                          | The absolute trainer to light up AI agents                                                                                                                                |
 | [Paperclip](https://github.com/paperclipai/paperclip)                                    | Open-source platform to orchestrate teams of AI agents with org charts, goal cascading, task ticketing, budget controls, and human approval gates                         |
@@ -57,6 +58,8 @@ AI agent features three key characteristics:
 | [OpenKB](https://github.com/VectifyAI/OpenKB) | CLI that compiles raw documents into an interlinked, LLM-maintained Markdown wiki |
 | [Herdr](https://herdr.dev/) | Open-source agent-centric environment for Claude Code and Codex: agents keep running when the window closes, with customizable layouts and mods. See [[Herdr]] |
 | [Sim](https://github.com/simstudioai/sim)                                                | Collaborative low-code workspace to build, deploy and monitor AI agents and workflows                                                                                     |
+
+For the concepts behind the memory tools above (Honcho, mem0, Hindsight, AgentMemory...), see the survey [[Memory in the Age of AI Agents]]. Practical guides: [[What Is Agent Memory - A Complete Guide]] and [[GBrain Review - An Honest Assessment of Garry Tan's Brain]].
 
 ## Agent Skills
 

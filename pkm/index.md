@@ -4,7 +4,7 @@ created: Tuesday 22nd April 2025 11:45
 aliases: 
 tags:
 ---
-
+p
 #  \o/ Context
 
 I'm **Borja**, an AI Platform Engineer working across data, platform, and AI tooling. This is my **Second Brain** — a personal knowledge management system I use to think, learn, and operate.

@@ -10,3 +10,4 @@ tags:
 | Tool/Framework                                        | Description                                                    |
 | ----------------------------------------------------- | -------------------------------------------------------------- |
 | [Tus-js-client](https://github.com/tus/tus-js-client) | A pure JavaScript client for the tus resumable upload protocol |
+| [Astryx](https://github.com/meta/astryx) | Open-source React design system with 150+ accessible components and theming |
