@@ -61,6 +61,10 @@ AI agent features three key characteristics:
 
 For the concepts behind the memory tools above (Honcho, mem0, Hindsight, AgentMemory...), see the survey [[Memory in the Age of AI Agents]]. Practical guides: [[What Is Agent Memory - A Complete Guide]] and [[GBrain Review - An Honest Assessment of Garry Tan's Brain]].
 
+Broader map of how agents reason, self-evolve and collaborate: [[A Survey of Agentic Reasoning for Large Language Models - Towards Recursively Self-Improving and Collective Agents]].
+
+Harness choice for coding agents (cost versus success across Claude Code, Codex and Pi): [[HarnessTax - How Much Does the Harness Matter for Coding Agents]].
+
 ## Agent Skills
 
 Skills are now collected in [[Agent Skills]].

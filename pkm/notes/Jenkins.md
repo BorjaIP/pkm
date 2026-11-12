@@ -1,7 +1,7 @@
 ---
 title:  Jenkins
 created: Saturday 29th April 2023 17:05
-Aliases: 
+aliases: 
 tags:
   - jenkins
   - ci-cd

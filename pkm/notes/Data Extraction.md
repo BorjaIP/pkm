@@ -24,3 +24,5 @@ The primary purpose of data extraction is **to make raw data accessible and usab
 | [Steel](https://github.com/steel-dev/steel-browser)        | Open-source browser API with Profiles that persist cookies and auth.        |
 | [Kernel](https://www.kernel.sh)                            | Browser infrastructure for agents with reusable profiles and session state. |
 | [agent-browser](https://agent-browser.dev)                 | CLI browser for agents with persistent profiles and Chrome profile reuse.   |
+
+For choosing between these browsers (fingerprint, persistent profiles, what was tested), see [[Browser Automation]].

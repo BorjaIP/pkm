@@ -55,6 +55,7 @@ tags:
 | [TREK](https://github.com/mauriceboe/TREK)                        | Self-hosted, real-time collaborative travel planner with interactive maps, budgets, packing lists, and expense tracking |
 | [anydoc](https://github.com/firecrawl/anydoc) | Rust library converting office documents, ebooks, spreadsheets and PDFs into Markdown for LLMs |
 | [Hex](https://github.com/anomalyco/hex) | Local voice dictation for Mac, Windows and Linux: hold a shortcut, speak, text is pasted on-device |
+| [Nietzschian Debugger](https://github.com/DilawarShafiq/nietzschian-debugger) | Python CLI that asks an LLM for probing questions instead of fixes, so you find the bug yourself |
 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generates short videos from a topic: AI script, stock footage, voiceover, subtitles and editing |
 
 - [Trend repositories](https://trendshift.io/)
